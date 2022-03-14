@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh_Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icon.png" type="image/icon type">
+    <title>艾尔登法环实用手册</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <figure class="text-center">
+        <h1 id="title" class="title">艾尔登法环实用手册</h1>
+        <figcaption class="blockquote-footer">
+            基于v1.02.3 | Created by xHou
+        </figcaption>
+    </figure>
+    
+    <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="./assets/icon.png" width="42px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navCollapse">
+            <ul class="nav nav-tabs">
+              <li class="nav-item"><a class="nav-link active" href="#tabItem" data-bs-toggle="tab" data-bs-target="#tabItems">重要物品清单</a></li>
+              <li class="nav-item"><a class="nav-link" href="#tabWalkthrough" data-bs-toggle="tab" data-bs-target="#tabWalkthrough">全剧情流程清单</a></li>
+              <li class="nav-item"><a class="nav-link" href="#tabBoss" data-bs-toggle="tab" data-bs-target="#tabBoss">全BOSS清单</a></li>
+              <li class="nav-item"><a class="nav-link" href="#tabAbout" data-bs-toggle="tab" data-bs-target="#tabAbout">关于</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="alert alert-warning alert-dismissible fade show">
+          <h4>前排提醒</h4>
+          <p>这是一个处于极早期的项目，大量内容有待完善，感谢您的支持。</p>
+          <p>如有意愿，可加入我们！</p>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+
+      <div class="tab-content">
+
+          <div class="tab-pane active" id="tabItems">
+              <h2>重要物品清单</h2>
+              <div id="walkthrough_ps">目前只整理了部分对于个人高周目有用的物品，精力有限，还请耐心等待……</div>
+              <div class="form-group" hidden>
+                  <input type="search" id="item_search" class="form-control" placeholder="可输入想查询的物品……">
+              </div>
+              <div id="stone-list">
+                  <h4><span><img src="./assets/somber_ancient_dragon_smithing_stone_upgrade_material_elden_ring_wiki_guide_200px.png" width="36px"></span>古龙岩失色锻造石</h4>
+                  <ul>
+                      <li data-id="is_10_0">1. （白金之子支线）完成勒缇娜支线的奖励</li>
+                      <li data-id="is_10_1">2. （米莉森支线）在米莉森支线事件中选择协助者的话，可以在击败<span class='boss'>🦁玛莲妮亚</span>之后，带着金针和boss房打完留下的花互动获得。</li>
+                      <li data-id="is_10_2">3. 沿着蒙格温王朝的赐福点<span class='grace'>王朝灵庙（中段）</span>的路走，看到敌人后从石像前的宝箱中可以获得。</li>
+                      <li data-id="is_10_3">4. 从逐渐崩毁的法姆·亚兹拉赐福点<span class='grace'>龙教堂（屋顶）</span>前方的远古巨龙附近的尸体上拾取。</li>
+                      <li data-id="is_10_4">5. 可从“圣树分枝”艾布雷菲尔的赐福点<span class='grace'>祈祷室</span>右侧大桥上的尸体处获得</li>
+                      <li data-id="is_10_5">6. 可从“圣树分枝”艾布雷菲尔的赐福点<span class='grace'>祈祷室</span>过栏杆找到粪金龟所在位置，左上方的宝箱中也可以获得</li>
+                      <li data-id="is_10_6">7. 在<span class='grace'>灰城罗德尔</span>的城堡附近的尸体上可以拾取</li>
+                      <li data-id="is_10_7" hidden>8. 暂未发现</li>
+                  </ul>
+
+                  <h4><span><img src="./assets/ancient_dragon_smithing_stone_upgrade_material_elden_ring_wiki_guide_200px.png" width="36px">古龙岩锻造石</h4>
+                  <ul>
+                      <li data-id="is_11_0">1. 将9个死根全部交给盖利德北部野兽神殿的NPC🐩野兽祭司古兰格 ，可以获得（也可直接杀死获得）</li>
+                      <li data-id="is_11_1">2. （魔法老师瑟濂支线）支线最后<strong>不要</strong>选择帮助<span class='npc'>🧙瑟濂</span>，而是选择杀死她（敌对路线），击败瑟濂后与杰廉对话可获得</li>
+                      <li data-id="is_11_2">3. 巨人山顶的赐福点<span class="grace">安歇教堂</span>东南边山有个巨大的头骨，从头骨中的尸体上拾取</li>
+                      <li data-id="is_11_3">4. 在巨人山顶西侧<span class='grace'>化圣雪原</span>西南边的<span class='grace'>耶罗·尼斯坑道</span>中的尸体上拾取</li>
+                      <li data-id="is_11_4">5. 在巨人山顶西侧赐福点<span class='grace'>安身洞窟</span> 中的“大土龙”席欧朵利克附近的尸体上拾取。</li>
+                      <li data-id="is_11_5">6. 从巨人山顶西侧赐福点<span class='grace'>化圣雪原（深处）</span> 往西南方向前进，击败<span class='boss'>🦁黑夜骑兵（剑刃戟）</span> 和<span class='boss'>🦁黑夜骑兵（连枷）</span> 后可以获得。</li>
+                      <li data-id="is_11_6">7. 击败位于逐渐崩毁的法姆·亚兹拉的赐福点<span class='grace'>渐毁野兽墓</span> 前方的古龙可以获得</li>
+                      <li data-id="is_11_7">8. 到赐福点<span class='grace'>龙教堂（屋顶）</span>，击败前方的古龙也可以获得</li>
+                      <li data-id="is_11_8">9. 到赐福点<span class='grace'>龙教堂祭祀</span> 前方绕到屋顶后，跳到左侧台子上获得</li>
+                      <li data-id="is_11_9">10. 从米凯拉的圣树赐福点<span class='grace'>圣树镇</span> 前方，狮子混种面前获得</li>
+                      <li data-id="is_11_10">11. 从米凯拉的圣树赐福点<span class='grace'>圣树大舞台</span> 附近的梯子往下爬，然后从外面上楼梯，打开前方宝箱即可获得</li>
+                  </ul>
+
+                  <h4><span><img src="./assets/great_grave_glovewort_upgrade_material_elden_ring_wiki_guide_200px.png" width="36px">大朵墓地铃兰</h4>
+                    <ul>
+                        <li data-id="is_11_0">1. <span class='grace'>化圣雪原(深处)</span>赐福点出发，向东南来到地牢<span class='grace'>化圣雪原地下墓地</span> ，打败<span class='boss'>🦁腐败守墓斗士</span>即可获得</li>
+                        <li data-id="is_11_1">2. 逐渐崩坏的法姆亚兹拉 区域，<span class='grace'>野兽墓穴（深处）</span> 赐福点出发，在一只怪物面前拾取获得。</li>
+                        <li data-id="is_11_2">3. 逐渐崩坏的法姆亚兹拉 区域，<span class='grace'>龙教堂</span> 赐福点出发，跳下行进，爬上楼梯后在一个房间内拾取获得。</li>
+                        <li data-id="is_11_3">4. 从米凯拉的圣树赐福点<span class='grace'>排水管道</span>往回走，过树枝，在泥塘最里面获得（小心泥塘隐藏BOSS）</li>
+
+                    </ul>
+
+                    <h4><span><img src="./assets/great_ghost_glovewort_upgrade_material_elden_ring_wiki_guide_200px.png" width="36px">大朵灵依墓地铃兰</h4>
+                        <ul>
+                            <li data-id="is_11_0">1. 安瑟儿河，击败BOSS后，可以从巨大的骷髅雕像下方的房间的箱子里获得</li>
+                            <li data-id="is_11_1">2. 从赐福点<span class='grace'>黑夜神域</span>向前，在巨大的骷髅雕像下的箱子里获得</li>
+                            <li data-id="is_11_2">3. 从赐福点<span class='grace'>永恒之城</span>上去直走过桥，在狭窄房间后面的箱子里被发现（当心银泪伪装成一个悬挂在天花板上的大铁球）</li>
+                            <li data-id="is_11_3">4. 在赐福点<span class='grace'>灵庙王朝（中段）</span>的房间里获得</li>
+                            <li data-id="is_11_4">5. 应该也在灵庙王朝，暂未发现</li>
+                        </ul>
+              </div>
+          </div>
+
+        <div class="tab-pane" id="tabWalkthrough">
+            <h2>全剧情流程清单</h2>
+            <div id="walkthrough_ps">艾尔登法环是开放世界游戏，流程玩法自由多样，本流程仅供参考。本流程为个人开荒经验与查询攻略所得，旨在保留尽可能多的剧情内容。如有建议，请务必告知我们。</div>
+            <div id="earlyStory">
+                <h4 class="progress_title">候王礼拜堂</h4>
+                <ul>
+                    <li data-id="w_0_0">出生在候王礼拜堂，右手有 道具</li>
+                    <li data-id="w_0_1">打败 截肢贵人，获得 道具</li>
+                </ul>
+                <h4 class="progress_title">宁姆格福</h4>
+                <ul>
+                    <li data-id="w_1_0">右手洞穴，跳下去有赐福点。沿路打败BOSS后，可以在悬崖拾取 道具</li>
+                    <li data-id="w_1_1">上电梯后，出门有赐福点<span class='grace'>引导之始</span>。</li>
+                    <li data-id="w_1_2">（白面具支线）与赐福点前方<span class='npc'>白面具梵雷</span>对话</li>
+                    <li data-id="w_1_3">前方经过<span class='boss'>大树守卫</span>到达赐福点<span class='grace'>艾蕾教堂</span>，与商人咖唻触发对话</li>
+                    <li data-id="w_1_4">继续往东北方前进，到赐福点<span class='grace'>关卡前方</span>休息，可触发梅琳娜剧情，获得召唤马的哨子</li>
+                    <li data-id="w_1_5">回到赐福点<span class='grace'>艾雷教堂</span>，休息到晚上，在旁边可触发菈妮剧情</li>
+                    <li data-id="w_1_6">回到赐福点<span class='grace'>关卡前方</span>，往南石碑获得地图，旁地牢中获得砥石小刀。</li>
+                    <li data-id="w_1_7">（裁缝柏克支线）继续往南，到望远镜附近树林，找到裁缝柏克，触发对话</li>
+                    <li data-id="w_1_8">（魔法老师瑟濂）附近遗迹地牢，打败<span class='boss'>🦁南瓜头</span>，找到魔法老师瑟濂，触发对话</li>
+                    <li data-id="w_1_9">（骑士贝纳尔支线）回到赐福点<span class='grace'>关卡前方</span>向东前进，到达赐福点<span class='grace'>习武者破屋</span>，与骑士贝纳尔对话</li>
+                    <li data-id="w_1_10">（“大壶战士”亚历山大支线）继续向南前进到赐福点<span class='grace'>圣人桥</span>附近，向叫喊声南方走，找到亚历山大触发对话</li>
+                    <li data-id="w_1_11">（“D”支线）赐福点<span class='grace'>圣人桥</span>向东过了桥后，路旁找到D触发对话</li>
+                    <li data-id="w_1_12">（“D”支线）继续向东到水唤村，击败BOSS🦁后，回到D处，触发对话</li>
+                    <li data-id="w_1_13">向南到赐福点<span class='grace'>玛莉卡第三教堂</span>休息，可触发梅琳娜对话</li>
+                    <li data-id="w_1_14">从赐福点<span class='grace'>玛莉卡第三教堂</span>向南，拱桥上触发海德城主对话</li>
+                    <li data-id="w_1_15">（狼人布莱泽支线）继续向南，经过雾林废墟，听到狼叫后，传回<span class='grace'>艾蕾教堂</span>，与商人咖唻触发对话，获得响指姿势。再回到雾林废墟，使用动作后，与狼人布莱泽对话</li>
+                    <li data-id="w_1_16">（狼人布莱泽支线）从赐福点向南，直到“无主猎犬的监牢”，进入后召唤<span class='npc'>狼人布莱泽</span>，击败BOSS后，与其对话。传回<span class='grace'>艾蕾教堂</span>与商人咖唻对话</li>
+                    <li data-id="w_1_17">从赐福点<span class='grace'>引导之始</span>向东，经过湖区与飞龙后，在“蒙流洞窟”门前红灵入侵</li>
+                    <li data-id="w_1_18">（帕奇支线）进入蒙流洞窟，饶过<span class='boss'>🦁帕奇</span>后，到赐福点刷新，再回到<span class='npc'>帕奇</span>处，触发对话。打开旁边箱子，触发剧情。</li>
+                    <li data-id="w_1_19">（裁缝柏克支线）从赐福点<span class='grace'>引导之始</span>向西，找到赐福点<span class='grace'>海岸洞窟</span>旁裁缝对话。击败BOSS拿到缝衣针后再次与裁缝对话。</li>
+                    <li data-id="w_1_20" hidden></li>
+                </ul>
+                <h4 class="progress_title">啜泣半岛</h4>
+                <ul>
+                    <li data-id="w_2_0">从赐福点<span class='grace'>献祭大桥</span>往南，路旁见到女儿。</li>
+                    <li data-id="w_2_1">向南到摩恩城，击败<span class='boss'>🦁狮子混种</span>后，与城主对话</li>
+                    <li data-id="w_2_2">回到赐福点<span class='grace'>献祭大桥</span>与女儿附近，与城主对话</li>
+                    <li data-id="w_2_3">到赐福点<span class='grace'>巡礼教堂</span>休息，触发与梅琳娜对话</li>
+                    <li data-id="w_2_4" hidden></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="tab-pane" id="tabBoss">
+            <div id="earlyStory">
+                <h4 class="progress_title">候王礼拜堂</h4>
+                <ul>
+                    <li data-id="b_0_0" class="small_boss">“接肢”贵族后裔</li>
+                </ul>
+                <h4 class="progress_title">宁姆格福</h4>
+                <ul>
+                    <li data-id="b_1_0" class="small_boss">🐴大树守卫</li>
+                    <li data-id="b_1_1" class="main_boss">🧟“恶兆妖鬼”玛尔基特</li>
+                    <li data-id="b_1_2" class="main_boss">🧟“接肢”葛瑞克</li>
+                    <li data-id="b_1_3" class="small_boss">🐲“飞龙”亚基尔</li>
+                    <li data-id="b_1_4" class="small_boss">🐶“猎犬骑士”达瑞威尔</li>
+                    <li data-id="b_1_5" class="small_boss">🦁狮子混种</li>
+                </ul>
+                <h4 class="progress_title">利耶尼亚</h4>
+                <ul>
+                    <li data-id="b_2_0" class="main_boss">🧙“满月女王”蕾娜菈</li>
+                    <li data-id="b_2_1" class="main_boss">🧖“盗火”亚当</li>
+                    <li data-id="b_2_2" class="main_boss">🐲“辉石龙”史玛拉格</li>
+                    <li data-id="b_2_3" class="small_boss">🐲熔岩土龙马卡尔</li>
+                    <li data-id="b_2_4" class="small_boss">🐲“辉石龙”亚杜拉</li>
+                    <li data-id="b_2_5" class="small_boss">🧖“黑刀之首”亚勒托</li>
+                </ul>
+                <h4 class="progress_title">盖利德</h4>
+                <ul>
+                    <li data-id="b_2_0" class="main_boss">🧖“碎星”拉塔恩</li>
+                    <li data-id="b_2_1" class="main_boss">🧖老将欧尼尔</li>
+                    <li data-id="b_2_2" class="main_boss">🐲“飞龙”桂雷尔</li>
+                    <li data-id="b_2_3" class="small_boss">🐲老龙桂奥尔</li>
+                    <li data-id="b_2_4" class="small_boss">🐲“步入腐败”艾格基斯</li>
+                    <li data-id="b_2_5" class="small_boss">🧖神皮使徒</li>
+                </ul>
+                <h4 class="progress_title">亚坛高原</h4>
+                <ul>
+                    <li data-id="b_3_0" class="small_boss">🐛“渎神君王”拉卡德</li>
+                    <li data-id="b_3_1" class="main_boss">🧖神皮贵族</li>
+                    <li data-id="b_3_2" class="main_boss">🧖“铁棘”艾隆梅尔</li>
+                    <li data-id="b_3_3" class="small_boss">🧖“初始艾尔登之王”葛孚雷</li>
+                    <li data-id="b_3_4" class="small_boss">🧖“恶兆之王”蒙葛特</li>
+                    <li data-id="b_3_5" class="small_boss">🧖恶兆孪生子</li>
+                </ul>
+                <h4 class="progress_title">巨人山顶</h4>
+                <ul>
+                    <li data-id="b_4_0" class="small_boss">🦍火焰巨人</li>
+                    <li data-id="b_4_1" class="main_boss">🧖老将尼尔</li>
+                    <li data-id="b_4_2" class="main_boss">🐤死仪鸟</li>
+                    <li data-id="b_4_3" class="small_boss">🧖圆桌骑士维克</li>
+                    <li data-id="b_4_4" class="small_boss">🐲“冻结冰雾”玻列琉斯</li>
+                    <li data-id="b_4_5" class="small_boss">👾“黑暗弃子”艾丝缇</li>
+                </ul>
+                <h4 class="progress_title">天空之城</h4>
+                <ul>
+                    <li data-id="b_4_0" class="small_boss">👭神皮双雄</li>
+                    <li data-id="b_4_1" class="main_boss">🦍“野兽祭司”/“黑剑”玛利喀斯</li>
+                    <li data-id="b_4_2" class="main_boss"></li>
+                    <li data-id="b_4_3" class="small_boss"></li>
+                    <li data-id="b_4_4" class="small_boss">龙装大树守卫</li>
+                    <li data-id="b_4_5" class="small_boss">🐲龙王</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="tabAbout">
+
+            <div class="container text-center">
+                <p>目前大部分网站制作到内容填写，都是在参考了大量相关网站攻略视频后，独立编写完成的。</p>
+                <p>参考的攻略包括但不限于：</p>
+                <ul>
+                    <li>http://zkjellberg.github.io/dark-souls-3-cheat-sheet/</li>
+                    <li>https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki</li>
+                    <li>https://gl.ali213.net/z/40195/</li>
+                    <li>https://steamcommunity.com/sharedfiles/filedetails/?id=2771317236</li>
+                    <li>https://www.gamersky.com/handbook/202202/1461277.shtml</li>
+                    <li>https://steamcommunity.com/sharedfiles/filedetails/?id=2774311960</li>
+                    <li>https://bbs.nga.cn/read.php?tid=31000263</li>
+                    <li>https://www.elpwc.com/eldenringmap</li>
+                    <li>https://bbs.nga.cn/read.php?tid=30891245</li>
+                    <li></li>
+                    <li></li>
+                    <li>以及其他大量攻略!</li>
+                </ul>
+
+                <h3>我想参与贡献，如何做</h3>
+                <p>欢迎！可以直接提交Issue或request到我们的Github. 也可以加入我们讨论群672924061</p>
+                <h3>数据能否云端保存</h3>
+                <p>精力有限，暂不支持</p>
+            </div>
+            
+        </div>
+
+      </div>
+    </div>
+      <footer>
+         <a role="alert">如有问题建议还请联系我</a>
+      </footer>
+      
+</body>
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./assets/main.js"></script>
+
+</html>

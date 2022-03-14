@@ -1,0 +1,103 @@
+body {
+    color: #333;
+    background-color: #f7f7f7;
+    line-height: 1.5;
+}
+
+.in_progress, .done {
+  color: #C60;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: .1em 0.4em;
+  font-weight: normal;
+  margin-left: .2em;
+  vertical-align: middle;
+  font-size: 0.9em;
+}
+.done { color: #009933; }
+
+@media print {
+    body { color: #000; }
+    .navbar, #intro, input[type="checkbox"], .done, .in_progress { display: none; }
+    a { color: #000; text-decoration: underline; }
+    a[href]:after { content: none !important; }
+    .tab-content > .tab-pane, .pill-content > .pill-pane { display: block; }
+    .tab-pane { page-break-after: always; }
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 22px;
+}
+ul li ul {
+    padding-top: 0;
+}
+
+#title {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 48px;
+    color:#000;
+    font-weight: 800;
+
+}
+h3 {
+    margin-bottom: 5;
+    align-content: center;
+
+}
+
+input[type="checkbox"] {
+    margin-left: -24px;
+}
+
+.checkbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox label {
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+.item_content {
+    padding-left: 10px;
+}
+input[type="checkbox"]:checked + .item_content {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#walkthrough_ps {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #C60;
+}
+
+span .grace::before {
+    content: "🌟";
+}
+span .grace {
+    color:#C60;
+    padding-right: 2px;
+}
+span .boss {
+    color:purple;
+    padding-right: 2px;
+}
+
+span .npc {
+    color:seagreen;
+    padding-right: 2px;
+}
+
+#usable {
+    content: "xz🦂 lion🦁 🦇🦍🧙🧡🔭📖💀🐜🏰"
+}
+
+footer {
+    margin-top: 35px;
+    opacity: 0.3;
+}
