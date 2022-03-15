@@ -22,11 +22,26 @@ jQuery(document).ready(function($) {
         localStorage.setItem("profiles", JSON.stringify(profiles));
     });
 
+    // List Checkbox
     $('.nav li a').on('click', function(el) {
         profiles.current_tab = $(this).attr('href');
         localStorage.setItem("profiles", JSON.stringify(profiles));
     })
 
+    // Filter Buttons
+    $('.btn-group input[type="checkbox"]').click(function() {
+        var is_hidden = $(this).is(':checked');
+        var item_toggle = $(this).attr('data-bs-toggle')
+        $('li.' + item_toggle).each(function(){
+            if(!is_hidden){
+                $(this).css('display', 'none')
+            }else{
+                $(this).css('display', '')
+            }
+        })
+        console.log(is_hidden)
+        console.log(item_toggle)
+    })
 })
 
 function initializeProfile() {
@@ -62,4 +77,13 @@ function addCheckbox(el) {
 
 function clear() {
     localStorage.clear();
+}
+
+
+function category_toggle() {
+    var is_hidden = $(this).is(':checked')
+    var item_toggle = $(this).cloest('.btn-group').find('[data-item-toggle]')
+    if (is_hidden ) {
+        item_toggle.not(function(){return this.checked === is_hidden}).click()
+    }
 }

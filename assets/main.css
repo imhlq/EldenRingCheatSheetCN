@@ -101,3 +101,26 @@ footer {
     margin-top: 35px;
     opacity: 0.3;
 }
+
+/* Filter Buttons */
+.btn-group {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+.btn-outline-primary:hover {
+    color: #0d6efd;
+    background-color: #dde9fc;
+    border-color: #0d6efd;
+}
+
+input[type="checkbox"]:checked ~ .bi-eye-slash, input[type="checkbox"]:checked ~ * > .bi-eye-slash {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .bi-eye, input[type="checkbox"]:checked ~ * > .bi-eye {
+    display: inline;
+}
+
+input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
+    display: none;
+}
