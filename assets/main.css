@@ -113,6 +113,15 @@ footer {
     border-color: #0d6efd;
 }
 
+li.cut_content span{
+    color: rgb(121, 52, 52);
+    opacity: 0.9;
+}
+li.cut_content span::after {
+    font-weight: 600;
+    content: " (疑为无法获得)";
+}
+
 input[type="checkbox"]:checked ~ .bi-eye-slash, input[type="checkbox"]:checked ~ * > .bi-eye-slash {
     display: none;
 }
