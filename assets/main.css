@@ -76,6 +76,10 @@ input[type="checkbox"]:checked + .item_content {
     color: #C60;
 }
 
+.progress_title {
+    margin-top: 5px;
+}
+
 span .grace::before {
     content: "🌟";
 }
@@ -91,6 +95,11 @@ span .boss {
 span .npc {
     color:seagreen;
     padding-right: 2px;
+}
+
+span.place_en {
+    color:rgb(90, 90, 90);
+    font-size: medium;
 }
 
 #usable {

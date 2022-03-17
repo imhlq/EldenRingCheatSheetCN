@@ -40,6 +40,7 @@
               <li class="nav-item"><a class="nav-link" href="#tabWeapons" data-bs-toggle="tab" data-bs-target="#tabWeapons">武器清单</a></li>
               <li class="nav-item"><a class="nav-link" href="#tabTalisman" data-bs-toggle="tab" data-bs-target="#tabTalisman">护符清单</a></li>
               <li class="nav-item"><a class="nav-link" href="#tabMagic" data-bs-toggle="tab" data-bs-target="#tabMagic">法术清单</a></li>
+              <li class="nav-item"><a class="nav-link" href="#tabArts" data-bs-toggle="tab" data-bs-target="#tabArts">战技清单</a></li>
               <li class="nav-item"><a class="nav-link" href="#tabAbout" data-bs-toggle="tab" data-bs-target="#tabAbout">关于</a></li>
             </ul>
           </div>
@@ -123,74 +124,152 @@
           </div>
 
         <div class="tab-pane" id="tabWalkthrough">
-            <h2>全剧情流程清单</h2>
+            <h2>全剧情流程清单(更新中)</h2>
             <div id="walkthrough_ps">艾尔登法环是开放世界游戏，流程玩法自由多样，本流程仅供参考。本流程为个人开荒经验与查询攻略所得，旨在保留尽可能多的剧情内容。如有建议，请务必告知我们。</div>
+            
+            <div class="btn-group" role="group">
+                <input type="checkbox" class="btn-check" id="hide_side_quest" data-bs-toggle="side_quest" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="hide_side_quest">
+                    <i class="bi bi-eye"></i>
+                    <i class="bi bi-eye-slash"></i>
+                    显示全部支线
+                </label>
+              
+
+            </div>
+
             <div id="earlyStory">
-                <h4 class="progress_title">候王礼拜堂</h4>
+                <h4 class="progress_title">候王礼拜堂 <span class="place_en">Chapel of Anticipation</span></h4>
                 <ul>
-                    <li data-id="w_0_0">出生获得姿势“法环之姿”，右手死去的女巫处有道具褪色者老指</li>
-                    <li data-id="w_0_1">打败<span class='boss'>🦁“接肢”贵族后裔</span>，获得道具仪式直剑，兽纹黄金盾。或者直接死掉也可触发剧情。</li>
+                    <li data-id="w_0_0" class="main_quest">出生获得姿势“法环之姿”，右手死去的女巫处有道具褪色者老指</li>
+                    <li data-id="w_0_1" class="main_quest">打败<span class='boss'>🦁“接肢”贵族后裔</span>，获得道具仪式直剑，兽纹黄金盾。或者直接死掉也可触发剧情。</li>
                 </ul>
-                <h4 class="progress_title">宁姆格福</h4>
+                <h4 class="progress_title">宁姆格福 <span class="place_en">Limgrave</span></h4>
                 <ul>
                     <li data-id="w_1_0">右手跳下去有赐福点<span class='grace'>求学洞窟</span>。沿路打败<span class='boss'>葛瑞克的士兵</span>后，可以在悬崖拾取姿势“用力握拳”。</li>
                     <li data-id="w_1_1">上电梯后，出门有赐福点<span class='grace'>引导之始</span>。</li>
-                    <li data-id="w_1_2">（白面具支线）与赐福点前方<span class='npc'>白面具梵雷</span>对话。</li>
+                    <li data-id="w_1_2" class="side_quest">（白面具支线）与赐福点前方<span class='npc'>白面具梵雷</span>对话。</li>
                     <li data-id="w_1_3">前方经过<span class='boss'>大树守卫</span>到达赐福点<span class='grace'>艾蕾教堂</span>，与商人咖唻触发对话。</li>
-                    <li data-id="w_1_4">继续往东北方前进，到赐福点<span class='grace'>关卡前方</span>休息，可触发梅琳娜剧情，获得召唤马的哨子。</li>
+                    <li data-id="w_1_4" class="main_quest">继续往东北方前进，到赐福点<span class='grace'>关卡前方</span>休息，可触发梅琳娜剧情，获得召唤马的哨子。</li>
                     <li data-id="w_1_5">回到赐福点<span class='grace'>艾雷教堂</span>，休息到晚上，在旁边可触发菈妮剧情。</li>
                     <li data-id="w_1_6">回到赐福点<span class='grace'>关卡前方</span>，往南石碑获得地图，旁地牢中获得砥石小刀。</li>
-                    <li data-id="w_1_7">（裁缝柏克支线）继续往南，到望远镜附近树林，找到裁缝柏克，触发对话。</li>
-                    <li data-id="w_1_8">（魔法老师瑟濂）往南过桥，到驿站街废墟地牢，打败<span class='boss'>🦁发狂的南瓜头士兵</span>，找到魔法老师<span class='npc'>瑟濂</span>，触发对话，获得姿势“点头称是”。</li>
-                    <li data-id="w_1_9">（罗德莉卡支线）回到赐福点<span class='grace'>关卡前方</span>向北前进，到达赐福点<span class='grace'>风暴山丘的破屋，与屋里<span class='npc'>罗德莉卡</span>对话。</span></li>
-                    <li data-id="w_1_9">（骑士贝纳尔支线）从赐福点<span class='grace'>风暴山丘的破屋</span>向东，到达赐福点<span class='grace'>习武者破屋</span>，与骑士贝纳尔对话。</li>
-                    <li data-id="w_1_10">（“大壶战士”亚历山大支线）继续向东前进到赐福点<span class='grace'>圣人桥</span>附近，向叫喊声南方走，找到“大壶战士”亚历山大触发对话。</li>
-                    <li data-id="w_1_11">（“D”支线）赐福点<span class='grace'>圣人桥</span>向东过了桥后，路旁找到D触发对话。</li>
-                    <li data-id="w_1_12">（“D”支线）继续向东经过赐福点<span class='grace'>水唤村外</span>到水唤村，击败<span class='boss'>🦁提比亚的唤声船</span>后，找到D就在村旁边，触发对话。</li>
-                    <li data-id="w_1_13">向南到赐福点<span class='grace'>玛莉卡第三教堂</span>休息，可触发梅琳娜对话。</li>
-                    <li data-id="w_1_14">从赐福点<span class='grace'>玛莉卡第三教堂</span>向西，拱桥上触发海德城主对话。</li>
-                    <li data-id="w_1_15">（狼人布莱泽支线）继续向南，经过雾林废墟，听到狼叫后，传回<span class='grace'>艾蕾教堂</span>，与商人咖唻触发对话，获得响指姿势。再回到雾林废墟，使用动作后，与狼人布莱泽对话。</li>
-                    <li data-id="w_1_16">（狼人布莱泽支线）从赐福点向南，直到“无主猎犬的监牢”，进入后召唤<span class='npc'>狼人布莱泽</span>，击败BOSS后，与其对话。传回<span class='grace'>艾蕾教堂</span>与商人咖唻对话。</li>
-                    <li data-id="w_1_17">从赐福点<span class='grace'>引导之始</span>向东，经过湖区与飞龙后，在“蒙流洞窟”门前红灵入侵</li>
-                    <li data-id="w_1_18">（帕奇支线）进入蒙流洞窟，饶过<span class='boss'>🦁帕奇</span>后，到赐福点刷新，再回到<span class='npc'>帕奇</span>处，触发对话。打开旁边箱子，触发剧情。</li>
-                    <li data-id="w_1_19">（裁缝柏克支线）从赐福点<span class='grace'>引导之始</span>向西，找到赐福点<span class='grace'>海岸洞窟</span>旁裁缝对话。可召唤<span class='npc'>“古老骑士”伊修托邦</span>击败BOSS拿到缝衣针后再次与裁缝对话。</li>
-                    <li data-id="w_1_20" hidden></li>
+                    <li data-id="w_1_7" class="side_quest">（裁缝柏克支线）继续往南，到望远镜附近树林，找到裁缝柏克，触发对话。</li>
+                    <li data-id="w_1_8" class="side_quest">（魔法老师瑟濂）往南过桥，到驿站街废墟地牢，打败<span class='boss'>🦁发狂的南瓜头士兵</span>，找到魔法老师<span class='npc'>瑟濂</span>，触发对话，获得姿势“点头称是”。</li>
+                    <li data-id="w_1_9" class="side_quest">（罗德莉卡支线）回到赐福点<span class='grace'>关卡前方</span>向北前进，到达赐福点<span class='grace'>风暴山丘的破屋，与屋里<span class='npc'>罗德莉卡</span>对话。</span></li>
+                    <li data-id="w_1_10" class="side_quest">（骑士贝纳尔支线）从赐福点<span class='grace'>风暴山丘的破屋</span>向东，到达赐福点<span class='grace'>习武者破屋</span>，与骑士贝纳尔对话。</li>
+                    <li data-id="w_1_11" class="side_quest">（“大壶战士”亚历山大支线）继续向东前进到赐福点<span class='grace'>圣人桥</span>附近，向叫喊声南方走，找到“大壶战士”亚历山大触发对话。</li>
+                    <li data-id="w_1_12" class="side_quest">（“D”支线）赐福点<span class='grace'>圣人桥</span>向东过了桥后，路旁找到D触发对话。</li>
+                    <li data-id="w_1_13" class="side_quest">（“D”支线）继续向东经过赐福点<span class='grace'>水唤村外</span>到水唤村，击败<span class='boss'>🦁提比亚的唤声船</span>后，找到D就在村旁边，触发对话。</li>
+                    <li data-id="w_1_14">向南到赐福点<span class='grace'>玛莉卡第三教堂</span>休息，可触发梅琳娜对话。</li>
+                    <li data-id="w_1_15" class="side_quest">（海德支线）从赐福点<span class='grace'>玛莉卡第三教堂</span>向西，拱桥上触发<span class='npc'>“领主的嫡长子”肯尼斯·海德</span>对话。</li>
+                    <li data-id="w_1_16" class="side_quest">（狼人布莱泽支线）继续向南，经过雾林废墟，听到狼叫后，传回<span class='grace'>艾蕾教堂</span>，与商人咖唻触发对话，获得响指姿势。再回到雾林废墟，使用动作后，与狼人布莱泽对话。</li>
+                    <li data-id="w_1_17" class="side_quest">（海德支线）向南进入海德要塞，清理要塞后，回到拱桥上与海德对话。再次回到海德要塞，与城墙上方肯尼斯·海德对话。
+                    <li data-id="w_1_18" class="side_quest">（狼人布莱泽支线）从赐福点向南，直到“无主猎犬的监牢”，进入后召唤<span class='npc'>狼人布莱泽</span>，击败BOSS后，与其对话。传回<span class='grace'>艾蕾教堂</span>与商人咖唻对话。</li>
+                    <li data-id="w_1_19" class="side_quest">（尤拉支线）在赐福点<span class='grace'>傍海古遗迹</span>旁，可以与<span class='npc'>“血指猎人”尤拉</span>对话。</li>
+                    <li data-id="w_1_21" class="side_quest">（尤拉支线）从赐福点<span class='grace'>傍海古遗迹</span>向北，经过湖区会遇到BOSS<span class='boss'>🐲“飞龙”亚基尔</span>，此时将其打败，返回尤拉处有新对话。</li>
+                    <li data-id="w_1_22" class="side_quest">（尤拉支线）继续向北，在“蒙流洞窟”门前遭遇<span class='boss'>“血指”涅利乌斯</span>红灵入侵，稍等片刻<span class='npc'>“血指猎人”尤拉</span>回来帮忙</li>
+                    <li data-id="w_1_22" class="side_quest">（尤拉支线）击败<span class='boss'>“血指”涅利乌斯</span>后，可在北侧悬崖下找到<span class='npc'>尤拉</span>对话。</li>
+                    <li data-id="w_1_23" class="side_quest">（帕奇支线）进入蒙流洞窟，饶过<span class='boss'>🦁帕奇</span>后，到赐福点刷新，再回到<span class='npc'>帕奇</span>处，触发对话。打开旁边箱子，触发剧情。</li>
+                    <li data-id="w_1_25" class="side_quest">（裁缝柏克支线）从赐福点<span class='grace'>引导之始</span>向西，找到赐福点<span class='grace'>海岸洞窟</span>旁裁缝对话。可召唤<span class='npc'>“古老骑士”伊修托邦</span>击败BOSS拿到缝衣针后再次与裁缝对话。</li>
+                    <li data-id="w_1_27" hidden></li>
                 </ul>
-                <h4 class="progress_title">啜泣半岛</h4>
+                <h4 class="progress_title">啜泣半岛 <span class="place_en">Weeping Peninsula</span></h4>
                 <ul>
-                    <li data-id="w_2_0">从赐福点<span class='grace'>献祭大桥</span>往南，在这里可以与梅琳娜对话。</li>
-                    <li data-id="w_2_1">（摩恩的伊蕾娜支线）路旁见到<span class='npc'>摩恩的伊蕾娜</span>对话后，向南到摩恩城，击败<span class='boss'>🦁狮子混种</span>后，与<span class='npc'>城主艾德格</span>对话。</li>
-                    <li data-id="w_2_2">（摩恩的伊蕾娜支线）回到赐福点<span class='grace'>献祭大桥</span>与<span class='npc'>摩恩的伊蕾娜</span>旁的<span class='npc'>城主艾德格</span>对话。</li>
-                    <li data-id="w_2_3">到赐福点<span class='grace'>巡礼教堂</span>休息，触发与梅琳娜对话</li>
-                    <li data-id="w_2_4" hidden>待发现</li>
+                    <li data-id="w_2_0">在赐福点<span class='grace'>献祭大桥</span>休息，在这里可以与梅琳娜对话。</li>
+                    <li data-id="w_2_2" class="side_quest">（摩恩的伊蕾娜支线）南方路旁见到<span class='npc'>摩恩的伊蕾娜</span>对话后，向南到摩恩城，击败<span class='boss'>🦁狮子混种</span>后，与<span class='npc'>城主艾德格</span>对话。</li>
+                    <li data-id="w_2_4" class="side_quest">（摩恩的伊蕾娜支线）回到赐福点<span class='grace'>献祭大桥</span>与<span class='npc'>摩恩的伊蕾娜</span>旁的<span class='npc'>城主艾德格</span>对话。</li>
+                    <li data-id="w_2_6">到赐福点<span class='grace'>巡礼教堂</span>休息，触发与梅琳娜对话</li>
+                    <li data-id="w_2_8" hidden>待发现</li>
                 </ul>
-                <h4 class="progress_title">史东薇尔城</h4>
+                <h4 class="progress_title">史东薇尔城 <span class="place_en">Stormveil Castle</span></h4>
                 <ul>
-                    <li data-id="w_3_0">从赐福点<span class='grace'>风暴山丘的破屋</span>向北，进入城门，经过赐福点通城隧道，击败Boss<span class='boss'>“恶兆妖鬼”玛尔基特</span>，触发圆桌厅堂剧情。</li>
-                    <li data-id="w_3_1">（门卫葛托克支线）沿路在赐福点史东薇尔正门，旁边小屋与<span class='npc'>门卫葛托克</span>对话。</li>
-                    <li data-id="w_3_2">（门卫葛托克支线）在入口房间附近一个房间，进入后会被葛托克锁在里面，出来后可去入口找葛托克，触发对话。</li>
-                    <li data-id="w_3_3">（罗德莉卡支线）在城中找到道具“蛹群的遗物”后，可以去达赐福点<span class='grace'>风暴山丘的破屋</span>，与屋里<span class='npc'>罗德莉卡</span>对话。</li>
-                    <li data-id="w_3_4">（魔法师罗杰尔支线）在城西北部的祭坛旁可以找到<span class='npc'>魔法师罗杰尔</span>，触发对话。</li>
-                    <li data-id="w_3_5">（涅斐丽·露支线）在城中<span class='grace'>深处小房间</span>前的一件房子内，可以找到<span class='npc'>战士涅斐丽·露</span>，触发与她对话</li>
-                    <li data-id="w_3_6">（魔法师罗杰尔支线）在城底部击败<span class='boss'>“接肢”贵族后裔</span>后，可以在BOSS场景找到魔法师罗杰尔血迹。</li>
-                    <li data-id="w_3_6">可以召唤<span class='npc'>涅斐丽·露</span>，击败<span class='boss'>🧟“接肢”葛瑞克</span>。赐福休息后，可以看到门卫葛托克。</li>
-                    <li data-id="w_3_7">（魔法师罗杰尔支线）在击败<span class='boss'>🧟“接肢”葛瑞克</span>后魔法师罗杰尔会回到圆桌厅堂。</li>
-                    <li data-id="w_3_8">（涅斐丽·露支线）在击败<span class='boss'>🧟“接肢”葛瑞克</span>后<span class='npc'>涅斐丽·露</span>会回到圆桌厅堂，与她对话获得道具。</li>
-                    <li data-id="w_3_9">（女巫海妲支线）在击败<span class='boss'>🧟“接肢”葛瑞克</span>后的房间内，找到道具“葡萄”。</li>
-                    <li data-id="w_3_10">（女巫海妲支线）在赐福点<span class='grace'>傍湖断崖</span>旁可以见到<span class='npc'>女巫海妲</span>，给予“葡萄”。此支线需要完成前面摩恩的伊蕾娜支线。</li>
-                    <li data-id="w_3_11">（白面具支线）回到赐福点<span class='grace'>引导之始</span>看到<span class='npc'>白面具梵雷</span>留言。</li>
+                    <li data-id="w_3_0" class="main_quest">从赐福点<span class='grace'>风暴山丘的破屋</span>向北，进入城门，经过赐福点通城隧道，击败Boss<span class='boss'>“恶兆妖鬼”玛尔基特</span>，触发圆桌厅堂剧情。</li>
+                    <li data-id="w_3_1" class="side_quest">（门卫葛托克支线）沿路在赐福点史东薇尔正门，旁边小屋与<span class='npc'>门卫葛托克</span>对话。</li>
+                    <li data-id="w_3_3" class="side_quest">（门卫葛托克支线）在入口房间附近一个房间，进入后会被葛托克锁在里面，出来后可去入口找葛托克，触发对话。</li>
+                    <li data-id="w_3_5" class="side_quest">（罗德莉卡支线）在城中找到道具“蛹群的遗物”后，可以去达赐福点<span class='grace'>风暴山丘的破屋</span>，与屋里<span class='npc'>罗德莉卡</span>对话。</li>
+                    <li data-id="w_3_6" class="side_quest">（罗德莉卡支线）回到圆桌厅堂与罗德莉卡对话，之后轮流与铁匠修古与罗德莉卡对话。刷新地图后，再次与其对话。</li>
+                    <li data-id="w_3_7" class="side_quest">（魔法师罗杰尔支线）在城西北部的祭坛旁可以找到<span class='npc'>魔法师罗杰尔</span>，触发对话。</li>
+                    <li data-id="w_3_9" class="side_quest">（涅斐丽·露支线）在城中<span class='grace'>深处小房间</span>前的一件房子内，可以找到<span class='npc'>战士涅斐丽·露</span>，触发与她对话</li>
+                    <li data-id="w_3_11" class="side_quest">（魔法师罗杰尔支线）在城底部击败<span class='boss'>“接肢”贵族后裔</span>后，可以在BOSS场景找到魔法师罗杰尔血迹。</li>
+                    <li data-id="w_3_13" class="main_quest">回到<span class='grace'>深处小房间</span>，在BOSS门前可以召唤<span class='npc'>涅斐丽·露</span>，击败<span class='boss'>🧟“接肢”葛瑞克</span>。赐福休息后，可以看到门卫葛托克。</li>
+                    <li data-id="w_3_15" class="side_quest">（魔法师罗杰尔支线）在击败<span class='boss'>🧟“接肢”葛瑞克</span>后魔法师罗杰尔会回到圆桌厅堂。</li>
+                    <li data-id="w_3_17" class="side_quest">（涅斐丽·露支线）在击败<span class='boss'>🧟“接肢”葛瑞克</span>后<span class='npc'>涅斐丽·露</span>会回到圆桌厅堂，与她对话获得道具。</li>
+                    <li data-id="w_3_19" class="side_quest">（女巫海妲支线）在击败<span class='boss'>🧟“接肢”葛瑞克</span>后的房间内，找到道具“葡萄”。</li>
+                    <li data-id="w_3_21" class="side_quest">（女巫海妲支线）在赐福点<span class='grace'>傍湖断崖</span>旁可以见到<span class='npc'>女巫海妲</span>，给予“葡萄”。此支线需要完成前面摩恩的伊蕾娜支线。</li>
+                    <li data-id="w_3_23" class="side_quest">（白面具支线）回到赐福点<span class='grace'>引导之始</span>看到<span class='npc'>白面具梵雷</span>留言。</li>
                 </ul>
 
-                <h4 class="progress_title">利耶尼亚</h4>
+                <h4 class="progress_title">利耶尼亚 <span class="place_en">Liurnia</span></h4>
                 <ul>
-                    <li data-id="w_4_0">（魔法师托普斯支线）从<span class='grace'>傍湖断崖</span>出发，在教堂与<span class='npc'>魔法师托普斯</span>对话</li>
-                    <li data-id="w_4_0">（菈雅支线）在赐福点<span class='grace'>拉斯卡废墟</span>前，望远镜附近，可以与<span class='npc'>“招募者”菈雅</span>对话，接任务，触发火山官邸剧情。（进入火山官邸方法之一）</li>
-                    <li data-id="w_4_0">（帕奇支线）向前一段距离，在赐福点<span class='grace'>胜景小岛</span>，可以与<span class='npc'>帕奇</span>对话。</li>
-                    <li data-id="w_4_0">（菈雅支线）到<span class='grace'>煮虾子破屋</span>赐福点，与旁边NPC<span class='npc'>流氓</span>对话，选择杀死或购买，得到菈雅的项链，返回交给菈雅。</li>
-                    <li data-id="w_4_0">（狄亚罗斯支线）来到赐福点<span class='grace'>学院门前镇</span>，东南方可以找到狄亚罗斯，触发对话。此时回到圆桌厅堂，可以再次对话。</li>
-                    <li data-id="w_4_0">（女巫海妲支线）在赐福点<span class='grace'>拉斯卡废墟</span>东侧，受净化的废墟找到葡萄。给予一旁的<span class='npc'>女巫海妲</span>。</li>
+                    <li data-id="w_4_0" class="side_quest">（魔法师托普斯支线）从<span class='grace'>傍湖断崖</span>出发，在教堂与<span class='npc'>魔法师托普斯</span>对话</li>
+                    <li data-id="w_4_2" class="side_quest">（菈雅支线）在赐福点<span class='grace'>拉斯卡废墟</span>前，望远镜附近，可以与<span class='npc'>“招募者”菈雅</span>对话，接任务，触发火山官邸剧情。（进入火山官邸方法之一）</li>
+                    <li data-id="w_4_4" class="side_quest">（帕奇支线）向前一段距离，在赐福点<span class='grace'>远眺岛</span>，可以与<span class='npc'>帕奇</span>对话。</li>
+                    <li data-id="w_4_6" class="side_quest">（菈雅支线）到<span class='grace'>煮虾子破屋</span>赐福点，与旁边NPC<span class='npc'>流氓</span>对话，选择购买，得到菈雅的项链，返回交给菈雅。</li>
+                    <li data-id="w_4_8" class="side_quest">（狄亚罗斯支线）来到赐福点<span class='grace'>学院门前镇</span>，北方可以找到狄亚罗斯，触发对话。此时回到圆桌厅堂，可以再次对话。</li>
+                    <li data-id="w_4_10" class="side_quest">（女巫海妲支线）在赐福点<span class='grace'>拉斯卡废墟</span>东侧，受净化的废墟找到葡萄。给予一旁的<span class='npc'>女巫海妲</span>。</li>
+                    <li data-id="w_4_20" class="side_quest">（女巫海妲支线）在赐福点<span class='grace'>门前镇大桥</span>，与<span class='npc'>海妲</span>对话。刷新地图后，可再次对话。</li>
+                    <li data-id="w_4_36" class="side_quest">（白面具支线）来到<span class='grace'>学院门前镇</span>西侧蔷薇教堂，与<span class='npc'>白面具梵雷</span>对话，选择不对劲，获得溃烂手指。</li>
+                    <li data-id="w_4_38" class="side_quest">（白面具支线）完成联网入侵三次，找白面具梵雷，获得道具血指，与纯血骑士勋章。此任务暂无（?）离线完成方法，但不影响其他支线剧情。</li>
+                    <li data-id="w_4_12" class="side_quest">在赐福点<span class='grace'>教堂区</span>北，可以找到学院辉石钥匙，来到赐福点<span class='grace'>雷亚卢卡利亚（南门）</span>，触碰封印进入学院。</li>
+                    <li data-id="w_4_13" class="side_quest">（尤拉支线）从赐福点<span class='grace'>学院正门口</span>出发，向北无视封印走一段距离，可以找到红符，帮尤拉击败BOSS后，与<span class='npc'>尤拉</span>对话。</li>
+                    <li data-id="w_4_14" class="side_quest">（魔法师托普斯支线）在魔法学院找到学院辉石钥匙。返回伊利斯教堂，与<span class='npc'>托普斯</span>对话。</li>
+                    <li data-id="w_4_16" class="side_quest">（魔法师托普斯支线）从赐福点<span class='grace'>校舍内的教室</span>出发，向后出门，可以找到<span class='npc'>托普斯</span>。再次返回伊利斯教堂，击败粪金龟。魔法师托普斯支线完结。</li>
+                    <li data-id="w_4_18" class="main_quest">从赐福点<span class='grace'>讨论室</span>出发，沿右侧道路坐电梯，进入大书库，击败<span class='boss'>“满月女王”蕾娜菈</span>。</li>
+                    <li data-id="w_4_22" class="side_quest">（裁缝柏克支线）在赐福点<span class='grace'>结缘教堂</span>附近，拾取道具黄金缝衣针。</li>
+                    <li data-id="w_4_26" class="side_quest">（女巫海妲支线）在彼鲁姆教堂，与<span class='npc'>海妲</span>对话。</li>
+                    <li data-id="w_4_27" class="side_quest">（涅斐丽·露支线）在白金村口遇到<span class='npc'>涅斐丽·露</span>，触发对话。之后可在白金村黄符得到<span class='npc'>涅斐丽·露</span>帮助。</li>
+                    <li data-id="w_4_28" class="side_quest">（白金之子支线）在白金村尽头，找到伪装的<span class='npc'>艾尔帕斯</span>，与其对话获得道具“圣树秘密符节(右)”。</li>
+                    <li data-id="w_4_30" class="side_quest">（白金之子支线）返回圆桌厅堂，会触发<span class='boss'>“王骸”恩夏</span>入侵剧情。击败后，找<span class='npc'>基甸·奥夫尼尔</span>对话。</li>
+                    <li data-id="w_4_32" class="side_quest">（白金之子支线）来到利耶尼亚南侧<span class='grace'>湖旁结晶洞窟</span>。击败BOSS<span class='boss'>猎犬骑士</span>后，与旁<span class='npc'>白金之子勒缇娜</span>对话。此事件需在到巨人山顶之前完成。</li>
+                    <li data-id="w_4_34" class="side_quest">在赐福点<span class='grace'>迪可达斯大升降机</span>，可以触发与<span class='npc'>梅琳娜</span>对话。</li>
+                    <li data-id="w_4_24" class="side_quest">（摩恩的伊蕾娜支线）到赐福点<span class='grace'>复仇者破屋</span>，触发城主入侵，击败后获得道具。摩恩的伊蕾娜支线到此完结。</li>
                 </ul>
+            
+                <h4 class="progress_title">盖利德 <span class="place_en">Caelid</span></h4>
+                    更新中
+                <ul>
+                </ul>
+            </div>
 
+            <div id="middleStory" hidden>
+                <h4 class="progress_title">亚坛高原 <span class="place_en">Altus Plateau</span></h4>
+                <ul>
+                    <li data-id="w_7_0">从利耶尼亚赐福点栈桥东门一路向北，来到谷底密村。在BOSS熔岩土龙门口，可以召唤“大角”忒拉格斯，米莉森，流氓。</li>
+                    <li data-id="w_7_2">在近黄金树的山丘休息，可以触发与梅琳娜对话。</li>
+                    <li data-id="w_7_4">（金面具支线）返回圆桌厅堂，与圣职人员柯林对话。</li>
+                    <li data-id="w_7_6">（金面具支线）从赐福点？往北，找到路旁柯林，与其对话。</li>
+                    <li data-id="w_7_8">（金面具支线）继续向北，通过穿林大桥传送门，与金面具对话后，返回柯林处再次对话。</li>
+                    <li data-id="w_7_10">（金面具支线）通过穿林大桥传送门，再次来到金面具处，与柯林对话。</li>
+                    <li data-id="w_7_12">（尤拉支线）来到玛丽卡第二教堂，看到躺在地上尤拉，触发对话。</li>
+                    <li data-id="w_7_27">（裁缝柏克支线）在遁世者村附近，拾取道具泥颅“你长得很好看”</li>
+                </ul>
+            
+            
+                <h4 class="progress_title">王城罗德尔 <span class="place_en"></span></h4>
+                <ul>
+                    <li data-id="w_9_3">在赐福点城外战场遗迹休息，可以触发与梅琳娜对话。</li>
+                    <li data-id="w_9_6">在赐福点王城东边城墙休息，触发与梅琳娜对话。</li>
+                    <li data-id="w_9_9">（裁缝柏克支线）在圆桌厅堂处，购买半身上衣一件，回到赐福点王城东边城墙，与裁缝柏克对话，交出“黄金缝衣针”，触发分支剧情。</li>
+                    <li data-id="w_9_11">（裁缝柏克支线）分支一：交出泪滴幼体，来到雷亚卢卡利亚大书库，与一旁NPC对话后，回到柏克处。分支二：不交出泪滴幼体，对话结束使用道具泥颅“你长得很好看”。裁缝柏克支线完结。</li>
+                    <li data-id="w_9_13">（女巫海妲支线）在王城下水道，击败“恶兆之子”蒙格后，从隐藏门进入，跳到底部赐福点癫火封印。与海妲对话。</li>
+                    <li data-id="w_9_15">在赐福点癫火封印休息，可以触发与梅琳娜对话。</li>
+                    <li data-id="w_9_17">（女巫海妲支线）接受颠火后，与海妲互动，获取道具。女巫海妲支线完结。</li>
+                    <li data-id="w_9_19">在赐福点女王闺阁休息，可以触发与梅琳娜对话。</li>
+                    <li data-id="w_9_21" class="main_quest">击败“恶兆之王”蒙葛特。</li>
+                    <li data-id="w_9_23" class="main_quest">上楼梯与门互动后，回赐福点休息，触发梅琳娜对话。</li>
+
+                </ul>
+                
+                <h4 class="progress_title">巨人山顶 <span class="place_en">Mountaintops of the Giants</span></h4>
+                <ul>
+                    <li data-id="w_11_12">（尤拉支线）在赐福点<span class='grace'>萨米尔废墟</span>，找到尤拉，触发对话。</li>
+                    <li data-id="w_11_13"> 在赐福点<span class='grace'>萨米尔废墟</span>休息，可以触发与梅琳娜对话。</li>
+                    <li data-id="w_11_15">（水母支线）在观星废墟，找到水母库菈莉丝，使用召唤水母的骨灰。触发剧情。</li>
+                    <li data-id="w_11_17">在索尔城，击败BOSS后，前方获取道具圣树秘密符节(左)。</li>
+                    <li data-id="w_11_19">（白金之子支线）在赐福点离教废屋，使用召唤白金之子勒缇娜的骨灰。白金之子支线完结。</li>
+                    <li data-id="w_11_22"></li>重要主线分支：赐福点癫火封印，脱光衣服与前方门互动，可以接受颠火。此处分支，会影响梅丽娜支线。</li>
+                </ul>
+            
             </div>
         </div>
 
@@ -234,27 +313,27 @@
                     <li data-id="b_1_6" class="field_boss">🦁黑夜骑兵</li>
                     <li data-id="b_1_7" class="field_boss">葛瑞克的士兵</li>
                     <li data-id="b_1_8" class="mini_boss">墓地影子</li>
-                    <li data-id="b_1_8" class="field_boss">发狂南瓜头士兵</li>
-                    <li data-id="b_1_8" class="field_boss">萨米尔的古英雄</li>
-                    <li data-id="b_1_8" class="field_boss">法姆·亚兹拉的兽人</li>
-                    <li data-id="b_1_8" class="field_boss">铃珠猎人</li>
-                    <li data-id="b_1_8" class="field_boss">黑刀刺客</li>
-                    <li data-id="b_1_8" class="field_boss">熔炉骑士</li>
-                    <li data-id="b_1_8" class="field_boss">死之鸟(宁姆格福)</li>
-                    <li data-id="b_1_8" class="field_boss">死之鸟(啜泣半岛)</li>
-                    <li data-id="b_1_8" class="field_boss">亚人首领</li>
-                    <li data-id="b_1_8" class="field_boss">黄金树的化身</li>
-                    <li data-id="b_1_8" class="field_boss">帕奇</li>
-                    <li data-id="b_1_8" class="field_boss">卢恩熊</li>
-                    <li data-id="b_1_8" class="field_boss">片鳞混种</li>
-                    <li data-id="b_1_8" class="field_boss">挖石山妖</li>
-                    <li data-id="b_1_8" class="field_boss">提比亚的唤声船</li>
-                    <li data-id="b_1_8" class="field_boss">腐烂树灵</li>
-                    <li data-id="b_1_8" class="field_boss">归树看门犬（风暴根脚的地下墓地）</li>
-                    <li data-id="b_1_8" class="field_boss">归树看门犬（穿刺地下墓地）</li>
-                    <li data-id="b_1_8" class="field_boss">守墓斗士</li>
-                    <li data-id="b_1_8" class="field_boss">魔像守卫</li>
-                    <li data-id="b_1_8" class="field_boss">“病花”米兰达</li>
+                    <li data-id="b_1_9" class="field_boss">发狂南瓜头士兵</li>
+                    <li data-id="b_1_10" class="field_boss">萨米尔的古英雄</li>
+                    <li data-id="b_1_12" class="field_boss">法姆·亚兹拉的兽人</li>
+                    <li data-id="b_1_14" class="field_boss">铃珠猎人</li>
+                    <li data-id="b_1_16" class="field_boss">黑刀刺客</li>
+                    <li data-id="b_1_18" class="field_boss">熔炉骑士</li>
+                    <li data-id="b_1_20" class="field_boss">死之鸟(宁姆格福)</li>
+                    <li data-id="b_1_22" class="field_boss">死之鸟(啜泣半岛)</li>
+                    <li data-id="b_1_24" class="field_boss">亚人首领</li>
+                    <li data-id="b_1_26" class="field_boss">黄金树的化身</li>
+                    <li data-id="b_1_28" class="field_boss">帕奇</li>
+                    <li data-id="b_1_30" class="field_boss">卢恩熊</li>
+                    <li data-id="b_1_32" class="field_boss">片鳞混种</li>
+                    <li data-id="b_1_34" class="field_boss">挖石山妖</li>
+                    <li data-id="b_1_36" class="field_boss">提比亚的唤声船</li>
+                    <li data-id="b_1_38" class="field_boss">腐烂树灵</li>
+                    <li data-id="b_1_40" class="field_boss">归树看门犬（风暴根脚的地下墓地）</li>
+                    <li data-id="b_1_42" class="field_boss">归树看门犬（穿刺地下墓地）</li>
+                    <li data-id="b_1_44" class="field_boss">守墓斗士</li>
+                    <li data-id="b_1_46" class="field_boss">魔像守卫</li>
+                    <li data-id="b_1_48" class="field_boss">“病花”米兰达</li>
                     
 
                 </ul>
@@ -326,18 +405,19 @@
                     <li data-id="b_3_3" class="mini_boss">🧖“初始艾尔登之王”葛孚雷</li>
                     <li data-id="b_3_4" class="main_boss">🧖“恶兆之王”蒙葛特</li>
                     <li data-id="b_3_5" class="field_boss">🧖恶兆孪生子</li>
-                    <li data-id="b_3_5" class="field_boss">黑夜骑兵</li>
-                    <li data-id="b_2_5" class="field_boss">黑刀刺客</li>
-                    <li data-id="b_2_5" class="field_boss">龙装大树守卫</li>
-                    <li data-id="b_2_5" class="field_boss">神皮使徒</li>
-                    <li data-id="b_2_5" class="field_boss">挖石山妖</li>
-                    <li data-id="b_2_5" class="field_boss">蚯蚓脸</li>
-                    <li data-id="b_2_5" class="field_boss">萨米尔的古英雄</li>
-                    <li data-id="b_2_5" class="field_boss">鲜血贵族</li>
-                    <li data-id="b_2_5" class="field_boss">“亚人女王”姬丽卡</li>
-                    <li data-id="b_2_5" class="field_boss">石肤黑王</li>
-                    <li data-id="b_2_5" class="field_boss">👭结晶人（手杖）&结晶人（矛）</li>
-                    <li data-id="b_2_5" class="field_boss">腐败结晶人（圆刃刀）</li>
+                    <li data-id="b_3_6" class="field_boss">“恶兆之子”蒙格</li>
+                    <li data-id="b_3_7" class="field_boss">黑夜骑兵</li>
+                    <li data-id="b_3_9" class="field_boss">黑刀刺客</li>
+                    <li data-id="b_3_11" class="field_boss">龙装大树守卫</li>
+                    <li data-id="b_3_13" class="field_boss">神皮使徒</li>
+                    <li data-id="b_3_15" class="field_boss">挖石山妖</li>
+                    <li data-id="b_3_17" class="field_boss">蚯蚓脸</li>
+                    <li data-id="b_3_19" class="field_boss">萨米尔的古英雄</li>
+                    <li data-id="b_3_21" class="field_boss">鲜血贵族</li>
+                    <li data-id="b_3_23" class="field_boss">“亚人女王”姬丽卡</li>
+                    <li data-id="b_3_25" class="field_boss">石肤黑王</li>
+                    <li data-id="b_3_27" class="field_boss">👭结晶人（手杖）&结晶人（矛）</li>
+                    <li data-id="b_3_29" class="field_boss">腐败结晶人（圆刃刀）</li>
                 </ul>
                 <h4 class="progress_title">巨人山顶</h4>
                 <ul>
@@ -347,17 +427,17 @@
                     <li data-id="b_4_2" class="field_boss">🐤死仪鸟（西部）</li>
                     <li data-id="b_4_3" class="field_boss">🧖圆桌骑士维克</li>
                     <li data-id="b_4_4" class="mini_boss">🐲“冻结冰雾”玻列琉斯</li>
-                    <li data-id="b_4_5" class="mini_boss">👾“黑暗繁星”艾丝缇</li>
-                    <li data-id="b_4_5" class="field_boss">混种圣骑士</li>
-                    <li data-id="b_4_5" class="field_boss">黑夜骑兵</li>
-                    <li data-id="b_4_5" class="field_boss">腐败化身</li>
-                    <li data-id="b_4_5" class="field_boss">腐败守墓斗士</li>
-                    <li data-id="b_4_5" class="field_boss">萨米尔的古英雄</li>
-                    <li data-id="b_4_5" class="field_boss">黑剑眷属</li>
-                    <li data-id="b_4_5" class="field_boss">黄金树的化身</li>
-                    <li data-id="b_4_5" class="field_boss">🐲“大土龙”席欧朵利克</li>
-                    <li data-id="b_4_5" class="field_boss">腐烂树灵</li>
-                    <li data-id="b_4_5" class="field_boss">“圆桌骑士”维克</li>
+                    <li data-id="b_4_6" class="mini_boss">👾“黑暗繁星”艾丝缇</li>
+                    <li data-id="b_4_8" class="field_boss">混种圣骑士</li>
+                    <li data-id="b_4_10" class="field_boss">黑夜骑兵</li>
+                    <li data-id="b_4_12" class="field_boss">腐败化身</li>
+                    <li data-id="b_4_14" class="field_boss">腐败守墓斗士</li>
+                    <li data-id="b_4_16" class="field_boss">萨米尔的古英雄</li>
+                    <li data-id="b_4_18" class="field_boss">黑剑眷属</li>
+                    <li data-id="b_4_20" class="field_boss">黄金树的化身</li>
+                    <li data-id="b_4_22" class="field_boss">🐲“大土龙”席欧朵利克</li>
+                    <li data-id="b_4_24" class="field_boss">腐烂树灵</li>
+                    <li data-id="b_4_26" class="field_boss">“圆桌骑士”维克</li>
                 </ul>
                 <h4 class="progress_title">地底世界</h4>
                 <ul>
@@ -367,12 +447,12 @@
                     <li data-id="b_5_4" class="main_boss">🦍祖灵之王</li>
                     <li data-id="b_5_5" class="mini_boss">先祖之灵</li>
                     <li data-id="b_5_6" class="mini_boss">龙人士兵（希夫拉河）</li>
-                    <li data-id="b_5_6" class="mini_boss">龙人士兵（安瑟尔河）</li>
-                    <li data-id="b_5_7" class="mini_boss">仿身泪滴</li>
-                    <li data-id="b_5_8" class="mini_boss">英雄石像鬼/英雄石像鬼（双头剑）</li>
-                    <li data-id="b_5_9" class="mini_boss">“熔炉骑士”志留亚</li>
-                    <li data-id="b_5_10" class="mini_boss">菲雅的英雄</li>
-                    <li data-id="b_5_11" class="mini_boss">诺克史黛拉的龙人士兵</li>
+                    <li data-id="b_5_8" class="mini_boss">龙人士兵（安瑟尔河）</li>
+                    <li data-id="b_5_10" class="mini_boss">仿身泪滴</li>
+                    <li data-id="b_5_12" class="mini_boss">英雄石像鬼/英雄石像鬼（双头剑）</li>
+                    <li data-id="b_5_14" class="mini_boss">“熔炉骑士”志留亚</li>
+                    <li data-id="b_5_16" class="mini_boss">菲雅的英雄</li>
+                    <li data-id="b_5_18" class="mini_boss">诺克史黛拉的龙人士兵</li>
                 </ul>
                 <h4 class="progress_title">天空之城</h4>
                 <ul>
@@ -387,8 +467,8 @@
                 </ul>
                 <h4 class="progress_title">王城（烧树后）</h4>
                 <ul>
-                    <li data-id="b_8_2" class="main_boss">🧖🦍“初始之王”葛孚雷/荷拉·露</li>
-                    <li data-id="b_8_3" class="main_boss">🧖🐲"黄金律法"拉达冈/艾尔登之兽</li>
+                    <li data-id="b_8_1" class="main_boss">🧖🦍“初始之王”葛孚雷/荷拉·露</li>
+                    <li data-id="b_8_2" class="main_boss">🧖🐲"黄金律法"拉达冈/艾尔登之兽</li>
                 </ul>
 
             </div>
@@ -1720,7 +1800,196 @@
                     <li data-id="mag_7530" class="magic">黑剑</li>
                     <li data-id="mag_7900" class="magic">火焰重罪</li>
                     <li data-id="mag_7903" class="magic">黄金雷防护</li>
+                </ul>
+        </div>
 
+        <div class="tab-pane" id="tabArts">
+            <h4 class="category_title">战技清单</h4>
+                <ul>
+                    <li data-id="art_10">无战技</li>
+                    <li data-id="art_100">狮子斩</li>
+                    <li data-id="art_101">贯穿</li>
+                    <li data-id="art_102">突刺</li>
+                    <li data-id="art_103">回旋斩</li>
+                    <li data-id="art_105">突击</li>
+                    <li data-id="art_106">箭步（上砍）</li>
+                    <li data-id="art_107">箭步（回旋斩）</li>
+                    <li data-id="art_108">鲜血征收</li>
+                    <li data-id="art_109">连击</li>
+                    <li data-id="art_110">盲击</li>
+                    <li data-id="art_111">回旋击</li>
+                    <li data-id="art_112">二连斩</li>
+                    <li data-id="art_113">主教冲锋</li>
+                    <li data-id="art_114">居合</li>
+                    <li data-id="art_115">准备架式</li>
+                    <li data-id="art_116">狩猎巨人</li>
+                    <li data-id="art_117">火把攻击</li>
+                    <li data-id="art_118">罗蕾塔的斩击</li>
+                    <li data-id="art_119">双吻毒蛾</li>
+                    <li data-id="art_120">转啊转</li>
+                    <li data-id="art_122">风暴袭击</li>
+                    <li data-id="art_123">唤起风暴</li>
+                    <li data-id="art_124">剑舞</li>
+                    <li data-id="art_125">回旋锁链</li>
+                    <li data-id="art_200">辉剑圆阵</li>
+                    <li data-id="art_201">神圣刀刃</li>
+                    <li data-id="art_202">冰枪</li>
+                    <li data-id="art_203">辉石魔砾</li>
+                    <li data-id="art_204">鲜血斩击</li>
+                    <li data-id="art_205">夺命拳</li>
+                    <li data-id="art_207">熔岩火浆</li>
+                    <li data-id="art_208">祈祷一击</li>
+                    <li data-id="art_209">重力</li>
+                    <li data-id="art_210">风暴刃</li>
+                    <li data-id="art_212">撼地</li>
+                    <li data-id="art_213">黄金大地</li>
+                    <li data-id="art_214">炎击</li>
+                    <li data-id="art_216">落雷</li>
+                    <li data-id="art_217">雷击斩</li>
+                    <li data-id="art_218">伟哉卡利亚</li>
+                    <li data-id="art_219">卡利亚大剑</li>
+                    <li data-id="art_220">真空斩</li>
+                    <li data-id="art_221">黑焰漩涡</li>
+                    <li data-id="art_222">神圣光环</li>
+                    <li data-id="art_223">喷火</li>
+                    <li data-id="art_224">血刃</li>
+                    <li data-id="art_225">幻影共击</li>
+                    <li data-id="art_226">幻影枪</li>
+                    <li data-id="art_227">寒气冻雾</li>
+                    <li data-id="art_228">毒雾</li>
+                    <li data-id="art_300">盾牌冲击</li>
+                    <li data-id="art_301">铁壁盾防</li>
+                    <li data-id="art_302">格挡</li>
+                    <li data-id="art_303">小圆盾格挡</li>
+                    <li data-id="art_304">格挡</li>
+                    <li data-id="art_305">卡利亚式奉还</li>
+                    <li data-id="art_306">风暴障壁</li>
+                    <li data-id="art_307">黄金格挡</li>
+                    <li data-id="art_308">突进冲击</li>
+                    <li data-id="art_309">托普斯的力场</li>
+                    <li data-id="art_400">贯穿射击</li>
+                    <li data-id="art_401">连续射击</li>
+                    <li data-id="art_402">拉满弓</li>
+                    <li data-id="art_404">宿灵射击</li>
+                    <li data-id="art_405">对空射击</li>
+                    <li data-id="art_406">箭雨</li>
+                    <li data-id="art_501">冻霜踏地</li>
+                    <li data-id="art_502">风暴足</li>
+                    <li data-id="art_503">踢击</li>
+                    <li data-id="art_504">雷电羊球</li>
+                    <li data-id="art_505">红狮子火焰</li>
+                    <li data-id="art_506">坠落震击</li>
+                    <li data-id="art_507">黄金坠落震击</li>
+                    <li data-id="art_508">黑暗波动</li>
+                    <li data-id="art_509">荷莱·露的撼地</li>
+                    <li data-id="art_600">决心</li>
+                    <li data-id="art_601">侍王骑士的决心</li>
+                    <li data-id="art_602">暗杀办法</li>
+                    <li data-id="art_603">黄金树立誓</li>
+                    <li data-id="art_604">圣律</li>
+                    <li data-id="art_605">共享圣律</li>
+                    <li data-id="art_606">切腹</li>
+                    <li data-id="art_607">岩石剑</li>
+                    <li data-id="art_650">野蛮咆哮</li>
+                    <li data-id="art_651">战吼</li>
+                    <li data-id="art_652">野兽咆哮</li>
+                    <li data-id="art_653">山妖咆哮</li>
+                    <li data-id="art_654">夸耀咆哮</li>
+                    <li data-id="art_700">忍耐</li>
+                    <li data-id="art_701">无敌</li>
+                    <li data-id="art_702">圣域</li>
+                    <li data-id="art_800">碎步</li>
+                    <li data-id="art_801">猎犬步法</li>
+                    <li data-id="art_802">潜雾猛禽</li>
+                    <li data-id="art_850">白影诱惑</li>
+                    <li data-id="art_1000">信仰喷发</li>
+                    <li data-id="art_1001">火焰唾球</li>
+                    <li data-id="art_1002">火焰舌柱</li>
+                    <li data-id="art_1003">神谕泡泡</li>
+                    <li data-id="art_1004">倾注泡泡</li>
+                    <li data-id="art_1005">神谕大泡泡</li>
+                    <li data-id="art_1006">熔岩海</li>
+                    <li data-id="art_1007">毒蛇咬杀</li>
+                    <li data-id="art_1008">月光剑</li>
+                    <li data-id="art_1009">志留亚的漩涡</li>
+                    <li data-id="art_1010">归于麾下</li>
+                    <li data-id="art_1011">敬请见证！</li>
+                    <li data-id="art_1012">欧赫剑舞</li>
+                    <li data-id="art_1013">恶意气息</li>
+                    <li data-id="art_1014">掠夺火焰</li>
+                    <li data-id="art_1015">灭洛斯的狂嚎</li>
+                    <li data-id="art_1016">逆刺血刃</li>
+                    <li data-id="art_1017">辉石彗砾</li>
+                    <li data-id="art_1018">流体化</li>
+                    <li data-id="art_1019">夜与火的架式</li>
+                    <li data-id="art_1020">黄金波动</li>
+                    <li data-id="art_1021">毁灭灵火</li>
+                    <li data-id="art_1022">高举黄金律法</li>
+                    <li data-id="art_1023">催眠烟雾</li>
+                    <li data-id="art_1024">唤矛仪式</li>
+                    <li data-id="art_1025">狼袭</li>
+                    <li data-id="art_1026">雷云化身</li>
+                    <li data-id="art_1027">咒血斩击</li>
+                    <li data-id="art_1028">水鸟乱舞</li>
+                    <li data-id="art_1029">黄金碎击</li>
+                    <li data-id="art_1030">跪下吧！</li>
+                    <li data-id="art_1031">王者嘶吼</li>
+                    <li data-id="art_1032">唤星</li>
+                    <li data-id="art_1033">崩坏波</li>
+                    <li data-id="art_1034">授血仪式</li>
+                    <li data-id="art_1035">流体化</li>
+                    <li data-id="art_1036">死亡刀刃</li>
+                    <li data-id="art_1037">黄金刀刃</li>
+                    <li data-id="art_1038">命定之死</li>
+                    <li data-id="art_1039">旋转刺轮</li>
+                    <li data-id="art_1040">白王引力波</li>
+                    <li data-id="art_1041">黑王推力波</li>
+                    <li data-id="art_1042">复仇誓言</li>
+                    <li data-id="art_1043">冰雷剑</li>
+                    <li data-id="art_1044">兽王爪</li>
+                    <li data-id="art_1045">火焰舞</li>
+                    <li data-id="art_1046">弹指</li>
+                    <li data-id="art_1047">星云</li>
+                    <li data-id="art_1048">点燃灵火</li>
+                    <li data-id="art_1049">古雷电枪</li>
+                    <li data-id="art_1050">癫火突击</li>
+                    <li data-id="art_1051">米凯拉的光环</li>
+                    <li data-id="art_1052">黄金剑技</li>
+                    <li data-id="art_1053">哀悼墓碑</li>
+                    <li data-id="art_1054">不可挡之刃</li>
+                    <li data-id="art_1055">欧赫剑舞</li>
+                    <li data-id="art_1167">尸蜡斩击</li>
+                    <li data-id="art_1168">萨米尔冰风暴</li>
+                    <li data-id="art_1169">拉塔恩的骤雨</li>
+                    <li data-id="art_1170">女王黑焰</li>
+                    <li data-id="art_1171">王朝剑技</li>
+                    <li data-id="art_1172">泼洒熔岩</li>
+                    <li data-id="art_1173">星云</li>
+                    <li data-id="art_1174">死亡闪焰</li>
+                    <li data-id="art_1175">猎犬剑技</li>
+                    <li data-id="art_1176">熔岩断首</li>
+                    <li data-id="art_1177">尸横遍野</li>
+                    <li data-id="art_1178">隙间月影</li>
+                    <li data-id="art_1179">血刃乱舞</li>
+                    <li data-id="art_1181">米凯拉的奥秘剑</li>
+                    <li data-id="art_1182">百智的世界</li>
+                    <li data-id="art_1183">吞世</li>
+                    <li data-id="art_1184">家族怨魂</li>
+                    <li data-id="art_1185">罗泽司的唤声</li>
+                    <li data-id="art_1186">雷电风暴</li>
+                    <li data-id="art_1187">圣矛障壁</li>
+                    <li data-id="art_1188">狩猎大蛇</li>
+                    <li data-id="art_1189">天使羽翼</li>
+                    <li data-id="art_1190">风暴踢击</li>
+                    <li data-id="art_1191">不可挡之刃</li>
+                    <li data-id="art_1192">锡杖魔法</li>
+                    <li data-id="art_1193">黄金树坠落震击</li>
+                    <li data-id="art_1194">重力雷电</li>
+                    <li data-id="art_1195">催眠火焰</li>
+                    <li data-id="art_1196">黄金式奉还</li>
+                    <li data-id="art_1197">共鸣愤怒</li>
+                    <li data-id="art_1198">奥陶琵斯的漩涡</li>
+                    <li data-id="art_1199">转啊转</li>
                 </ul>
         </div>
 
