@@ -50,9 +50,7 @@ function initializeProfile() {
     if(!('current_tab' in profiles)){
         profiles.current_tab = '#tabItems'
     } else {
-        var sel = $('.nav li a[href="' + profiles.current_tab + '"]');
-        var tab = new bootstrap.Tab(sel);
-        bootstrap.Tab.getInstance(sel).show();
+        $('[href="' + profiles.current_tab + '"]').tab('show');;
     }
         
 }
