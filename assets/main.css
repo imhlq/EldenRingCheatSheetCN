@@ -131,6 +131,11 @@ li.cut_content span::after {
     content: " (疑为无法获得)";
 }
 
+li.legendary span::after {
+    color:#C60;
+    content: " (传说)";
+}
+
 input[type="checkbox"]:checked ~ .bi-eye-slash, input[type="checkbox"]:checked ~ * > .bi-eye-slash {
     display: none;
 }
