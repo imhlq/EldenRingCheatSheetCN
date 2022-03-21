@@ -5,6 +5,7 @@ if(profiles === null) {
 
 
 jQuery(document).ready(function($) {
+
     initializeProfile();
 
     $('ul li[data-id]').each(function() {
@@ -20,6 +21,7 @@ jQuery(document).ready(function($) {
           $('[data-id="'+id+'"] label').removeClass('completed');
         }
         localStorage.setItem("profiles", JSON.stringify(profiles));
+        flesh_hide_completed();
     });
 
     // List Checkbox
@@ -39,8 +41,18 @@ jQuery(document).ready(function($) {
                 $(this).css('display', '')
             }
         })
-        console.log(is_hidden)
-        console.log(item_toggle)
+    });
+
+    flesh_hide_completed();
+
+    $('#hide_complete').click(function(){
+        profiles.is_hide_complete = $(this).is(':checked');
+        flesh_hide_completed();
+    });
+
+
+    $('#reset_storage').click(function(){
+        clear();
     })
 })
 
@@ -52,7 +64,11 @@ function initializeProfile() {
     } else {
         $('[href="' + profiles.current_tab + '"]').tab('show');;
     }
-        
+    if(!('is_hide_complete' in profiles)){
+        profiles.is_hide_complete = true
+    } else {
+        $('#hide_complete').prop('checked', profiles.is_hide_complete);
+    }
 }
 
 function addCheckbox(el) {
@@ -84,4 +100,18 @@ function category_toggle() {
     if (is_hidden ) {
         item_toggle.not(function(){return this.checked === is_hidden}).click()
     }
+}
+
+function flesh_hide_completed() {
+    var is_hidden = profiles.is_hide_complete;
+    // $('#hide_complete').is(':checked');
+    $('li .completed').each(function(){
+        if(!is_hidden){
+            $(this).css('display', 'none')
+        }else{
+            $(this).css('display', '')
+        }
+    })
+    profiles.is_hide_complete = is_hidden;
+    localStorage.setItem("profiles", JSON.stringify(profiles));
 }

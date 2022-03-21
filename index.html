@@ -55,6 +55,15 @@
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
 
+    <div class="hide-complete">
+        <input type="checkbox" class="btn-check" id="hide_complete" data-bs-toggle="hide_complete" autocomplete="off" checked>
+        <label class="btn btn-outline-dark btn-sm" for="hide_complete">
+            <i class="bi bi-eye"></i>
+            <i class="bi bi-eye-slash"></i>
+            显示完成的选项
+        </label>
+    </div>
+
       <div class="tab-content">
 
           <div class="tab-pane active" id="tabItems">
@@ -126,14 +135,14 @@
                         <h4><span><img src="./assets/deathroot-key-item-elden-ring-wiki-guide-200.png" width="36px">死根</h4>
                             <ul>
                                 <li data-id="is_13_0">1. 水唤村击败<span class='boss'>提比亚的唤声船</span>获得</li>
-                                <li data-id="is_13_0">2. <span class='grace'>死亡降临的地下墓地</span>击败BOSS后宝箱中获得</li>
-                                <li data-id="is_13_0">3. 卡利亚书斋旁击败<span class='boss'>提比亚的唤声船</span>获得</li>
-                                <li data-id="is_13_0">4. <span class='grace'>黑刀地下墓地</span>击败BOSS后宝箱中获得</li>
-                                <li data-id="is_13_0">5. <span class='grace'>格密尔英雄墓地</span>击败BOSS后宝箱中获得</li>
-                                <li data-id="is_13_0">6. 赐福点<span class='grace'>近黄金树的山丘</span>旁威达姆废墟，击败<span class='boss'>提比亚的唤声船</span>获得</li>
-                                <li data-id="is_13_0">7. 赐福点<span class='grace'>结冰湖</span>西，击败<span class='boss'>提比亚的唤声船</span>获得</li>
-                                <li data-id="is_13_0">8. <span class='grace'>巨人山顶地下墓地</span>击败BOSS后宝箱中获得</li>
-                                <li data-id="is_13_0">9. <span class='grace'>通往圣树的密道</span>，通过一个隐形道路后，击败BOSS后宝箱中获得。</li>
+                                <li data-id="is_13_1">2. <span class='grace'>死亡降临的地下墓地</span>击败BOSS后宝箱中获得</li>
+                                <li data-id="is_13_2">3. 卡利亚书斋旁击败<span class='boss'>提比亚的唤声船</span>获得</li>
+                                <li data-id="is_13_3">4. <span class='grace'>黑刀地下墓地</span>击败BOSS后宝箱中获得</li>
+                                <li data-id="is_13_4">5. <span class='grace'>格密尔英雄墓地</span>击败BOSS后宝箱中获得</li>
+                                <li data-id="is_13_5">6. 赐福点<span class='grace'>近黄金树的山丘</span>旁威达姆废墟，击败<span class='boss'>提比亚的唤声船</span>获得</li>
+                                <li data-id="is_13_6">7. 赐福点<span class='grace'>结冰湖</span>西，击败<span class='boss'>提比亚的唤声船</span>获得</li>
+                                <li data-id="is_13_7">8. <span class='grace'>巨人山顶地下墓地</span>击败BOSS后宝箱中获得</li>
+                                <li data-id="is_13_8">9. <span class='grace'>通往圣树的密道</span>，通过一个隐形道路后，击败BOSS后宝箱中获得。</li>
                             </ul>
               </div>
           </div>
@@ -281,7 +290,7 @@
                     <li data-id="w_7_14" class="side_quest">（魔女菈妮支线）前往蕾娜魔法师塔，在二楼可以获得雪魔女套装。从顶楼传送到<span class='grace'>安塞尔河主流</span>。</li>
                     <li data-id="w_7_16" class="side_quest">（魔女菈妮支线）在赐福点前可以拾取道具娇小菈妮，之后在赐福点与娇小菈妮反复对话。</li>
                     <li data-id="w_7_18" class="side_quest">（魔女菈妮支线）向前可触发入侵，击败<span class='boss'>灾厄影子</span>，获得道具 被丢弃的王室钥匙。</li>
-                    <li data-id="w_7_18" class="side_quest">安塞尔河继续向前，在各赐福点休息选择与娇小菈妮说话。最后在腐败湖后，与瀑布边的石棺互动，到达地底BOSS处。击败"黑暗弃子"艾丝缇，点亮赐福点。</li>
+                    <li data-id="w_7_19" class="side_quest">安塞尔河继续向前，在各赐福点休息选择与娇小菈妮说话。最后在腐败湖后，与瀑布边的石棺互动，到达地底BOSS处。击败"黑暗弃子"艾丝缇，点亮赐福点。</li>
                     <!-- 之后应到亚坦高原后，赛尔维斯支线后。 -->
                 </ul>
             </div>
@@ -2130,6 +2139,8 @@
                 <p>欢迎！可以直接提交Issue或request到我们的<a href="https://github.com/imhlq/EldenRingCheatSheetCN">Github</a>. 也可以加入我们讨论群672924061</p>
                 <h3>数据能否云端保存</h3>
                 <p>精力有限，暂不支持</p>
+                <h3>数据能否清零重置</h3>
+                <p>请清理浏览器缓存，或者<a href="" id="reset_storage">点击此处重置</a></p>
             </div>
             
         </div>

@@ -108,7 +108,9 @@ span.place_en {
 
 footer {
     margin-top: 35px;
+    margin-left: 10px;
     opacity: 0.3;
+    display:inline-block;
 }
 
 /* Filter Buttons */
@@ -120,6 +122,11 @@ footer {
     color: #0d6efd;
     background-color: #dde9fc;
     border-color: #0d6efd;
+}
+.btn-outline-dark:hover {
+    color: black;
+    background-color: #dde9fc;
+    border-color: black;
 }
 
 li.cut_content span{
@@ -134,6 +141,7 @@ li.cut_content span::after {
 li.legendary span::after {
     color:#C60;
     content: " (传说)";
+    text-shadow: 1px 1px yellow;
 }
 
 input[type="checkbox"]:checked ~ .bi-eye-slash, input[type="checkbox"]:checked ~ * > .bi-eye-slash {
@@ -146,4 +154,11 @@ input[type="checkbox"]:checked ~ .bi-eye, input[type="checkbox"]:checked ~ * > .
 
 input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
     display: none;
+}
+
+
+.hide-complete {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
