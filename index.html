@@ -20,7 +20,7 @@
             基于v1.03 | Created by xHou
         </figcaption>
     </figure>
-    
+
     <div class="container">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,7 +42,9 @@
               <li class="nav-item"><a class="nav-link" href="#tabMagic" data-bs-toggle="tab" data-bs-target="#tabMagic">法术清单</a></li>
               <li class="nav-item"><a class="nav-link" href="#tabAshes" data-bs-toggle="tab" data-bs-target="#tabAshes">骨灰清单</a></li>
               <li class="nav-item"><a class="nav-link" href="#tabWarAsh" data-bs-toggle="tab" data-bs-target="#tabWarAsh">战灰清单</a></li>
-              <li class="nav-item"><a class="nav-link" href="#tabAbout" data-bs-toggle="tab" data-bs-target="#tabAbout">关于</a></li>
+            <li class="nav-item"><a class="nav-link" id="export" onclick="exportStorage()">导出</a></li>
+            <li class="nav-item"><a class="nav-link" id="Import" onclick="importStorage()">导入</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tabAbout" data-bs-toggle="tab" data-bs-target="#tabAbout">关于</a></li>
             </ul>
           </div>
         </div>
@@ -133,7 +135,7 @@
                             <li data-id="is_12_8">9. <span class='grace'>弃置恶兆的地底</span>前的电梯口</li>
                             <li data-id="is_12_9">10. 在雪原南方的<span class='grace'>巨人山顶地下墓地</span>，一个房间内拾取</li>
                         </ul>
-                    
+
                         <h4><span><img src="./assets/deathroot-key-item-elden-ring-wiki-guide-200.png" width="36px">死根</h4>
                             <ul>
                                 <li data-id="is_13_0">1. 水唤村击败<span class='boss'>提比亚的唤声船</span>获得</li>
@@ -154,7 +156,7 @@
             <div id="walkthrough_ps">
                 艾尔登法环是开放世界游戏，流程玩法自由多样，本流程仅供参考。本流程（无剧透）为个人开荒经验与查询攻略所得，旨在保留尽可能多的剧情内容，即便如此，本流程依旧有部分剧情有意或无意被跳过。如有建议，请务必告知我们。
             </div>
-            
+
             <div class="btn-group" role="group">
                 <input type="checkbox" class="btn-check" id="hide_side_quest" data-bs-toggle="side_quest" autocomplete="off" checked>
                 <label class="btn btn-outline-primary" for="hide_side_quest">
@@ -162,7 +164,7 @@
                     <i class="bi bi-eye-slash"></i>
                     显示全部支线
                 </label>
-              
+
 
             </div>
 
@@ -262,7 +264,7 @@
                     <li data-id="w_4_50" class="side_quest">（赛尔维斯支线）使用获得的傀儡，并在赐福点反复刷新后，可以继续与<span class='npc'>魔法教授赛尔维斯</span>对话。</li>
                     <li data-id="w_4_52" class="side_quest">（赛尔维斯支线）从蕾娜魔法师塔向南，可从悬崖跳到屋顶，从一处屋顶漏洞下去，可以与<span class='npc'>仆人毕迪</span>对话。</li>
                 </ul>
-                
+
                 <h4 class="progress_title">希芙拉河 <span class="place_en">Siofra River</span></h4>
                 <ul>
                     <li data-id="w_5_1" class="main_quest">从赐福点<span class='grace'>玛莉卡第三教堂</span>向南，来到希芙拉河的入口井。进入地底世界。</li>
@@ -296,7 +298,7 @@
                 </ul>
             </div>
 
-            
+
 
             <div id="middleStory">
                 <h4 class="progress_title">亚坛高原 <span class="place_en">Altus Plateau</span></h4>
@@ -323,19 +325,13 @@
                     <li data-id="w_9_44" class="side_quest">（金面具支线）返回圆桌厅堂，与<span class='npc'>圣职人员柯林</span>对话。</li>
                     <li data-id="w_9_46" class="side_quest">（金面具支线）从赐福点<span class='npc'>亚坛大道的三叉口</span>往北，找到路旁<span class='npc'>圣职人员柯林</span>，与其对话。续向北，通过穿林大桥传送门，找到并与<span class='npc'>金面具</span>对话后，返回<span class='npc'>圣职人员柯林</span>处再次对话。通过穿林大桥传送门，再次来到金面具处，与<span class='npc'>记录者柯林</span>对话。</li>
                     <li data-id="w_9_60" class="side_quest">（米莉森支线）在风车镇赐福点<span class='npc'>风车村高台</span>，可召唤米莉森。击败BOSS神皮后，与<span class='npc'>米莉森</span>对话。</li>
-                    
                     <li data-id="w_9_62" class="side_quest">（尤拉支线）来到<span class='npc'>玛丽卡第二教堂</span>，看到躺在地上<span class='npc'>尤拉</span>，触发对话。</li>
                     <li data-id="w_9_64" class="side_quest">（赛尔维斯支线）在赐福点<span class='npc'>亚坛大道的三叉口</span>北的一尊雕像前可以拾取道具琥珀星光。返回塞尔维斯魔法塔，与<span class='npc'>塞尔维斯</span>对话，交出琥珀星光。</li>
-                    
-                    
                     <li data-id="w_9_64" class="side_quest">（魔法老师瑟濂支线）返回封印魔女的废墟地牢，获取瑟濂的源辉石。</li>
                     <li data-id="w_9_64" class="side_quest">（魔法老师瑟濂支线）返回赐福点雷亚卢卡利亚书库，与瑟濂对话。刷新地图，与变身后的瑟濂对话。</li>
                     <li data-id="w_9_64" class="side_quest">（魔法老师瑟濂支线）再次刷新，门口出现两个召唤符，进入分支剧情。分支一：帮助瑟濂，击败“魔女猎人”杰廉。获得道具奇异骑士套装。分支二：帮助杰廉，击败瑟濂。获得道具瑟濂的铃珠、古龙岩锻造石。瑟濂支线完结。</li>
                 </ul>
-            
-                
                 <strong>未完待续...</strong>
-                
                 <div class="hidenPart" hidden>
 
                 <h4 class="progress_title">王城罗德尔 <span class="place_en"></span></h4>
@@ -343,7 +339,6 @@
                     <li data-id="w_9_80" class="side_quest">（魔女菈妮支线）回到雷亚卢卡利亚大书库，使用钥匙打开宝箱，获得道具 暗月戒指。</li>
                     <li data-id="w_9_82" class="side_quest">（魔女菈妮支线）回到，通过后面通道，来到月光祭坛。找到“辉石龙”亚杜拉身后的大教堂，从洞穴下去，与菈妮互动触发剧情。剧情结束后回到菈妮魔法师塔<span class='grace'>菈妮房间</span>赐福点可与娇小菈妮对话。</li>
                     <li data-id="w_9_86" class="side_quest">（狼人布莱泽支线）从菈妮魔法塔出来，击败发狂狼人布莱泽。到<span class='npc'>通往城寨的道路</span>赐福点与铁匠伊吉对话，刷新地图，拾取铁匠伊吉物品。狼人布莱泽支线完结。</li>
-                    
                     <li data-id="w_10_3">在赐福点城外战场遗迹休息，可以触发与梅琳娜对话。</li>
                     <li data-id="w_10_6">在赐福点王城东边城墙休息，触发与梅琳娜对话。</li>
                     <li data-id="w_10_9">（裁缝柏克支线）在圆桌厅堂处，购买半身上衣一件，回到赐福点王城东边城墙，与裁缝柏克对话，交出“黄金缝衣针”，触发分支剧情。</li>
@@ -356,7 +351,7 @@
                     <li data-id="w_10_23" class="main_quest">上楼梯与门互动后，回赐福点休息，触发梅琳娜对话。</li>
 
                 </ul>
-                
+
                 <h4 class="progress_title">巨人山顶 <span class="place_en">Mountaintops of the Giants</span></h4>
                 <ul>
                     <li data-id="w_11_12">（尤拉支线）在赐福点<span class='grace'>萨米尔废墟</span>，找到尤拉，触发对话。</li>
@@ -381,7 +376,7 @@
                     <i class="bi bi-eye-slash"></i>
                     显示野外BOSS
                 </label>
-              
+
                 <input type="checkbox" class="btn-check" id="hide_mini_boss" data-bs-toggle="mini_boss" autocomplete="off" checked>
                 <label class="btn btn-outline-primary" for="hide_mini_boss">
                     <i class="bi bi-eye"></i>
@@ -395,7 +390,7 @@
                     <i class="bi bi-eye-slash"></i>
                     显示入侵BOSS
                 </label>
-              
+
                 <input type="checkbox" class="btn-check" id="hide_main_boss" data-bs-toggle="main_boss" autocomplete="off" checked>
                 <label class="btn btn-outline-primary" for="hide_main_boss">
                     <i class="bi bi-eye"></i>
@@ -575,7 +570,7 @@
                 </ul>
 
 
-                
+
 
                 <h4 class="progress_title">巨人山顶</h4>
                 <ul>
@@ -620,7 +615,7 @@
 
             </div>
         </div>
-        
+
         <div class="tab-pane" id="tabArmors">
             <h4 class="category_title">护甲清单</h4>
                 <ul>
@@ -2218,7 +2213,7 @@
                 <li data-id="war_31000" class="war">战灰：托普斯的力场</li>
                 <li data-id="war_30500" class="war">战灰：卡利亚式奉还</li>
                 <li data-id="war_30900" class="war">战灰：无战技</li>
-				
+
                 <li data-id="war_11700" class="war" hidden>战灰：火把攻击</li>
                 <li data-id="war_12500" class="war" hidden>战灰：回旋锁链</li>
                 <li data-id="war_22300" class="war" hidden>战灰：喷火</li>
@@ -2255,7 +2250,6 @@
                 <h3>数据能否清零重置</h3>
                 <p>请清理浏览器缓存，或者<a href="" id="reset_storage">点击此处重置</a></p>
             </div>
-            
         </div>
 
       </div>
@@ -2263,7 +2257,6 @@
       <footer>
          <a role="alert">如有问题建议还请联系我</a>
       </footer>
-      
 </body>
 
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
