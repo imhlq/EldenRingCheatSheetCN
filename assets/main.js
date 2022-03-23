@@ -68,7 +68,7 @@ function exportStorage(){
 }
 
 function importStorage(){
-    var temp =  prompt("请把您的缓存粘贴进来","");
+    var temp =  prompt("请把您的缓存整个粘贴进来","输入奇怪的东西可能导致本地缓存丢失，若有问题请重置（删除本段文字）");
     localStorage.clear();
     profiles = JSON.parse(temp);
     localStorage.setItem("profiles", JSON.stringify(profiles));
