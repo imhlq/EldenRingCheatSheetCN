@@ -42,9 +42,7 @@
               <li class="nav-item"><a class="nav-link" href="#tabMagic" data-bs-toggle="tab" data-bs-target="#tabMagic">法术清单</a></li>
               <li class="nav-item"><a class="nav-link" href="#tabAshes" data-bs-toggle="tab" data-bs-target="#tabAshes">骨灰清单</a></li>
               <li class="nav-item"><a class="nav-link" href="#tabWarAsh" data-bs-toggle="tab" data-bs-target="#tabWarAsh">战灰清单</a></li>
-            <li class="nav-item"><a class="nav-link" id="export" onclick="exportStorage()">导出</a></li>
-            <li class="nav-item"><a class="nav-link" id="Import" onclick="importStorage()">导入</a></li>
-            <li class="nav-item"><a class="nav-link" href="#tabAbout" data-bs-toggle="tab" data-bs-target="#tabAbout">关于</a></li>
+              <li class="nav-item"><a class="nav-link" href="#tabAbout" data-bs-toggle="tab" data-bs-target="#tabAbout">关于(其他功能)</a></li>
             </ul>
           </div>
         </div>
@@ -1195,7 +1193,7 @@
         </div>
 
         <div class="tab-pane" id="tabWeapons">
-            <h3 class="category_title">武器清单</h3>
+            <h3 class="category_title text-center">武器清单</h3>
                 <h4 class="category_title">近战武器</h4>
 				<h5 class="category_title">短剑</h5>
                 <ul>
@@ -2225,8 +2223,14 @@
         <div class="tab-pane" id="tabAbout">
 
             <div class="container text-center">
-                <p>目前大部分网站制作到内容填写，都是在参考了大量相关网站攻略视频后，独立编写完成的。尤其感谢群友以及网友的帮助与完善！</p>
-                <p><strong>特别感谢 Nodens 对法术、骨灰、战灰等内容排序</strong></p>
+                <p>目前大部分网站制作到内容填写，都是在参考了大量相关网站攻略视频后，独立编写完成的！</p>
+                <p>
+                    特别感谢 <strong>Nodens</strong> 对全物品内容的排序
+                    <br>
+                    特别感谢 <strong>yaohuaiying</strong> 添加导入导出功能
+                    <br>
+                    特别感谢交流群其他朋友的发现测试，特别感谢NGA论坛水友的反馈！
+                </p>
                 <p>参考的攻略包括但不限于：</p>
                 <ul>
                     <li>http://zkjellberg.github.io/dark-souls-3-cheat-sheet/</li>
@@ -2245,8 +2249,13 @@
 
                 <h3>我想参与贡献，如何做</h3>
                 <p>欢迎！可以直接提交Issue或request到我们的<a href="https://github.com/imhlq/EldenRingCheatSheetCN">Github</a>. 也可以加入我们讨论群672924061</p>
+
                 <h3>数据能否云端保存</h3>
-                <p>精力有限，暂不支持</p>
+                <p>精力有限，暂不支持。本手册已支持导入导出功能，如需要可点击按钮。</p>
+                <button class="btn btn-primary" id="export" onclick="exportStorage()">导出</button>
+                <button class="btn btn-primary" id="Import" onclick="importStorage()">导入</button>
+                <p></p>
+
                 <h3>数据能否清零重置</h3>
                 <p>请清理浏览器缓存，或者<a href="" id="reset_storage">点击此处重置</a></p>
             </div>
