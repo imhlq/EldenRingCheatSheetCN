@@ -56,6 +56,25 @@ jQuery(document).ready(function($) {
     })
 })
 
+function exportStorage(){
+    var eleLink = document.createElement('a');
+    eleLink.download = "您的缓存.txt";
+    eleLink.style.display = 'none';
+    var blob = new Blob([localStorage.getItem("profiles")]);
+    eleLink.href = URL.createObjectURL(blob);
+    document.body.appendChild(eleLink);
+    eleLink.click();
+    document.body.removeChild(eleLink);
+}
+
+function importStorage(){
+    var temp =  prompt("请把您的缓存粘贴进来","");
+    localStorage.clear();
+    profiles = JSON.parse(temp);
+    localStorage.setItem("profiles", JSON.stringify(profiles));
+    location.reload();
+}
+
 function initializeProfile() {
     if(!('checklistData' in profiles))
         profiles.checklistData = {};
