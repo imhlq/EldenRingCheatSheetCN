@@ -164,3 +164,12 @@ input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
     bottom: 0;
     right: 0;
 }
+
+.card-title{
+    font-weight: 600;
+}
+
+.text-thanks {
+    font-size: larger;
+    line-height: 1.8;
+}

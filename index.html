@@ -3201,53 +3201,86 @@
                 
 
         <div class="tab-pane" id="tabAbout">
-
             <div class="container text-center">
-                <p>目前大部分网站制作到内容填写，都是在参考了大量相关网站攻略视频后，独立编写完成的！</p>
-                <p>
-                    感谢 <strong>Nodens</strong>, <strong>suyi</strong> 对全物品内容的整理与排序
+                <p class="text-thanks">
+                    感谢 <strong>@Nodens</strong>, <strong>@suyi</strong> 提供物品整理与排序
                     <br>
-                    感谢 <strong>yaohuaiying</strong> 添加导入导出功能
+                    感谢 <strong>@yaohuaiying</strong> 提供导入导出功能
                     <br>
-                    感谢 <strong>BKL</strong> 对全支线剧情的大力帮助
+                    感谢 <strong>@BKL</strong> 提供全剧情流程制作的帮助
                     <br>
-                    另外特别感谢交流群其他朋友的发现测试，感谢NGA论坛水友的反馈！
+                    同时感谢Q群朋友们的交流，感谢网友的反馈，感谢大家的使用！
                 </p>
-                <p>参考的攻略包括但不限于：</p>
-                <ul>
-                    <li>http://zkjellberg.github.io/dark-souls-3-cheat-sheet/</li>
-                    <li>https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki</li>
-                    <li>https://gl.ali213.net/z/40195/</li>
-                    <li>https://steamcommunity.com/sharedfiles/filedetails/?id=2771317236</li>
-                    <li>https://www.gamersky.com/handbook/202202/1461277.shtml</li>
-                    <li>https://steamcommunity.com/sharedfiles/filedetails/?id=2774311960</li>
-                    <li>https://bbs.nga.cn/read.php?tid=31000263</li>
-                    <li>https://www.elpwc.com/eldenringmap</li>
-                    <li>https://bbs.nga.cn/read.php?tid=30891245</li>
-                    <li></li>
-                    <li></li>
-                    <li>以及其他大量攻略!</li>
-                </ul>
+            </div>
 
-                <h3>我想参与贡献，如何做</h3>
-                <p>欢迎！可以直接提交Issue或request到我们的<a href="https://github.com/imhlq/EldenRingCheatSheetCN">Github</a>. 也可以加入我们讨论群672924061</p>
+                <h5>实用资源</h5>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              全支线图文文档
+                            </h5>
+                            <p class="card-text">群友BKL制作，各支线详细的图文攻略</p>
+                            <a href="https://docs.qq.com/doc/DVEVuZ05DeXVaT2hv" target="_blank" class="btn btn-outline-primary">点击打开</a>
+                          </div>
+                        </div>
+                      </div>
 
-                <h3>数据能否云端保存</h3>
-                <p>精力有限，暂不支持。本手册已支持导入导出功能，如需要可点击按钮。</p>
-                <button class="btn btn-primary" id="export" onclick="exportStorage()">导出</button>
-                <button class="btn btn-primary" id="Import" onclick="importStorage()">导入</button>
+
+                    <div class="col-sm-4">
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            全物品道具获得方法
+                          </h5>
+                          <p class="card-text">群友Kovit9527提供，如有建议可加入讨论群</p>
+                          <a href="https://docs.qq.com/sheet/DTHhMekp3Z1l4eGJQ" target="_blank" class="btn btn-outline-primary">点击打开</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <div class="col-sm-4">
+                        <div class="card text-center">
+                            <div class="card-body">
+                            <h5 class="card-title">WIKI百科</h5>
+                            <p class="card-text">艾尔登法环英文维基百科</p>
+                            <a href="https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki" target="_blank" class="btn btn-outline-primary">Eldenring WIKI</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
                 <p></p>
 
-                <h3>数据能否清零重置</h3>
-                <p>请清理浏览器缓存，或者<a href="" id="reset_storage">点击此处重置</a></p>
-            </div>
+                <div class="card  text-center">
+                    <div class="card-header">
+                        FAQ
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">我想参与贡献，如何做</h4>
+                        <p class="card-text">欢迎！可以直接提交Issue或request到我们的<a href="https://github.com/imhlq/EldenRingCheatSheetCN">Github</a>. 也可以加入我们讨论群672924061</p>
+
+                        <h4 class="card-title">数据能否云端保存</h4>
+                        <p class="card-text">精力有限，暂不支持。本手册已支持导入导出功能，如需要可点击按钮。</p>
+                        <p class="card-text">
+                            <button class="btn btn-outline-info" id="export" onclick="exportStorage()">导出</button>
+                            <button class="btn btn-outline-danger" id="Import" onclick="importStorage()">导入</button>
+                        </p>
+
+                        <h4 class="card-title">数据能否清零重置</h4>
+                        <p class="card-text">请清理浏览器缓存，或者<a href="" id="reset_storage">点击此处重置</a></p>
+                    </div>
+                </div>
+    
+            
         </div>
 
       </div>
     </div>
-      <footer>
-         <a role="alert">如有问题建议还请联系我</a>
-      </footer>
 </body>
 
 <script src="./assets/js/jquery.min.js"></script>
