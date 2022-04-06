@@ -173,3 +173,8 @@ input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
     font-size: larger;
     line-height: 1.8;
 }
+
+.highlight {
+    font-weight: bold;
+    background-color: #FFFF88;
+}

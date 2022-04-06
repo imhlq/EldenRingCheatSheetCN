@@ -113,6 +113,7 @@ function clear() {
 }
 
 
+
 function category_toggle() {
     var is_hidden = $(this).is(':checked')
     var item_toggle = $(this).cloest('.btn-group').find('[data-item-toggle]')
@@ -134,3 +135,46 @@ function flesh_hide_completed() {
     profiles.is_hide_complete = is_hidden;
     localStorage.setItem("profiles", JSON.stringify(profiles));
 }
+
+$(function(){
+    var jets = [
+      new Jets({
+        searchTag: '#walkthrough_search',
+        contentTag: '#walkthrough_list ul',
+      }),
+      new Jets({
+        searchTag: '#boss_search',
+        contentTag: '#boss_list ul',
+      }),
+      new Jets({
+        searchTag: '#armor_search',
+        contentTag: '#armor_list ul',
+      }),
+      new Jets({
+        searchTag: '#weapon_search',
+        contentTag: '#weapon_list ul',
+      }),
+    ];
+
+
+    $('#walkthrough_search').keyup(function(){
+        $('#walkthrough_list').unhighlight();
+        $('#walkthrough_list').highlight($(this).val());
+    });
+
+    $('#boss_search').keyup(function(){
+        $('#boss_list').unhighlight();
+        $('#boss_list').highlight($(this).val());
+    });
+
+    $('#armor_search').keyup(function(){
+        $('#armor_list').unhighlight();
+        $('#armor_list').highlight($(this).val());
+    });
+
+    $('#weapon_search').keyup(function(){
+        $('#weapon_list').unhighlight();
+        $('#weapon_list').highlight($(this).val());
+    });
+
+})
