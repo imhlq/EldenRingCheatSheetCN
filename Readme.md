@@ -51,6 +51,7 @@
 ### 贡献
 
 如果您想提交任何有价值的贡献，请提交issue或pull request来帮助我们。
+可以加入Discord: https://discord.gg/wscgpgzeqm
 也可以加入讨论群 672924061
 
 
