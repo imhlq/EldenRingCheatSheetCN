@@ -3,8 +3,8 @@
 <h4 align=center>☄️ 剧情流程 | ☁️ 物品清单 | 🌙 BOSS清单 | 📱 特殊道具</h4>
 <br>
 
-突然被疫情困在家里，百无聊赖，只能搞法环多周目通关，然后发现很多地方自己需要笔记。
-本想留着个人用用，但一来感觉很多人可能用得着，二来工程量有点大，于是就做了个网站分享给大家，做点小贡献。
+
+突然被疫情困在家里，百无聊赖，玩法环时，发现很多地方自己需要笔记。本想留着个人用用，但一来感觉很多人可能用得着，二来工程量有点大，于是就做了个中文资料网站分享给大家，做点贡献。
 
 ---
 
@@ -20,15 +20,17 @@
 
 ## 更新日志
 
-完整更新日志请看 => **[Changelog](https://github.com/imhlq/EldenRingCheatSheetCN/blob/main/Readme.md)**
+完整更新日志请看 => **[Changelog](https://github.com/imhlq/EldenRingCheatSheetCN/blob/main/Changelog.md)**
 
 ---
 
 ## 贡献
 
 如果您想提交任何有价值的贡献，请提交issue或pull request来帮助我们。
+
 可以加入Discord: https://discord.gg/wscgpgzeqm
-也可以加入讨论群 672924061
+
+也可以加入讨论群 **672924061**
 
 ---
 
