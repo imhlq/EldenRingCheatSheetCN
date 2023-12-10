@@ -3,8 +3,11 @@
 <h4 align=center>☄️ 剧情流程 | ☁️ 物品清单 | 🌙 BOSS清单 | 📱 特殊道具</h4>
 <br>
 
+---
 
-突然被疫情困在家里，百无聊赖，玩法环时，发现很多地方自己需要笔记。本想留着个人用用，但一来感觉很多人可能用得着，二来工程量有点大，于是就做了个中文资料网站分享给大家，做点贡献。
+**Please stop hacking my Github!**
+
+![StopHack](assets/img/StopHack-min.png)
 
 ---
 
