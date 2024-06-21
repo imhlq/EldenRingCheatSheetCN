@@ -49,6 +49,10 @@ h3 {
 
 }
 
+.form-group {
+    margin: 15px;
+}
+
 input[type="checkbox"] {
     margin-left: -24px;
 }
@@ -135,14 +139,26 @@ li.cut_content span{
     color: rgb(121, 52, 52);
     opacity: 0.9;
 }
-li.cut_content span::after {
+
+html:lang(zh) li.cut_content span::after {
     font-weight: 600;
-    content: " (疑为无法获得)";
+    content: " (无法获得)";
 }
 
-li.legendary span::after {
+html:lang(en) li.cut_content span::after {
+    font-weight: 600;
+    content: " (Unobtainable)";
+}
+
+html:lang(zh) li.legendary span::after {
     color:#C60;
     content: " (传说)";
+    text-shadow: 1px 1px yellow;
+}
+
+html:lang(en) li.legendary span::after {
+    color:#C60;
+    content: " (Legendary)";
     text-shadow: 1px 1px yellow;
 }
 
@@ -157,7 +173,6 @@ input[type="checkbox"]:checked ~ .bi-eye, input[type="checkbox"]:checked ~ * > .
 input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
     display: none;
 }
-
 
 .hide-complete {
     position: fixed;
@@ -177,4 +192,16 @@ input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
 .highlight {
     font-weight: bold;
     background-color: #FFFF88;
+}
+
+.language-switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.dlc-title {
+    color: #4CAF50; /* Green color to signify 'Shadow of the Erdtree' */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 2px 0; /* Small padding for better visual separation */
 }
