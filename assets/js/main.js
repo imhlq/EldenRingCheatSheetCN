@@ -189,23 +189,38 @@ function switchTranslation(lang) {
 function addCheckbox(el) {
   var $el = $(el);
   var content = $el.html().split("\n")[0];
+  var dataId = $el.attr("data-id");
+  var tooltip_text = "Item ID: " + dataId.split("_")[1]
   content =
     '<div class="checkbox">' +
-    "<label>" +
-    '<input type="checkbox" id="' +
-    $el.attr("data-id") +
-    '">' +
-    '<span class="item_content">' +
-    content +
-    "</span>" +
+    "<label title='" + tooltip_text + "'>" +
+    '<input type="checkbox" id="' + dataId + '">' +
+    '<span class="item_content">' + content + "</span>" +
     "</label>" +
     "</div>";
   $el.html(content).append($el.children("ul"));
 
-  if (profiles.checklistData[$el.attr("data-id")] === true) {
-    $("#" + $el.attr("data-id")).prop("checked", true);
+  if (profiles.checklistData[dataId] === true) {
+    $("#" + dataId).prop("checked", true);
     $("label", $el).addClass("completed");
   }
+
+  // Add hover event to show tooltips
+  $("label", $el).hover(
+    function () {
+      var tooltip = $(this).attr("title");
+      $('<div class="tooltip">' + tooltip + '</div>')
+        .appendTo('body')
+        .fadeIn('slow');
+    }, function () {
+      $('.tooltip').remove();
+    }
+  ).mousemove(function (e) {
+    var mousex = e.pageX + 20; // Get X coordinates
+    var mousey = e.pageY + 10; // Get Y coordinates
+    $('.tooltip')
+      .css({ top: mousey, left: mousex });
+  });
 }
 
 function clear() {
