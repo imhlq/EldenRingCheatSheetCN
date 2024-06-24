@@ -190,7 +190,12 @@ function addCheckbox(el) {
   var $el = $(el);
   var content = $el.html().split("\n")[0];
   var dataId = $el.attr("data-id");
-  var tooltip_text = "Item ID: " + dataId.split("_")[1]
+  prefix = dataId.split("_")[0];
+  var tooltip_text = ""
+  if (prefix !== "is" && prefix !== "w" && prefix !== "b") {
+    tooltip_text = "Item ID: " + dataId.split("_")[1]
+  };
+
   content =
     '<div class="checkbox">' +
     "<label title='" + tooltip_text + "'>" +
