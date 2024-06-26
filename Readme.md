@@ -3,9 +3,10 @@
 <h4 align=center>☄️ 剧情流程 | ☁️ 物品清单 | 🌙 BOSS清单 | 📱 特殊道具</h4>
 <br>
 
----
+![Website Status](https://img.shields.io/uptimerobot/status/mEmJR7UlzLG)
 
-**Please stop hacking my Github!**
+
+---
 
 ![StopHack](assets/img/StopHack-min.png)
 
