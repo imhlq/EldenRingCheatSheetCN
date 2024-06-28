@@ -150,9 +150,15 @@ html:lang(en) li.cut_content span::after {
     content: " (Unobtainable)";
 }
 
-html:lang(zh) li.legendary span::after {
+html:lang(zh-Hans) li.legendary span::after {
     color:#C60;
     content: " (传说)";
+    text-shadow: 1px 1px yellow;
+}
+
+html:lang(zh-Hant) li.legendary span::after {
+    color:#C60;
+    content: " (傳說)";
     text-shadow: 1px 1px yellow;
 }
 
