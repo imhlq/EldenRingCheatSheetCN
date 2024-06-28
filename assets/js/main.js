@@ -72,7 +72,7 @@ jQuery(document).ready(function ($) {
   ];
 
   $(".lang-en").click(function () {
-    profiles.lang = "en";
+    profiles.lang = "engus";
     localStorage.setItem("profiles", JSON.stringify(profiles));
     changeLang(profiles.lang);
     jets.forEach(jet => {
@@ -80,7 +80,7 @@ jQuery(document).ready(function ($) {
     })
   });
   $(".lang-si").click(function () {
-    profiles.lang = "si";
+    profiles.lang = "zhocn";
     localStorage.setItem("profiles", JSON.stringify(profiles));
     changeLang(profiles.lang);
     jets.forEach(jet => {
@@ -88,7 +88,7 @@ jQuery(document).ready(function ($) {
     })
   });
   $(".lang-tr").click(function () {
-    profiles.lang = "tr";
+    profiles.lang = "zhotw";
     localStorage.setItem("profiles", JSON.stringify(profiles));
     changeLang(profiles.lang);
     jets.forEach(jet => {
@@ -161,13 +161,13 @@ function initializeProfile() {
 }
 
 function changeLang(lang) {
-  if (lang === "si") {
+  if (lang === "zhocn") {
     $(".lang-si").prop("checked", true);
     $("html").attr("lang", "zh-Hans");
-  } else if (lang === "en") {
+  } else if (lang === "engus") {
     $(".lang-en").prop("checked", true);
     $("html").attr("lang", "en");
-  } else if (lang === "tr") {
+  } else if (lang === "zhotw") {
     $(".lang-tr").prop("checked", true);
     $("html").attr("lang", "zh-Hant");
   }
@@ -183,6 +183,7 @@ function switchTranslation(lang) {
         itemContent.text(data[lang][checkboxId]);
       }
     });
+    
   });
 }
 
