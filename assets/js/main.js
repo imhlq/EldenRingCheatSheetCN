@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
   });
 
   $('.checkbox input[type="checkbox"]').click(function () {
-    var id = $(this).attr("id");
+    var id = $(this).attr("data-id");
     var isChecked = (profiles.checklistData[id] = $(this).prop("checked"));
     if (isChecked === true) {
       $('[data-id="' + id + '"] label').addClass("completed");
@@ -154,7 +154,7 @@ function initializeProfile() {
     $("#hide_complete").prop("checked", profiles.is_hide_complete);
   }
   if (!("lang" in profiles)) {
-    profiles.lang = "si";
+    profiles.lang = "zhocn";
   } else {
     changeLang(profiles.lang);
   }
@@ -177,7 +177,7 @@ function changeLang(lang) {
 function switchTranslation(lang) {
   $.getJSON("assets/lang_" + lang + ".json", function (data) {
     $('input[type="checkbox"').each(function () {
-      var checkboxId = $(this).attr("id");
+      var checkboxId = $(this).attr("data-id");
       var itemContent = $(this).siblings(".item_content");
       if (data[lang][checkboxId]) {
         itemContent.text(data[lang][checkboxId]);
@@ -200,7 +200,7 @@ function addCheckbox(el) {
   content =
     '<div class="checkbox">' +
     "<label title='" + tooltip_text + "'>" +
-    '<input type="checkbox" id="' + dataId + '">' +
+    '<input type="checkbox" data-id="' + dataId + '">' +
     '<span class="item_content">' + content + "</span>" +
     "</label>" +
     "</div>";
