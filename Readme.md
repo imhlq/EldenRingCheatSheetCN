@@ -3,11 +3,7 @@
 <h4 align=center>☄️ 剧情流程 | ☁️ 物品清单 | 🌙 BOSS清单 | 📱 特殊道具</h4>
 <br>
 
----
-
-![StopHack](assets/img/StopHack-min.png)
-
----
+![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m793298861-9eafa48c98194d8189192918) ![Version-Badge](https://img.shields.io/badge/Version-1.12.2-blue) ![DLC-Badge](https://img.shields.io/badge/DLC-%E9%BB%84%E9%87%91%E6%A0%91%E5%B9%BB%E5%BD%B1-green) 
 
 ## 主要功能
 - 重要物品清单，可以按条勾选，方便全物品收集者，或者高周目速通备忘用。
@@ -29,7 +25,7 @@
 
 如果您想提交任何有价值的贡献，请提交issue或pull request来帮助我们。
 
-可以加入Discord: https://discord.gg/wscgpgzeqm
+可以加入 [Discord](https://discord.gg/wscgpgzeqm)
 
 也可以加入讨论群 **672924061**
 
