@@ -207,7 +207,7 @@ function addCheckbox(el) {
   $el.html(content).append($el.children("ul"));
 
   if (profiles.checklistData[dataId] === true) {
-    $("#" + dataId).prop("checked", true);
+    $('[data-id="' + dataId + '"]').prop("checked", true);
     $("label", $el).addClass("completed");
   }
 
