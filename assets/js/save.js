@@ -92,8 +92,7 @@ export function fetchInventory(file_read, selected_slot) {
     const { inventory, dlcFile } = getInventory(slots[selected_slot]);
     let id_list = split(inventory, dlcFile ? 8 : 16);
     id_list = id_list.map(raw_id => getIdReversed(raw_id).toUpperCase());
-    console.log(id_list);
-    return { id_list, slots };
+    return id_list;
 }
 
 function subfinder(mylist, pattern) {
@@ -115,8 +114,8 @@ function getIdReversed(id) {
     let final_id = "";
     tmp = id.slice(0, 4).reverse();
     for (let i = 0; i < 4; i++) {
-        // final_id += decimalToHex(tmp[i], 2);
-        final_id += Number(tmp[i]).toString();
+        final_id += decimalToHex(tmp[i], 2);
+        // final_id += Number(tmp[i]).toString();
     }
     return final_id;
 }
@@ -129,17 +128,4 @@ function decimalToHex(d, padding) {
         hex = "0" + hex;
     }
     return hex;
-}
-
-export function findItemQuantities(slot) {
-    const result = new Array(quantifiableItems.length).fill(0);
-    for (let i = 0; i < slot.byteLength - 4; i++) {
-        for (let j = 0; j < quantifiableItems.length; j++) {
-            const item = quantifiableItems[j];
-            if (slot[i] === item.id[0] && slot[i + 1] === item.id[1] && slot[i + 2] === 0 && slot[i + 3] === 176) {
-                result[j] = slot[i + 4];
-            }
-        }
-    }
-    return result;
 }

@@ -1,0 +1,8912 @@
+{
+  "001ADB0": {
+    "id": "001ADB0",
+    "name": "梅琳娜",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001AE78": {
+    "id": "001AE78",
+    "name": "“解指”恩雅",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001AF40": {
+    "id": "001AF40",
+    "name": "双指",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001B008": {
+    "id": "001B008",
+    "name": "魔女菈妮",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001B012": {
+    "id": "001B012",
+    "name": "魔女蕾娜",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001B198": {
+    "id": "001B198",
+    "name": "“起源魔法师”卢瑟特",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001B1FC": {
+    "id": "001B1FC",
+    "name": "“起源魔法师”亚兹勒",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001B260": {
+    "id": "001B260",
+    "name": "金面具",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001D4C0": {
+    "id": "001D4C0",
+    "name": "“满月女王”蕾娜菈",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001D588": {
+    "id": "001D588",
+    "name": "“野兽祭司”古兰格",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001D9D4": {
+    "id": "001D9D4",
+    "name": "铁匠修古",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DB00": {
+    "id": "001DB00",
+    "name": "“半狼”布莱泽",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DB0A": {
+    "id": "001DB0A",
+    "name": "灾厄影子",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DB64": {
+    "id": "001DB64",
+    "name": "仆人毕迪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DBC8": {
+    "id": "001DBC8",
+    "name": "“银色泪滴”阿史米",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DBD2": {
+    "id": "001DBD2",
+    "name": "“永恒之王”阿史米",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DC2C": {
+    "id": "001DC2C",
+    "name": "艾尔帕斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DC90": {
+    "id": "001DC90",
+    "name": "“战士壶”亚历山大",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DDBC": {
+    "id": "001DDBC",
+    "name": "亚人柏克",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DDC6": {
+    "id": "001DDC6",
+    "name": "裁缝师柏克",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DE20": {
+    "id": "001DE20",
+    "name": "铁匠伊吉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DE21": {
+    "id": "001DE21",
+    "name": "军师伊吉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DEE8": {
+    "id": "001DEE8",
+    "name": "小壶",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001DFB0": {
+    "id": "001DFB0",
+    "name": "白金之子勒缇娜",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001E078": {
+    "id": "001E078",
+    "name": "塔妮丝的骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001E1A4": {
+    "id": "001E1A4",
+    "name": "“庞大妹妹”菲莉亚",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FBD0": {
+    "id": "001FBD0",
+    "name": "“火山官邸之主”塔妮丝",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FC34": {
+    "id": "001FC34",
+    "name": "“白面具”梵雷",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FC98": {
+    "id": "001FC98",
+    "name": "门卫葛托克",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FD60": {
+    "id": "001FD60",
+    "name": "“烧灼指痕”维克",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FD61": {
+    "id": "001FD61",
+    "name": "“圆桌骑士”维克",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FE8C": {
+    "id": "001FE8C",
+    "name": "魔法教授赛尔维斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FF54": {
+    "id": "001FF54",
+    "name": "帕奇",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FF55": {
+    "id": "001FF55",
+    "name": "帕奇",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FFB8": {
+    "id": "001FFB8",
+    "name": "摩恩的伊蕾娜",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FFC2": {
+    "id": "001FFC2",
+    "name": "“探寻灯火”海妲",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "001FFC3": {
+    "id": "001FFC3",
+    "name": "女巫海妲",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002001C": {
+    "id": "002001C",
+    "name": "城主艾德格",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002001D": {
+    "id": "002001D",
+    "name": "“复仇者”艾德格",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020080": {
+    "id": "0020080",
+    "name": "城主杰廉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020081": {
+    "id": "0020081",
+    "name": "“魔女猎人”杰廉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00200E4": {
+    "id": "00200E4",
+    "name": "“招募者”菈雅",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00200EE": {
+    "id": "00200EE",
+    "name": "“招募者”泽菈雅丝",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020148": {
+    "id": "0020148",
+    "name": "骑士狄亚罗斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020149": {
+    "id": "0020149",
+    "name": "维壶师狄亚罗斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020210": {
+    "id": "0020210",
+    "name": "魔法师瑟濂",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020211": {
+    "id": "0020211",
+    "name": "魔法师瑟濂",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00202D8": {
+    "id": "00202D8",
+    "name": "“血指猎人”尤拉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00202D9": {
+    "id": "00202D9",
+    "name": "夏玻利利",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00202DA": {
+    "id": "00202DA",
+    "name": "夏玻利利",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002033C": {
+    "id": "002033C",
+    "name": "“狩猎死亡”Ｄ",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002033D": {
+    "id": "002033D",
+    "name": "“狩猎死亡”Ｄ",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020346": {
+    "id": "0020346",
+    "name": "“觐见死亡”Ｄ",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020347": {
+    "id": "0020347",
+    "name": "“觐见死亡”Ｄ",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00203A0": {
+    "id": "00203A0",
+    "name": "颓丧的女性",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00203A1": {
+    "id": "00203A1",
+    "name": "罗德莉卡",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00203A2": {
+    "id": "00203A2",
+    "name": "调灵师罗德莉卡",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020404": {
+    "id": "0020404",
+    "name": "“领主的嫡长子”肯尼斯·海德",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020468": {
+    "id": "0020468",
+    "name": "“死眠少女”菲雅",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00204CC": {
+    "id": "00204CC",
+    "name": "食粪者",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00204CD": {
+    "id": "00204CD",
+    "name": "食粪者",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00204CE": {
+    "id": "00204CE",
+    "name": "食粪者",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020530": {
+    "id": "0020530",
+    "name": "“百智爵士”基甸·奥夫尼尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020594": {
+    "id": "0020594",
+    "name": "魔法师罗杰尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020595": {
+    "id": "0020595",
+    "name": "魔法师罗杰尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00205F8": {
+    "id": "00205F8",
+    "name": "骑士贝纳尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00205F9": {
+    "id": "00205F9",
+    "name": "“叛律者”贝纳尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00205FA": {
+    "id": "00205FA",
+    "name": "“叛律者”贝纳尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002065C": {
+    "id": "002065C",
+    "name": "“纯紫血指”艾琉诺拉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020724": {
+    "id": "0020724",
+    "name": "“无畏”莱恩尼尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020788": {
+    "id": "0020788",
+    "name": "“结缘牧师”米利耶",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00207EC": {
+    "id": "00207EC",
+    "name": "流氓",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00207ED": {
+    "id": "00207ED",
+    "name": "流氓",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00208B4": {
+    "id": "00208B4",
+    "name": "魔法师托普斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020918": {
+    "id": "0020918",
+    "name": "战士涅斐丽·露",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020919": {
+    "id": "0020919",
+    "name": "战士涅斐丽·露",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002091A": {
+    "id": "002091A",
+    "name": "战士涅斐丽·露",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002097C": {
+    "id": "002097C",
+    "name": "“酒味”里可",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00209E0": {
+    "id": "00209E0",
+    "name": "维克的指头女巫",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020AA8": {
+    "id": "0020AA8",
+    "name": "指头女巫",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020B0C": {
+    "id": "0020B0C",
+    "name": "“王骸”恩夏",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020B70": {
+    "id": "0020B70",
+    "name": "“血指”鸦山的杀手",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020C9C": {
+    "id": "0020C9C",
+    "name": "“血指”涅利乌斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020CA6": {
+    "id": "0020CA6",
+    "name": "鲜血贵族",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020D00": {
+    "id": "0020D00",
+    "name": "“大角”忒拉格斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020D01": {
+    "id": "0020D01",
+    "name": "“大角”忒拉格斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020D64": {
+    "id": "0020D64",
+    "name": "“古老骑士”伊修托邦",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020D65": {
+    "id": "0020D65",
+    "name": "“古老骑士”伊修托邦",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020DC8": {
+    "id": "0020DC8",
+    "name": "“黄昏将尽”莱利",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020E2C": {
+    "id": "0020E2C",
+    "name": "“血言骑士”尤诺·霍斯劳",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020E90": {
+    "id": "0020E90",
+    "name": "米莉森",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020EF4": {
+    "id": "0020EF4",
+    "name": "贤者格威",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020FBC": {
+    "id": "0020FBC",
+    "name": "圣职人员柯林",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0020FBD": {
+    "id": "0020FBD",
+    "name": "记录者柯林",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021020": {
+    "id": "0021020",
+    "name": "魔法教授米丽安",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021084": {
+    "id": "0021084",
+    "name": "“吞噬褪色者”安娜塔西亚",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002114C": {
+    "id": "002114C",
+    "name": "老翁",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002114D": {
+    "id": "002114D",
+    "name": "“血指”老翁",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00211B0": {
+    "id": "00211B0",
+    "name": "“盗火”亚当",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00212DC": {
+    "id": "00212DC",
+    "name": "“卡利亚骑士”穆格拉姆",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021340": {
+    "id": "0021340",
+    "name": "“白狼战鬼”巴格莱姆",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00213A4": {
+    "id": "00213A4",
+    "name": "菲雅的英雄",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002146C": {
+    "id": "002146C",
+    "name": "指头女巫瑟萝莉娜",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00214D0": {
+    "id": "00214D0",
+    "name": "“深眠之箭”朵罗雷丝",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021534": {
+    "id": "0021534",
+    "name": "壶男",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00215FC": {
+    "id": "00215FC",
+    "name": "“老翁的高徒”稻叶众",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021660": {
+    "id": "0021660",
+    "name": "银色泪滴",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00216C4": {
+    "id": "00216C4",
+    "name": "“叛律者”亨利克斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021728": {
+    "id": "0021728",
+    "name": "菲雅的英雄",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002178C": {
+    "id": "002178C",
+    "name": "菲雅的英雄",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00217F0": {
+    "id": "00217F0",
+    "name": "“日荫城主”玛雷玛雷",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021854": {
+    "id": "0021854",
+    "name": "大壶骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00218B8": {
+    "id": "00218B8",
+    "name": "大壶骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002191C": {
+    "id": "002191C",
+    "name": "大壶骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021980": {
+    "id": "0021980",
+    "name": "死术师哥瑞斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00219E4": {
+    "id": "00219E4",
+    "name": "无名白面具",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021B10": {
+    "id": "0021B10",
+    "name": "“离群魔法师”维赫勒",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021BD8": {
+    "id": "0021BD8",
+    "name": "“监视者之首”亚冈提",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021C3C": {
+    "id": "0021C3C",
+    "name": "火焰监视者",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021CA0": {
+    "id": "0021CA0",
+    "name": "拷问官基萨",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021D04": {
+    "id": "0021D04",
+    "name": "“发狂之舌”阿尔佩利希",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021D68": {
+    "id": "0021D68",
+    "name": "“鲜血祭司”艾斯加",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021DCC": {
+    "id": "0021DCC",
+    "name": "大姊玛莉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021E30": {
+    "id": "0021E30",
+    "name": "二姊茉莉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021E94": {
+    "id": "0021E94",
+    "name": "三姊艾蜜",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021EF8": {
+    "id": "0021EF8",
+    "name": "么妹波莉安娜",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021EF9": {
+    "id": "0021EF9",
+    "name": "养女波莉安娜",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0021F5C": {
+    "id": "0021F5C",
+    "name": "“兽爪”玛格纳斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0027100": {
+    "id": "0027100",
+    "name": "孪生老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0027164": {
+    "id": "0027164",
+    "name": "龙飨教堂",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00271C8": {
+    "id": "00271C8",
+    "name": "锻造台",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002722C": {
+    "id": "002722C",
+    "name": "漫步灵庙的尸体",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0027290": {
+    "id": "0027290",
+    "name": "赎罪水池",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00272F4": {
+    "id": "00272F4",
+    "name": "龙飨大教堂",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00273BC": {
+    "id": "00273BC",
+    "name": "濒毁玛莉卡",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0027420": {
+    "id": "0027420",
+    "name": "雾镜化妆台",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0027484": {
+    "id": "0027484",
+    "name": "贝纳尔的剑",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002AB98": {
+    "id": "002AB98",
+    "name": "解指老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002AB99": {
+    "id": "002AB99",
+    "name": "解指老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002AB9A": {
+    "id": "002AB9A",
+    "name": "解指老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002AB9B": {
+    "id": "002AB9B",
+    "name": "解指老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002AB9C": {
+    "id": "002AB9C",
+    "name": "解指老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002AB9D": {
+    "id": "002AB9D",
+    "name": "解指老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002AB9E": {
+    "id": "002AB9E",
+    "name": "解指老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002AB9F": {
+    "id": "002AB9F",
+    "name": "看守禁域的老妪",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002ABA0": {
+    "id": "002ABA0",
+    "name": "葛德文的乳母",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF20": {
+    "id": "002BF20",
+    "name": "“流浪商人”咖列",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF85": {
+    "id": "002BF85",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF86": {
+    "id": "002BF86",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF87": {
+    "id": "002BF87",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF88": {
+    "id": "002BF88",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF89": {
+    "id": "002BF89",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF8A": {
+    "id": "002BF8A",
+    "name": "隐居商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF8B": {
+    "id": "002BF8B",
+    "name": "隐居商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF8C": {
+    "id": "002BF8C",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF8D": {
+    "id": "002BF8D",
+    "name": "遁世商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF8E": {
+    "id": "002BF8E",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF8F": {
+    "id": "002BF8F",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF90": {
+    "id": "002BF90",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF91": {
+    "id": "002BF91",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF92": {
+    "id": "002BF92",
+    "name": "流浪民族的商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF93": {
+    "id": "002BF93",
+    "name": "隐居商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF94": {
+    "id": "002BF94",
+    "name": "遁世商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF95": {
+    "id": "002BF95",
+    "name": "见弃商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF96": {
+    "id": "002BF96",
+    "name": "遁世商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "002BF97": {
+    "id": "002BF97",
+    "name": "受囚商人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "09A2D49": {
+    "id": "09A2D49",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "09BB513": {
+    "id": "09BB513",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "09D3C15": {
+    "id": "09D3C15",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "09EC067": {
+    "id": "09EC067",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0A04576": {
+    "id": "0A04576",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0A37168": {
+    "id": "0A37168",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0A4D95E": {
+    "id": "0A4D95E",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0A660C8": {
+    "id": "0A660C8",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0A7E706": {
+    "id": "0A7E706",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0A96ED2": {
+    "id": "0A96ED2",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0AAF881": {
+    "id": "0AAF881",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0AC804F": {
+    "id": "0AC804F",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0AE0750": {
+    "id": "0AE0750",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0AF8E5B": {
+    "id": "0AF8E5B",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0B11506": {
+    "id": "0B11506",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "0B29AE1": {
+    "id": "0B29AE1",
+    "name": "未曾谋面的人物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35A4EB08": {
+    "id": "35A4EB08",
+    "name": "“盗火”亚当",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35A4EB09": {
+    "id": "35A4EB09",
+    "name": "“龙枪”维克",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35A4EB59": {
+    "id": "35A4EB59",
+    "name": "老翁",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C3E2B0": {
+    "id": "35C3E2B0",
+    "name": "“满月女王”蕾娜菈",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C3E2B1": {
+    "id": "35C3E2B1",
+    "name": "“满月女王”蕾娜菈",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C4F54C": {
+    "id": "35C4F54C",
+    "name": "黑刀刺客",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C4F54D": {
+    "id": "35C4F54D",
+    "name": "黑刀刺客",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C4F54E": {
+    "id": "35C4F54E",
+    "name": "黑刀刺客",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C4F556": {
+    "id": "35C4F556",
+    "name": "黑刀刺客",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C4F629": {
+    "id": "35C4F629",
+    "name": "“黑刀之首”亚勒托",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C4F678": {
+    "id": "35C4F678",
+    "name": "黑刀刺客",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C51B30": {
+    "id": "35C51B30",
+    "name": "野兽祭司",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C51B31": {
+    "id": "35C51B31",
+    "name": "“黑剑”玛利喀斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C54240": {
+    "id": "35C54240",
+    "name": "“米凯拉的锋刃”玛莲妮亚",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C54241": {
+    "id": "35C54241",
+    "name": "“腐败女神”玛莲妮亚",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C56950": {
+    "id": "35C56950",
+    "name": "“恶兆妖鬼”玛尔基特",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C56952": {
+    "id": "35C56952",
+    "name": "“恶兆王”蒙葛特",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C56953": {
+    "id": "35C56953",
+    "name": "“恶兆王”蒙葛特",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C59060": {
+    "id": "35C59060",
+    "name": "恶兆孪生子",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C59061": {
+    "id": "35C59061",
+    "name": "恶兆孪生子",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C653B0": {
+    "id": "35C653B0",
+    "name": "“黄金律法”拉达冈",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35C67AC0": {
+    "id": "35C67AC0",
+    "name": "艾尔登之兽",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35CB0FCC": {
+    "id": "35CB0FCC",
+    "name": "“熔炉骑士”奥陶琵斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35CB0FCD": {
+    "id": "35CB0FCD",
+    "name": "熔炉骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35CB1094": {
+    "id": "35CB1094",
+    "name": "熔炉骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35CB10A8": {
+    "id": "35CB10A8",
+    "name": "熔炉骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35CB10F8": {
+    "id": "35CB10F8",
+    "name": "“熔炉骑士”志留亚",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D37504": {
+    "id": "35D37504",
+    "name": "老将尼奥",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D37568": {
+    "id": "35D37568",
+    "name": "老将欧尼尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D43854": {
+    "id": "35D43854",
+    "name": "“铁棘”艾隆梅尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D438B8": {
+    "id": "35D438B8",
+    "name": "铃珠猎人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D438B9": {
+    "id": "35D438B9",
+    "name": "铃珠猎人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D438BA": {
+    "id": "35D438BA",
+    "name": "铃珠猎人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D438BB": {
+    "id": "35D438BB",
+    "name": "铃珠猎人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC08": {
+    "id": "35D4FC08",
+    "name": "黑夜骑兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC09": {
+    "id": "35D4FC09",
+    "name": "黑夜骑兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC0A": {
+    "id": "35D4FC0A",
+    "name": "黑夜骑兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC0B": {
+    "id": "35D4FC0B",
+    "name": "黑夜骑兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC0C": {
+    "id": "35D4FC0C",
+    "name": "黑夜骑兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC0D": {
+    "id": "35D4FC0D",
+    "name": "黑夜骑兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC0E": {
+    "id": "35D4FC0E",
+    "name": "黑夜骑兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC0F": {
+    "id": "35D4FC0F",
+    "name": "黑夜骑兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC10": {
+    "id": "35D4FC10",
+    "name": "黑夜骑兵（剑刃戟）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D4FC11": {
+    "id": "35D4FC11",
+    "name": "黑夜骑兵（连枷）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D572C8": {
+    "id": "35D572C8",
+    "name": "拉达冈的红狼",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D573F4": {
+    "id": "35D573F4",
+    "name": "英雄的红狼",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D682A8": {
+    "id": "35D682A8",
+    "name": "龙装大树守卫",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D68690": {
+    "id": "35D68690",
+    "name": "大树守卫",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D68691": {
+    "id": "35D68691",
+    "name": "大树守卫",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D68692": {
+    "id": "35D68692",
+    "name": "大树守卫",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D68820": {
+    "id": "35D68820",
+    "name": "“圣树骑士”罗蕾塔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D68DFC": {
+    "id": "35D68DFC",
+    "name": "禁卫骑士罗蕾塔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D745D0": {
+    "id": "35D745D0",
+    "name": "诺克斯修士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D745D1": {
+    "id": "35D745D1",
+    "name": "诺克斯剑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D791C0": {
+    "id": "35D791C0",
+    "name": "仿身泪滴",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D792EC": {
+    "id": "35D792EC",
+    "name": "离群仿身泪滴",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D80826": {
+    "id": "35D80826",
+    "name": "结晶人（手杖）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D80827": {
+    "id": "35D80827",
+    "name": "结晶人（矛）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D80828": {
+    "id": "35D80828",
+    "name": "腐败结晶人（圆刃刀）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D80829": {
+    "id": "35D80829",
+    "name": "腐败结晶人（矛）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D8082A": {
+    "id": "35D8082A",
+    "name": "腐败结晶人（手杖）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D80830": {
+    "id": "35D80830",
+    "name": "结晶人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D80831": {
+    "id": "35D80831",
+    "name": "结晶人（圆刃刀）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D80832": {
+    "id": "35D80832",
+    "name": "结晶人（矛）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D8CB6C": {
+    "id": "35D8CB6C",
+    "name": "守墓斗士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D8CB6D": {
+    "id": "35D8CB6D",
+    "name": "守墓斗士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D8CB6E": {
+    "id": "35D8CB6E",
+    "name": "腐败守墓斗士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D8CB76": {
+    "id": "35D8CB76",
+    "name": "发狂斗士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D992B8": {
+    "id": "35D992B8",
+    "name": "片鳞混种",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D9B5CC": {
+    "id": "35D9B5CC",
+    "name": "混种战士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D9B5D6": {
+    "id": "35D9B5D6",
+    "name": "混种圣骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D9B694": {
+    "id": "35D9B694",
+    "name": "狮子混种",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35D9B695": {
+    "id": "35D9B695",
+    "name": "混种战士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DB164C": {
+    "id": "35DB164C",
+    "name": "鲜血贵族",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DB3B40": {
+    "id": "35DB3B40",
+    "name": "神皮使徒",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DB3C76": {
+    "id": "35DB3C76",
+    "name": "神皮使徒",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DB3D98": {
+    "id": "35DB3D98",
+    "name": "神皮使徒",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DB6250": {
+    "id": "35DB6250",
+    "name": "神皮贵族",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DB6386": {
+    "id": "35DB6386",
+    "name": "神皮贵族",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DB75D8": {
+    "id": "35DB75D8",
+    "name": "神皮双人组",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DBD8C0": {
+    "id": "35DBD8C0",
+    "name": "石肤黑王",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DBD988": {
+    "id": "35DBD988",
+    "name": "石肤黑王",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DCD2AC": {
+    "id": "35DCD2AC",
+    "name": "墓地影子",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DCD2AD": {
+    "id": "35DCD2AD",
+    "name": "墓地影子",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DCD2AE": {
+    "id": "35DCD2AE",
+    "name": "墓地影子",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DD5F4C": {
+    "id": "35DD5F4C",
+    "name": "调香师托莉夏",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DD6FC8": {
+    "id": "35DD6FC8",
+    "name": "战场魔法师犹格",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DEE5F6": {
+    "id": "35DEE5F6",
+    "name": "玛莲妮亚的尊腐骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DEE5F7": {
+    "id": "35DEE5F7",
+    "name": "玛莲妮亚的尊腐骑士（矛）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DEE5F8": {
+    "id": "35DEE5F8",
+    "name": "玛莲妮亚的尊腐骑士（镰刀）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DF0D06": {
+    "id": "35DF0D06",
+    "name": "腐败眷属",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35DF0D07": {
+    "id": "35DF0D07",
+    "name": "腐败眷属",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E17E06": {
+    "id": "35E17E06",
+    "name": "法姆·亚兹拉的兽人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E17E07": {
+    "id": "35E17E07",
+    "name": "法姆·亚兹拉的兽人（大刀）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E17E08": {
+    "id": "35E17E08",
+    "name": "法姆·亚兹拉的兽人（投掷刀）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E2423C": {
+    "id": "35E2423C",
+    "name": "王室幽魂",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E3C7F6": {
+    "id": "35E3C7F6",
+    "name": "亚人首领",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E3C7F7": {
+    "id": "35E3C7F7",
+    "name": "亚人首领",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E3EF06": {
+    "id": "35E3EF06",
+    "name": "“亚人女王”玛格",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E3EFEC": {
+    "id": "35E3EFEC",
+    "name": "“亚人女王”姬丽卡",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E3F028": {
+    "id": "35E3F028",
+    "name": "“亚人女王”玛姬",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E4160C": {
+    "id": "35E4160C",
+    "name": "唤灵蜗牛",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E41616": {
+    "id": "35E41616",
+    "name": "唤灵蜗牛",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E5EACC": {
+    "id": "35E5EACC",
+    "name": "归树看门犬",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E5EACD": {
+    "id": "35E5EACD",
+    "name": "归树看门犬",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E5EACE": {
+    "id": "35E5EACE",
+    "name": "归树看门犬",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E5EACF": {
+    "id": "35E5EACF",
+    "name": "归树看门犬",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E5EAD0": {
+    "id": "35E5EAD0",
+    "name": "归树看门犬（剑）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E5EAD1": {
+    "id": "35E5EAD1",
+    "name": "归树看门犬（杖）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E66006": {
+    "id": "35E66006",
+    "name": "猎犬骑士",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E660D8": {
+    "id": "35E660D8",
+    "name": "“猎犬骑士”达瑞威尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E6B0D8": {
+    "id": "35E6B0D8",
+    "name": "葛瑞克的士兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E7243C": {
+    "id": "35E7243C",
+    "name": "发狂南瓜头士兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E7243D": {
+    "id": "35E7243D",
+    "name": "发狂南瓜头士兵（槌）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E7243E": {
+    "id": "35E7243E",
+    "name": "发狂南瓜头士兵（连枷）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E91DF0": {
+    "id": "35E91DF0",
+    "name": "掳人少女人偶（摆荡镰刀）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E91DF1": {
+    "id": "35E91DF1",
+    "name": "掳人少女人偶（刺轮）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E94636": {
+    "id": "35E94636",
+    "name": "“病花”米兰达",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E94637": {
+    "id": "35E94637",
+    "name": "米兰达之花",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E99578": {
+    "id": "35E99578",
+    "name": "“飞龙”亚基尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E99579": {
+    "id": "35E99579",
+    "name": "“飞龙”桂雷尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E99960": {
+    "id": "35E99960",
+    "name": "“步入腐败”艾格基斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E99D48": {
+    "id": "35E99D48",
+    "name": "“辉石龙”史玛拉格",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E99D49": {
+    "id": "35E99D49",
+    "name": "“辉石龙”亚杜拉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E99D4A": {
+    "id": "35E99D4A",
+    "name": "“辉石龙”亚杜拉",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E9A130": {
+    "id": "35E9A130",
+    "name": "“冻结冰雾”玻列琉斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E9BA30": {
+    "id": "35E9BA30",
+    "name": "“死龙”弗尔桑克斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E9BC88": {
+    "id": "35E9BC88",
+    "name": "“古龙”兰斯桑克斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35E9E140": {
+    "id": "35E9E140",
+    "name": "“龙王”普拉顿桑克斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EACDF8": {
+    "id": "35EACDF8",
+    "name": "蚯蚓脸",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EACDF9": {
+    "id": "35EACDF9",
+    "name": "蚯蚓脸",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EB1B00": {
+    "id": "35EB1B00",
+    "name": "挖石山妖",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EB1B01": {
+    "id": "35EB1B01",
+    "name": "挖石山妖",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EB1BC8": {
+    "id": "35EB1BC8",
+    "name": "“卡利亚骑士”波尔斯",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EB67E1": {
+    "id": "35EB67E1",
+    "name": "“黑暗弃子”艾丝缇",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EB6920": {
+    "id": "35EB6920",
+    "name": "“黑暗繁星”艾丝缇",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EB9026": {
+    "id": "35EB9026",
+    "name": "卢恩熊",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EBB600": {
+    "id": "35EBB600",
+    "name": "腐烂树灵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EBB72C": {
+    "id": "35EBB72C",
+    "name": "腐败树灵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EBB72D": {
+    "id": "35EBB72D",
+    "name": "腐烂树灵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EBB858": {
+    "id": "35EBB858",
+    "name": "腐烂树灵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EBDD10": {
+    "id": "35EBDD10",
+    "name": "诺克史黛拉的龙人士兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EBDF68": {
+    "id": "35EBDF68",
+    "name": "龙人士兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EBDF69": {
+    "id": "35EBDF69",
+    "name": "龙人士兵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EC0556": {
+    "id": "35EC0556",
+    "name": "魔像守卫",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EC2B30": {
+    "id": "35EC2B30",
+    "name": "祖灵",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EC2B31": {
+    "id": "35EC2B31",
+    "name": "祖灵之王",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EC5380": {
+    "id": "35EC5380",
+    "name": "坠星兽物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EC5499": {
+    "id": "35EC5499",
+    "name": "坠星兽物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EC549A": {
+    "id": "35EC549A",
+    "name": "坠星兽物",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EC549B": {
+    "id": "35EC549B",
+    "name": "坠星成兽",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EC7950": {
+    "id": "35EC7950",
+    "name": "“接肢”贵族后裔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ECC770": {
+    "id": "35ECC770",
+    "name": "噬神大蛇",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ECC771": {
+    "id": "35ECC771",
+    "name": "“亵渎君王”拉卡德",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ECEE80": {
+    "id": "35ECEE80",
+    "name": "“初始之王”葛孚雷",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ECEE81": {
+    "id": "35ECEE81",
+    "name": "战士荷莱·露",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ECEE82": {
+    "id": "35ECEE82",
+    "name": "“初始之王”葛孚雷",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ED1590": {
+    "id": "35ED1590",
+    "name": "“碎星”拉塔恩",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ED63B0": {
+    "id": "35ED63B0",
+    "name": "“接肢”葛瑞克",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ED65B8": {
+    "id": "35ED65B8",
+    "name": "“接肢”葛孚亚",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35ED8AC0": {
+    "id": "35ED8AC0",
+    "name": "火焰巨人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EDB1D0": {
+    "id": "35EDB1D0",
+    "name": "英雄石像鬼",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EDB1D1": {
+    "id": "35EDB1D1",
+    "name": "英雄石像鬼（双头剑）",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EDB428": {
+    "id": "35EDB428",
+    "name": "黑剑眷属",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EDB429": {
+    "id": "35EDB429",
+    "name": "黑剑眷属",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE2700": {
+    "id": "35EE2700",
+    "name": "“鲜血君王”蒙格",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE2702": {
+    "id": "35EE2702",
+    "name": "“恶兆之子”蒙格",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE5068": {
+    "id": "35EE5068",
+    "name": "黄金树的化身",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE5069": {
+    "id": "35EE5069",
+    "name": "黄金树的化身",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE506A": {
+    "id": "35EE506A",
+    "name": "黄金树的化身",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE5450": {
+    "id": "35EE5450",
+    "name": "腐败化身",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE5451": {
+    "id": "35EE5451",
+    "name": "腐败化身",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE5452": {
+    "id": "35EE5452",
+    "name": "腐败化身",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE7656": {
+    "id": "35EE7656",
+    "name": "恶兆猎人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EE7778": {
+    "id": "35EE7778",
+    "name": "恶兆猎人",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EFD4B0": {
+    "id": "35EFD4B0",
+    "name": "“熔岩土龙”马卡尔",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EFD5F0": {
+    "id": "35EFD5F0",
+    "name": "熔岩土龙",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EFD708": {
+    "id": "35EFD708",
+    "name": "熔岩土龙",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35EFDAF0": {
+    "id": "35EFDAF0",
+    "name": "“大土龙”席欧朵利克",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F07348": {
+    "id": "35F07348",
+    "name": "提比亚的唤声船",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F07349": {
+    "id": "35F07349",
+    "name": "提比亚的唤声船",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0734A": {
+    "id": "35F0734A",
+    "name": "提比亚的唤声船",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0734B": {
+    "id": "35F0734B",
+    "name": "提比亚的唤声船",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0E878": {
+    "id": "35F0E878",
+    "name": "死亡仪式鸟",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0E879": {
+    "id": "35F0E879",
+    "name": "死之鸟",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0E87A": {
+    "id": "35F0E87A",
+    "name": "死之鸟",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0E87B": {
+    "id": "35F0E87B",
+    "name": "死之鸟",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0E87C": {
+    "id": "35F0E87C",
+    "name": "死亡仪式鸟",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0E87D": {
+    "id": "35F0E87D",
+    "name": "死之鸟",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0E87E": {
+    "id": "35F0E87E",
+    "name": "死亡仪式鸟",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "35F0E87F": {
+    "id": "35F0E87F",
+    "name": "死亡仪式鸟",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "3611408C": {
+    "id": "3611408C",
+    "name": "萨米尔的古英雄",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "3611408D": {
+    "id": "3611408D",
+    "name": "萨米尔的古英雄",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "36114168": {
+    "id": "36114168",
+    "name": "萨米尔的古英雄",
+    "type": "npc",
+    "is_dlc": false
+  },
+  "00223A8": {
+    "id": "00223A8",
+    "name": "角人老妪",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "002240C": {
+    "id": "002240C",
+    "name": "埃贡",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "002240D": {
+    "id": "002240D",
+    "name": "“龙战士”埃贡",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00224D4": {
+    "id": "00224D4",
+    "name": "圣女托莉娜",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022538": {
+    "id": "0022538",
+    "name": "龙飨女巫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022539": {
+    "id": "0022539",
+    "name": "“古龙”芙柔桑克斯",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "002259C": {
+    "id": "002259C",
+    "name": "古龙人",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022664": {
+    "id": "0022664",
+    "name": "“黑夜剑士”约兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022665": {
+    "id": "0022665",
+    "name": "“黑夜剑士”约兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022666": {
+    "id": "0022666",
+    "name": "“黑夜剑士”约兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022667": {
+    "id": "0022667",
+    "name": "“黑夜剑士”约兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022668": {
+    "id": "0022668",
+    "name": "“黑夜剑士”安娜",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022669": {
+    "id": "0022669",
+    "name": "“黑夜剑士”约兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "002266A": {
+    "id": "002266A",
+    "name": "约兰与安娜",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00227F4": {
+    "id": "00227F4",
+    "name": "“火焰骑士”昆兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00227F5": {
+    "id": "00227F5",
+    "name": "“火焰骑士”昆兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00227F6": {
+    "id": "00227F6",
+    "name": "“火焰骑士”昆兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022858": {
+    "id": "0022858",
+    "name": "角人",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022859": {
+    "id": "0022859",
+    "name": "角人",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "002285A": {
+    "id": "002285A",
+    "name": "角人",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "002285B": {
+    "id": "002285B",
+    "name": "角人",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00228BC": {
+    "id": "00228BC",
+    "name": "穆尔",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00228BD": {
+    "id": "00228BD",
+    "name": "穆尔",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00228BE": {
+    "id": "00228BE",
+    "name": "穆尔",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00228BF": {
+    "id": "00228BF",
+    "name": "集物虫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00228C0": {
+    "id": "00228C0",
+    "name": "集物虫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022920": {
+    "id": "0022920",
+    "name": "老兵安帕赫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022921": {
+    "id": "0022921",
+    "name": "老兵安帕赫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022922": {
+    "id": "0022922",
+    "name": "老兵安帕赫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022923": {
+    "id": "0022923",
+    "name": "“纯血骑士”安帕赫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022984": {
+    "id": "0022984",
+    "name": "“红狮子”弗蕾亚",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022985": {
+    "id": "0022985",
+    "name": "“红狮子”弗蕾亚",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022986": {
+    "id": "0022986",
+    "name": "“红狮子”弗蕾亚",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00229E8": {
+    "id": "00229E8",
+    "name": "“金针骑士”蕾妲",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00229E9": {
+    "id": "00229E9",
+    "name": "“金针骑士”蕾妲",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00229EA": {
+    "id": "00229EA",
+    "name": "“金针骑士”蕾妲",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "00229EB": {
+    "id": "00229EB",
+    "name": "“金针骑士”蕾妲",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022A4C": {
+    "id": "0022A4C",
+    "name": "休里耶",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022A4D": {
+    "id": "0022A4D",
+    "name": "休里耶",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022A4E": {
+    "id": "0022A4E",
+    "name": "休里耶",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022A4F": {
+    "id": "0022A4F",
+    "name": "休里耶",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022AB0": {
+    "id": "0022AB0",
+    "name": "“大祭司”尤弥尔",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022AB1": {
+    "id": "0022AB1",
+    "name": "“指头之母”尤弥尔",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022B14": {
+    "id": "0022B14",
+    "name": "红熊",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022B78": {
+    "id": "0022B78",
+    "name": "拉纳舞娘",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022BDC": {
+    "id": "0022BDC",
+    "name": "罗刹",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022C40": {
+    "id": "0022C40",
+    "name": "孤牢骑士",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022CA4": {
+    "id": "0022CA4",
+    "name": "“落叶”丹恩",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022CA5": {
+    "id": "0022CA5",
+    "name": "“落叶”丹恩",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022CA6": {
+    "id": "0022CA6",
+    "name": "“落叶”丹恩",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022D08": {
+    "id": "0022D08",
+    "name": "“鲜血贵族”奈坦",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022D6C": {
+    "id": "0022D6C",
+    "name": "喟叹者",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022DD0": {
+    "id": "0022DD0",
+    "name": "大维壶师",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022E34": {
+    "id": "0022E34",
+    "name": "癫狂之手",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022EFC": {
+    "id": "0022EFC",
+    "name": "“兽爪”罗格",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0022F60": {
+    "id": "0022F60",
+    "name": "“卡利亚骑士”穆利缇尔",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "0027CB8": {
+    "id": "0027CB8",
+    "name": "龙飨大祭坛",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35A4EA9A": {
+    "id": "35A4EA9A",
+    "name": "喟叹者",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35A4EAAE": {
+    "id": "35A4EAAE",
+    "name": "古龙人",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35A4EB30": {
+    "id": "35A4EB30",
+    "name": "红熊",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35A4EB31": {
+    "id": "35A4EB31",
+    "name": "拉纳舞娘",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35A4EB32": {
+    "id": "35A4EB32",
+    "name": "罗刹",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35A4EB33": {
+    "id": "35A4EB33",
+    "name": "孤牢骑士",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35A4EB5D": {
+    "id": "35A4EB5D",
+    "name": "“黑夜剑士”约兰",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35A4EB5E": {
+    "id": "35A4EB5E",
+    "name": "“指头之母”尤弥尔",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F13440": {
+    "id": "35F13440",
+    "name": "老将盖乌斯",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F15B50": {
+    "id": "35F15B50",
+    "name": "黄金河马",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F18260": {
+    "id": "35F18260",
+    "name": "融泥骑士",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F1A970": {
+    "id": "35F1A970",
+    "name": "“花蕾圣女”萝蜜娜",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F1D210": {
+    "id": "35F1D210",
+    "name": "咒剑士拉比利士",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F1FB78": {
+    "id": "35F1FB78",
+    "name": "“癫火之王”米德拉",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F24740": {
+    "id": "35F24740",
+    "name": "死骑士",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F24741": {
+    "id": "35F24741",
+    "name": "死骑士",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F27256": {
+    "id": "35F27256",
+    "name": "血怪之首",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F30900": {
+    "id": "35F30900",
+    "name": "“狂龙”贝勒",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F33010": {
+    "id": "35F33010",
+    "name": "“穿刺者”梅瑟莫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F33011": {
+    "id": "35F33011",
+    "name": "“恶之蛇”梅瑟莫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F44180": {
+    "id": "35F44180",
+    "name": "“指头之母”梅蒂尔",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F46890": {
+    "id": "35F46890",
+    "name": "神兽舞狮",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F46AE8": {
+    "id": "35F46AE8",
+    "name": "神兽舞狮",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F48FA0": {
+    "id": "35F48FA0",
+    "name": "“约定之王”拉塔恩",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F48FA1": {
+    "id": "35F48FA1",
+    "name": "“米凯拉的王”拉塔恩",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F4B6B0": {
+    "id": "35F4B6B0",
+    "name": "幽影树的化身",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F4B6B1": {
+    "id": "35F4B6B1",
+    "name": "幽影树的化身",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F4B6B2": {
+    "id": "35F4B6B2",
+    "name": "幽影树的化身",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F5C820": {
+    "id": "35F5C820",
+    "name": "“双月骑士”蕾菈娜",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F61640": {
+    "id": "35F61640",
+    "name": "“拷问老者”约里",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35F6DBE8": {
+    "id": "35F6DBE8",
+    "name": "“古龙”瑟涅桑克斯",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FA1038": {
+    "id": "35FA1038",
+    "name": "尖刺山的飞龙",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FA1039": {
+    "id": "35FA1039",
+    "name": "尖刺山的飞龙",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FC5A28": {
+    "id": "35FC5A28",
+    "name": "“亚人女王”玛丽戈",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FD91EA": {
+    "id": "35FD91EA",
+    "name": "“亚人剑圣”翁吉",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FDB9B8": {
+    "id": "35FDB9B8",
+    "name": "大红熊鲁格利亚",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FDB9B9": {
+    "id": "35FDB9B9",
+    "name": "大红熊拉鲁瓦",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FE0774": {
+    "id": "35FE0774",
+    "name": "“黑骑士”艾瑞德",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FE0775": {
+    "id": "35FE0775",
+    "name": "“黑骑士”迦鲁",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FE55F8": {
+    "id": "35FE55F8",
+    "name": "灵火龙",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FE55F9": {
+    "id": "35FE55F9",
+    "name": "灵火龙",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "35FE55FB": {
+    "id": "35FE55FB",
+    "name": "灵火龙",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "36044D50": {
+    "id": "36044D50",
+    "name": "大树守卫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "36044D51": {
+    "id": "36044D51",
+    "name": "大树守卫",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "36047078": {
+    "id": "36047078",
+    "name": "死亡仪式鸟",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "360533C8": {
+    "id": "360533C8",
+    "name": "坠星兽物",
+    "type": "npc",
+    "is_dlc": true
+  },
+  "50002710": {
+    "id": "50002710",
+    "name": "史东薇尔城",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000271A": {
+    "id": "5000271A",
+    "name": "候王礼拜堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002AF8": {
+    "id": "50002AF8",
+    "name": "王城罗德尔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002B2A": {
+    "id": "50002B2A",
+    "name": "灰城罗德尔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002B5C": {
+    "id": "50002B5C",
+    "name": "圆桌厅堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002EEA": {
+    "id": "50002EEA",
+    "name": "安瑟尔河主流",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002EEB": {
+    "id": "50002EEB",
+    "name": "腐败湖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002EEC": {
+    "id": "50002EEC",
+    "name": "安瑟尔河",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002EF4": {
+    "id": "50002EF4",
+    "name": "“永恒之城”诺克隆恩",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002EFE": {
+    "id": "50002EFE",
+    "name": "深根底层",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002F12": {
+    "id": "50002F12",
+    "name": "蒙格温王朝",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50002F26": {
+    "id": "50002F26",
+    "name": "希芙拉河",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500032C8": {
+    "id": "500032C8",
+    "name": "逐渐崩毁的法姆·亚兹拉",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500036B0": {
+    "id": "500036B0",
+    "name": "魔法学院雷亚卢卡利亚",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50003A98": {
+    "id": "50003A98",
+    "name": "“圣树分枝”艾布雷菲尔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50003A99": {
+    "id": "50003A99",
+    "name": "米凯拉的圣树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50003E80": {
+    "id": "50003E80",
+    "name": "火山官邸",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50004650": {
+    "id": "50004650",
+    "name": "漂流墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50004651": {
+    "id": "50004651",
+    "name": "边境英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50004A38": {
+    "id": "50004A38",
+    "name": "石舞台",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007530": {
+    "id": "50007530",
+    "name": "灵庙原野地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000753A": {
+    "id": "5000753A",
+    "name": "穿刺地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007544": {
+    "id": "50007544",
+    "name": "风暴根脚的地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000754E": {
+    "id": "5000754E",
+    "name": "绝路地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007558": {
+    "id": "50007558",
+    "name": "蒙流地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007562": {
+    "id": "50007562",
+    "name": "黑刀地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000756C": {
+    "id": "5000756C",
+    "name": "断崖下的地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007576": {
+    "id": "50007576",
+    "name": "威达姆地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007580": {
+    "id": "50007580",
+    "name": "尊贵者的英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000758A": {
+    "id": "5000758A",
+    "name": "格密尔英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007594": {
+    "id": "50007594",
+    "name": "亚雷萨英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000759E": {
+    "id": "5000759E",
+    "name": "死亡降临的地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075A8": {
+    "id": "500075A8",
+    "name": "丑恶地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075B2": {
+    "id": "500075B2",
+    "name": "亚雷萨副墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075BC": {
+    "id": "500075BC",
+    "name": "小黄金树地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075C6": {
+    "id": "500075C6",
+    "name": "盖利德地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075D0": {
+    "id": "500075D0",
+    "name": "英灵地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075DA": {
+    "id": "500075DA",
+    "name": "巨人战争的英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075E4": {
+    "id": "500075E4",
+    "name": "巨人山顶地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075EE": {
+    "id": "500075EE",
+    "name": "化圣雪原地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500075F8": {
+    "id": "500075F8",
+    "name": "通往圣树的密道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007918": {
+    "id": "50007918",
+    "name": "蒙流洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007922": {
+    "id": "50007922",
+    "name": "垂穴洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000792C": {
+    "id": "5000792C",
+    "name": "灵庙原野洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007936": {
+    "id": "50007936",
+    "name": "近林洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007940": {
+    "id": "50007940",
+    "name": "留水洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000794A": {
+    "id": "5000794A",
+    "name": "湖旁结晶洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007954": {
+    "id": "50007954",
+    "name": "学院结晶洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000795E": {
+    "id": "5000795E",
+    "name": "沸滚河洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007972": {
+    "id": "50007972",
+    "name": "火山洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000797C": {
+    "id": "5000797C",
+    "name": "龙墓洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007986": {
+    "id": "50007986",
+    "name": "瑟利亚隐藏洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007990": {
+    "id": "50007990",
+    "name": "安身洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500079AE": {
+    "id": "500079AE",
+    "name": "海岸洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500079C2": {
+    "id": "500079C2",
+    "name": "大道下的洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500079CC": {
+    "id": "500079CC",
+    "name": "调香师的隐藏洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500079D6": {
+    "id": "500079D6",
+    "name": "贤者的洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500079E0": {
+    "id": "500079E0",
+    "name": "废弃洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500079EA": {
+    "id": "500079EA",
+    "name": "牢狱洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500079F4": {
+    "id": "500079F4",
+    "name": "唤灵洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007D00": {
+    "id": "50007D00",
+    "name": "摩恩坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007D0A": {
+    "id": "50007D0A",
+    "name": "宁姆格福坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007D14": {
+    "id": "50007D14",
+    "name": "雷亚卢卡利亚结晶坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007D28": {
+    "id": "50007D28",
+    "name": "旧亚坛坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007D32": {
+    "id": "50007D32",
+    "name": "亚坛坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007D46": {
+    "id": "50007D46",
+    "name": "盖尔坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007D50": {
+    "id": "50007D50",
+    "name": "瑟利亚结晶坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50007D6E": {
+    "id": "50007D6E",
+    "name": "耶罗·亚尼斯坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50008534": {
+    "id": "50008534",
+    "name": "宁姆格福神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000853E": {
+    "id": "5000853E",
+    "name": "卡利亚书斋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000853F": {
+    "id": "5000853F",
+    "name": "利耶尼亚神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50008548": {
+    "id": "50008548",
+    "name": "封印坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50008549": {
+    "id": "50008549",
+    "name": "西亚坛神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50008552": {
+    "id": "50008552",
+    "name": "盖利德神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000855C": {
+    "id": "5000855C",
+    "name": "东亚坛神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50008566": {
+    "id": "50008566",
+    "name": "孤立神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500088B8": {
+    "id": "500088B8",
+    "name": "弃置恶兆的地底",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500088BA": {
+    "id": "500088BA",
+    "name": "罗德尔地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50009920": {
+    "id": "50009920",
+    "name": "古遗迹断崖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000EE48": {
+    "id": "5000EE48",
+    "name": "宁姆格福",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000EE49": {
+    "id": "5000EE49",
+    "name": "风暴山丘",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000EE4A": {
+    "id": "5000EE4A",
+    "name": "啜泣半岛",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000F230": {
+    "id": "5000F230",
+    "name": "湖之利耶尼亚",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000F231": {
+    "id": "5000F231",
+    "name": "彼鲁姆大道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000F232": {
+    "id": "5000F232",
+    "name": "月光祭坛",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000F618": {
+    "id": "5000F618",
+    "name": "亚坛高原",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000F619": {
+    "id": "5000F619",
+    "name": "格密尔火山",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000F61A": {
+    "id": "5000F61A",
+    "name": "王城外围",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000F61B": {
+    "id": "5000F61B",
+    "name": "禁域",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000FA00": {
+    "id": "5000FA00",
+    "name": "盖利德",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000FA01": {
+    "id": "5000FA01",
+    "name": "桂奥尔龙墓",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000FA02": {
+    "id": "5000FA02",
+    "name": "艾奥尼亚沼泽",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000FDE8": {
+    "id": "5000FDE8",
+    "name": "巨人山顶",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000FDE9": {
+    "id": "5000FDE9",
+    "name": "火焰之巅",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5000FDEA": {
+    "id": "5000FDEA",
+    "name": "化圣雪原",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A0": {
+    "id": "500186A0",
+    "name": "“接肢”葛瑞克",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A1": {
+    "id": "500186A1",
+    "name": "“恶兆妖鬼”玛尔基特",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A2": {
+    "id": "500186A2",
+    "name": "通城隧道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A3": {
+    "id": "500186A3",
+    "name": "门旁小屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A4": {
+    "id": "500186A4",
+    "name": "史东薇尔断崖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A5": {
+    "id": "500186A5",
+    "name": "城墙塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A6": {
+    "id": "500186A6",
+    "name": "升降机旁房间",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A7": {
+    "id": "500186A7",
+    "name": "深处小房间",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500186A8": {
+    "id": "500186A8",
+    "name": "史东薇尔正门",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB0": {
+    "id": "5001ADB0",
+    "name": "艾尔登宝座",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB1": {
+    "id": "5001ADB1",
+    "name": "黄金树大教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB2": {
+    "id": "5001ADB2",
+    "name": "王城东边城墙",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB3": {
+    "id": "5001ADB3",
+    "name": "王城底层教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB4": {
+    "id": "5001ADB4",
+    "name": "大道旁露台",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB5": {
+    "id": "5001ADB5",
+    "name": "王城西边城墙",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB7": {
+    "id": "5001ADB7",
+    "name": "女王闺阁",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB8": {
+    "id": "5001ADB8",
+    "name": "城寨一楼",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADB9": {
+    "id": "5001ADB9",
+    "name": "神授桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001ADF6": {
+    "id": "5001ADF6",
+    "name": "火山官邸的委托：巴格莱姆",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001AFA4": {
+    "id": "5001AFA4",
+    "name": "艾尔登宝座",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001AFA5": {
+    "id": "5001AFA5",
+    "name": "黄金树大教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001AFA6": {
+    "id": "5001AFA6",
+    "name": "王城东边城墙",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001AFA7": {
+    "id": "5001AFA7",
+    "name": "“灰烬王城”罗德尔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001AFA8": {
+    "id": "5001AFA8",
+    "name": "女王闺阁",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001AFA9": {
+    "id": "5001AFA9",
+    "name": "神授桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001B198": {
+    "id": "5001B198",
+    "name": "大赐福",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D524": {
+    "id": "5001D524",
+    "name": "诺克史黛拉的龙人士兵",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D525": {
+    "id": "5001D525",
+    "name": "安瑟尔河（井底）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D526": {
+    "id": "5001D526",
+    "name": "安瑟尔河（水门）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D527": {
+    "id": "5001D527",
+    "name": "安瑟尔河（下游）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D528": {
+    "id": "5001D528",
+    "name": "安瑟尔河主流",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D529": {
+    "id": "5001D529",
+    "name": "“永恒之城”诺克史黛拉",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D52A": {
+    "id": "5001D52A",
+    "name": "腐败湖畔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D52B": {
+    "id": "5001D52B",
+    "name": "腐败湖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D52C": {
+    "id": "5001D52C",
+    "name": "大回廊",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D52D": {
+    "id": "5001D52D",
+    "name": "诺克史黛拉水潭",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D588": {
+    "id": "5001D588",
+    "name": "大瀑布水潭",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D589": {
+    "id": "5001D589",
+    "name": "仿身泪滴",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D58B": {
+    "id": "5001D58B",
+    "name": "希芙拉河（岸边）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D58C": {
+    "id": "5001D58C",
+    "name": "信仰者森林",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D58E": {
+    "id": "5001D58E",
+    "name": "祖灵森林",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D58F": {
+    "id": "5001D58F",
+    "name": "导水桥旁断崖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D590": {
+    "id": "5001D590",
+    "name": "黑夜神域",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D591": {
+    "id": "5001D591",
+    "name": "出口井的下方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D5EC": {
+    "id": "5001D5EC",
+    "name": "死王子宝座",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D5ED": {
+    "id": "5001D5ED",
+    "name": "树根旁断崖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D5EE": {
+    "id": "5001D5EE",
+    "name": "大瀑布顶端",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D5EF": {
+    "id": "5001D5EF",
+    "name": "深根底层",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D5F0": {
+    "id": "5001D5F0",
+    "name": "无名永恒之城",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D5F1": {
+    "id": "5001D5F1",
+    "name": "树根前路",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D650": {
+    "id": "5001D650",
+    "name": "“黑暗弃子”艾丝缇",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D6B4": {
+    "id": "5001D6B4",
+    "name": "神人坠眠之茧",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D6B5": {
+    "id": "5001D6B5",
+    "name": "通往王朝的崖上道路",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D6B6": {
+    "id": "5001D6B6",
+    "name": "王朝庙（入口）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D6B7": {
+    "id": "5001D6B7",
+    "name": "王朝庙（中段）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D77C": {
+    "id": "5001D77C",
+    "name": "希芙拉河（井底）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001D77D": {
+    "id": "5001D77D",
+    "name": "“永恒之城”诺克隆恩",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD0": {
+    "id": "5001FBD0",
+    "name": "“黑剑”玛利喀斯",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD1": {
+    "id": "5001FBD1",
+    "name": "“龙王”普拉顿桑克斯",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD2": {
+    "id": "5001FBD2",
+    "name": "龙教堂祭坛",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD3": {
+    "id": "5001FBD3",
+    "name": "渐毁野兽墓",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD4": {
+    "id": "5001FBD4",
+    "name": "渐毁野兽墓（深处）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD5": {
+    "id": "5001FBD5",
+    "name": "龙卷旁露台",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD6": {
+    "id": "5001FBD6",
+    "name": "龙教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD7": {
+    "id": "5001FBD7",
+    "name": "龙教堂（耳堂）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD8": {
+    "id": "5001FBD8",
+    "name": "龙教堂（升降机前）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBD9": {
+    "id": "5001FBD9",
+    "name": "龙教堂（屋顶）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5001FBDA": {
+    "id": "5001FBDA",
+    "name": "大桥侧边",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500222E0": {
+    "id": "500222E0",
+    "name": "雷亚卢卡利亚大书库",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500222E1": {
+    "id": "500222E1",
+    "name": "讨论室",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500222E2": {
+    "id": "500222E2",
+    "name": "杜鹃教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500222E3": {
+    "id": "500222E3",
+    "name": "校舍内的教室",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F0": {
+    "id": "500249F0",
+    "name": "“腐败女神”玛莲妮亚",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F1": {
+    "id": "500249F1",
+    "name": "祈祷室",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F2": {
+    "id": "500249F2",
+    "name": "艾布雷菲尔城墙内部",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F3": {
+    "id": "500249F3",
+    "name": "排水通道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F4": {
+    "id": "500249F4",
+    "name": "圣树底层",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F5": {
+    "id": "500249F5",
+    "name": "圣树大舞台",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F6": {
+    "id": "500249F6",
+    "name": "圣树树冠",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F7": {
+    "id": "500249F7",
+    "name": "圣树镇",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500249F8": {
+    "id": "500249F8",
+    "name": "圣树镇（广场）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50027100": {
+    "id": "50027100",
+    "name": "“亵渎君王”拉卡德",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50027101": {
+    "id": "50027101",
+    "name": "艾格蕾教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50027102": {
+    "id": "50027102",
+    "name": "火山官邸",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50027103": {
+    "id": "50027103",
+    "name": "牢镇教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50027104": {
+    "id": "50027104",
+    "name": "迎宾厅",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50027105": {
+    "id": "50027105",
+    "name": "谒见之路",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50027106": {
+    "id": "50027106",
+    "name": "掳人少女人偶",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50027107": {
+    "id": "50027107",
+    "name": "地底拷问所",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5002BF20": {
+    "id": "5002BF20",
+    "name": "求学洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5002BF21": {
+    "id": "5002BF21",
+    "name": "漂流墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5002E630": {
+    "id": "5002E630",
+    "name": "濒毁玛莉卡",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500493E0": {
+    "id": "500493E0",
+    "name": "灵庙原野地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049444": {
+    "id": "50049444",
+    "name": "穿刺地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500494A8": {
+    "id": "500494A8",
+    "name": "风暴根脚的地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004950C": {
+    "id": "5004950C",
+    "name": "绝路地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049570": {
+    "id": "50049570",
+    "name": "蒙流地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500495D4": {
+    "id": "500495D4",
+    "name": "黑刀地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049638": {
+    "id": "50049638",
+    "name": "断崖下的地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004969C": {
+    "id": "5004969C",
+    "name": "威达姆地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049700": {
+    "id": "50049700",
+    "name": "尊贵者的英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049764": {
+    "id": "50049764",
+    "name": "格密尔英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500497C8": {
+    "id": "500497C8",
+    "name": "亚雷萨英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004982C": {
+    "id": "5004982C",
+    "name": "死亡降临的地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049890": {
+    "id": "50049890",
+    "name": "丑恶地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500498F4": {
+    "id": "500498F4",
+    "name": "亚雷萨副墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049958": {
+    "id": "50049958",
+    "name": "小黄金树地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500499BC": {
+    "id": "500499BC",
+    "name": "盖利德地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049A20": {
+    "id": "50049A20",
+    "name": "英灵地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049A84": {
+    "id": "50049A84",
+    "name": "巨人战争的英雄墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049AE8": {
+    "id": "50049AE8",
+    "name": "巨人山顶地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049B4C": {
+    "id": "50049B4C",
+    "name": "化圣雪原地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50049BB0": {
+    "id": "50049BB0",
+    "name": "通往圣树的密道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BAF0": {
+    "id": "5004BAF0",
+    "name": "蒙流洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BB54": {
+    "id": "5004BB54",
+    "name": "垂穴洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BBB8": {
+    "id": "5004BBB8",
+    "name": "灵庙原野洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BC1C": {
+    "id": "5004BC1C",
+    "name": "近林洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BC80": {
+    "id": "5004BC80",
+    "name": "留水洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BCE4": {
+    "id": "5004BCE4",
+    "name": "湖旁结晶洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BD48": {
+    "id": "5004BD48",
+    "name": "学院结晶洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BDAC": {
+    "id": "5004BDAC",
+    "name": "沸滚河洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BE74": {
+    "id": "5004BE74",
+    "name": "火山洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BED8": {
+    "id": "5004BED8",
+    "name": "龙墓洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BF3C": {
+    "id": "5004BF3C",
+    "name": "瑟利亚隐藏洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004BFA0": {
+    "id": "5004BFA0",
+    "name": "安身洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004C0CC": {
+    "id": "5004C0CC",
+    "name": "海岸洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004C194": {
+    "id": "5004C194",
+    "name": "大道下的洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004C1F8": {
+    "id": "5004C1F8",
+    "name": "调香师的隐藏洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004C25C": {
+    "id": "5004C25C",
+    "name": "贤者的洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004C2C0": {
+    "id": "5004C2C0",
+    "name": "废弃洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004C324": {
+    "id": "5004C324",
+    "name": "牢狱洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004C388": {
+    "id": "5004C388",
+    "name": "唤灵洞窟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E200": {
+    "id": "5004E200",
+    "name": "摩恩坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E264": {
+    "id": "5004E264",
+    "name": "宁姆格福坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E2C8": {
+    "id": "5004E2C8",
+    "name": "雷亚卢卡利亚结晶坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E390": {
+    "id": "5004E390",
+    "name": "旧亚坛坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E3F4": {
+    "id": "5004E3F4",
+    "name": "亚坛坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E4BC": {
+    "id": "5004E4BC",
+    "name": "盖尔坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E4BD": {
+    "id": "5004E4BD",
+    "name": "盖尔坑道（侧门口）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E520": {
+    "id": "5004E520",
+    "name": "瑟利亚结晶坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5004E64C": {
+    "id": "5004E64C",
+    "name": "耶罗·亚尼斯坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50053408": {
+    "id": "50053408",
+    "name": "宁姆格福神授塔（桥上）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5005340A": {
+    "id": "5005340A",
+    "name": "宁姆格福神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5005346C": {
+    "id": "5005346C",
+    "name": "书斋入口",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5005346D": {
+    "id": "5005346D",
+    "name": "利耶尼亚神授塔（桥上）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5005346E": {
+    "id": "5005346E",
+    "name": "利耶尼亚神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500534D0": {
+    "id": "500534D0",
+    "name": "西亚坛神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500534D1": {
+    "id": "500534D1",
+    "name": "封印坑道",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500534D2": {
+    "id": "500534D2",
+    "name": "西亚坛神授塔（门口）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50053534": {
+    "id": "50053534",
+    "name": "盖利德神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50053535": {
+    "id": "50053535",
+    "name": "盖利德神授塔（地底）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50053536": {
+    "id": "50053536",
+    "name": "盖利德神授塔（中段）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50053598": {
+    "id": "50053598",
+    "name": "东亚坛神授塔（门口）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50053599": {
+    "id": "50053599",
+    "name": "东亚坛神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500535DE": {
+    "id": "500535DE",
+    "name": "前往洛德的中途",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500535FC": {
+    "id": "500535FC",
+    "name": "孤立神授塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50055730": {
+    "id": "50055730",
+    "name": "弃置恶兆的大教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50055731": {
+    "id": "50055731",
+    "name": "地底大道旁",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50055732": {
+    "id": "50055732",
+    "name": "弃置恶兆的底层",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50055733": {
+    "id": "50055733",
+    "name": "罗德尔地下墓地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50055734": {
+    "id": "50055734",
+    "name": "癫火封印",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5005F370": {
+    "id": "5005F370",
+    "name": "“熔岩土龙”马卡尔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5005F371": {
+    "id": "5005F371",
+    "name": "古遗迹断崖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5005F372": {
+    "id": "5005F372",
+    "name": "古遗迹断崖（对岸）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5005FB86": {
+    "id": "5005FB86",
+    "name": "火山官邸的委托：忒拉格斯",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5006DDD0": {
+    "id": "5006DDD0",
+    "name": "王城竞技场",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5006DE34": {
+    "id": "5006DE34",
+    "name": "宁姆格福竞技场",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5006DE98": {
+    "id": "5006DE98",
+    "name": "盖利德竞技场",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED0": {
+    "id": "50094ED0",
+    "name": "艾雷教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED1": {
+    "id": "50094ED1",
+    "name": "风暴山丘的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED2": {
+    "id": "50094ED2",
+    "name": "画家的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED3": {
+    "id": "50094ED3",
+    "name": "玛莉卡第三教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED4": {
+    "id": "50094ED4",
+    "name": "海德要塞西方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED5": {
+    "id": "50094ED5",
+    "name": "亚基尔湖南方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED7": {
+    "id": "50094ED7",
+    "name": "亚基尔湖北方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED8": {
+    "id": "50094ED8",
+    "name": "龙飨教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094ED9": {
+    "id": "50094ED9",
+    "name": "关卡前方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EDA": {
+    "id": "50094EDA",
+    "name": "桥尾花园",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EDB": {
+    "id": "50094EDB",
+    "name": "傍海古遗迹",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EDC": {
+    "id": "50094EDC",
+    "name": "雾林边缘",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EDD": {
+    "id": "50094EDD",
+    "name": "雾林",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EDE": {
+    "id": "50094EDE",
+    "name": "蒙流岸边",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EDF": {
+    "id": "50094EDF",
+    "name": "圣人桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EE0": {
+    "id": "50094EE0",
+    "name": "水唤村外",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EE1": {
+    "id": "50094EE1",
+    "name": "习战者的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EE2": {
+    "id": "50094EE2",
+    "name": "驿站街遗迹的地下室",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50094EE3": {
+    "id": "50094EE3",
+    "name": "引导之始",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952B8": {
+    "id": "500952B8",
+    "name": "玛莉卡第四教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952B9": {
+    "id": "500952B9",
+    "name": "摩恩城（城墙前方）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952BA": {
+    "id": "500952BA",
+    "name": "灵庙原野",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952BB": {
+    "id": "500952BB",
+    "name": "监视塔的南方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952BC": {
+    "id": "500952BC",
+    "name": "病村外",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952BD": {
+    "id": "500952BD",
+    "name": "地坑旁",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952BE": {
+    "id": "500952BE",
+    "name": "隐居商人的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952BF": {
+    "id": "500952BF",
+    "name": "献祭大桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952C0": {
+    "id": "500952C0",
+    "name": "摩恩城（升降机前方）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952C1": {
+    "id": "500952C1",
+    "name": "城堡后方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952C2": {
+    "id": "500952C2",
+    "name": "城墙监牢旁",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952C3": {
+    "id": "500952C3",
+    "name": "摩恩悲叹墓",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500952C4": {
+    "id": "500952C4",
+    "name": "巡礼教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975E0": {
+    "id": "500975E0",
+    "name": "傍湖断崖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975E1": {
+    "id": "500975E1",
+    "name": "利耶尼亚湖（湖边）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975E2": {
+    "id": "500975E2",
+    "name": "拉斯卡废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975E3": {
+    "id": "500975E3",
+    "name": "远眺岛",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975E4": {
+    "id": "500975E4",
+    "name": "学院门前镇",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975E5": {
+    "id": "500975E5",
+    "name": "学院正门口",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975EA": {
+    "id": "500975EA",
+    "name": "雷亚卢卡利亚（东门）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975EB": {
+    "id": "500975EB",
+    "name": "彼鲁姆教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975EC": {
+    "id": "500975EC",
+    "name": "迪可达斯大升降机",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975F4": {
+    "id": "500975F4",
+    "name": "四钟楼山脚",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975F5": {
+    "id": "500975F5",
+    "name": "魔法师塔的小岛",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975F6": {
+    "id": "500975F6",
+    "name": "利耶尼亚湖（北岸）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975F7": {
+    "id": "500975F7",
+    "name": "通往城寨的道路",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975F8": {
+    "id": "500975F8",
+    "name": "卡利亚城寨（正门）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975FE": {
+    "id": "500975FE",
+    "name": "眠狼的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500975FF": {
+    "id": "500975FF",
+    "name": "煮虾子的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097600": {
+    "id": "50097600",
+    "name": "画家的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097601": {
+    "id": "50097601",
+    "name": "复仇者的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097602": {
+    "id": "50097602",
+    "name": "湖畔凉亭",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097603": {
+    "id": "50097603",
+    "name": "白金村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097604": {
+    "id": "50097604",
+    "name": "利耶尼亚大道（北方）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097605": {
+    "id": "50097605",
+    "name": "门前镇大桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097606": {
+    "id": "50097606",
+    "name": "利耶尼亚湖（东岸）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097607": {
+    "id": "50097607",
+    "name": "结缘教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097608": {
+    "id": "50097608",
+    "name": "遗迹迷宫",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097609": {
+    "id": "50097609",
+    "name": "群集灵庙",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009760A": {
+    "id": "5009760A",
+    "name": "四钟楼",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009760B": {
+    "id": "5009760B",
+    "name": "菈妮魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009760C": {
+    "id": "5009760C",
+    "name": "谷底秘村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009760D": {
+    "id": "5009760D",
+    "name": "城寨上部",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009760E": {
+    "id": "5009760E",
+    "name": "城寨下部",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009760F": {
+    "id": "5009760F",
+    "name": "王室赏月地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097610": {
+    "id": "50097610",
+    "name": "门前镇的北方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097611": {
+    "id": "50097611",
+    "name": "东边台地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097612": {
+    "id": "50097612",
+    "name": "谷底",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097613": {
+    "id": "50097613",
+    "name": "湖中坠落遗迹",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097614": {
+    "id": "50097614",
+    "name": "改宗塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097615": {
+    "id": "50097615",
+    "name": "卡利亚城寨（后方）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097616": {
+    "id": "50097616",
+    "name": "癫火村外",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097617": {
+    "id": "50097617",
+    "name": "镇静教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097618": {
+    "id": "50097618",
+    "name": "教堂区",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50097619": {
+    "id": "50097619",
+    "name": "东门桥的桥柱",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009761A": {
+    "id": "5009761A",
+    "name": "结晶森林",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009761B": {
+    "id": "5009761B",
+    "name": "利耶尼亚大道（南方）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009761C": {
+    "id": "5009761C",
+    "name": "壶村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009761D": {
+    "id": "5009761D",
+    "name": "雷亚卢卡利亚（南门）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009761E": {
+    "id": "5009761E",
+    "name": "菈妮的房间",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500979C8": {
+    "id": "500979C8",
+    "name": "月光祭坛",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500979C9": {
+    "id": "500979C9",
+    "name": "玛努斯·瑟利斯大教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "500979CA": {
+    "id": "500979CA",
+    "name": "祭坛南方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF0": {
+    "id": "50099CF0",
+    "name": "近黄金树的山丘",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF1": {
+    "id": "50099CF1",
+    "name": "风车村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF2": {
+    "id": "50099CF2",
+    "name": "小黄金树教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF3": {
+    "id": "50099CF3",
+    "name": "亚坛大道的三叉口",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF4": {
+    "id": "50099CF4",
+    "name": "城墙旁小径",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF5": {
+    "id": "50099CF5",
+    "name": "遁世商人的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF6": {
+    "id": "50099CF6",
+    "name": "移送罪人之路（路旁）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF7": {
+    "id": "50099CF7",
+    "name": "穿林大桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF8": {
+    "id": "50099CF8",
+    "name": "弃置棺材",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CF9": {
+    "id": "50099CF9",
+    "name": "亚坛高原",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CFA": {
+    "id": "50099CFA",
+    "name": "丰饶森林",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CFB": {
+    "id": "50099CFB",
+    "name": "城外幻影树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CFC": {
+    "id": "50099CFC",
+    "name": "城外战场遗迹",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CFD": {
+    "id": "50099CFD",
+    "name": "风车村高台",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099CFE": {
+    "id": "50099CFE",
+    "name": "王城城墙前方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099D22": {
+    "id": "50099D22",
+    "name": "城主大厅",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099D23": {
+    "id": "50099D23",
+    "name": "日荫城（城墙）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50099D24": {
+    "id": "50099D24",
+    "name": "日荫城（内门）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009A0D8": {
+    "id": "5009A0D8",
+    "name": "罪人桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009A0D9": {
+    "id": "5009A0D9",
+    "name": "格密尔火山（第９休息站）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009A0DA": {
+    "id": "5009A0DA",
+    "name": "格密尔火山（第１休息站）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009A0DB": {
+    "id": "5009A0DB",
+    "name": "移送罪人之路",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009A0DC": {
+    "id": "5009A0DC",
+    "name": "沸滚河",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009A0DD": {
+    "id": "5009A0DD",
+    "name": "沸滚河终点",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009A0DE": {
+    "id": "5009A0DE",
+    "name": "匠人的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009A0DF": {
+    "id": "5009A0DF",
+    "name": "“起源魔法师”亚兹勒",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C400": {
+    "id": "5009C400",
+    "name": "熏火教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C401": {
+    "id": "5009C401",
+    "name": "腐败旁露台",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C402": {
+    "id": "5009C402",
+    "name": "大龙飨教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C403": {
+    "id": "5009C403",
+    "name": "熏烧火墙",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C404": {
+    "id": "5009C404",
+    "name": "希芙拉河的出口井",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C405": {
+    "id": "5009C405",
+    "name": "奇列姆废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C406": {
+    "id": "5009C406",
+    "name": "隐居商人的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C407": {
+    "id": "5009C407",
+    "name": "艾奥尼亚中心地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C408": {
+    "id": "5009C408",
+    "name": "瑟利亚椅子庙",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C409": {
+    "id": "5009C409",
+    "name": "不破大桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C40A": {
+    "id": "5009C40A",
+    "name": "红狮子城（广场）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C40B": {
+    "id": "5009C40B",
+    "name": "广场前房间",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C40D": {
+    "id": "5009C40D",
+    "name": "盖尔要塞北方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C40E": {
+    "id": "5009C40E",
+    "name": "“碎星”拉塔恩",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C40F": {
+    "id": "5009C40F",
+    "name": "艾奥尼亚沼泽（岸边）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C410": {
+    "id": "5009C410",
+    "name": "艾奥尼亚沼泽（南岸）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C411": {
+    "id": "5009C411",
+    "name": "瑟利亚镇（楼梯下方）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C412": {
+    "id": "5009C412",
+    "name": "腐败病教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C413": {
+    "id": "5009C413",
+    "name": "盖利德大道南方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C414": {
+    "id": "5009C414",
+    "name": "龙墓西方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C415": {
+    "id": "5009C415",
+    "name": "法洛斯要塞",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C416": {
+    "id": "5009C416",
+    "name": "龙墓的岔路",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C417": {
+    "id": "5009C417",
+    "name": "雷恩魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C418": {
+    "id": "5009C418",
+    "name": "法姆大桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C419": {
+    "id": "5009C419",
+    "name": "野兽神殿",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C41A": {
+    "id": "5009C41A",
+    "name": "盖利德大道北方（偏离大道后）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C41B": {
+    "id": "5009C41B",
+    "name": "艾奥尼亚沼泽",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C41C": {
+    "id": "5009C41C",
+    "name": "艾奥尼亚沼泽（深处）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009C41D": {
+    "id": "5009C41D",
+    "name": "瑟利亚镇后侧",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB10": {
+    "id": "5009EB10",
+    "name": "禁域",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB11": {
+    "id": "5009EB11",
+    "name": "萨米尔废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB12": {
+    "id": "5009EB12",
+    "name": "古遗迹降雪谷",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB13": {
+    "id": "5009EB13",
+    "name": "结冰湖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB14": {
+    "id": "5009EB14",
+    "name": "玛莉卡第一教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB15": {
+    "id": "5009EB15",
+    "name": "巨人墓碑",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB16": {
+    "id": "5009EB16",
+    "name": "安歇教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB17": {
+    "id": "5009EB17",
+    "name": "火焰大锅下方",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB18": {
+    "id": "5009EB18",
+    "name": "火焰巨人",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB19": {
+    "id": "5009EB19",
+    "name": "巨人火焰大锅",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB1A": {
+    "id": "5009EB1A",
+    "name": "洛德大升降机",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB42": {
+    "id": "5009EB42",
+    "name": "降雪棱线路",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB43": {
+    "id": "5009EB43",
+    "name": "古遗迹山谷的山崖上",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB44": {
+    "id": "5009EB44",
+    "name": "索尔城（正门）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB45": {
+    "id": "5009EB45",
+    "name": "日蚀教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EB46": {
+    "id": "5009EB46",
+    "name": "索尔城（屋顶）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EEF8": {
+    "id": "5009EEF8",
+    "name": "化圣雪原",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EEF9": {
+    "id": "5009EEF9",
+    "name": "化圣雪原（深处）",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EEFA": {
+    "id": "5009EEFA",
+    "name": "“仪典镇”奥缇那",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5009EEFB": {
+    "id": "5009EEFB",
+    "name": "离教废屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D154C": {
+    "id": "505D154C",
+    "name": "艾雷教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D154D": {
+    "id": "505D154D",
+    "name": "龙飨教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D154E": {
+    "id": "505D154E",
+    "name": "玛莉卡第三教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1614": {
+    "id": "505D1614",
+    "name": "雾林废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1615": {
+    "id": "505D1615",
+    "name": "驿站街遗迹",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1616": {
+    "id": "505D1616",
+    "name": "龙息废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1617": {
+    "id": "505D1617",
+    "name": "关卡前废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1618": {
+    "id": "505D1618",
+    "name": "水唤村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1678": {
+    "id": "505D1678",
+    "name": "画家的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1679": {
+    "id": "505D1679",
+    "name": "习战者的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D167A": {
+    "id": "505D167A",
+    "name": "风暴山丘的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D17A4": {
+    "id": "505D17A4",
+    "name": "无主猎犬的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D17A5": {
+    "id": "505D17A5",
+    "name": "风暴山丘的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1808": {
+    "id": "505D1808",
+    "name": "风暴关卡",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D186C": {
+    "id": "505D186C",
+    "name": "献祭大桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D19FC": {
+    "id": "505D19FC",
+    "name": "希芙拉河的入口井",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1B28": {
+    "id": "505D1B28",
+    "name": "海德要塞",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D1FD8": {
+    "id": "505D1FD8",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D33C4": {
+    "id": "505D33C4",
+    "name": "亚基尔湖",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D361C": {
+    "id": "505D361C",
+    "name": "传送门",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D361D": {
+    "id": "505D361D",
+    "name": "火山官邸的委托：伊修托邦",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D361E": {
+    "id": "505D361E",
+    "name": "星星坠落之地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3C5C": {
+    "id": "505D3C5C",
+    "name": "玛莉卡第四教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3C5D": {
+    "id": "505D3C5D",
+    "name": "巡礼教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3C5E": {
+    "id": "505D3C5E",
+    "name": "卡尔洗礼教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3D24": {
+    "id": "505D3D24",
+    "name": "封印魔女的废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3D25": {
+    "id": "505D3D25",
+    "name": "灵庙原野的废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3D26": {
+    "id": "505D3D26",
+    "name": "亚人森林的废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3D88": {
+    "id": "505D3D88",
+    "name": "隐居商人的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3DEC": {
+    "id": "505D3DEC",
+    "name": "病村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3E50": {
+    "id": "505D3E50",
+    "name": "森林监视塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3E51": {
+    "id": "505D3E51",
+    "name": "归还塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D3EB4": {
+    "id": "505D3EB4",
+    "name": "啜泣的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D41D4": {
+    "id": "505D41D4",
+    "name": "奥利缇斯魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D44F4": {
+    "id": "505D44F4",
+    "name": "摩恩城",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D46E8": {
+    "id": "505D46E8",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505D6240": {
+    "id": "505D6240",
+    "name": "史东薇尔城",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9AC0": {
+    "id": "505E9AC0",
+    "name": "兀德王朝遗迹",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9AC1": {
+    "id": "505E9AC1",
+    "name": "三姊妹塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9BEC": {
+    "id": "505E9BEC",
+    "name": "伊利斯教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9BED": {
+    "id": "505E9BED",
+    "name": "结缘教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9BEE": {
+    "id": "505E9BEE",
+    "name": "蔷薇教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9BEF": {
+    "id": "505E9BEF",
+    "name": "彼鲁姆教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9BF0": {
+    "id": "505E9BF0",
+    "name": "镇静教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9CB4": {
+    "id": "505E9CB4",
+    "name": "受净化的废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9CB5": {
+    "id": "505E9CB5",
+    "name": "王室领地废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9CB6": {
+    "id": "505E9CB6",
+    "name": "拉斯卡废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9D18": {
+    "id": "505E9D18",
+    "name": "眠狼的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9D19": {
+    "id": "505E9D19",
+    "name": "煮虾子的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9D1A": {
+    "id": "505E9D1A",
+    "name": "画家的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9D1B": {
+    "id": "505E9D1B",
+    "name": "复仇者的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9D7C": {
+    "id": "505E9D7C",
+    "name": "白金村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9D7D": {
+    "id": "505E9D7D",
+    "name": "癫火村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9D7E": {
+    "id": "505E9D7E",
+    "name": "壶村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9DE0": {
+    "id": "505E9DE0",
+    "name": "大道监视塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9DE1": {
+    "id": "505E9DE1",
+    "name": "癫火灯塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9E44": {
+    "id": "505E9E44",
+    "name": "小偷的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9E45": {
+    "id": "505E9E45",
+    "name": "杜鹃的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505E9E46": {
+    "id": "505E9E46",
+    "name": "王室墓地的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA09C": {
+    "id": "505EA09C",
+    "name": "安瑟尔河的入口井",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA164": {
+    "id": "505EA164",
+    "name": "改宗塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA165": {
+    "id": "505EA165",
+    "name": "提斯魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA166": {
+    "id": "505EA166",
+    "name": "赛尔维斯魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA167": {
+    "id": "505EA167",
+    "name": "菈妮魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA168": {
+    "id": "505EA168",
+    "name": "蕾娜魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA169": {
+    "id": "505EA169",
+    "name": "改宗边境塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA4E8": {
+    "id": "505EA4E8",
+    "name": "卡利亚城寨",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA678": {
+    "id": "505EA678",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA679": {
+    "id": "505EA679",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA740": {
+    "id": "505EA740",
+    "name": "学院门前镇",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EA741": {
+    "id": "505EA741",
+    "name": "教堂区",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EAF10": {
+    "id": "505EAF10",
+    "name": "四钟楼",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EC2FC": {
+    "id": "505EC2FC",
+    "name": "玛努斯·瑟利斯大教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EC3C4": {
+    "id": "505EC3C4",
+    "name": "月之民废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EC3C5": {
+    "id": "505EC3C5",
+    "name": "月之贵族废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EC554": {
+    "id": "505EC554",
+    "name": "刀之首的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EC7AC": {
+    "id": "505EC7AC",
+    "name": "安瑟尔河的出口井",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EC874": {
+    "id": "505EC874",
+    "name": "希耶罗那魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "505EE8E0": {
+    "id": "505EE8E0",
+    "name": "魔法学院雷亚卢卡利亚",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5060228C": {
+    "id": "5060228C",
+    "name": "唤雷教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5060228D": {
+    "id": "5060228D",
+    "name": "玛莉卡第二教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5060228E": {
+    "id": "5060228E",
+    "name": "小黄金树教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602354": {
+    "id": "50602354",
+    "name": "森林之民的废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602355": {
+    "id": "50602355",
+    "name": "卢克斯废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602356": {
+    "id": "50602356",
+    "name": "调香师的废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602357": {
+    "id": "50602357",
+    "name": "蠕血废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506023B8": {
+    "id": "506023B8",
+    "name": "托莉娜的藏身所",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506023B9": {
+    "id": "506023B9",
+    "name": "遁世商人的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5060241C": {
+    "id": "5060241C",
+    "name": "风车村多明努拉",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602480": {
+    "id": "50602480",
+    "name": "大道监视塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506024E4": {
+    "id": "506024E4",
+    "name": "黄金一族的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602548": {
+    "id": "50602548",
+    "name": "王城城墙外",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602674": {
+    "id": "50602674",
+    "name": "森林之民的废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602804": {
+    "id": "50602804",
+    "name": "海市蜃楼魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506028CC": {
+    "id": "506028CC",
+    "name": "西边风车牧场",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506028CD": {
+    "id": "506028CD",
+    "name": "东边风车牧场",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506028CE": {
+    "id": "506028CE",
+    "name": "村内风车牧场",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506028CF": {
+    "id": "506028CF",
+    "name": "多明努拉关卡",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602994": {
+    "id": "50602994",
+    "name": "迪可达斯大升降机",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602BEC": {
+    "id": "50602BEC",
+    "name": "日荫城",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602D18": {
+    "id": "50602D18",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50602D19": {
+    "id": "50602D19",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5060435C": {
+    "id": "5060435C",
+    "name": "火山官邸的委托：莱利",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50604A65": {
+    "id": "50604A65",
+    "name": "威达姆废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50604AC8": {
+    "id": "50604AC8",
+    "name": "飘尸臭的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50604AC9": {
+    "id": "50604AC9",
+    "name": "遁世者的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50604ACC": {
+    "id": "50604ACC",
+    "name": "匠人的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50604B2C": {
+    "id": "50604B2C",
+    "name": "遁世者村",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50604C58": {
+    "id": "50604C58",
+    "name": "王城罗德尔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50604F78": {
+    "id": "50604F78",
+    "name": "莱多要塞",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50605428": {
+    "id": "50605428",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50605FE0": {
+    "id": "50605FE0",
+    "name": "火山官邸",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061A800": {
+    "id": "5061A800",
+    "name": "恸哭沙丘",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061A92C": {
+    "id": "5061A92C",
+    "name": "熏火教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061A92D": {
+    "id": "5061A92D",
+    "name": "大龙飨教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061A92E": {
+    "id": "5061A92E",
+    "name": "腐败病教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061A9F4": {
+    "id": "5061A9F4",
+    "name": "荒废废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061A9F5": {
+    "id": "5061A9F5",
+    "name": "盖利德的驿站街遗迹",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061A9F6": {
+    "id": "5061A9F6",
+    "name": "贤者镇的废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061A9F7": {
+    "id": "5061A9F7",
+    "name": "奇列姆废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061AA58": {
+    "id": "5061AA58",
+    "name": "步入腐败者的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061AA59": {
+    "id": "5061AA59",
+    "name": "格威的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061AB20": {
+    "id": "5061AB20",
+    "name": "沼泽监视塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061ABE8": {
+    "id": "5061ABE8",
+    "name": "瑟利亚关卡",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061ADDC": {
+    "id": "5061ADDC",
+    "name": "希芙拉河的出口井",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061AF08": {
+    "id": "5061AF08",
+    "name": "盖尔要塞",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061B2F0": {
+    "id": "5061B2F0",
+    "name": "红狮子城",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061B3B8": {
+    "id": "5061B3B8",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061B3B9": {
+    "id": "5061B3B9",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061B4E4": {
+    "id": "5061B4E4",
+    "name": "魔法镇瑟利亚",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061D168": {
+    "id": "5061D168",
+    "name": "隐居商人的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061D294": {
+    "id": "5061D294",
+    "name": "瑟利亚的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061D5B4": {
+    "id": "5061D5B4",
+    "name": "雷恩魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061D618": {
+    "id": "5061D618",
+    "name": "法洛斯要塞",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061DAC8": {
+    "id": "5061DAC8",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5061E428": {
+    "id": "5061E428",
+    "name": "野兽神殿",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50632FCC": {
+    "id": "50632FCC",
+    "name": "玛莉卡第一教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50632FCD": {
+    "id": "50632FCD",
+    "name": "安歇教堂",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50633094": {
+    "id": "50633094",
+    "name": "萨米尔废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50633095": {
+    "id": "50633095",
+    "name": "观星废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506330F8": {
+    "id": "506330F8",
+    "name": "离群独行者的破屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50633224": {
+    "id": "50633224",
+    "name": "准王者的封印监牢",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50633544": {
+    "id": "50633544",
+    "name": "异端魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506335A8": {
+    "id": "506335A8",
+    "name": "监视者要塞",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506336D4": {
+    "id": "506336D4",
+    "name": "洛德大升降机",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506339F4": {
+    "id": "506339F4",
+    "name": "索尔城",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50633A58": {
+    "id": "50633A58",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506344E4": {
+    "id": "506344E4",
+    "name": "巨人火焰大锅",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5063509C": {
+    "id": "5063509C",
+    "name": "洛德大升降机",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5063509D": {
+    "id": "5063509D",
+    "name": "火山官邸的委托：尤诺·霍斯劳",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506356DC": {
+    "id": "506356DC",
+    "name": "离教废屋",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506357A4": {
+    "id": "506357A4",
+    "name": "耶罗·亚尼斯废墟",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50635C54": {
+    "id": "50635C54",
+    "name": "白金魔法师塔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50636168": {
+    "id": "50636168",
+    "name": "小黄金树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "506362F8": {
+    "id": "506362F8",
+    "name": "“仪典镇”奥缇那",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50636938": {
+    "id": "50636938",
+    "name": "“圣树分枝”艾布雷菲尔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50636B2C": {
+    "id": "50636B2C",
+    "name": "米凯拉的圣树",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50636B90": {
+    "id": "50636B90",
+    "name": "“圣树分枝”艾布雷菲尔",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5064C79C": {
+    "id": "5064C79C",
+    "name": "乌鲁王朝遗迹",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5064EE48": {
+    "id": "5064EE48",
+    "name": "“永恒之城”诺克史黛拉",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5064EEAC": {
+    "id": "5064EEAC",
+    "name": "大回廊",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5064EEAD": {
+    "id": "5064EEAD",
+    "name": "乌鲁王朝遗迹",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50658A88": {
+    "id": "50658A88",
+    "name": "“永恒之城”诺克隆恩",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50658A89": {
+    "id": "50658A89",
+    "name": "黑夜神域",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50658A8A": {
+    "id": "50658A8A",
+    "name": "希芙拉导水桥",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50658A8C": {
+    "id": "50658A8C",
+    "name": "角骸灵地",
+    "type": "place",
+    "is_dlc": false
+  },
+  "5065B134": {
+    "id": "5065B134",
+    "name": "蒙格温王朝庙",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507A1200": {
+    "id": "507A1200",
+    "name": "宁姆格福",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507A1390": {
+    "id": "507A1390",
+    "name": "湖之利耶尼亚",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507A1520": {
+    "id": "507A1520",
+    "name": "亚坛高原",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507A1584": {
+    "id": "507A1584",
+    "name": "盖利德",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507A16B0": {
+    "id": "507A16B0",
+    "name": "巨人山顶",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507A3910": {
+    "id": "507A3910",
+    "name": "安瑟尔河",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507A39D8": {
+    "id": "507A39D8",
+    "name": "希芙拉河",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507A3AA0": {
+    "id": "507A3AA0",
+    "name": "深根底层",
+    "type": "place",
+    "is_dlc": false
+  },
+  "507B98A1": {
+    "id": "507B98A1",
+    "name": "迪涅布雷地区",
+    "type": "place",
+    "is_dlc": false
+  },
+  "50004E20": {
+    "id": "50004E20",
+    "name": "“塔之镇”贝瑞特",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50004E2A": {
+    "id": "50004E2A",
+    "name": "艾尼尔·伊利姆",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50005208": {
+    "id": "50005208",
+    "name": "幽影城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50005209": {
+    "id": "50005209",
+    "name": "幽影城（教区）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50005212": {
+    "id": "50005212",
+    "name": "物种保藏库",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500055F0": {
+    "id": "500055F0",
+    "name": "石棺大洞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50006D60": {
+    "id": "50006D60",
+    "name": "米德拉府邸",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50009C40": {
+    "id": "50009C40",
+    "name": "雾谷地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50009C4A": {
+    "id": "50009C4A",
+    "name": "蝎河地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50009C54": {
+    "id": "50009C54",
+    "name": "驱暗地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5000A028": {
+    "id": "5000A028",
+    "name": "贝瑞特监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5000A032": {
+    "id": "5000A032",
+    "name": "波尼监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5000A03C": {
+    "id": "5000A03C",
+    "name": "喟叹监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5000A410": {
+    "id": "5000A410",
+    "name": "熔岩管锻造遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5000A424": {
+    "id": "5000A424",
+    "name": "古铁陨石锻造遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5000A42E": {
+    "id": "5000A42E",
+    "name": "泰乌尔锻造遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5000A7F8": {
+    "id": "5000A7F8",
+    "name": "河尾洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5000A802": {
+    "id": "5000A802",
+    "name": "龙洞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500109A0": {
+    "id": "500109A0",
+    "name": "墓地平原",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010A68": {
+    "id": "50010A68",
+    "name": "恩希斯城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010ACC": {
+    "id": "50010ACC",
+    "name": "青蓝海岸",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010B30": {
+    "id": "50010B30",
+    "name": "卡罗隐藏墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010B94": {
+    "id": "50010B94",
+    "name": "尖刺山",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010B95": {
+    "id": "50010B95",
+    "name": "尖刺山的山脚",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010BF8": {
+    "id": "50010BF8",
+    "name": "谷底森林",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010D88": {
+    "id": "50010D88",
+    "name": "幽影亚坛",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010D89": {
+    "id": "50010D89",
+    "name": "劳弗下方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010E50": {
+    "id": "50010E50",
+    "name": "望影露台",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50010F18": {
+    "id": "50010F18",
+    "name": "劳弗古遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030D40": {
+    "id": "50030D40",
+    "name": "神兽舞台",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030D41": {
+    "id": "50030D41",
+    "name": "“塔之镇”贝瑞特",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030D42": {
+    "id": "50030D42",
+    "name": "民宅小祭坛",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030D43": {
+    "id": "50030D43",
+    "name": "舞台前方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030DA4": {
+    "id": "50030DA4",
+    "name": "神之门",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030DA6": {
+    "id": "50030DA6",
+    "name": "艾尼尔·伊利姆外墙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030DA7": {
+    "id": "50030DA7",
+    "name": "第一塔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030DA8": {
+    "id": "50030DA8",
+    "name": "螺旋塔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030DA9": {
+    "id": "50030DA9",
+    "name": "净身厅前室",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50030DAA": {
+    "id": "50030DAA",
+    "name": "神之门（门前楼梯平台）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50033451": {
+    "id": "50033451",
+    "name": "正门广场",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50033452": {
+    "id": "50033452",
+    "name": "幽影城（正门）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50033456": {
+    "id": "50033456",
+    "name": "教区入口",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50033457": {
+    "id": "50033457",
+    "name": "沉水礼拜堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50033458": {
+    "id": "50033458",
+    "name": "礼树暗道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50033459": {
+    "id": "50033459",
+    "name": "礼树教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500334B4": {
+    "id": "500334B4",
+    "name": "梅瑟莫的暗室",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500334B5": {
+    "id": "500334B5",
+    "name": "保藏库（一楼）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500334B6": {
+    "id": "500334B6",
+    "name": "保藏库（四楼）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500334B7": {
+    "id": "500334B7",
+    "name": "保藏库（七楼）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500334B8": {
+    "id": "500334B8",
+    "name": "暗室门前",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500334BA": {
+    "id": "500334BA",
+    "name": "保藏库（内区）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500334BB": {
+    "id": "500334BB",
+    "name": "保藏库（阁楼）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50033519": {
+    "id": "50033519",
+    "name": "西边城墙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50035B60": {
+    "id": "50035B60",
+    "name": "深紫花园",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50035B61": {
+    "id": "50035B61",
+    "name": "石棺大洞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50035B62": {
+    "id": "50035B62",
+    "name": "大洞的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50035B63": {
+    "id": "50035B63",
+    "name": "大洞中段",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50035B64": {
+    "id": "50035B64",
+    "name": "大洞深处",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5003D090": {
+    "id": "5003D090",
+    "name": "指头产房",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500445C0": {
+    "id": "500445C0",
+    "name": "对谈室",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500445C1": {
+    "id": "500445C1",
+    "name": "府邸大厅",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500445C2": {
+    "id": "500445C2",
+    "name": "米德拉的书库",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500445C3": {
+    "id": "500445C3",
+    "name": "二楼小房间",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50061A80": {
+    "id": "50061A80",
+    "name": "雾谷地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50061AE4": {
+    "id": "50061AE4",
+    "name": "蝎河地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50061B48": {
+    "id": "50061B48",
+    "name": "驱暗地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50064190": {
+    "id": "50064190",
+    "name": "贝瑞特监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500641F4": {
+    "id": "500641F4",
+    "name": "波尼监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50064258": {
+    "id": "50064258",
+    "name": "喟叹监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500668A0": {
+    "id": "500668A0",
+    "name": "熔岩管锻造遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50066968": {
+    "id": "50066968",
+    "name": "古铁陨石锻造遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500669CC": {
+    "id": "500669CC",
+    "name": "泰乌尔锻造遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50068FB0": {
+    "id": "50068FB0",
+    "name": "河尾洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50069014": {
+    "id": "50069014",
+    "name": "龙洞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50069015": {
+    "id": "50069015",
+    "name": "龙洞（终点）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6040": {
+    "id": "500A6040",
+    "name": "墓地平原",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6041": {
+    "id": "500A6041",
+    "name": "火吻废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6042": {
+    "id": "500A6042",
+    "name": "三叉口的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6043": {
+    "id": "500A6043",
+    "name": "正门前方的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6044": {
+    "id": "500A6044",
+    "name": "崖上道路的终点",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6045": {
+    "id": "500A6045",
+    "name": "大桥北方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6428": {
+    "id": "500A6428",
+    "name": "艾拉克河洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6429": {
+    "id": "500A6429",
+    "name": "通柱坡的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A642A": {
+    "id": "500A642A",
+    "name": "通柱坡中段",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A642B": {
+    "id": "500A642B",
+    "name": "城的前方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6810": {
+    "id": "500A6810",
+    "name": "恩希斯城（关卡）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6811": {
+    "id": "500A6811",
+    "name": "城主的房间",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6812": {
+    "id": "500A6812",
+    "name": "恩希斯赏月地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6BF8": {
+    "id": "500A6BF8",
+    "name": "艾拉克河下游",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6BF9": {
+    "id": "500A6BF9",
+    "name": "青蓝海岸",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6BFA": {
+    "id": "500A6BFA",
+    "name": "青蓝海岸西边",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6BFB": {
+    "id": "500A6BFB",
+    "name": "大洞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6BFC": {
+    "id": "500A6BFC",
+    "name": "利亚指头遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6BFD": {
+    "id": "500A6BFD",
+    "name": "青蓝海岸的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6FE0": {
+    "id": "500A6FE0",
+    "name": "龙飨大祭坛",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A6FE1": {
+    "id": "500A6FE1",
+    "name": "卡罗隐藏墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A73C8": {
+    "id": "500A73C8",
+    "name": "尖刺山的山脚",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A73C9": {
+    "id": "500A73C9",
+    "name": "尖刺山（中段）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A73CA": {
+    "id": "500A73CA",
+    "name": "尖刺山（山顶）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A73CB": {
+    "id": "500A73CB",
+    "name": "狂龙之席",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A77B0": {
+    "id": "500A77B0",
+    "name": "谷底森林",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A77B1": {
+    "id": "500A77B1",
+    "name": "水帘瀑布",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A77B2": {
+    "id": "500A77B2",
+    "name": "荒废墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A77B3": {
+    "id": "500A77B3",
+    "name": "林中兽径",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A77B4": {
+    "id": "500A77B4",
+    "name": "废弃教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8750": {
+    "id": "500A8750",
+    "name": "大道旁的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8752": {
+    "id": "500A8752",
+    "name": "穆斯废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8753": {
+    "id": "500A8753",
+    "name": "波尼村",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8754": {
+    "id": "500A8754",
+    "name": "通村吊桥",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8755": {
+    "id": "500A8755",
+    "name": "教区大道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8756": {
+    "id": "500A8756",
+    "name": "玛努斯·美特大教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8757": {
+    "id": "500A8757",
+    "name": "幽影亚坛（西方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8758": {
+    "id": "500A8758",
+    "name": "穆斯大道（南方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8759": {
+    "id": "500A8759",
+    "name": "惩罚要塞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A875A": {
+    "id": "500A875A",
+    "name": "惩罚要塞（后方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A875B": {
+    "id": "500A875B",
+    "name": "远望幽影树的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A875C": {
+    "id": "500A875C",
+    "name": "古遗迹下方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A875D": {
+    "id": "500A875D",
+    "name": "神殿镇废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A875E": {
+    "id": "500A875E",
+    "name": "峡谷北方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8760": {
+    "id": "500A8760",
+    "name": "城底积水处",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8761": {
+    "id": "500A8761",
+    "name": "隐者河上游",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8762": {
+    "id": "500A8762",
+    "name": "隐者河下游",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8F20": {
+    "id": "500A8F20",
+    "name": "望影露台",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A8F21": {
+    "id": "500A8F21",
+    "name": "幽影城（后门）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A9308": {
+    "id": "500A9308",
+    "name": "隐匿之地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A9309": {
+    "id": "500A9309",
+    "name": "指岩山丘",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A930A": {
+    "id": "500A930A",
+    "name": "隐匿之地（桥边）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A96F0": {
+    "id": "500A96F0",
+    "name": "高架桥的小塔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A96F1": {
+    "id": "500A96F1",
+    "name": "劳弗古遗迹（东方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A96F2": {
+    "id": "500A96F2",
+    "name": "劳弗古遗迹（西方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A96F3": {
+    "id": "500A96F3",
+    "name": "花蕾教堂（正门口）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A96F4": {
+    "id": "500A96F4",
+    "name": "古遗迹（大楼梯）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A96F5": {
+    "id": "500A96F5",
+    "name": "花蕾教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "500A9EC0": {
+    "id": "500A9EC0",
+    "name": "幽影树的树脚",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067C5A0": {
+    "id": "5067C5A0",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067C5A1": {
+    "id": "5067C5A1",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067C668": {
+    "id": "5067C668",
+    "name": "“塔之镇”贝瑞特",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D3B0": {
+    "id": "5067D3B0",
+    "name": "置病村",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D4DC": {
+    "id": "5067D4DC",
+    "name": "慰借教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D4DD": {
+    "id": "5067D4DD",
+    "name": "恩惠教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D608": {
+    "id": "5067D608",
+    "name": "火吻废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D66C": {
+    "id": "5067D66C",
+    "name": "眺望镇",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D860": {
+    "id": "5067D860",
+    "name": "西方无名灵庙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D98C": {
+    "id": "5067D98C",
+    "name": "旅人的破屋",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D98D": {
+    "id": "5067D98D",
+    "name": "画家的破屋",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067D9F0": {
+    "id": "5067D9F0",
+    "name": "艾拉克大桥",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067ECB0": {
+    "id": "5067ECB0",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5067FFD4": {
+    "id": "5067FFD4",
+    "name": "镇抚石柱",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5068009D": {
+    "id": "5068009D",
+    "name": "老者的破屋",
+    "type": "place",
+    "is_dlc": true
+  },
+  "506813C0": {
+    "id": "506813C0",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "506820A4": {
+    "id": "506820A4",
+    "name": "恩希斯城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "506837B0": {
+    "id": "506837B0",
+    "name": "利亚指头遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50683AD0": {
+    "id": "50683AD0",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50683E54": {
+    "id": "50683E54",
+    "name": "石棺大洞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50684D2C": {
+    "id": "50684D2C",
+    "name": "利亚指头遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50684D90": {
+    "id": "50684D90",
+    "name": "南方无名灵庙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50684EBC": {
+    "id": "50684EBC",
+    "name": "指头追寻者的破屋",
+    "type": "place",
+    "is_dlc": true
+  },
+  "506871E4": {
+    "id": "506871E4",
+    "name": "龙飨大祭坛",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5068B3E8": {
+    "id": "5068B3E8",
+    "name": "米德拉府邸",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5068BF3C": {
+    "id": "5068BF3C",
+    "name": "废弃教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5068D710": {
+    "id": "5068D710",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5068FE20": {
+    "id": "5068FE20",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50692530": {
+    "id": "50692530",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50694920": {
+    "id": "50694920",
+    "name": "密亚指头遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50694C40": {
+    "id": "50694C40",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50694C41": {
+    "id": "50694C41",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50694C42": {
+    "id": "50694C42",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50694E34": {
+    "id": "50694E34",
+    "name": "幽影城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695988": {
+    "id": "50695988",
+    "name": "雾谷要塞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "506959EC": {
+    "id": "506959EC",
+    "name": "惩罚要塞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695B7C": {
+    "id": "50695B7C",
+    "name": "圣战教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695BE0": {
+    "id": "50695BE0",
+    "name": "玛努斯·美特大教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695D70": {
+    "id": "50695D70",
+    "name": "神殿镇废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695DD4": {
+    "id": "50695DD4",
+    "name": "安堤废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695E38": {
+    "id": "50695E38",
+    "name": "穆斯废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695E9C": {
+    "id": "50695E9C",
+    "name": "密亚指头遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695F00": {
+    "id": "50695F00",
+    "name": "北方无名灵庙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695F01": {
+    "id": "50695F01",
+    "name": "东方无名灵庙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50695FC8": {
+    "id": "50695FC8",
+    "name": "拉巴斯魔法师塔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5069602C": {
+    "id": "5069602C",
+    "name": "软鞭小屋",
+    "type": "place",
+    "is_dlc": true
+  },
+  "506960F4": {
+    "id": "506960F4",
+    "name": "苍蝇村",
+    "type": "place",
+    "is_dlc": true
+  },
+  "506963B0": {
+    "id": "506963B0",
+    "name": "波尼村",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50699740": {
+    "id": "50699740",
+    "name": "望影露台",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50699741": {
+    "id": "50699741",
+    "name": "幽影树的树脚",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5069A6E0": {
+    "id": "5069A6E0",
+    "name": "幽影树圣杯",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5069AE4C": {
+    "id": "5069AE4C",
+    "name": "白金的破屋",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5069BE50": {
+    "id": "5069BE50",
+    "name": "狄欧指头遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5069D048": {
+    "id": "5069D048",
+    "name": "巫者村",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5069D3CC": {
+    "id": "5069D3CC",
+    "name": "狄欧指头遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5069E880": {
+    "id": "5069E880",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "5069E9AC": {
+    "id": "5069E9AC",
+    "name": "艾尼尔·伊利姆",
+    "type": "place",
+    "is_dlc": true
+  },
+  "506AABD0": {
+    "id": "506AABD0",
+    "name": "米凯拉的十字记号",
+    "type": "place",
+    "is_dlc": true
+  },
+  "507A6020": {
+    "id": "507A6020",
+    "name": "幽影之地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D014": {
+    "id": "50A2D014",
+    "name": "封印魔女的废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D015": {
+    "id": "50A2D015",
+    "name": "引导之始",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D016": {
+    "id": "50A2D016",
+    "name": "亚基尔湖",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D017": {
+    "id": "50A2D017",
+    "name": "龙息废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D018": {
+    "id": "50A2D018",
+    "name": "半岛小黄金树",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D019": {
+    "id": "50A2D019",
+    "name": "摩恩城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D01A": {
+    "id": "50A2D01A",
+    "name": "驿站街遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D032": {
+    "id": "50A2D032",
+    "name": "通城隧道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D033": {
+    "id": "50A2D033",
+    "name": "深处小房间",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D034": {
+    "id": "50A2D034",
+    "name": "升降机旁房间",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D035": {
+    "id": "50A2D035",
+    "name": "城墙塔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D036": {
+    "id": "50A2D036",
+    "name": "史东薇尔断崖",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D037": {
+    "id": "50A2D037",
+    "name": "史东薇尔正门",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D050": {
+    "id": "50A2D050",
+    "name": "灵庙原野地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D051": {
+    "id": "50A2D051",
+    "name": "穿刺地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D052": {
+    "id": "50A2D052",
+    "name": "风暴根脚的地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D053": {
+    "id": "50A2D053",
+    "name": "死亡降临的地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D054": {
+    "id": "50A2D054",
+    "name": "蒙流地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D05A": {
+    "id": "50A2D05A",
+    "name": "灵庙原野洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D05B": {
+    "id": "50A2D05B",
+    "name": "垂穴洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D05C": {
+    "id": "50A2D05C",
+    "name": "蒙流洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D05D": {
+    "id": "50A2D05D",
+    "name": "近林洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D05E": {
+    "id": "50A2D05E",
+    "name": "海岸洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D05F": {
+    "id": "50A2D05F",
+    "name": "大道下的洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D064": {
+    "id": "50A2D064",
+    "name": "摩恩坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D065": {
+    "id": "50A2D065",
+    "name": "宁姆格福坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D078": {
+    "id": "50A2D078",
+    "name": "湖之小黄金树",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D079": {
+    "id": "50A2D079",
+    "name": "教堂区",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D07A": {
+    "id": "50A2D07A",
+    "name": "白金村",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D07B": {
+    "id": "50A2D07B",
+    "name": "王室领地废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D07C": {
+    "id": "50A2D07C",
+    "name": "卡利亚城寨",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D07D": {
+    "id": "50A2D07D",
+    "name": "兀德小黄金树",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D096": {
+    "id": "50A2D096",
+    "name": "学院正门口",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D097": {
+    "id": "50A2D097",
+    "name": "校舍内的教室",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D098": {
+    "id": "50A2D098",
+    "name": "杜鹃教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D099": {
+    "id": "50A2D099",
+    "name": "讨论室",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0A0": {
+    "id": "50A2D0A0",
+    "name": "古遗迹断崖",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0A1": {
+    "id": "50A2D0A1",
+    "name": "古遗迹断崖（对岸）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0B4": {
+    "id": "50A2D0B4",
+    "name": "黑刀地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0B5": {
+    "id": "50A2D0B5",
+    "name": "绝路地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0B6": {
+    "id": "50A2D0B6",
+    "name": "断崖下的地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0BE": {
+    "id": "50A2D0BE",
+    "name": "留水洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0BF": {
+    "id": "50A2D0BF",
+    "name": "湖旁结晶洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0C0": {
+    "id": "50A2D0C0",
+    "name": "学院结晶洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0C8": {
+    "id": "50A2D0C8",
+    "name": "雷亚卢卡利亚结晶坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0DC": {
+    "id": "50A2D0DC",
+    "name": "莱多要塞南方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0DD": {
+    "id": "50A2D0DD",
+    "name": "通往遁世者村的崖上道路",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0DF": {
+    "id": "50A2D0DF",
+    "name": "移送罪人之路",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0E0": {
+    "id": "50A2D0E0",
+    "name": "匠人的破屋",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0E1": {
+    "id": "50A2D0E1",
+    "name": "威达姆废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0E2": {
+    "id": "50A2D0E2",
+    "name": "日荫城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0E3": {
+    "id": "50A2D0E3",
+    "name": "蠕血废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0E4": {
+    "id": "50A2D0E4",
+    "name": "风车村多明努拉",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0E5": {
+    "id": "50A2D0E5",
+    "name": "城外小黄金树",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0E6": {
+    "id": "50A2D0E6",
+    "name": "城墙外东侧",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0FA": {
+    "id": "50A2D0FA",
+    "name": "王城东边城墙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0FB": {
+    "id": "50A2D0FB",
+    "name": "大道旁露台",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0FC": {
+    "id": "50A2D0FC",
+    "name": "王城底层教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0FD": {
+    "id": "50A2D0FD",
+    "name": "王城西边城墙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D0FE": {
+    "id": "50A2D0FE",
+    "name": "女王闺阁",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D104": {
+    "id": "50A2D104",
+    "name": "地底大道旁",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D105": {
+    "id": "50A2D105",
+    "name": "弃置恶兆的底层",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D106": {
+    "id": "50A2D106",
+    "name": "罗德尔地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D10F": {
+    "id": "50A2D10F",
+    "name": "牢镇教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D110": {
+    "id": "50A2D110",
+    "name": "迎宾厅",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D111": {
+    "id": "50A2D111",
+    "name": "艾格蕾教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D112": {
+    "id": "50A2D112",
+    "name": "谒见之路",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D118": {
+    "id": "50A2D118",
+    "name": "尊贵者的英雄墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D119": {
+    "id": "50A2D119",
+    "name": "格密尔英雄墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D11A": {
+    "id": "50A2D11A",
+    "name": "亚雷萨英雄墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D11B": {
+    "id": "50A2D11B",
+    "name": "丑恶地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D11C": {
+    "id": "50A2D11C",
+    "name": "威达姆地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D122": {
+    "id": "50A2D122",
+    "name": "沸滚河洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D123": {
+    "id": "50A2D123",
+    "name": "火山洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D124": {
+    "id": "50A2D124",
+    "name": "调香师的隐藏洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D125": {
+    "id": "50A2D125",
+    "name": "贤者的洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D12C": {
+    "id": "50A2D12C",
+    "name": "旧亚坛坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D12D": {
+    "id": "50A2D12D",
+    "name": "亚坛坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D136": {
+    "id": "50A2D136",
+    "name": "封印坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D140": {
+    "id": "50A2D140",
+    "name": "盖利德小黄金树",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D141": {
+    "id": "50A2D141",
+    "name": "奇列姆废墟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D142": {
+    "id": "50A2D142",
+    "name": "盖利德大道南方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D143": {
+    "id": "50A2D143",
+    "name": "艾奥尼亚沼泽",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D144": {
+    "id": "50A2D144",
+    "name": "魔法镇瑟利亚",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D145": {
+    "id": "50A2D145",
+    "name": "桂奥尔龙墓",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D146": {
+    "id": "50A2D146",
+    "name": "红狮子城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D147": {
+    "id": "50A2D147",
+    "name": "恸哭沙丘南方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D148": {
+    "id": "50A2D148",
+    "name": "龙墓小黄金树",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D149": {
+    "id": "50A2D149",
+    "name": "法姆大桥",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D17C": {
+    "id": "50A2D17C",
+    "name": "小黄金树地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D17D": {
+    "id": "50A2D17D",
+    "name": "盖利德地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D17E": {
+    "id": "50A2D17E",
+    "name": "英灵地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D186": {
+    "id": "50A2D186",
+    "name": "牢狱洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D187": {
+    "id": "50A2D187",
+    "name": "龙墓洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D188": {
+    "id": "50A2D188",
+    "name": "废弃洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D189": {
+    "id": "50A2D189",
+    "name": "瑟利亚隐藏洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D190": {
+    "id": "50A2D190",
+    "name": "盖尔坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D191": {
+    "id": "50A2D191",
+    "name": "瑟利亚结晶坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D19A": {
+    "id": "50A2D19A",
+    "name": "盖利德神授塔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1A4": {
+    "id": "50A2D1A4",
+    "name": "禁域",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1A5": {
+    "id": "50A2D1A5",
+    "name": "结冰湖",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1A6": {
+    "id": "50A2D1A6",
+    "name": "火焰大锅下方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1A7": {
+    "id": "50A2D1A7",
+    "name": "山顶小黄金树",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1A8": {
+    "id": "50A2D1A8",
+    "name": "古遗迹山谷",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1A9": {
+    "id": "50A2D1A9",
+    "name": "索尔城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1AA": {
+    "id": "50A2D1AA",
+    "name": "结冰河",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1AB": {
+    "id": "50A2D1AB",
+    "name": "雪原小黄金树",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1C2": {
+    "id": "50A2D1C2",
+    "name": "圣树树冠",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1C3": {
+    "id": "50A2D1C3",
+    "name": "圣树镇",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1C4": {
+    "id": "50A2D1C4",
+    "name": "圣树镇（广场）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1C6": {
+    "id": "50A2D1C6",
+    "name": "圣树大舞台",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1C7": {
+    "id": "50A2D1C7",
+    "name": "祈祷室",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1C8": {
+    "id": "50A2D1C8",
+    "name": "艾布雷菲尔城墙内部",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1C9": {
+    "id": "50A2D1C9",
+    "name": "排水通道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1CB": {
+    "id": "50A2D1CB",
+    "name": "圣树底层",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1E0": {
+    "id": "50A2D1E0",
+    "name": "巨人战争的英雄墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1E1": {
+    "id": "50A2D1E1",
+    "name": "巨人山顶地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1E2": {
+    "id": "50A2D1E2",
+    "name": "化圣雪原地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1E3": {
+    "id": "50A2D1E3",
+    "name": "通往圣树的密道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1EA": {
+    "id": "50A2D1EA",
+    "name": "安身洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1EB": {
+    "id": "50A2D1EB",
+    "name": "唤灵洞窟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D1F4": {
+    "id": "50A2D1F4",
+    "name": "耶罗·亚尼斯坑道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D212": {
+    "id": "50A2D212",
+    "name": "安瑟尔河（井底）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D213": {
+    "id": "50A2D213",
+    "name": "安瑟尔河（水门）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D214": {
+    "id": "50A2D214",
+    "name": "安瑟尔河（下游）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D215": {
+    "id": "50A2D215",
+    "name": "安瑟尔河主流",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D216": {
+    "id": "50A2D216",
+    "name": "“永恒之城”诺克史黛拉",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D217": {
+    "id": "50A2D217",
+    "name": "腐败湖畔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D218": {
+    "id": "50A2D218",
+    "name": "大回廊",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D21C": {
+    "id": "50A2D21C",
+    "name": "希芙拉河（岸边）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D21D": {
+    "id": "50A2D21D",
+    "name": "信仰者森林",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D21E": {
+    "id": "50A2D21E",
+    "name": "仿身泪滴",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D21F": {
+    "id": "50A2D21F",
+    "name": "祖灵森林",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D220": {
+    "id": "50A2D220",
+    "name": "导水桥旁断崖",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D221": {
+    "id": "50A2D221",
+    "name": "黑夜神域",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D222": {
+    "id": "50A2D222",
+    "name": "出口井的下方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D226": {
+    "id": "50A2D226",
+    "name": "树根旁断崖",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D227": {
+    "id": "50A2D227",
+    "name": "大瀑布顶端",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D228": {
+    "id": "50A2D228",
+    "name": "深根底层",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D229": {
+    "id": "50A2D229",
+    "name": "树根前路",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D22A": {
+    "id": "50A2D22A",
+    "name": "无名永恒之城",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D23A": {
+    "id": "50A2D23A",
+    "name": "通往王朝的崖上道路",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D23B": {
+    "id": "50A2D23B",
+    "name": "王朝庙（入口）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D23C": {
+    "id": "50A2D23C",
+    "name": "王朝庙（中段）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D24E": {
+    "id": "50A2D24E",
+    "name": "希芙拉河（井底）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D24F": {
+    "id": "50A2D24F",
+    "name": "“永恒之城”诺克隆恩",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D28A": {
+    "id": "50A2D28A",
+    "name": "女王闺阁",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D28B": {
+    "id": "50A2D28B",
+    "name": "黄金树大教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D294": {
+    "id": "50A2D294",
+    "name": "渐毁野兽墓",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D295": {
+    "id": "50A2D295",
+    "name": "渐毁野兽墓（深处）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D296": {
+    "id": "50A2D296",
+    "name": "龙卷旁露台",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D297": {
+    "id": "50A2D297",
+    "name": "龙教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D298": {
+    "id": "50A2D298",
+    "name": "龙教堂祭坛",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D299": {
+    "id": "50A2D299",
+    "name": "龙教堂（升降机前）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D29A": {
+    "id": "50A2D29A",
+    "name": "大桥侧边",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D29B": {
+    "id": "50A2D29B",
+    "name": "龙教堂（屋顶）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D29E": {
+    "id": "50A2D29E",
+    "name": "艾尔登宝座",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D0": {
+    "id": "50A2D2D0",
+    "name": "西方无名灵庙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D1": {
+    "id": "50A2D2D1",
+    "name": "大桥北方（湖）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D2": {
+    "id": "50A2D2D2",
+    "name": "城的前方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D3": {
+    "id": "50A2D2D3",
+    "name": "城主的房间",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D4": {
+    "id": "50A2D2D4",
+    "name": "青蓝海岸",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D5": {
+    "id": "50A2D2D5",
+    "name": "亚人谷",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D6": {
+    "id": "50A2D2D6",
+    "name": "南方无名灵庙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D7": {
+    "id": "50A2D2D7",
+    "name": "飞龙墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D8": {
+    "id": "50A2D2D8",
+    "name": "隐藏墓地（南方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2D9": {
+    "id": "50A2D2D9",
+    "name": "隐藏墓地（北方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2DA": {
+    "id": "50A2D2DA",
+    "name": "尖刺山的山脚",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2DB": {
+    "id": "50A2D2DB",
+    "name": "尖刺山洞穴",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2DC": {
+    "id": "50A2D2DC",
+    "name": "尖刺山（山顶）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2DD": {
+    "id": "50A2D2DD",
+    "name": "驱暗地下墓地（最底层）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2DE": {
+    "id": "50A2D2DE",
+    "name": "府邸大厅",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2DF": {
+    "id": "50A2D2DF",
+    "name": "二楼小房间",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2EE": {
+    "id": "50A2D2EE",
+    "name": "石棺大洞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2EF": {
+    "id": "50A2D2EF",
+    "name": "大洞深处",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2F8": {
+    "id": "50A2D2F8",
+    "name": "暗路教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2F9": {
+    "id": "50A2D2F9",
+    "name": "“塔之镇”贝瑞特",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2FA": {
+    "id": "50A2D2FA",
+    "name": "民宅小祭坛",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D2FB": {
+    "id": "50A2D2FB",
+    "name": "舞台前方",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D302": {
+    "id": "50A2D302",
+    "name": "艾尼尔·伊利姆外墙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D303": {
+    "id": "50A2D303",
+    "name": "第一塔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D304": {
+    "id": "50A2D304",
+    "name": "螺旋塔",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D305": {
+    "id": "50A2D305",
+    "name": "净身厅前室",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D306": {
+    "id": "50A2D306",
+    "name": "神之门（门前楼梯平台）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D30C": {
+    "id": "50A2D30C",
+    "name": "雾谷地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D316": {
+    "id": "50A2D316",
+    "name": "贝瑞特监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D317": {
+    "id": "50A2D317",
+    "name": "喟叹监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D320": {
+    "id": "50A2D320",
+    "name": "龙洞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D334": {
+    "id": "50A2D334",
+    "name": "穆斯大道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D335": {
+    "id": "50A2D335",
+    "name": "劳弗下方的熊栖森林",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D336": {
+    "id": "50A2D336",
+    "name": "北方无名灵庙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D337": {
+    "id": "50A2D337",
+    "name": "东方无名灵庙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D338": {
+    "id": "50A2D338",
+    "name": "幽影城（后门）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D33A": {
+    "id": "50A2D33A",
+    "name": "劳弗古遗迹",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D33B": {
+    "id": "50A2D33B",
+    "name": "古遗迹（大楼梯下方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D33C": {
+    "id": "50A2D33C",
+    "name": "花蕾教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D33D": {
+    "id": "50A2D33D",
+    "name": "礼树教堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D33E": {
+    "id": "50A2D33E",
+    "name": "隐匿之地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D33F": {
+    "id": "50A2D33F",
+    "name": "亚坛的熊栖森林",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D340": {
+    "id": "50A2D340",
+    "name": "雾谷要塞",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D341": {
+    "id": "50A2D341",
+    "name": "穆斯大道（南方）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D352": {
+    "id": "50A2D352",
+    "name": "密亚吊钟",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D35C": {
+    "id": "50A2D35C",
+    "name": "幽影城（正门）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D35D": {
+    "id": "50A2D35D",
+    "name": "教区入口",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D35E": {
+    "id": "50A2D35E",
+    "name": "沉水礼拜堂",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D35F": {
+    "id": "50A2D35F",
+    "name": "礼树暗道",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D361": {
+    "id": "50A2D361",
+    "name": "西边城墙",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D366": {
+    "id": "50A2D366",
+    "name": "保藏库（一楼）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D367": {
+    "id": "50A2D367",
+    "name": "保藏库（四楼）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D368": {
+    "id": "50A2D368",
+    "name": "保藏库（七楼）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D369": {
+    "id": "50A2D369",
+    "name": "暗室门前",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D36B": {
+    "id": "50A2D36B",
+    "name": "保藏库（内区）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D36C": {
+    "id": "50A2D36C",
+    "name": "保藏库（阁楼）",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D370": {
+    "id": "50A2D370",
+    "name": "蝎河地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D371": {
+    "id": "50A2D371",
+    "name": "驱暗地下墓地",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D37A": {
+    "id": "50A2D37A",
+    "name": "波尼监牢",
+    "type": "place",
+    "is_dlc": true
+  },
+  "50A2D384": {
+    "id": "50A2D384",
+    "name": "河尾洞窟",
+    "type": "place",
+    "is_dlc": true
+  }
+}

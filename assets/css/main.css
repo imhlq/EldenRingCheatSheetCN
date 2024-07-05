@@ -18,6 +18,10 @@ body {
 
 }
 
+.check_item {
+    margin-left: 20px;
+}
+
 .in_progress, .done {
   color: #C60;
   border: 1px solid;

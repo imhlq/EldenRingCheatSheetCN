@@ -23,40 +23,97 @@
 
         <nav class="small-margin">
             <div class="tabs left-align max">
-                <a>流程</a>
-                <a class="active">
-                    <i>home</i>
-                    <span>装备</span>
-                </a>
-                <a>道具</a>
-                <a>法术</a>
-                <a>BOSS</a>
-                <a>关于</a>
+                <a data-ui="#tabWalkthrough">流程</a>
+                <a data-ui="#tabWeapons" class="active">武器</a>
+                <a data-ui="#tabArmors">防具</a>
+                <a data-ui="#tabMagic">法术</a>
+                <a data-ui="#tabGoods">道具</a>
+                <a data-ui="#tabBosses">BOSS</a>
+                <a data-ui="#tabAbout">关于</a>
             </div>
 
             <div id="slot_select" class="field label suffix border small"></div>
             <button id="saveLoadBtn" class="m l border small-round">
                 <i>attach_file</i>
                 <span>存档数据</span>
-                <div class="tooltip left large-space">选择艾尔登法环游戏存档文件，分析当前进度</div>
+                <div class="tooltip max left medium-space">
+                    <b>选择艾尔登法环游戏存档文件，分析当前进度</b>
+                    <p>存档位置: C:/Users/UserName/AppData/ Roaming/EldenRing/SteamID/ER0000.sl2</p>
+                </div>
             </button>
             <input type="file" accept=".sl2" id="fileSelector" style="display: none;">
         </nav>
 
         <main class="responsive">
-            <div class="page padding active">    
+            <div class="page padding" id="tabWalkthrough">
+                <h5>tabWalkthrough</h5>
+            </div>
+
+            <!-- Weapons -->
+            <div class="page padding active" id="tabWeapons">
                 <div class="field label suffix border">
                     <input type="text">
-                    <label>搜索道具</label>
+                    <label>过滤物品</label>
                     <i>search</i>
                 </div>
-    
+
+                <div id="Weapon" class="grid collections">
+                    <!-- Add Items Here -->
+                </div>
               </div>
-              <div class="page padding">
-                <h5>防具</h5>
+
+              <div class="page padding" id="tabArmors">
+
+                <div class="field label suffix border">
+                    <input type="text">
+                    <label>过滤物品</label>
+                    <i>search</i>
+                </div>
+
+                <div id="Armor" class="grid collections">
+                    <!-- Add Items Here -->
+                </div>
               </div>
-              <div class="page padding">
-                <h5>Tab 3</h5>
+
+            <div class="page padding" id="tabGoods">
+
+                <div class="field label suffix border">
+                    <input type="text">
+                    <label>过滤物品</label>
+                    <i>search</i>
+                </div>
+
+                <div id="Good" class="grid collections">
+                    <!-- Add Items Here -->
+                </div>
+            </div>
+
+            <div class="page padding" id="tabMagic">
+
+                <div class="field label suffix border">
+                    <input type="text">
+                    <label>过滤物品</label>
+                    <i>search</i>
+                </div>
+
+                <div id="Magic" class="grid collections">
+                    <!-- Add Items Here -->
+                </div>
+            </div>
+
+            <div class="page padding" id="tabBosses">
+
+                <div class="field label suffix border">
+                    <input type="text">
+                    <label>过滤物品</label>
+                    <i>search</i>
+                </div>
+
+                <h5>Bosses</h5>
+            </div>
+
+            <div class="page padding" id="tabAbout">
+                <h5>About</h5>
             </div>
         </main>
         
