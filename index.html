@@ -7,7 +7,7 @@
         <link rel="icon" href="./assets/img/icon.png" type="image/icon" />
         <title>艾尔登法环实用手册 | xHou.me</title>
 
-        <link rel="stylesheet" href="./assets/css/main.css?v=1.12.2" />
+        <link rel="stylesheet" href="./assets/css/main.css?v=1.12.3" />
         <link href="https://cdn.jsdelivr.net/npm/beercss@3.6.5/dist/cdn/beer.min.css" rel="stylesheet">
         <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.6.5/dist/cdn/beer.min.js"></script>
     </head>
@@ -45,14 +45,17 @@
         </nav>
 
         <main class="responsive">
+
             <div class="page padding" id="tabWalkthrough">
-                <h5>tabWalkthrough</h5>
+                <div id="Walkthrough" class="grid collections">
+                    <!-- Add Items Here -->
+                </div>
             </div>
 
             <!-- Weapons -->
             <div class="page padding active" id="tabWeapons">
                 <div class="field label suffix border">
-                    <input type="text">
+                    <input type="text" id="weapon_search">
                     <label>过滤物品</label>
                     <i>search</i>
                 </div>
@@ -65,7 +68,7 @@
               <div class="page padding" id="tabArmors">
 
                 <div class="field label suffix border">
-                    <input type="text">
+                    <input type="text" id="armor_search">
                     <label>过滤物品</label>
                     <i>search</i>
                 </div>
@@ -78,7 +81,7 @@
             <div class="page padding" id="tabGoods">
 
                 <div class="field label suffix border">
-                    <input type="text">
+                    <input type="text" id="good_search">
                     <label>过滤物品</label>
                     <i>search</i>
                 </div>
@@ -91,7 +94,7 @@
             <div class="page padding" id="tabMagic">
 
                 <div class="field label suffix border">
-                    <input type="text">
+                    <input type="text" id="magic_search">
                     <label>过滤物品</label>
                     <i>search</i>
                 </div>
@@ -104,16 +107,34 @@
             <div class="page padding" id="tabBosses">
 
                 <div class="field label suffix border">
-                    <input type="text">
+                    <input type="text" id="boss_search">
                     <label>过滤物品</label>
                     <i>search</i>
                 </div>
 
-                <h5>Bosses</h5>
+                <div id="Boss" class="grid collections">
+                    <!-- Add Items Here -->
+                </div>
             </div>
 
             <div class="page padding" id="tabAbout">
                 <h5>About</h5>
+            </div>
+
+            <div class="field hide-complete">
+                <nav class="">
+                    <div>显示完成的选项</div>
+                    <label class="switch icon" for="hide_complete">
+                        <input
+                            type="checkbox"
+                            id="hide_complete"
+                            data-bs-toggle="hide_complete"
+                        checked />
+                        <span>
+                            <i class="tiny">visibility</i>
+                        </span>
+                    </label>
+                </nav>
             </div>
         </main>
         

@@ -62,23 +62,11 @@ h3 {
     margin: 15px;
 }
 
-input[type="checkbox"] {
-    margin-left: -24px;
-}
-
-.checkbox {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.checkbox label {
-    padding-left: 24px;
-    cursor: pointer;
-}
 
 .item_content {
     padding-left: 10px;
 }
+
 input[type="checkbox"]:checked + .item_content {
     text-decoration: line-through;
     opacity: 0.6;
@@ -154,30 +142,30 @@ html:lang(zh) li.cut_content span::after {
     content: " (无法获得)";
 }
 
-html:lang(en) li.cut_content span::after {
+html:lang(en) span.cut_content span::after {
     font-weight: 600;
     content: " (Unobtainable)";
 }
 
-html:lang(zh-Hans) li.legendary span::after {
+html:lang(zh-Hans) span.legendary span::after {
     color:#C60;
     content: " (传说)";
     text-shadow: 1px 1px yellow;
 }
 
-html:lang(zh-Hant) li.legendary span::after {
+html:lang(zh-Hant) span.legendary span::after {
     color:#C60;
     content: " (傳說)";
     text-shadow: 1px 1px yellow;
 }
 
-html:lang(en) li.legendary span::after {
+html:lang(en) span.legendary span::after {
     color:#C60;
     content: " (Legendary)";
     text-shadow: 1px 1px yellow;
 }
 
-li.dlc01 span::after {
+span.dlc01 span::after {
     color: #4CAF50; 
     content: " (DLC)";
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
@@ -201,6 +189,9 @@ input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 1000;
+    font-size: medium;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .card-title{

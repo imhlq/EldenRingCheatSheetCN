@@ -9,7 +9,8 @@ var file_read = null;
 var item_list = [];
 var itemData;
 var collectionsData;
-var reversedItemIdList;
+var ItemIdList = {};
+var reversedItemIdList = {};
 var selected_slot;
 var category_progress = {};
 
@@ -34,10 +35,81 @@ jQuery(document).ready(async function ($) {
       });
     }
   });
+
+  // Tab Switch
+
+  // Checkbox Event
+  $("input[type='checkbox']").change(function () {
+    var item_id = $(this).data("id");
+    var is_checked = (profiles.checklistData[item_id] = $(this).prop("checked"));
+    if (is_checked) {
+      $(this).parent().addClass("completed");
+    } else {
+      $(this).parent().removeClass("completed");
+    }
+    // Update Percent UI
+    var currVal = $(this).closest("details").find("progress").val();
+    var maxVal = $(this).closest("details").find("progress").attr("max");
+    var newVal = is_checked ? currVal + 1 : currVal - 1;
+    $(this).closest("details").find("progress").val(newVal); // Update Progress Bar
+    $(this).closest("details").find(".max").text("(" + newVal + "/" + maxVal + ")"); // Update Progress Text
+
+    localStorage.setItem("profiles", JSON.stringify(profiles));
+  })
+
+  resetProgess();
+
+  // Hidden Item Button
+  $("#hide_complete").click(function () {
+    console.log("hide_complete");
+    profiles.is_hide_complete = $(this).prop("checked");
+    updateHideCompleted();
+    localStorage.setItem("profiles", JSON.stringify(profiles));
+  });
+  
+
+
+  // Search Highlight
+  var jets = [
+    new Jets({
+      searchTag: "#walkthrough_search",
+      contentTag: "#Walkthrough",
+    }),
+    new Jets({
+      searchTag: "#boss_search",
+      contentTag: "#Bosses",
+    }),
+    new Jets({
+      searchTag: "#armor_search",
+      contentTag: "#Armor",
+    }),
+    new Jets({
+      searchTag: "#weapon_search",
+      contentTag: "#Weapon",
+    }),
+    new Jets({
+      searchTag: "#good_search",
+      contentTag: "#Good",
+    }),
+    new Jets({
+      searchTag: "#magic_search",
+      contentTag: "#Magic",
+    }),
+  ];
+
+  $("#weapon_search").on("keyup", function () {
+    $("#Weapon").unlightlight();
+    $("#Weapon").highlight($(this).val());
+  });
+
+  // Save Profile to localStorage
+  localStorage.setItem("profiles", JSON.stringify(profiles));
+
 });
 
 function initializeProfile() {
   if (!("checklistData" in profiles)) profiles.checklistData = {};
+  if (!("category_progress" in profiles)) profiles.category_progress = {};
   if (!("current_tab" in profiles)) {
     profiles.current_tab = "#tabItems";
   } else {
@@ -56,7 +128,7 @@ async function read_data() {
     itemData = await res.json();
     res = await fetch("assets/data/collections.json");
     collectionsData = await res.json();
-    reversedItemIdList = genReversedItemIdList(itemData);
+    genReversedItemIdList(itemData);
   } catch (e) {
     console.log(e);
   }
@@ -67,8 +139,6 @@ function addChecklist() {
     var categories = collectionsData[categoryKey];
     // Loop over Weapon/Armor/Good/...
     categories.forEach(function (category) {
-      console.log(category);
-
       var category_name = category['name'];
       var category_id = category['id'];
       var category_count = category['items'].length;
@@ -96,14 +166,30 @@ function addChecklist() {
         var item_id = reversedItemIdList[item_name];
         var item = itemData[item_id];
         var tooltips = "物品ID:" + item_id;
+        var content_class_name = "item_content";
+        if (item['is_dlc']) {
+          content_class_name += " dlc01";
+        };
+        if (item['is_legendary']) {
+          content_class_name += " legendary";
+        }
+
         var content = `
           <div class="check_item">
             <label class="checkbox">
                 <input type="checkbox" data-id="` + item_id + `">
-                <span class="item_content">` + item['name'] + `</span>
+                <span class="` +content_class_name+`">` + item['name'] + `</span>
             </label>
           </div>`;
+
         $("#" + category_id + "").append(content);
+
+        // Update checked status
+        if (profiles.checklistData[item_id]) {
+          $('[data-id="' + item_id + '"]').prop("checked", true);
+          $('[data-id="' + item_id + '"]').parent().addClass("completed");
+        };
+
       })
     });
   });
@@ -132,12 +218,11 @@ function updateSlotDropdown(slot_name_list) {
 }
 
 function genReversedItemIdList(itemData) {
-  var reversedItemIdList = {};
   for (let key in itemData) {
     let item = itemData[key];
     reversedItemIdList[item.name] = key;
+    ItemIdList[key] = item.name;
   }
-  return reversedItemIdList;
 }
 
 
@@ -171,6 +256,54 @@ async function calculateSave() {
   console.log("Complete: " + complete);
   console.log("Percentage: " + globalPc + "%");
 
-  // Update the progress
+
+  // Reset and Update the progress
+  profiles.checklistData = {};
+  counterRawIds.forEach(function (item_id) {
+    profiles.checklistData[item_id] = true;
+    $('[data-id="' + item_id + '"]').prop("checked", true);
+    $('[data-id="' + item_id + '"]').parent().addClass("completed");
+  })
+  resetProgess();
   // $("#progress").text(`${globalCounter}/${globalTotal}`);
+}
+
+function updateHideCompleted() {
+  const isHidden = profiles.is_hide_complete;
+  const displayValue = isHidden ? "none" : "";
+
+  $("label .completed").each(function () {
+    $(this).css("display", displayValue);
+  });
+}
+
+function resetProgess() {
+  Object.keys(collectionsData).forEach(function (categoryKey) {
+    var categories = collectionsData[categoryKey];
+    // Loop over Weapon/Armor/Good/...
+    categories.forEach(function (category) {
+      var category_id = category['id'];
+      var category_count = category['items'].length;
+      profiles.category_progress[category_id] = [0, category_count];
+
+      Object.keys(profiles.checklistData).forEach(function (item_id) {
+        var item_name = ItemIdList[item_id];
+        if (profiles.checklistData[item_id] && category['items'].includes(item_name)) {
+          profiles.category_progress[category_id][0] += 1;
+        };
+      });
+    }); 
+  });
+
+  // Update UI
+  updateProgessUI();
+}
+
+function updateProgessUI(){
+  Object.keys(category_progress).forEach(function (category_id) {
+    var progress = profiles.category_progress[category_id];
+    var progress_str = "(" + progress[0] + "/" + progress[1] + ")"; // (complete/total)
+    $("#" + category_id + " .max").text(progress_str);
+    $("#" + category_id + " progress").val(progress[0]);
+  });
 }
