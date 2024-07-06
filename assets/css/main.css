@@ -6,6 +6,24 @@ body {
     line-height: 1.5;
 }
 
+.title {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle {
+    display: block;
+    text-align: center;
+
+}
+
+.check_item {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
 .in_progress, .done {
   color: #C60;
   border: 1px solid;
@@ -35,13 +53,6 @@ ul li ul {
     padding-top: 0;
 }
 
-#title {
-    padding-top: 25px;
-    padding-bottom: 15px;
-    /* font-size: 48px; */
-    color:#000;
-    font-weight: 800;
-}
 
 h3 {
     margin-bottom: 5;
@@ -49,27 +60,16 @@ h3 {
 
 }
 
-.form-group {
-    margin: 15px;
-}
 
-input[type="checkbox"] {
-    margin-left: -24px;
-}
-
-.checkbox {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.checkbox label {
-    padding-left: 24px;
-    cursor: pointer;
-}
 
 .item_content {
-    padding-left: 10px;
+    display: inline-block;
+    max-width: 900px;
+    word-break: break-word; /* Break long words */
+    overflow-wrap: break-word; /* Handle overflow by wrapping */
+    white-space: normal; /* Ensure text wraps */
 }
+
 input[type="checkbox"]:checked + .item_content {
     text-decoration: line-through;
     opacity: 0.6;
@@ -82,9 +82,6 @@ input[type="checkbox"]:checked + .item_content {
     color: #C60;
 }
 
-.progress_title {
-    margin-top: 5px;
-}
 
 span .grace::before {
     content: "🌟";
@@ -140,35 +137,35 @@ li.cut_content span{
     opacity: 0.9;
 }
 
-html:lang(zh) li.cut_content span::after {
+html:lang(zh) li.cut_content::after {
     font-weight: 600;
     content: " (无法获得)";
 }
 
-html:lang(en) li.cut_content span::after {
+html:lang(en) span.cut_content::after {
     font-weight: 600;
     content: " (Unobtainable)";
 }
 
-html:lang(zh-Hans) li.legendary span::after {
+html:lang(zh-Hans) span.legendary::after {
     color:#C60;
     content: " (传说)";
     text-shadow: 1px 1px yellow;
 }
 
-html:lang(zh-Hant) li.legendary span::after {
+html:lang(zh-Hant) span.legendary::after {
     color:#C60;
     content: " (傳說)";
     text-shadow: 1px 1px yellow;
 }
 
-html:lang(en) li.legendary span::after {
+html:lang(en) span.legendary::after {
     color:#C60;
     content: " (Legendary)";
     text-shadow: 1px 1px yellow;
 }
 
-li.dlc01 span::after {
+span.dlc01::after {
     color: #4CAF50; 
     content: " (DLC)";
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
@@ -188,10 +185,13 @@ input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
     display: none;
 }
 
-.hide-complete {
+#show-completed {
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 10;
+    font-size: medium;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .card-title{
