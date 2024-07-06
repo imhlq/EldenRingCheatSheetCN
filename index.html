@@ -26,7 +26,7 @@
         <nav class="small-margin">
             <div class="tabs left-align max">
                 <a data-ui="#tabWalkthrough">流程</a>
-                <a data-ui="#tabWeapons" class="active">武器</a>
+                <a data-ui="#tabWeapons">武器</a>
                 <a data-ui="#tabArmors">防具</a>
                 <a data-ui="#tabMagic">法术</a>
                 <a data-ui="#tabGoods">道具</a>
@@ -61,7 +61,7 @@
             </div>
 
             <!-- Weapons -->
-            <div class="page padding active" id="tabWeapons">
+            <div class="page padding" id="tabWeapons">
                 <div class="field label suffix border">
                     <input type="text" id="weapon_search">
                     <label>过滤关键词</label>
@@ -142,23 +142,26 @@
                     </div>
                 </article>
 
-                <article class="small middle-align center-align">
+                <article class="medium  middle-align center-align">
                     <div>
                         <i class="extra">bug_report</i>
                         <h5 class="center-align">提交ISSUE</h5>
                         <p><a href="https://github.com/imhlq/EldenRingCheatSheetCN/issues">Github</a></p>
+                        <div class="space"></div>
+                        <nav class="center-align">
+                          <button class="fill" id="resetAll">清空缓存</button>
+                        </nav>
                     </div>
                 </article>
             </div>
 
-            <div class="field hide-complete">
+            <div class="field" id="show-completed">
                 <nav class="">
                     <div>显示完成的选项</div>
-                    <label class="switch icon" for="hide_complete">
+                    <label class="switch icon">
                         <input
                             type="checkbox"
-                            id="hide_complete"
-                            data-bs-toggle="hide_complete"
+                            id="show_completed"
                         checked />
                         <span>
                             <i class="tiny">visibility</i>

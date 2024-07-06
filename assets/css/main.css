@@ -185,7 +185,7 @@ input[type="checkbox"] ~ .bi-eye, input[type="checkbox"] ~ * > .bi-eye {
     display: none;
 }
 
-.hide-complete {
+#show-completed {
     position: fixed;
     bottom: 0;
     right: 0;

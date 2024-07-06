@@ -5,11 +5,13 @@ if (profiles === null) {
   profiles = {};
 }
 
+var jets = [];
 var file_read = null;
 var item_list = [];
 var itemData;
 var collectionsData;
 var WalkthroughData;
+var bossesData;
 var ItemIdList = {};
 var reversedItemIdList = {};
 var selected_slot;
@@ -37,10 +39,8 @@ jQuery(document).ready(async function ($) {
     }
   });
 
-  // Tab Switch
-
   // Checkbox Event
-  $("input[type='checkbox']").change(function () {
+  $("input.c_item").change(function () {
     var item_id = $(this).data("id");
     var is_checked = (profiles.checklistData[item_id] = $(this).prop("checked"));
     if (is_checked) {
@@ -54,53 +54,83 @@ jQuery(document).ready(async function ($) {
     var newVal = is_checked ? currVal + 1 : currVal - 1;
     $(this).closest("details").find("progress").val(newVal); // Update Progress Bar
     $(this).closest("details").find(".ptext").text("(" + newVal + "/" + maxVal + ")"); // Update Progress Text
-
+    updateHideCompleted();
     localStorage.setItem("profiles", JSON.stringify(profiles));
   })
 
   resetProgess();
 
   // Hidden Item Button
-  $("#hide_complete").click(function () {
-    console.log("hide_complete");
-    profiles.is_hide_complete = $(this).prop("checked");
+  $("#show_completed").click(function () {
+    profiles.show_completed = $(this).prop("checked");
     updateHideCompleted();
     localStorage.setItem("profiles", JSON.stringify(profiles));
   });
   
-
+  $("#resetAll").click(function() {
+    profiles = {};
+    localStorage.clear();
+    location.reload();
+  })
 
   // Search Highlight
-  var jets = [
-    new Jets({
-      searchTag: "#walkthrough_search",
-      contentTag: "#Walkthrough",
-    }),
-    new Jets({
-      searchTag: "#boss_search",
-      contentTag: "#Bosses",
-    }),
+  jets = [
+    // new Jets({
+    //   searchTag: "#walkthrough_search",
+    //   contentTag: "#Walkthrough .check_item",
+    // }),
+    // new Jets({
+    //   searchTag: "#boss_search",
+    //   contentTag: "#Bosses .check_item",
+    // }),
     new Jets({
       searchTag: "#armor_search",
-      contentTag: "#Armor",
+      contentTag: "#Armor .check_item",
     }),
     new Jets({
       searchTag: "#weapon_search",
-      contentTag: "#Weapon",
+      contentTag: "#Weapon .check_item",
     }),
     new Jets({
       searchTag: "#good_search",
-      contentTag: "#Good",
+      contentTag: "#Good .check_item",
     }),
     new Jets({
       searchTag: "#magic_search",
-      contentTag: "#Magic",
+      contentTag: "#Magic .check_item",
     }),
   ];
 
+
   $("#weapon_search").on("keyup", function () {
-    $("#Weapon").unlightlight();
+    $("#Weapon").unhighlight();
     $("#Weapon").highlight($(this).val());
+  });
+  $("#armor_search").on("keyup", function () {
+    $("#Armor").unhighlight();
+    $("#Armor").highlight($(this).val());
+  });
+  $("#magic_search").on("keyup", function () {
+    $("#Magic").unhighlight();
+    $("#Magic").highlight($(this).val());
+  });
+  $("#good_search").on("keyup", function () {
+    $("#Good").unhighlight();
+    $("#Good").highlight($(this).val());
+  });
+  $("#boss_search").on("keyup", function () {
+    $("#Boss").unhighlight();
+    $("#Boss").highlight($(this).val());
+  });
+  $("#walkthrough_search").on("keyup", function () {
+    $("#Walkthrough").unhighlight();
+    $("#Walkthrough").highlight($(this).val());
+  });
+
+  // Tab Switch
+  $(".tabs a").on("click", function (el){
+    profiles.current_tab = $(this).data('ui');
+    localStorage.setItem("profiles", JSON.stringify(profiles));
   });
 
   // Save Profile to localStorage
@@ -112,15 +142,17 @@ function initializeProfile() {
   if (!("checklistData" in profiles)) profiles.checklistData = {};
   if (!("category_progress" in profiles)) profiles.category_progress = {};
   if (!("current_tab" in profiles)) {
-    profiles.current_tab = "#tabItems";
+    profiles.current_tab = "#tabWeapons";
   } else {
-    // TBD
+    $(profiles.current_tab).addClass('active');
+    $('a[data-ui="' + profiles.current_tab + '"]').addClass('active');
   };
-  if (!("is_hide_complete" in profiles)) {
-    profiles.is_hide_complete = true;
+  if (!("show_completed" in profiles)) {
+    profiles.show_completed = true;
   } else {
-    $("#hide_complete").prop("checked", profiles.is_hide_complete);
+    $("#show_completed").prop("checked", profiles.show_completed);
   };
+  localStorage.setItem("profiles", JSON.stringify(profiles));
 }
 
 async function read_data() {
@@ -133,6 +165,8 @@ async function read_data() {
 
     res = await fetch("assets/data/walkthrough.json");
     WalkthroughData = await res.json();
+    res = await fetch("assets/data/bosses.json");
+    bossesData = await res.json();
   } catch (e) {
     console.log(e);
   }
@@ -182,7 +216,7 @@ function addChecklist() {
         var content = `
           <div class="check_item">
             <label class="checkbox">
-                <input type="checkbox" data-id="` + item_id + `">
+                <input type="checkbox" class="c_item" data-id="` + item_id + `">
                 <span class="` +content_class_name+`">` + item['name'] + `</span>
             </label>
           </div>`;
@@ -224,7 +258,7 @@ function addChecklist() {
       var content = `
           <div class="check_item">
             <label class="checkbox">
-                <input type="checkbox" data-id="` + event["event_id"] + `">
+                <input type="checkbox" class="c_item" data-id="` + event["event_id"] + `">
                 <span class="` +content_class_name+`">` + event['description'] + `</span>
             </label>
           </div>`;
@@ -235,9 +269,59 @@ function addChecklist() {
         $('[data-id="' + event["event_id"] + '"]').parent().addClass("completed");
       };
     });
-
-
   });
+
+  // Bosses, data from https://www.nexusmods.com/eldenring/mods/3859
+  bossesData.forEach(function(region) {
+    var region_name = region['region_name']
+    var category_count = region['bosses'].length;
+    var progress_str = "(0/" + category_count + ")";
+
+    var summary = `
+    <details class="s12" name="` + region_name +`">
+        <summary class="none">
+            <article class="no-elevate">
+                <nav>
+                  <div class="max">` + region_name + ` <span class="ptext">` + progress_str + `</span></div>
+                  <i>expand_more</i>
+                </nav>
+                <progress class="max" value="0" max="` +category_count+ `"></progress>
+            </article>
+        </summary>
+      </details>`;
+    $("#Boss").append(summary);
+
+    region['bosses'].forEach(function(boss) {
+      var boss_name = boss["boss"]
+      var boss_place = boss['place']
+      var boss_flagid = boss['flag_id']
+
+      var content_class_name = "item_content boss";
+      if ("rememberance" in boss) {
+        content_class_name += " rememberance_boss"
+      }
+      if (boss_place === ""){
+        boss_place = ""
+      } else {
+        boss_place = " (" + boss_place + ")"
+      }
+
+      var content = `
+          <div class="check_item">
+            <label class="checkbox">
+                <input type="checkbox" class="c_item" data-id="` + boss_flagid + `">
+                <span class="`+content_class_name+`">` + boss_name + boss_place + `</span>
+            </label>
+          </div>`;
+      $("details[name='" + region_name + "']").append(content);
+      if (profiles.checklistData[boss_flagid]) {
+        $('[data-id="' + boss_flagid + '"]').prop("checked", true);
+        $('[data-id="' + boss_flagid + '"]').parent().addClass("completed");
+      };
+
+    })
+  })
+
 }
 
 
@@ -274,7 +358,7 @@ function genReversedItemIdList(itemData) {
 async function calculateSave() {
   selected_slot = $("#slot_selector option:selected").val();
   item_list = fetchInventory(file_read, selected_slot);
-  console.log(item_list);
+  // console.log(item_list);
 
   // calculate global progress
   const uniqueRawIds = new Set();
@@ -296,9 +380,6 @@ async function calculateSave() {
   total = uniqueRawIds.size;
 
   var globalPc = Math.floor((complete / total) * 100); // global progress percentage
-  // Print all
-  console.log("Total: " + total);
-  console.log("Complete: " + complete);
   console.log("Percentage: " + globalPc + "%");
 
 
@@ -314,10 +395,10 @@ async function calculateSave() {
 }
 
 function updateHideCompleted() {
-  const isHidden = profiles.is_hide_complete;
+  const isHidden = !profiles.show_completed;
   const displayValue = isHidden ? "none" : "";
 
-  $("label .completed").each(function () {
+  $("label.completed").each(function () {
     $(this).css("display", displayValue);
   });
 }
