@@ -75,14 +75,14 @@ jQuery(document).ready(async function ($) {
 
   // Search Highlight
   jets = [
-    // new Jets({
-    //   searchTag: "#walkthrough_search",
-    //   contentTag: "#Walkthrough .check_item",
-    // }),
-    // new Jets({
-    //   searchTag: "#boss_search",
-    //   contentTag: "#Bosses .check_item",
-    // }),
+    new Jets({
+      searchTag: "#walkthrough_search",
+      contentTag: "#Walkthrough .check_item",
+    }),
+    new Jets({
+      searchTag: "#boss_search",
+      contentTag: "#Bosses .check_item",
+    }),
     new Jets({
       searchTag: "#armor_search",
       contentTag: "#Armor .check_item",
