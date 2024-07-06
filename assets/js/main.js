@@ -359,7 +359,7 @@ function genReversedItemIdList(itemData) {
 async function calculateSave() {
   selected_slot = $("#slot_selector option:selected").val();
   item_list = fetchInventory(file_read, selected_slot);
-  // console.log(item_list);
+  console.log(item_list);
 
   // calculate global progress
   const uniqueRawIds = new Set();
@@ -373,12 +373,12 @@ async function calculateSave() {
     uniqueRawIds.add(item.id);
     // console.log(item.id);
 
-    if (item_list.includes(item.id) && !counterRawIds.has(item.id)) {
-      complete += 1;
+    if (item_list.includes(key) && !counterRawIds.has(item.id)) {
       counterRawIds.add(item.id);
     }
   }
   total = uniqueRawIds.size;
+  complete = counterRawIds.size;
 
   var globalPc = Math.floor((complete / total) * 100); // global progress percentage
   console.log("Percentage: " + globalPc + "%");
@@ -413,12 +413,18 @@ function resetProgess() {
       var category_count = category['items'].length;
       profiles.category_progress[category_id] = [0, category_count];
 
+      // Remove dup checklist Data, but why it works?
+      var uniquelistData = new Set()
       Object.keys(profiles.checklistData).forEach(function (item_id) {
-        var item_name = ItemIdList[item_id];
-        if (profiles.checklistData[item_id] && category['items'].includes(item_name)) {
+        if (profiles.checklistData[item_id])
+          uniquelistData.add(ItemIdList[item_id])
+      });
+      uniquelistData.forEach(function (item_name){
+        if (category['items'].includes(item_name)) {
           profiles.category_progress[category_id][0] += 1;
         };
-      });
+      })
+
     }); 
 
     // Loop over Bosses
