@@ -185,7 +185,7 @@ function addChecklist() {
       category_progress[category_id] = [0, category_count]
 
       var summary = `
-      <details class="s12" id="` + category_id + `">                    
+      <details class="s12" name="` + category_id + `">                    
           <summary class="none">
               <article class="no-elevate">
                   <nav>
@@ -221,7 +221,7 @@ function addChecklist() {
             </label>
           </div>`;
 
-        $("#" + category_id + "").append(content);
+        $("details[name='" + category_id + "']").append(content);
 
         // Update checked status
         if (profiles.checklistData[item_id]) {
@@ -420,17 +420,34 @@ function resetProgess() {
         };
       });
     }); 
+
+    // Loop over Bosses
+    profiles.category_progress["Boss"] = {}
+    bossesData.forEach(function (region) {
+      var region_name = region['region_name']
+      var category_count = region['bosses'].length;
+      profiles.category_progress[region_name] = [0, category_count];
+
+      Object.keys(profiles.checklistData).forEach(function (item_id) {
+        if (profiles.checklistData[item_id] && region['bosses'].some(boss => boss["flag_id"] == item_id)) {
+          profiles.category_progress[region_name][0] += 1;
+        };
+      });
+    })
   });
 
+  localStorage.setItem("profiles", JSON.stringify(profiles));
   // Update UI
   updateProgessUI();
 }
 
 function updateProgessUI(){
-  Object.keys(category_progress).forEach(function (category_id) {
+  Object.keys(profiles.category_progress).forEach(function (category_id) {
     var progress = profiles.category_progress[category_id];
     var progress_str = "(" + progress[0] + "/" + progress[1] + ")"; // (complete/total)
-    $("#" + category_id + " .ptext").text(progress_str);
-    $("#" + category_id + " progress").val(progress[0]);
+    console.log(category_id)
+    console.log(progress)
+    $("details[name='" + category_id + "'] .ptext").text(progress_str);
+    $("details[name='" + category_id + "'] progress").val(progress[0]);
   });
 }
