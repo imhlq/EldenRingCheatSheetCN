@@ -335,6 +335,7 @@ function updateSlotDropdown(slot_name_list) {
         <label>角色栏</label>
         <i>arrow_drop_down</i>`);
 
+
     const selector = select.find("select");
     for (let i = 0; i < 10; i++) {
         if (slot_name_list[i] === "") {
