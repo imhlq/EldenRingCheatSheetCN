@@ -13,10 +13,12 @@
     </head>
 
     <body class="light">
+        <div id="overlay" class="overlay blur"></div>
+
         <figure class="text-center">
             <h2 class="title">艾尔登法环实用手册</h2>
             <div class="subtitle">
-                基于v1.12 + <span class="dlc-title">黄金树幽影DLC</span> | Created by
+                基于v1.12 + <span class="dlc-title">黄金树幽影</span> | Created by
                 <a href="https://xhou.me" style="text-decoration: none">xHou</a>
             </div>
         </figure>
@@ -47,6 +49,12 @@
         <main class="responsive">
 
             <div class="page padding" id="tabWalkthrough">
+                <div class="field label suffix border">
+                    <input type="text" id="Walkthrough_search">
+                    <label>过滤关键词</label>
+                    <i>search</i>
+                </div>
+
                 <div id="Walkthrough" class="grid collections">
                     <!-- Add Items Here -->
                 </div>
@@ -56,7 +64,7 @@
             <div class="page padding active" id="tabWeapons">
                 <div class="field label suffix border">
                     <input type="text" id="weapon_search">
-                    <label>过滤物品</label>
+                    <label>过滤关键词</label>
                     <i>search</i>
                 </div>
 
@@ -69,7 +77,7 @@
 
                 <div class="field label suffix border">
                     <input type="text" id="armor_search">
-                    <label>过滤物品</label>
+                    <label>过滤关键词</label>
                     <i>search</i>
                 </div>
 
@@ -82,7 +90,7 @@
 
                 <div class="field label suffix border">
                     <input type="text" id="good_search">
-                    <label>过滤物品</label>
+                    <label>过滤关键词</label>
                     <i>search</i>
                 </div>
 
@@ -95,7 +103,7 @@
 
                 <div class="field label suffix border">
                     <input type="text" id="magic_search">
-                    <label>过滤物品</label>
+                    <label>过滤关键词</label>
                     <i>search</i>
                 </div>
 
@@ -108,7 +116,7 @@
 
                 <div class="field label suffix border">
                     <input type="text" id="boss_search">
-                    <label>过滤物品</label>
+                    <label>过滤关键词</label>
                     <i>search</i>
                 </div>
 
@@ -118,7 +126,29 @@
             </div>
 
             <div class="page padding" id="tabAbout">
-                <h5>About</h5>
+                <article class="small middle-align center-align">
+                    <div>
+                        <i class="extra">Forum</i>
+                        <h5 class="center-align">加入讨论群</h5>
+                        <p>672924061</p>
+                    </div>
+                </article>
+
+                <article class="small middle-align center-align">
+                    <div>
+                        <i class="extra">Group</i>
+                        <h5 class="center-align">Discord</h5>
+                        <p><a href="https://discord.gg/wscgpgzeqm">https://discord.gg/wscgpgzeqm</a></p>
+                    </div>
+                </article>
+
+                <article class="small middle-align center-align">
+                    <div>
+                        <i class="extra">bug_report</i>
+                        <h5 class="center-align">提交ISSUE</h5>
+                        <p><a href="https://github.com/imhlq/EldenRingCheatSheetCN/issues">Github</a></p>
+                    </div>
+                </article>
             </div>
 
             <div class="field hide-complete">

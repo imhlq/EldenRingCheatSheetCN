@@ -9,10 +9,12 @@ var file_read = null;
 var item_list = [];
 var itemData;
 var collectionsData;
+var WalkthroughData;
 var ItemIdList = {};
 var reversedItemIdList = {};
 var selected_slot;
 var category_progress = {};
+
 
 jQuery(document).ready(async function ($) {
   initializeProfile();
@@ -30,7 +32,6 @@ jQuery(document).ready(async function ($) {
       var chr_names = getNames(file_read);
       updateSlotDropdown(chr_names);
       $("#slot_selector").change(function(e) {
-        // $("#calculate").css("display", "inline-block");
         calculateSave();
       });
     }
@@ -52,7 +53,7 @@ jQuery(document).ready(async function ($) {
     var maxVal = $(this).closest("details").find("progress").attr("max");
     var newVal = is_checked ? currVal + 1 : currVal - 1;
     $(this).closest("details").find("progress").val(newVal); // Update Progress Bar
-    $(this).closest("details").find(".max").text("(" + newVal + "/" + maxVal + ")"); // Update Progress Text
+    $(this).closest("details").find(".ptext").text("(" + newVal + "/" + maxVal + ")"); // Update Progress Text
 
     localStorage.setItem("profiles", JSON.stringify(profiles));
   })
@@ -129,12 +130,16 @@ async function read_data() {
     res = await fetch("assets/data/collections.json");
     collectionsData = await res.json();
     genReversedItemIdList(itemData);
+
+    res = await fetch("assets/data/walkthrough.json");
+    WalkthroughData = await res.json();
   } catch (e) {
     console.log(e);
   }
 }
 
 function addChecklist() {
+  // Items
   Object.keys(collectionsData).forEach(function (categoryKey) {
     var categories = collectionsData[categoryKey];
     // Loop over Weapon/Armor/Good/...
@@ -150,7 +155,7 @@ function addChecklist() {
           <summary class="none">
               <article class="no-elevate">
                   <nav>
-                    <div class="max">` + category_name + progress_str + `</div>
+                    <div class="max">` + category_name + ` <span class="ptext">` + progress_str + `</span></div>
                     <i>expand_more</i>
                   </nav>
                   <progress class="max" value="0" max="` +category_count+ `"></progress>
@@ -172,7 +177,7 @@ function addChecklist() {
         };
         if (item['is_legendary']) {
           content_class_name += " legendary";
-        }
+        };
 
         var content = `
           <div class="check_item">
@@ -192,6 +197,46 @@ function addChecklist() {
 
       })
     });
+  });
+
+  // Walkthrough
+  WalkthroughData["regions"].forEach(function (region) {
+    var region_name = region['name']
+    var region_name_en = region['name_en']
+    var summary = `
+    <details class="s12" name="` + region_name_en +`">
+        <summary class="none">
+            <article class="no-elevate">
+                <nav>
+                  <div class="max">` + region_name + ` <span class="small-text">` +region_name_en+ `</span></div>
+                  <i>expand_more</i>
+                </nav>
+            </article>
+        </summary>
+      </details>`;
+    $("#Walkthrough").append(summary);
+
+    region['events'].forEach(function(event) {
+      var content_class_name = "item_content";
+      if ("sub_quests" in event && event["sub_quests"]){
+        content_class_name += " sub_quests";
+      };
+      var content = `
+          <div class="check_item">
+            <label class="checkbox">
+                <input type="checkbox" data-id="` + event["event_id"] + `">
+                <span class="` +content_class_name+`">` + event['description'] + `</span>
+            </label>
+          </div>`;
+      $("details[name='" + region_name_en + "']").append(content);
+      // Update checked status
+      if (profiles.checklistData[event["event_id"]]) {
+        $('[data-id="' + event["event_id"] + '"]').prop("checked", true);
+        $('[data-id="' + event["event_id"] + '"]').parent().addClass("completed");
+      };
+    });
+
+
   });
 }
 
@@ -303,7 +348,7 @@ function updateProgessUI(){
   Object.keys(category_progress).forEach(function (category_id) {
     var progress = profiles.category_progress[category_id];
     var progress_str = "(" + progress[0] + "/" + progress[1] + ")"; // (complete/total)
-    $("#" + category_id + " .max").text(progress_str);
+    $("#" + category_id + " .ptext").text(progress_str);
     $("#" + category_id + " progress").val(progress[0]);
   });
 }
