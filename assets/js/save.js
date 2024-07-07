@@ -1,5 +1,6 @@
 const pattern = new Uint8Array([176, 173, 1, 0, 1, 255, 255, 255]);
 const pattern2 = new Uint8Array([176, 173, 1, 0, 1]);
+const pattern3 = new Uint8Array([255, 255, 255, 0, 8]);
 
 var tmp;
 
@@ -84,6 +85,20 @@ function getInventory(slot) {
     const inventory = slot.subarray(index, endIndex);
 
     return { inventory, dlcFile };
+}
+
+export function fetchEventFlags(file_read, selected_slot, flags) {
+    const saves_array = new Uint8Array(file_read);
+    const slots = get_slot_ls(saves_array);
+    const slot = slots[selected_slot];
+
+    let index = subfinder(slot, pattern3) + pattern3.byteLength + 20;
+    flags.forEach((flag) => {
+        const byte = slot[index + flag["flag_offset"][0]];
+        const bit = (byte >> flag["flag_offset"][1]) & 1;
+        flag["value"] = bit;
+    });
+    return flags;
 }
 
 export function fetchInventory(file_read, selected_slot) {

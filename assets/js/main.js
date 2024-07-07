@@ -1,4 +1,4 @@
-import { readFile, getNames, fetchInventory } from "./save.js";
+import { readFile, getNames, fetchInventory, fetchEventFlags } from "./save.js";
 
 var profiles = JSON.parse(localStorage.getItem("profiles"));
 if (profiles === null) {
@@ -8,6 +8,7 @@ if (profiles === null) {
 var jets = [];
 var file_read = null;
 var item_list = [];
+var flag_list = [];
 var itemData;
 var collectionsData;
 var WalkthroughData;
@@ -384,6 +385,7 @@ async function calculateSave() {
   var globalPc = Math.floor((complete / total) * 100); // global progress percentage
   console.log("Percentage: " + globalPc + "%");
 
+  // Loop bosses (TBD)
 
   // Reset and Update the progress
   profiles.checklistData = {};
