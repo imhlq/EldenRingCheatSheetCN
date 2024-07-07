@@ -19,6 +19,7 @@ var category_progress = {};
 
 
 jQuery(document).ready(async function ($) {
+  NProgress.start();
   initializeProfile();
   await read_data();
   addChecklist();
@@ -135,7 +136,8 @@ jQuery(document).ready(async function ($) {
 
   // Save Profile to localStorage
   localStorage.setItem("profiles", JSON.stringify(profiles));
-
+  updateHideCompleted();
+  NProgress.done();
 });
 
 function initializeProfile() {
@@ -162,7 +164,6 @@ async function read_data() {
     res = await fetch("assets/data/collections.json");
     collectionsData = await res.json();
     genReversedItemIdList(itemData);
-
     res = await fetch("assets/data/walkthrough.json");
     WalkthroughData = await res.json();
     res = await fetch("assets/data/bosses.json");

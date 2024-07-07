@@ -11,7 +11,7 @@ export function readFile(file) {
             if (!buffer_equal(file_read["slice"](0, 4), new Int8Array([66, 78, 68, 52]))) {
                 e.target.result = null;
                 $("#slot_select").style.display = "none";
-                alert("Insert a valid file");
+                // alert("Insert a valid file");
                 reject();
                 return;
             }
