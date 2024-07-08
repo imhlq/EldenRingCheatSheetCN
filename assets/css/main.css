@@ -84,16 +84,13 @@ span .grace::before {
 }
 span .grace {
     color:#C60;
-    padding-right: 2px;
 }
 span .item {
     color:purple;
-    padding-right: 2px;
 }
 
 span .npc {
     color:seagreen;
-    padding-right: 2px;
 }
 
 span.place_en {

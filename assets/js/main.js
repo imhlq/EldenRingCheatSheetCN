@@ -236,7 +236,7 @@ function addChecklist() {
   });
 
   // Walkthrough
-  WalkthroughData["regions"].forEach(function (region) {
+  WalkthroughData.forEach(function (region) {
     var region_name = region['name']
     var region_name_en = region['name_en']
     var summary = `
@@ -253,15 +253,12 @@ function addChecklist() {
     $("#Walkthrough").append(summary);
 
     region['events'].forEach(function(event) {
-      var content_class_name = "item_content";
-      if ("sub_quests" in event && event["sub_quests"]){
-        content_class_name += " sub_quests";
-      };
+      var content_class_name = "item_content " + event["class"];
       var content = `
           <div class="check_item">
             <label class="checkbox">
                 <input type="checkbox" class="c_item" data-id="` + event["event_id"] + `">
-                <span class="` +content_class_name+`">` + event['description'] + `</span>
+                <span class="` +content_class_name+`">` + event['text'] + `</span>
             </label>
           </div>`;
       $("details[name='" + region_name_en + "']").append(content);
