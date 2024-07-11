@@ -12,6 +12,7 @@ var flag_list = [];
 var itemData;
 var collectionsData;
 var WalkthroughData;
+var ViiData;
 var bossesData;
 var ItemIdList = {};
 var reversedItemIdList = {};
@@ -160,15 +161,17 @@ function initializeProfile() {
 
 async function read_data() {
   try {
-    let res = await fetch("assets/data/item_data.json");
-    itemData = await res.json();
-    res = await fetch("assets/data/collections.json");
+    let res = await fetch("assets/data/collections.json");
     collectionsData = await res.json();
-    genReversedItemIdList(itemData);
     res = await fetch("assets/data/walkthrough.json");
     WalkthroughData = await res.json();
+    res = await fetch("assets/data/vii.json");
+    ViiData = await res.json();
     res = await fetch("assets/data/bosses.json");
     bossesData = await res.json();
+    res = await fetch("assets/data/item_data.json");
+    itemData = await res.json();
+    genReversedItemIdList(itemData);
   } catch (e) {
     console.log(e);
   }
@@ -266,6 +269,43 @@ function addChecklist() {
       if (profiles.checklistData[event["event_id"]]) {
         $('[data-id="' + event["event_id"] + '"]').prop("checked", true);
         $('[data-id="' + event["event_id"] + '"]').parent().addClass("completed");
+      };
+    });
+  });
+
+  // Very Important Items
+  // Walkthrough
+  ViiData.forEach(function (item) {
+    var i_name = item['name'];
+    var summary = `
+    <details class="s12" name="` + i_name +`">
+        <summary class="none">
+            <article class="no-elevate">
+                <nav>
+                  <div class="max">${i_name}</div>
+                  <i>expand_more</i>
+                </nav>
+            </article>
+        </summary>
+      </details>`;
+    $("#VII").append(summary);
+    let loc_id = 0;
+    item['items'].forEach(function(location) {
+      loc_id += 1;
+      var content_class_name = "item_content vii";
+      var content = `
+          <div class="check_item">
+            <label class="checkbox">
+                <input type="checkbox" class="c_item" data-id="VII_` + i_name + loc_id + `">
+                <span class="` +content_class_name+`">` + location + `</span>
+            </label>
+          </div>`;
+
+      $("details[name='" + i_name + "']").append(content);
+      // Update checked status
+      if (profiles.checklistData["VII_"  + i_name + loc_id]) {
+        $('[data-id="VII_' + i_name + loc_id + '"]').prop("checked", true);
+        $('[data-id="VII_' + i_name + loc_id + '"]').parent().addClass("completed");
       };
     });
   });

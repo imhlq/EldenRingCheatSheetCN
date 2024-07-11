@@ -1139,7 +1139,7 @@
       },
       {
         "event_id": "W_F_3",
-        "text": "（小壶支线）来到赐福点<span class='grace'>壶村</span>。与小壶对话，刷新地图后，拾取道具。小壶支线完结。/li>",
+        "text": "（小壶支线）来到赐福点<span class='grace'>壶村</span>。与小壶对话，刷新地图后，拾取道具。小壶支线完结。",
         "class": "side_quest"
       },
       {
@@ -1197,6 +1197,22 @@
         "event_id": "W_10_7",
         "text": "结局分支：3.来到<span class='boss'>“龙王”普拉顿桑克斯</span>场景，使用道具\n            米凯拉的针，使用后压制癫火。返回后与雕像互动（五种选项）。",
         "class": "main_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Gravesite Plain",
+    "name": "墓地平原",
+    "events": [
+      {
+        "event_id": "W_A_1",
+        "text": "（DLC）击败<span class='boss'>“碎星”拉塔恩</span>与<span class='boss'>“鲜血君主”蒙格</span>后，返回赐福点。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_TBD",
+        "text": "DLC更新中，敬请期待。",
+        "class": "side_quest"
       }
     ]
   }
