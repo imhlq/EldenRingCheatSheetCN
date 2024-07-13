@@ -160,20 +160,28 @@ function initializeProfile() {
 }
 
 async function read_data() {
+  const urls = [
+    "assets/data/collections.json",
+    "assets/data/walkthrough.json",
+    "assets/data/vii.json",
+    "assets/data/bosses.json",
+    "assets/data/item_data.json"
+  ];
+
   try {
-    let res = await fetch("assets/data/collections.json");
-    collectionsData = await res.json();
-    res = await fetch("assets/data/walkthrough.json");
-    WalkthroughData = await res.json();
-    res = await fetch("assets/data/vii.json");
-    ViiData = await res.json();
-    res = await fetch("assets/data/bosses.json");
-    bossesData = await res.json();
-    res = await fetch("assets/data/item_data.json");
-    itemData = await res.json();
+    const responses = await Promise.all(urls.map(url => fetch(url)));
+    const data = await Promise.all(responses.map(res => res.json()));
+    
+    // Directly assign the data to global variables
+    collectionsData = data[0];
+    WalkthroughData = data[1];
+    ViiData = data[2];
+    bossesData = data[3];
+    itemData = data[4];
+    
     genReversedItemIdList(itemData);
   } catch (e) {
-    console.log(e);
+    console.log("Failed to fetch data: ", e);
   }
 }
 
