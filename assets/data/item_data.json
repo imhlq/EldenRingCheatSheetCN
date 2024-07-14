@@ -30419,7 +30419,7 @@
     "name": "调香师护符",
     "type": "talisman",
     "is_legendary": false,
-    "is_dlc": true
+    "is_dlc": false
   },
   "20000BB8": {
     "id": "20000BB8",
