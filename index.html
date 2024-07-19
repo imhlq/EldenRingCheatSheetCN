@@ -156,9 +156,15 @@
                         <h5 class="center-align">提交ISSUE</h5>
                         <p><a href="https://github.com/imhlq/EldenRingCheatSheetCN/issues">Github</a></p>
                         <div class="space"></div>
-                        <nav class="center-align">
-                          <button class="fill" id="resetAll">清空缓存</button>
+                        <nav class="center-align no-space">
+                            <button class="border left-round" id="exportAll">导出数据</button>
+                            <button class="border no-round" id="resetAll">清空数据</button>
+                            <button class="border right-round" id="importAll">导入数据</button>
                         </nav>
+                        <div class="snackbar" id="noticebar">
+                            <i>warning</i>
+                            <span>已导出数据到剪切板</span>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -179,11 +185,11 @@
             </div>
         </main>
         
-
         <script src="./assets/js/jquery.min.js"></script>
         <script src="./assets/js/jquery.highlight.js"></script>
+        <script src="./assets/js/pako.min.js"></script>
         <script defer src="./assets/js/jets.min.js"></script>
-        <script type="module" src="./assets/js/main.js?v=1.12.6"></script>
+        <script type="module" src="./assets/js/main.js?v=1.12.7"></script>
 
     </body>
 </html>

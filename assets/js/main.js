@@ -74,7 +74,15 @@ jQuery(document).ready(async function ($) {
     profiles = {};
     localStorage.clear();
     location.reload();
-  })
+  });
+
+  $("#exportAll").click(function() {
+    export_profile();
+  });
+
+  $("#importAll").click(function() {
+    import_profile();
+  });
 
   // Search Highlight
   jets = [
@@ -144,7 +152,7 @@ jQuery(document).ready(async function ($) {
 
 function initializeProfile() {
   if (!("checklistData" in profiles)) profiles.checklistData = {};
-  if (!("category_progress" in profiles)) profiles.category_progress = {};
+  // if (!("category_progress" in profiles)) profiles.category_progress = {};
   if (!("current_tab" in profiles)) {
     profiles.current_tab = "#tabWeapons";
   } else {
@@ -459,7 +467,7 @@ function resetProgess() {
     categories.forEach(function (category) {
       var category_id = category['id'];
       var category_count = category['items'].length;
-      profiles.category_progress[category_id] = [0, category_count];
+      category_progress[category_id] = [0, category_count];
 
       // Remove dup checklist Data, but why it works?
       var uniquelistData = new Set()
@@ -469,22 +477,22 @@ function resetProgess() {
       });
       uniquelistData.forEach(function (item_name){
         if (category['items'].includes(item_name)) {
-          profiles.category_progress[category_id][0] += 1;
+          category_progress[category_id][0] += 1;
         };
       })
 
     }); 
 
     // Loop over Bosses
-    profiles.category_progress["Boss"] = {}
+    category_progress["Boss"] = {}
     bossesData.forEach(function (region) {
       var region_name = region['region_name']
       var category_count = region['bosses'].length;
-      profiles.category_progress[region_name] = [0, category_count];
+      category_progress[region_name] = [0, category_count];
 
       Object.keys(profiles.checklistData).forEach(function (item_id) {
         if (profiles.checklistData[item_id] && region['bosses'].some(boss => boss["flag_id"] == item_id)) {
-          profiles.category_progress[region_name][0] += 1;
+          category_progress[region_name][0] += 1;
         };
       });
     })
@@ -496,10 +504,37 @@ function resetProgess() {
 }
 
 function updateProgessUI(){
-  Object.keys(profiles.category_progress).forEach(function (category_id) {
-    var progress = profiles.category_progress[category_id];
+  Object.keys(category_progress).forEach(function (category_id) {
+    var progress = category_progress[category_id];
     var progress_str = "(" + progress[0] + "/" + progress[1] + ")"; // (complete/total)
     $("details[name='" + category_id + "'] .ptext").text(progress_str);
     $("details[name='" + category_id + "'] progress").val(progress[0]);
   });
+}
+
+// Export/Import
+function export_profile(){
+  const data = JSON.stringify(profiles);
+  const compressed = pako.deflate(data, { to: 'uint8array' });
+  const base64Compressed = btoa(String.fromCharCode.apply(null, compressed));
+  console.log("Compressed and Encoded: ", base64Compressed);  // Debug log
+  navigator.clipboard.writeText(base64Compressed)
+    .then(() => ui('#noticebar'))
+}
+
+function import_profile(){
+  const inputData = prompt('请输入保存的数据:');
+  if (inputData) {
+    try {
+      const bytes = new Uint8Array(atob(inputData).split('').map(char => char.charCodeAt(0)));  // Convert Base64 back to binary data
+      const decompressed = pako.inflate(bytes, { to: 'string' });  // Decompress data
+      profiles = JSON.parse(decompressed);
+      localStorage.setItem("profiles", JSON.stringify(profiles));
+      updateProgessUI();
+      updateHideCompleted();
+      location.reload();
+    } catch(err) {
+      console.log(err);
+    }
+  }
 }
