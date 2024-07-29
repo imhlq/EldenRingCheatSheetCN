@@ -1,0 +1,47 @@
+---
+
+---
+
+<div class="fixed bottom-4 right-4 z-10" transition:persist>
+    <input type="checkbox" id="show_completed" class="sr-only" checked></input>
+    <label for="show_completed" class="px-4 py-2 bg-gray-800 text-white rounded shadow cursor-pointer flex items-center">
+        <span id="toggle-text" class="select-none">隐藏已完成</span>
+    </label>
+</div>
+
+
+<script>
+
+const toggleBtn = document.querySelector('#show_completed');
+
+toggleBtn.addEventListener('change', function() {
+    toggleCompleted();
+});
+
+function toggleCompleted() {
+    var checkbox = document.getElementById('show_completed') as HTMLInputElement;
+    var label = document.getElementById('toggle-text') as HTMLElement;
+    const profiles = JSON.parse(localStorage.getItem('profiles'))
+    if (checkbox.checked) {
+        label.textContent = "隐藏已完成";
+        profiles.show_completed = true;
+    } else {
+        label.textContent = "显示已完成";
+        profiles.show_completed = false;
+    }
+    localStorage.setItem('profiles', JSON.stringify(profiles));
+    updateChecklist();
+}
+
+function updateChecklist() {
+    const profiles = JSON.parse(localStorage.getItem('profiles'))
+    const checklists = document.querySelectorAll('check-list');
+    checklists.forEach(function(checklist) {
+        if (profiles.show_completed) {
+            checklist.classList.remove('hide-completed');
+        } else {
+            checklist.classList.add('hide-completed');
+        }
+    });
+}
+</script>

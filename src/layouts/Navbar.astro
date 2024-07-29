@@ -1,0 +1,18 @@
+---
+import GameSave from "../components/GameSave.astro"
+---
+
+<nav class="flex gap-6" aira-label="Tabs">
+    <div class="flex flex-wrap w-full text-sm font-medium text-center text-gray-500 dark:text-gray-400">
+        <a class="px-4 py-2 text-gray-600 border-b-2 border-transparent focus:outline-none hover:border-gray-400 hover:cursor-pointer" data-ui="#tabVII">重要物品</a>
+        <a class="px-4 py-2 text-gray-600 border-b-2 border-transparent focus:outline-none hover:border-gray-400 hover:cursor-pointer" data-ui="#tabWalkthrough">流程</a>
+        <a class="px-4 py-2 text-gray-600 border-b-2 border-transparent focus:outline-none hover:border-gray-400 hover:cursor-pointer" data-ui="#tabWeapons">武器</a>
+        <a class="px-4 py-2 text-gray-600 border-b-2 border-transparent focus:outline-none hover:border-gray-400 hover:cursor-pointer" data-ui="#tabArmors">防具</a>
+        <a class="px-4 py-2 text-gray-600 border-b-2 border-transparent focus:outline-none hover:border-gray-400 hover:cursor-pointer" data-ui="#tabMagic">法术</a>
+        <a class="px-4 py-2 text-gray-600 border-b-2 border-transparent focus:outline-none hover:border-gray-400 hover:cursor-pointer" data-ui="#tabGoods">道具</a>
+        <a class="px-4 py-2 text-gray-600 border-b-2 border-transparent focus:outline-none hover:border-gray-400 hover:cursor-pointer" data-ui="#tabBosses">BOSS</a>
+        <a class="px-4 py-2 text-gray-600 border-b-2 border-transparent focus:outline-none hover:border-gray-400 hover:cursor-pointer" data-ui="#tabAbout">关于</a>
+    </div>
+
+    <GameSave />
+</nav>

@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import Checklist from '../components/Checklist.astro';
+import EldenPage from '../layouts/EldenPage.astro';
+import ToggleHideCompleted from '../components/ToggleHideCompleted.astro';
+
+// make pages for all items in content 
+export async function getStaticPaths () {
+    const entries = await getCollection("items");
+    return entries.map(entry => ({
+        params: { collection: entry.id },
+    }))
+}
+
+const { collection } = Astro.params;
+---
+
+<EldenPage>
+    <ToggleHideCompleted/>
+    <Checklist collection={collection} searchable/>
+</EldenPage>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+		// Load state from localStorage
+		const profiles = JSON.parse(localStorage.getItem('profiles')) || { checklistData: {} };
+		if (profiles.checklistData) {
+			for (const key in profiles.checklistData) {
+				const element = document.querySelector(`input[data-id="${key}"]`);
+				if (element) {
+					(element as HTMLInputElement).checked = true;
+				} else {
+					console.warn(`Element with data-id="${key}" not found.`);
+				}
+			}
+		};
+		dispatchEvent(new Event('data-loaded'));
+    });
+</script>

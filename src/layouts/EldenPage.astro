@@ -1,0 +1,30 @@
+---
+import Layout from './Layout.astro';
+import Navbar from './Navbar.astro';
+---
+
+<Layout title="艾尔登法环实用手册 | xHou.me">
+	<figure class="text-center">
+		<h2 class="text-4xl font-bold md:text-5xl py-2">艾尔登法环<wbr>实用手册</h2>
+		<div class="text-sm pb-2">
+			基于v1.12 + <span class="dlc-title">黄金树幽影</span> | Created by
+			<a href="https://xhou.me" class="no-underline hover:underline">xHou</a>
+		</div>
+	</figure>
+
+	<Navbar/>
+
+	<main>
+		<slot />
+	</main>
+</Layout>
+
+
+<style>
+
+.dlc-title {
+	color: #4CAF50; /* Green color to signify 'Shadow of the Erdtree' */
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+	padding: 2px 0; /* Small padding for better visual separation */
+}
+</style>

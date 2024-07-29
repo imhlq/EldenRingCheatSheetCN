@@ -1,0 +1,758 @@
+[
+  {
+    "name": "墓地平原",
+    "quests": [
+      {
+        "quest_id": "XXCJANDG",
+        "quest_type": "main",
+        "text": "DLC开启条件：击杀<span class='npc'>“碎星”拉塔恩</span>与<span class='npc'>“鲜血君王”蒙格</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXYAQCDT",
+        "quest_type": "side",
+        "side_name": "蕾妲",
+        "text": "来到<span class='grace'>神人沉眠之茧</span>，与<span class='npc'>“金针骑士”蕾妲</span>对话。之后<span class='item'>触碰干枯手臂</span>前往幽影之地。",
+        "options": []
+      },
+      {
+        "quest_id": "XXEEDUN1",
+        "quest_type": "side",
+        "side_name": "弗蕾亚",
+        "text": "在<span class='grace'>三叉口的十字记号</span>处，与<span class='npc'>“红狮子”弗蕾亚</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXB9YUOF",
+        "quest_type": "side",
+        "side_name": "角人",
+        "text": "与<span class='npc'>角人</span>对话，获得<span class='item'>十字记号的地图</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXRLJ543",
+        "quest_type": "side",
+        "side_name": "老兵安帕赫",
+        "text": "向西来到<span class='grace'>正门前方的十字记号</span>处，与<span class='npc'>老兵安帕赫</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX6JYP8B",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "在<span class='grace'>正门前方的十字记号</span>处，与<span class='npc'>穆尔</span>对话。从<span class='npc'>穆尔</span>处买一些物品，然后和<span class='npc'>穆尔</span>交谈。刷新地图后，再次与<span class='npc'>老兵安帕赫</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX70M1VT",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "集物虫收集#2：从<span class='grace'>正门前方的十字记号</span>向东南，通过悬崖侧秘径，来到<span class='grace'>崖上道路的终点</span>。从赐福向西南出发，在悬崖边与<span class='npc'>集物虫</span>对话，获得道具。（集物虫很像怪物，但不会攻击玩家。击杀集物虫会导致<span class='npc'>穆尔</span>伤心，多次击杀会导致<span class='npc'>穆尔</span>入侵。）",
+        "options": []
+      },
+      {
+        "quest_id": "XX5NVCZO",
+        "quest_type": "side",
+        "side_name": "昆兰",
+        "text": "回到<span class='grace'>正门前方的十字记号</span>，向前进入“塔之镇”贝瑞特。在距离<span class='grace'></span>民宅小祭坛<span class='grace'></span>不远处花园，击败入侵的<span class='npc'>“火焰骑士”昆兰</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XX3ZE4U8",
+        "quest_type": "side",
+        "side_name": "角人老妪",
+        "text": "在“塔之镇”贝瑞特找到仓库钥匙，打开<span class='grace'></span>民宅小祭坛<span class='grace'></span>附近的门，与<span class='npc'>角人老妪</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXX36CCE",
+        "quest_type": "side",
+        "side_name": "老兵安帕赫",
+        "text": "在“塔之镇”贝瑞特找到十字记号，然后返回<span class='grace'>正门前方的十字记号</span>处，与<span class='npc'>老兵安帕赫</span>对话。位置：从电梯近路出来，左侧跨过破碎房顶的小屋内，旁边有<span class='item'>幽影树碎片</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXJ4WCA2",
+        "quest_type": "side",
+        "side_name": "弗蕾亚",
+        "text": "在<span class='grace'></span>召唤<span class='npc'>“红狮子”弗蕾亚</span>，击败<span class='npc'>神兽舞狮</span>后，在<span class='grace'>三叉口的十字记号</span>处，与<span class='npc'>“红狮子”弗蕾亚</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX4JTBC4",
+        "quest_type": "side",
+        "side_name": "角人老妪",
+        "text": "在击败<span class='npc'>神兽舞狮</span>后，拾取并穿戴<span class='item'>神兽头部</span>后，与<span class='npc'>角人老妪</span>对话。食用炖煮蝎子后，刷新地图，再次与<span class='npc'>角人老妪</span>对话，可反复获得炖煮蝎子。",
+        "options": []
+      },
+      {
+        "quest_id": "XXLCOPUA",
+        "quest_type": "main",
+        "text": "从<span class='grace'>三叉口的十字记号</span>处向东，经过艾拉克大桥，来到<span class='grace'>城的前方</span>。路过可拾取<span class='item'>幽影树碎片</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXVD80X4",
+        "quest_type": "side",
+        "side_name": "休里耶",
+        "text": "从<span class='grace'>城的前方</span>向东南，来到悬崖边<span class='grace'>通柱坡的十字记号</span>，与<span class='npc'>休里耶</span>对话。回到<span class='grace'>正门前方的十字记号</span>，与<span class='npc'>穆尔</span>对话，获得道具<span class='item'>黑色浓浆</span>，再次回到<span class='grace'>通柱坡的十字记号</span>，与<span class='npc'>休里耶</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXM5QBOU",
+        "quest_type": "side",
+        "side_name": "龙飨女巫",
+        "text": "与<span class='npc'>休里耶</span>对话，我觉得活着很累，获得<span class='item'>休里耶的秘药</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXOQUFVL",
+        "quest_type": "main",
+        "text": "从<span class='grace'>城的前方</span>向东，沿左侧悬崖，找到通往底部的道路。在底部的花朵后，进入<span class='grace'>艾拉克河洞窟</span>。出门后右侧有一片可自行探索区域。",
+        "options": []
+      },
+      {
+        "quest_id": "XXT9MFF6",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "集物虫收集#3: 从<span class='grace'>艾拉克河洞窟</span>出来，一路向下，在<span class='grace'>艾拉克河下游</span>的东南方悬崖旁，可找到集物虫。",
+        "options": []
+      },
+      {
+        "quest_id": "XX3X4WW7",
+        "quest_type": "side",
+        "side_name": "老兵安帕赫",
+        "text": "<span class='grace'>艾拉克河下游</span>向南，进入<span class='grace'>青蓝海岸</span>。找到<span class='grace'>青蓝海岸的十字记号</span>后，返回<span class='grace'>正门前方的十字记号</span>，与<span class='npc'>老兵安帕赫</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXGA0XZJ",
+        "quest_type": "side",
+        "side_name": "埃贡",
+        "text": "回到<span class='grace'>城的前方</span>，沿大路向东南，来到<span class='grace'>通柱坡中段</span>。在附近可找到<span class='npc'>埃贡</span>，与其对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXRTS29R",
+        "quest_type": "main",
+        "text": "从<span class='npc'>埃贡</span>处向前，经过一段道路，进入<span class='grace'>龙洞</span>，攻略龙洞后，开启通往尖刺山脚的大门。",
+        "options": []
+      },
+      {
+        "quest_id": "XXUG5VD8",
+        "quest_type": "side",
+        "side_name": "龙飨女巫",
+        "text": "在尖刺山脚遇到的龙处向南，来到<span class='grace'>龙飨大祭坛</span>，与<span class='npc'>龙飨女巫</span>对话，选择吞下龙的力量。",
+        "options": []
+      },
+      {
+        "quest_id": "XX4DJO3O",
+        "quest_type": "main",
+        "text": "从<span class='grace'>龙飨大祭坛</span>继续向南，进入<span class='grace'>卡罗隐藏墓地</span>区域，此区域无NPC支线，可自行探索。",
+        "options": []
+      },
+      {
+        "quest_id": "XXRCJQT9",
+        "quest_type": "main",
+        "text": "从<span class='grace'>城的前方</span>进入恩希斯城，一路推图直到BOSS门前<span class='grace'>城主的房间</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XX8BRV7L",
+        "quest_type": "side",
+        "side_name": "蕾妲",
+        "text": "可以召唤<span class='npc'>“金针骑士”蕾妲</span>，击败<span class='npc'>“双月骑士”蕾菈娜</span>。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "幽影亚坛",
+    "quests": [
+      {
+        "quest_id": "XXORFRYH",
+        "quest_type": "side",
+        "side_name": "蕾妲",
+        "text": "击败<span class='npc'>“双月骑士”蕾菈娜</span>后，进入幽影亚坛，来到<span class='grace'>大道旁的十字标记</span>。与一旁的“金针骑士”蕾妲对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXUOHI6J",
+        "quest_type": "side",
+        "side_name": "角人",
+        "text": "在<span class='grace'>大道旁的十字标记</span>处，与<span class='npc'>角人</span>对话，获得新的<span class='item'>十字标记地图</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXXGGRTF",
+        "quest_type": "main",
+        "text": "重要事项：此时如果沿路进入（接近）幽影城，会强制导致支线进入新的阶段。建议跟本流程先完成其他支线后，稍后再进入幽影城。触发位置在幽影城入口，因此拾取地图和柳条人兵营为安全区域。",
+        "options": []
+      },
+      {
+        "quest_id": "XXEEDUN1",
+        "quest_type": "side",
+        "side_name": "弗蕾亚",
+        "text": "在<span class='grace'>三叉口的十字记号</span>处，与<span class='npc'>“红狮子”弗蕾亚</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXXDQGT9",
+        "quest_type": "side",
+        "side_name": "昆兰",
+        "text": "在<span class='grace'>大道旁的十字标记</span>西北的圣战教堂，遇到<span class='npc'>“火焰骑士”昆兰</span>入侵。击败<span class='npc'>“火焰骑士”昆兰</span>，获得<span class='item'>祈祷厅钥匙</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XX2FVN0R",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "集物虫收集#4: 圣战教堂东北不远处悬崖边，遇到受伤的<span class='npc'>集物虫</span>，使用恢复道具，如<span class='item'>温热石</span>，治疗集物虫。刷新地图后，再次与<span class='npc'>集物虫</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXJHX908",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "集物虫收集#7: 完成集物虫收集#4后，回到<span class='grace'>正门前方的十字记号</span>，与<span class='npc'>穆尔</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX9JPFU7",
+        "quest_type": "main",
+        "text": "从<span class='grace'>大道旁的十字标记</span>向西，在岩石上的传送门使用<span class='item'>魔石剑钥匙</span>，可传送到一处区域，探索完传送返回即可。",
+        "options": []
+      },
+      {
+        "quest_id": "XXVATHYT",
+        "quest_type": "main",
+        "text": "从传送门继续往北，来到<span class='grace'>幽影亚坛（西方）</span>。由此可进入雾谷要塞。",
+        "options": []
+      },
+      {
+        "quest_id": "XX9QCPCS",
+        "quest_type": "side",
+        "side_name": "“落叶”丹恩",
+        "text": "从<span class='grace'>大道旁的十字标记</span>向东，来到<span class='grace'>穆斯废墟</span>，与<span class='npc'>“落叶”丹恩</span>对话。使用姿势<span class='item'>期待切磋</span>后，击败<span class='npc'>“落叶”丹恩</span>。回到<span class='grace'>大道旁的十字标记</span>，与<span class='npc'>“金针骑士”蕾妲</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXB97G3G",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "集物虫收集#1: <span class='grace'>古铁陨石锻造遗迹</span>西北方悬崖边，可找到集物虫。",
+        "options": []
+      },
+      {
+        "quest_id": "XX3M9O6Z",
+        "quest_type": "side",
+        "side_name": "昆兰",
+        "text": "从<span class='grace'>穆斯废墟</span>向南，经过<span class='item'>灵火龙</span>，来到<span class='grace'>穆斯废墟（南方）</span>。进入惩罚要塞。击败要塞底部恶兆猎人，获得<span class='item'>黑暗覆眼膜</span>。位置：从<span class='grace'>惩罚要塞</span>赐福点旁豁口跳下即可。",
+        "options": []
+      },
+      {
+        "quest_id": "XXDO9JMY",
+        "quest_type": "side",
+        "side_name": "老兵安帕赫",
+        "text": "从<span class='grace'>穆斯废墟（南方）</span>向北，穿过狭窄洞口后右转，沿山壁向前，可找到灵魂气流的封印石，打开机关后，沿气流向上，可找到<span class='grace'>望远幽影树的十字记号</span>。查看后回到<span class='grace'>正门前方的十字记号</span>，与<span class='npc'>老兵安帕赫</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXKITC53",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "集物虫收集#5：从<span class='grace'>穆斯废墟</span>向北，经过湖泊山洞，来到一片腐败湖。在湖东北方，可找到集物虫。此处虽然在幽影城下方，但不会触发下一阶段。",
+        "options": []
+      },
+      {
+        "quest_id": "XX8BLIKF",
+        "quest_type": "main",
+        "text": "继续向西，来到<span class='grace'>古遗迹下方</span>。此区域并无NPC支线，自行探索即可。",
+        "options": []
+      },
+      {
+        "quest_id": "XXJV25SC",
+        "quest_type": "side",
+        "side_name": "尤弥尔",
+        "text": "从<span class='grace'>穆斯废墟</span>出发不远，经过废墟内的洞口，来到<span class='grace'>波尼村</span>。在波尼村北的枯树下，获得姿势<span class='item'>母亲啊</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXS1SE56",
+        "quest_type": "main",
+        "text": "关键节点：此时从波尼村向东过桥，会强制推进到下一阶段。触发位置在第二个桥赐福<span class='grace'>通村吊桥</span>后约5米处。如已完成前面流程支线，此时可通过，触发消息提醒。之后可依次与之前的NPC触发新对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXUBG15H",
+        "quest_type": "side",
+        "side_name": "蕾妲",
+        "text": "在与<span class='npc'>“金针骑士”蕾妲</span>对话时，选择任意选项都可。",
+        "options": []
+      },
+      {
+        "quest_id": "XXDWIWC4",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "集物虫收集#6: 从<span class='grace'>波尼村</span>向北，直到<span class='grace'>教区大道</span>，在城堡大门前向左，可找到向上的路径，在上方的悬崖边，找到集物虫。此集物虫可能被埋在土里，需要细心发现。",
+        "options": []
+      },
+      {
+        "quest_id": "XXQJVAHG",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "集物虫收集#7: 集齐制作笔记1-6之后，回到<span class='grace'>正门前方的十字记号</span>，与<span class='npc'>穆尔</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX8VJK5J",
+        "quest_type": "side",
+        "side_name": "尤弥尔",
+        "text": "从<span class='grace'>教区大道</span>向南，来到<span class='grace'>玛努斯·美特大教堂</span>，与<span class='npc'>“大祭司”尤弥尔</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXO1JRI6",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "刷新地图后，<span class='npc'>“黑夜剑士”约兰</span>会出现在<span class='grace'>玛努斯·美特大教堂</span>，与他对话，然后再与<span class='npc'>“大祭司”尤弥尔</span>对话。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "青蓝海岸",
+    "quests": [
+      {
+        "quest_id": "XXL1HJ3E",
+        "quest_type": "side",
+        "side_name": "休里耶",
+        "text": "在青蓝海岸最南方，沿路跳入底部，可来到<span class='grace'>石棺大洞</span>。若魅惑未失效则暂时无法进入。到达<span class='grace'>大洞的十字记号</span>后，可找到<span class='npc'>休里耶</span>对话。之后在<span class='grace'>石棺大洞</span>的BOSS场景内可以选择召唤<span class='npc'>休里耶</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XX28HIZ1",
+        "quest_type": "side",
+        "side_name": "休里耶",
+        "text": "击败BOSS后与<span class='npc'>休里耶</span>对话。之后与<span class='npc'>圣女托莉娜</span>对话，吸取花蜜四次后，再次与<span class='npc'>休里耶</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX76AOI9",
+        "quest_type": "side",
+        "side_name": "休里耶",
+        "text": "再次吸取花蜜，击败入侵的<span class='npc'>休里耶</span>，获得<span class='item'>托莉娜的微笑</span>。之后与<span class='npc'>休里耶</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXR3NZD7",
+        "quest_type": "side",
+        "side_name": "休里耶",
+        "text": "再次吸取花蜜，并再次与<span class='npc'>休里耶</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX6QYPPJ",
+        "quest_type": "side",
+        "side_name": "尤弥尔",
+        "text": "从青蓝海岸向东，经过海岸，来到<span class='grace'>利亚指头遗迹</span>，在中心的指头处，使用孔洞项链。返回找<span class='npc'>“大祭司”尤弥尔</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXKWXBY7",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "与<span class='npc'>“黑夜剑士”约兰</span>对话。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "幽影城",
+    "quests": [
+      {
+        "quest_id": "XXDBCFF4",
+        "quest_type": "main",
+        "text": "先从<span class='grace'>大道旁的十字记号</span>往北从<span class='grace'>幽影城（正门）</span>进入。这样可以在BOSS门前召唤<span class='npc'>“红狮子”弗蕾亚</span>与<span class='npc'>角人</span>帮忙。",
+        "options": []
+      },
+      {
+        "quest_id": "XXX328X6",
+        "quest_type": "side",
+        "side_name": "蕾妲",
+        "text": "击败BOSS后，与<span class='npc'>“金针骑士”蕾妲</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXBVD3BW",
+        "quest_type": "side",
+        "side_name": "蕾妲/角人",
+        "text": "在<span class='grace'>正门广场</span>不远，在六个火船场景的中心，可以看到两个召唤符。",
+        "options": [
+          {
+            "option_id": "XXXWZ7QF",
+            "text": "选择帮助蕾妲后（再次与蕾妲对话）可以获得一个护符，角人支线完结。",
+            "conflicts_with": [
+              "XXXWYMNN"
+            ]
+          },
+          {
+            "option_id": "XXXBQ1BV",
+            "text": "选择帮助角人后，可获得一个骨灰。（推荐）",
+            "conflicts_with": [
+              "XXX14PPV"
+            ]
+          },
+          {
+            "option_id": "XXGPF2NY",
+            "text": "不选择，则什么都不发生。",
+            "conflicts_with": []
+          }
+        ]
+      },
+      {
+        "quest_id": "XXH1NTHQ",
+        "quest_type": "side",
+        "side_name": "老兵安帕赫",
+        "text": "在<span class='grace'>保藏库（一楼）</span>的一个房间里找到<span class='npc'>老兵安帕赫</span>对话。注：如此时已有<span class='item'>秘密仪式卷轴</span>先不要给他。",
+        "options": []
+      },
+      {
+        "quest_id": "XXY46NZ7",
+        "quest_type": "side",
+        "side_name": "老兵安帕赫",
+        "text": "在<span class='grace'>保藏库（四楼）</span>外楼梯向下的屋里，可以捡到<span class='item'>秘密仪式卷轴</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXJSMM36",
+        "quest_type": "side",
+        "side_name": "弗蕾亚",
+        "text": "在<span class='grace'>保藏库（七楼）</span>与<span class='npc'>“红狮子”弗蕾亚</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX4B4OZA",
+        "quest_type": "side",
+        "side_name": "昆兰",
+        "text": "从物种保藏室（一楼）左侧电梯下去，在一堆壶人的医疗室内，可找到<span class='item'>赐福覆眼膜</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXX48V6P",
+        "quest_type": "side",
+        "side_name": "昆兰",
+        "text": "回到<span class='grace'>教区大道</span>，从后门进入幽影城（教区），一路来到房顶破洞，跳下回廊后转身可找到祈祷室门，使用<span class='item'>祈祷厅钥匙</span>进入，遇到<span class='npc'>“火焰骑士”昆兰</span>。可给给予他<span class='item'>黑暗覆眼膜</span>，他会死亡掉落武器。或者给予他<span class='item'>赐福覆眼膜</span>，获得骨灰。“火焰骑士”昆兰支线结束。",
+        "options": []
+      },
+      {
+        "quest_id": "XX7P4D7D",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "通过回廊，找到机关降低水位后，击杀底部的一个<span class='npc'>腐败树灵</span>获得<span class='item'>黑暗覆眼膜</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXHZXDEV",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "幽影城（教区）底部，通过一处向下的电梯，通过<span class='grace'>礼树暗道</span>，来到<span class='grace'>礼树教堂</span>，可以拾取<span class='item'>赐福覆眼膜</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXQCFNR9",
+        "quest_type": "side",
+        "side_name": "米德拉",
+        "text": "从<span class='grace'>正门广场</span>出发，在六个火船场景，顺着向下的梯子来到画室。通过一侧隐藏墙壁，与石棺互动，来到城底。沿路向下来到<span class='grace'>驱暗地下墓地</span>。穿过荒废墓地，在谷底森林西南官邸，击败<span class='npc'>“癫火之王”米德拉</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXBO7YCJ",
+        "quest_type": "side",
+        "side_name": "尤弥尔",
+        "text": "回到密亚指头遗迹，使用孔洞项链，击败<span class='npc'>“指头之母”尤弥尔</span>。回到<span class='grace'>玛努斯·美特大教堂</span>，再次与尤弥尔的座椅互动。击败<span class='npc'>“黑夜剑士”约兰</span>与<span class='npc'>“大祭司”尤弥尔</span>。“大祭司”尤弥尔支线完结。",
+        "options": []
+      },
+      {
+        "quest_id": "XXEZ62HI",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "刷新地图，与<span class='npc'>“黑夜剑士”约兰</span>对话。使用“<span class='item'>赐福覆眼膜</span>”可以获得骨灰；使用“黑暗覆眼膜”可以获得装备。“黑夜剑士”约兰支线完结。",
+        "options": []
+      },
+      {
+        "quest_id": "XXW5UFAE",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "如果使用“<span class='item'>赐福覆眼膜</span>”，可以前往巫者村东部，沿小路一路向下，来到拉巴斯魔法塔顶层，与<span class='npc'>黑夜剑士”安娜</span>互动。",
+        "options": []
+      },
+      {
+        "quest_id": "XXU88AHA",
+        "quest_type": "side",
+        "side_name": "角人",
+        "text": "来到幽影城<span class='grace'>暗室门前</span>，可以召唤NPC帮助，击败<span class='npc'>“穿刺者”梅瑟莫</span>。",
+        "options": [
+          {
+            "option_id": "XXXWYMNN",
+            "text": "召唤<span class='npc'>角人</span>。如果不召唤<span class='npc'>角人</span>，后期<span class='npc'>角人</span>会攻击你.",
+            "conflicts_with": []
+          },
+          {
+            "option_id": "XXO12T66",
+            "text": "召唤<span class='npc'>“黑夜剑士”约兰</span>帮助",
+            "conflicts_with": []
+          }
+        ]
+      },
+      {
+        "quest_id": "XX6WWIPN",
+        "quest_type": "side",
+        "side_name": "弗蕾亚",
+        "text": "回到<span class='grace'>保藏库（一楼）</span>的一个房间里找到<span class='npc'>老兵安帕赫</span>对话，告知弗蕾亚信息，获得一封信。",
+        "options": [
+          {
+            "option_id": "XXRHV6GG",
+            "text": "将老兵安帕赫的信交给弗蕾亚，会导致之后弗蕾亚攻击你。",
+            "conflicts_with": []
+          },
+          {
+            "option_id": "XXWBDKZY",
+            "text": "不交，稍后弗蕾亚会离开并留下一个道具。",
+            "conflicts_with": []
+          }
+        ]
+      },
+      {
+        "quest_id": "XXCTIJ1G",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "从幽影城（教区）回廊电梯，向上来到<span class='grace'>保藏库（内区），一路推图，来到</span>幽影城（后门）=。对玛丽卡雕像使用姿势<span class='item'>母亲啊</span>，开启通往望影露台的机关。在前方路中可以召唤<span class='npc'>“黑夜剑士”约兰</span>帮忙。",
+        "options": []
+      },
+      {
+        "quest_id": "XXUU4FF6",
+        "quest_type": "side",
+        "side_name": "尤弥尔",
+        "text": "沿路一路来到狄欧指头遗迹，在中心的指头处，使用孔洞项链。返回找<span class='npc'>“大祭司”尤弥尔</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXKWXBY7",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "与<span class='npc'>“黑夜剑士”约兰</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXOWU2XF",
+        "quest_type": "side",
+        "side_name": "尤弥尔",
+        "text": "反复与<span class='npc'>“大祭司”尤弥尔</span> 对话后，刷新地图，发现<span class='npc'>“大祭司”尤弥尔</span>已经离开座椅，与<span class='item'>座椅</span>互动。",
+        "options": []
+      },
+      {
+        "quest_id": "XXO37SJQ",
+        "quest_type": "side",
+        "side_name": "约兰",
+        "text": "在密亚指头遗迹，击败入侵的<span class='npc'>黑夜剑士”安娜</span>后，先回到<span class='grace'>玛努斯·美特大教堂</span>。与<span class='npc'>“黑夜剑士”约兰</span>对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXRCGLY9",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "与<span class='npc'>穆尔</span>对话：",
+        "options": [
+          {
+            "option_id": "XXX193T0",
+            "text": "选择“忘记”会导致<span class='npc'>穆尔</span>攻击你。",
+            "conflicts_with": []
+          },
+          {
+            "option_id": "XXVZOCCN",
+            "text": "选择“永远伤心”会在圣战教堂捡到装备。",
+            "conflicts_with": []
+          },
+          {
+            "option_id": "XXKK6UG5",
+            "text": "选择“不知道”，则<span class='npc'>穆尔</span>永远在原地。",
+            "conflicts_with": []
+          }
+        ]
+      },
+      {
+        "quest_id": "XXT547U6",
+        "quest_type": "side",
+        "side_name": "角人老妪",
+        "text": "击败<span class='npc'>“穿刺者”梅瑟莫</span>后，找到<span class='npc'>角人老妪</span>对话。刷新地图后，再次对话。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "尖刺山",
+    "quests": [
+      {
+        "quest_id": "XXH4Y45L",
+        "quest_type": "side",
+        "side_name": "龙飨女巫",
+        "text": "回到<span class='grace'>龙飨大祭坛</span>，<span class='item'>消磨时间</span>到晚上。与<span class='npc'>龙飨女巫</span>对话。",
+        "options": [
+          {
+            "option_id": "XXQMV03V",
+            "text": "选择交付秘药",
+            "conflicts_with": []
+          },
+          {
+            "option_id": "XXVB8M8P",
+            "text": "不交付迷药",
+            "conflicts_with": [
+              "XXXXN0ZX"
+            ]
+          }
+        ]
+      },
+      {
+        "quest_id": "XXXXN0ZX",
+        "quest_type": "side",
+        "side_name": "龙飨女巫",
+        "text": "刷新地图后，回来与<span class='npc'>龙飨女巫</span>互动。多次刷新地图后，与<span class='npc'>龙飨女巫</span>说话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXDXD0QU",
+        "quest_type": "side",
+        "side_name": "埃贡",
+        "text": "继续向尖刺山前进，直到<span class='npc'>狂龙贝勒</span>房内，可以召唤<span class='npc'>“龙战士”埃贡</span>帮助。",
+        "options": []
+      },
+      {
+        "quest_id": "XXXQQ720",
+        "quest_type": "side",
+        "side_name": "埃贡",
+        "text": "击败<span class='npc'>狂龙贝勒</span>后，回到尖刺山第一次埃贡的位置，拾取装备。",
+        "options": []
+      },
+      {
+        "quest_id": "XXPEBX6Z",
+        "quest_type": "side",
+        "side_name": "龙飨女巫",
+        "text": "击败<span class='npc'>狂龙贝勒</span>后，回来找<span class='npc'>龙飨女巫</span>互动，获取道具。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "劳弗古遗迹",
+    "quests": [
+      {
+        "quest_id": "XX25HXQE",
+        "quest_type": "side",
+        "side_name": "角人",
+        "text": "从<span class='grace'>保藏库（一楼）</span>左侧电梯下去，经过壶人医疗室，穿过<span class='grace'>西边城墙</span>，来到劳弗古遗迹。在腐败眷属的山洞里，遇到<span class='npc'>角人</span>入侵。",
+        "options": []
+      },
+      {
+        "quest_id": "XX6KZAOB",
+        "quest_type": "side",
+        "side_name": "蕾妲",
+        "text": "在<span class='grace'>劳弗古遗迹（东方）</span>捡到<span class='item'>蕾妲的信</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXLU4WH8",
+        "quest_type": "side",
+        "side_name": "“落叶”丹恩",
+        "text": "在BOSS战前，可以召唤<span class='npc'>“落叶”丹恩</span>帮忙。击败BOSS后，来到黄金树前。与其互动将进入新的阶段，请确认前面支线已完成。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "name": "艾尼尔·伊利姆",
+    "quests": [
+      {
+        "quest_id": "XXLYEBIG",
+        "quest_type": "main",
+        "text": "烧树后会被传送到<span class='grace'>艾尼尔·伊利姆</span>。一路推图，来到一个大厅，地上有多个召唤符（取决于前面支线的选择）。",
+        "options": []
+      },
+      {
+        "quest_id": "XXX6IOOD",
+        "quest_type": "side",
+        "side_name": "休里耶",
+        "text": "如果完成前面支线，可以召唤休里耶会帮助你。",
+        "options": []
+      },
+      {
+        "quest_id": "XXX14PPV",
+        "quest_type": "side",
+        "side_name": "老兵安帕赫",
+        "text": "召唤老兵安帕赫帮助，如果老兵安帕赫活下来，会给你一个道具。之后在电梯顶层与老兵安帕赫对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XX6IB5VH",
+        "quest_type": "side",
+        "side_name": "蕾妲",
+        "text": "与<span class='npc'>“金针骑士”蕾妲</span>的召唤符互动，触发入侵场景。接连击败<span class='npc'>“金针骑士”蕾妲</span>，<span class='npc'>“落叶”丹恩</span>，<span class='npc'>穆尔</span>，<span class='npc'>“红狮子”弗蕾亚</span>后，返回场景，开启前面道路。",
+        "options": []
+      },
+      {
+        "quest_id": "XXM2WGXH",
+        "quest_type": "side",
+        "side_name": "蕾妲",
+        "text": "在大厅内，拾取<span class='npc'>“金针骑士”蕾妲</span>装备，蕾妲支线完结。",
+        "options": []
+      },
+      {
+        "quest_id": "XXLO54QL",
+        "quest_type": "side",
+        "side_name": "“落叶”丹恩",
+        "text": "在大厅内，拾取<span class='npc'>“落叶”丹恩</span>装备，“落叶”丹恩支线完结。",
+        "options": []
+      },
+      {
+        "quest_id": "XXUVXILW",
+        "quest_type": "side",
+        "side_name": "穆尔",
+        "text": "在大厅内，拾取<span class='npc'>穆尔</span>装备，<span class='npc'>穆尔</span>支线完结。",
+        "options": []
+      },
+      {
+        "quest_id": "XX6IAS7G",
+        "quest_type": "side",
+        "side_name": "弗蕾亚",
+        "text": "在大厅内，拾取<span class='npc'>“红狮子”弗蕾亚</span>装备，弗蕾亚支线完结。",
+        "options": []
+      },
+      {
+        "quest_id": "XXTS5NS0",
+        "quest_type": "side",
+        "side_name": "老兵安帕赫",
+        "text": "从大厅出来，可以看到<span class='npc'>老兵安帕赫</span>，与其对话。",
+        "options": []
+      },
+      {
+        "quest_id": "XXP1UJMZ",
+        "quest_type": "main",
+        "text": "一路来到最终BOSS战前，可以召唤<span class='npc'>老兵安帕赫</span>与<span class='npc'>休里耶</span>帮助。击败<span class='npc'>“约定之王”拉塔恩</span>后，在<span class='grace'>神之门</span>休息，可以在附近找到<span class='npc'>老兵安帕赫</span>与<span class='npc'>休里耶</span>。",
+        "options": []
+      },
+      {
+        "quest_id": "XXPSYICY",
+        "quest_type": "side",
+        "side_name": "圣女托莉娜",
+        "text": "击败<span class='npc'>“约定之王”拉塔恩</span>后，回到<span class='npc'>圣女托莉娜</span>处，拾取道具。",
+        "options": []
+      },
+      {
+        "quest_id": "XXKQ7LMT",
+        "quest_type": "main",
+        "text": "本流程完结。",
+        "options": []
+      }
+    ]
+  }
+]

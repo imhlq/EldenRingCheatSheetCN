@@ -1,0 +1,87 @@
+---
+import EldenPage from '../layouts/EldenPage.astro';
+import Checklist from '../components/Checklist.astro';
+import GameSave from '../components/GameSave.astro';
+import ToggleHideCompleted from '../components/ToggleHideCompleted.astro';
+---
+
+<EldenPage>
+	<ToggleHideCompleted/>
+
+	<div class="tabcontent" id="tabVII">
+
+	</div>
+
+	<div class="tabcontent" id="tabWalkthrough">
+	</div>
+
+	<div class="tabcontent" id="tabWeapons">
+		<Checklist collection="Weapon" searchable/>
+	</div>
+
+	<div class="tabcontent" id="tabArmors">
+		<Checklist collection="Armor" searchable/>
+	</div>
+
+	<div class="tabcontent" id="tabMagic">
+		<Checklist collection="Magic" searchable/>
+	</div>
+
+	<div class="tabcontent" id="tabGoods">
+		<Checklist collection="Good" searchable/>
+	</div>
+
+	<div class="tabcontent" id="tabBosses">
+	</div>
+
+	<div class="tabcontent" id="tabAbout">
+	</div>
+</EldenPage>
+
+<script>
+	window.addEventListener('DOMContentLoaded', () => {
+		const tabs = document.querySelectorAll('[data-ui]');
+		tabs.forEach(tab => {
+			tab.addEventListener('click', () => {
+				tabs.forEach(t => t.classList.remove('active-tab'));
+				tab.classList.add('active-tab');
+				openTab(tab.getAttribute('data-ui'));
+			});
+		});
+
+		// Load state from localStorage
+		const profiles = JSON.parse(localStorage.getItem('profiles')) || { checklistData: {} };
+		if (profiles.checklistData) {
+			for (const key in profiles.checklistData) {
+				const element = document.querySelector(`input[data-id="${key}"]`);
+				if (element) {
+					(element as HTMLInputElement).checked = true;
+				} else {
+					console.warn(`Element with data-id="${key}" not found.`);
+				}
+			}
+		};
+		dispatchEvent(new Event('data-loaded'));
+	});
+
+	function openTab(tabName) {
+		var tabcontent;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (var i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+		document.querySelector(tabName).style.display = "block";
+	}
+</script>
+
+<style>
+	.active-tab {
+		@apply border-gray-800 text-gray-800; /* Adjust colors as needed */
+	}
+	.tabcontent {
+		display: none;
+		animation: fadeIn 0.5s;
+		padding: 6px 12px;
+	}
+	
+</style>

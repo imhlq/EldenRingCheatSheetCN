@@ -1,0 +1,274 @@
+---
+import { getEntry } from 'astro:content';
+import { processJSON } from '../js/preprocess';
+
+interface Props {
+    collection: string;
+    type?: string;
+    searchable?: boolean;
+    multicols?: number;
+}
+
+const { collection, type='names', searchable, multicols = 1 } = Astro.props;
+const jsonData = await getEntry("items", collection);
+const checklistCategories = processJSON(jsonData.data, type);
+
+const getMultiColClass = (multicols) => {
+    switch (multicols) {
+        case 1:
+            return 'col-span-12';
+        case 2:
+            return 'col-span-12 md:col-span-6';
+        case 3:
+            return 'col-span-12 md:col-span-6 lg:col-span-4';
+        case 4:
+            return 'col-span-12 md:col-span-6 lg:col-span-3';
+        default:
+            return 'col-span-12';
+    }
+};
+
+const columnClass = getMultiColClass(multicols);
+
+---
+<check-list>
+    {searchable && (
+        <div class="field label prefix border">
+            <i>search</i>
+            <input type="search" placeholder=" "/>
+            <label>过滤关键词</label>
+        </div>
+    )}
+
+    {checklistCategories.map((category, categoryIndex) => (
+    <details class="py-2" name={categoryIndex}>                    
+        <summary class="none">
+            <article class="no-elevate">
+                <nav>
+                    <div class="max select-none">{category.name} <span class="ptext text-gray-500">0/{category.totalCount}</span></div>
+                    <i>expand_more</i>
+                </nav>
+                <progress class="max text-green-200" value="0" max={category.totalCount}></progress>
+            </article>
+        </summary>
+
+        <ul class="collections mt-2 mx-2 grid">
+        {category.itemData.map(item => (
+            <li class={columnClass}>
+                <label class="cursor-pointer">
+                    <input type="checkbox" 
+                        class="peer rounded size-4 mr-1 border-gray-300"
+                        data-id={item.id}
+                        data-type={collection}
+                    />
+                    {item.side_name && <span class="npc">({item.side_name})</span>}
+                    <span class="text-sm peer-checked:line-through peer-checked:opacity-60 peer-disabled:opacity-50" class:list={item.class_name} set:html={item.name}></span>
+                </label>
+                {/* Sub Options */}
+                {item.options && item.options.length > 0 && (
+                    <ul class="options mt-4 ml-2" option-for={item.id}>
+                        {item.options.map(subOption => (
+                            <li>
+                                <label class="radio">
+                                    <input type="radio" class="peer" name={`${item.id}_`} data-id={subOption.option_id} data-conflict={subOption.conflicts_with}>
+                                    <span class="opacity-85 peer-checked:line-through peer-checked:opacity-60" set:html={subOption.text}></span>
+                                </label>
+                            </li>
+                        ))}
+                    </ul>
+                )}
+            </li>
+        ))}
+        </ul>
+    </details>
+    ))}
+</check-list>
+
+
+<style is:global>
+
+    /* Hide Completed Via CSS */
+    .hide-completed li:has(input[type="checkbox"]:checked){
+        display: none;
+    }
+    
+    span.grace::before {
+        content: "🌟";
+    }
+    span.grace {
+        color:#C60;
+    }
+    span.item {
+        color:purple;
+    }
+    
+    span.npc {
+        color:seagreen;
+    }
+
+    span.legendary::after {
+        color: #C60;
+        content: " (传说)";
+        text-shadow: 1 1 yellow;
+    }
+    
+    span.dlc01::after {
+        color: #4CAF50;
+        content: " (DLC)";
+        padding: 2 0;
+    }
+    
+</style>
+
+<script>
+    // Defining a custom element https://docs.astro.build/en/guides/client-side-scripts/#web-components-with-custom-elements
+    class ChecklistElement extends HTMLElement {
+        constructor() {
+            super();
+        }
+
+        connectedCallback() {
+            this.addEventListener('change', this.handleChange.bind(this));
+            const searchInput = this.querySelector('input[type="search"]');
+            searchInput.addEventListener('input', this.handleSearch.bind(this));
+            window.addEventListener('checked-changed', this.updateCounts.bind(this));
+        }
+
+        handleChange(event) {
+            const target = event.target;
+            if (target.type === 'checkbox') {
+                this.handleCheckboxChange(event);
+            } else if (target.type === 'radio') {
+                this.handleRadioboxChange(event);
+            }
+        }
+
+        handleCheckboxChange(event) {
+            const btn = event.target;
+            const itemId = btn.getAttribute('data-id');
+            
+            try {
+                // Update the local storage with the checked state
+                const profiles = JSON.parse(localStorage.getItem('profiles'));
+                if (btn.checked) {
+                    profiles.checklistData[itemId] = true;
+                } else {
+                    delete profiles.checklistData[itemId];
+                    delete profiles.conflicts[itemId];
+                    // uncheck options
+                    document.querySelectorAll(`input[name="${itemId}_"]`).forEach(option => {
+                        (option as HTMLInputElement).checked = false;
+                    });
+                };
+                localStorage.setItem('profiles', JSON.stringify(profiles));
+                // Update the UI
+                dispatchEvent(new Event('checked-changed'));
+            } catch (error) {
+                console.error('Error updating local storage:', error);
+            }
+        }
+
+        handleRadioboxChange(event) {
+            const btn = event.target;
+            const optionId = btn.getAttribute('data-id');
+            const itemId = btn.name.split('_')[0];
+            const chkBtn = this.querySelector(`input[data-id="${itemId}"]`);
+            const conflict_ids = btn.getAttribute('data-conflict')?.split(',').filter(id => id.trim() !== '') || [];
+            try {
+                // Update the local storage with the checked state
+                const profiles = JSON.parse(localStorage.getItem('profiles'));
+
+                const handleConflicts = (conflictIds, disable) => {
+                    conflictIds.forEach(conflictId => {
+                        const conflictBtn = this.querySelector(`input[data-id="${conflictId}"]`) as HTMLInputElement;
+                        if (conflictBtn) {
+                            conflictBtn.disabled = disable;
+                        }
+                    });
+                };
+
+                if (btn.checked) {
+                    profiles.checklistData[itemId] = optionId;
+                    (chkBtn as HTMLInputElement).checked = true;
+
+                    if (profiles.conflicts[itemId]) {
+                        handleConflicts(profiles.conflicts[itemId], false);
+                    }
+                    if (conflict_ids.length === 0) {
+                        delete profiles.conflicts[itemId]
+                    } else {
+                        profiles.conflicts[itemId] = conflict_ids;
+                        console.log(`${itemId} conflicts with ${conflict_ids}`);
+                        handleConflicts(conflict_ids, true);
+                    }
+                }
+                localStorage.setItem('profiles', JSON.stringify(profiles));
+                // Update the UI
+                dispatchEvent(new Event('checked-changed'));
+            } catch (error) {
+                console.error('Error updating local storage:', error);
+            }
+        }
+
+        updateCounts() {
+            const categories = this.querySelectorAll('details');
+            let totalCompletedCount = 0;
+            let totalCount = 0;
+            categories.forEach(category => {
+                const chkBtns = category.querySelectorAll('input[type="checkbox"]:not(:disabled)');
+                const categoryCount = chkBtns.length;
+                const categoryCompletedCount = Array.from(chkBtns).filter(item => (item as HTMLInputElement).checked).length;
+                totalCount += categoryCount;
+                totalCompletedCount += categoryCompletedCount;
+                category.querySelector('.ptext').textContent = `${categoryCompletedCount}/${categoryCount}`;
+                category.querySelector('progress').value = categoryCompletedCount;
+            });
+            // this.querySelector('.ptext').textContent = `${totalCompletedCount}/${totalCount}`;
+        }
+
+        handleSearch(event) {
+            const searchTerm = event.target.value.toLowerCase();
+            const categories = this.querySelectorAll('details');
+            categories.forEach(category => {
+                if (!searchTerm) {
+                    category.open = false;
+                    const items = category.querySelectorAll('li');
+                    items.forEach(item => {
+                        item.style.display = 'block';
+                        this.removeHighlight(item.querySelector('span'));
+                    });
+                } else {
+                    category.open = true;
+                    const items = category.querySelectorAll('li');
+                    items.forEach(item => {
+                        const itemText = item.querySelector('span');
+                        const itemName = itemText.textContent.toLowerCase();
+                        if (itemName.includes(searchTerm)) {
+                            item.style.display = 'block';
+                            this.highlightText(itemText, searchTerm);
+                        } else {
+                            item.style.display = 'none';
+                            this.removeHighlight(itemText);
+                        }
+                    });
+                }
+            });
+        }
+
+        highlightText(item, searchTerm) {
+            const text = item.textContent;
+            const regex = new RegExp(searchTerm, 'gi');
+            const highlightedText = text.replace(regex, match => `<span class="bg-yellow-400 font-bold">${match}</span>`);
+            item.innerHTML = highlightedText;
+        }
+
+        removeHighlight(item) {
+            const originalText = item.textContent;
+            if (item.innerHTML !== originalText) {
+                item.innerHTML = originalText;
+            }
+        }
+    }
+
+    customElements.define('check-list', ChecklistElement);
+</script>

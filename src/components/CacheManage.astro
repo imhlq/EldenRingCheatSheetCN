@@ -1,0 +1,42 @@
+
+<nav class="center-align no-space">
+    <button class="border left-round" id="exportAll">导出数据</button>
+    <button class="border no-round" id="resetAll">清空数据</button>
+    <button class="border right-round" id="importAll">导入数据</button>
+</nav>
+
+<script>
+    import pako from 'pako';
+
+    document.getElementById("exportAll").addEventListener("click", function () {
+        const profiles = JSON.parse(localStorage.getItem("profiles"));
+        const data = JSON.stringify(profiles);
+        const compressed = pako.deflate(data, { to: 'uint8array' });
+        const base64Compressed = btoa(String.fromCharCode.apply(null, compressed));
+        console.log("Compressed and Encoded: ", base64Compressed);  // Debug log
+        navigator.clipboard.writeText(base64Compressed)
+            .then(() => alert("已导出数据到剪切板"))
+    });
+    
+    document.getElementById("resetAll").addEventListener("click", function () {
+        localStorage.removeItem("profiles");
+        location.reload();
+    });
+
+    document.getElementById("importAll").addEventListener("click", function () {
+        const inputData = prompt('请输入保存的数据:');
+        if (inputData) {
+            try {
+                const bytes = new Uint8Array(atob(inputData).split('').map(char => char.charCodeAt(0)));  // Convert Base64 back to binary data
+                const decompressed = pako.inflate(bytes, { to: 'string' });  // Decompress data
+                const profiles = JSON.parse(decompressed);
+                localStorage.setItem("profiles", JSON.stringify(profiles));
+                location.reload();
+            } catch(err) {
+                console.log(err);
+            }
+        }
+    });
+
+
+</script>

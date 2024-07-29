@@ -1,0 +1,222 @@
+---
+import BeerPage from "../layouts/BeerPage.astro";
+import Checklist from "../components/Checklist.astro";
+import ToggleHideCompleted from "../components/ToggleHideCompleted.astro";
+import CacheManage from "../components/CacheManage.astro";
+import GameSave from "../components/GameSave.astro";
+---
+
+<BeerPage>
+    <nav class="small-margin">
+        <div class="tabs left-align max scroll">
+            <a data-ui="#tabCollection">重要物品</a>
+            <a data-ui="#tabWalkthrough">流程</a>
+            <a data-ui="#tabWeapons">武器</a>
+            <a data-ui="#tabArmors">防具</a>
+            <a data-ui="#tabMagic">法术</a>
+            <a data-ui="#tabGoods">道具</a>
+            <a data-ui="#tabBosses">BOSS</a>
+            <a data-ui="#tabAbout">关于</a>
+        </div>
+
+        <GameSave />
+    </nav>
+
+    <ToggleHideCompleted />
+
+    <div class="page padding" id="tabCollection">
+        <Checklist collection="Collection" searchable type="Collection"/>
+    </div>
+
+    <div class="page padding" id="tabWalkthrough">
+
+        <nav class="tabbed small mb-4">
+            <a class="active" id="showMainQuest">本体</a>
+            <a class="" id="showDLCQuest">DLC</a>
+        </nav>
+
+        <div class="page active" id="tabMainQuest">
+            <Checklist collection="Walkthrough" searchable type="Walkthrough"/>
+        </div>
+        <div class="page" id="tabDLCQuest">
+            <Checklist collection="Quest" searchable type="Quest"/>
+        </div>
+    </div>
+
+    <!-- Weapons -->
+    <div class="page padding" id="tabWeapons">
+        <Checklist collection="Weapon" searchable multicols={4}/>
+    </div>
+
+    <div class="page padding" id="tabArmors">
+        <Checklist collection="Armor" searchable multicols={4} />
+      </div>
+
+    <div class="page padding" id="tabGoods">
+        <Checklist collection="Good" searchable multicols={4} />
+    </div>
+
+    <div class="page padding" id="tabMagic">
+        <Checklist collection="Magic" searchable multicols={4} />
+    </div>
+
+    <div class="page padding" id="tabBosses">
+        <Checklist collection="Boss" searchable multicols={2} type="bosses"/>
+    </div>
+
+    <div class="page padding" id="tabAbout">
+        <article class="small middle-align center-align">
+            <div>
+                <i class="extra">Forum</i>
+                <h5 class="center-align">加入讨论群</h5>
+                <p>672924061</p>
+            </div>
+        </article>
+
+        <article class="small middle-align center-align">
+            <div>
+                <i class="extra">Group</i>
+                <h5 class="center-align">Discord</h5>
+                <p><a href="https://discord.gg/wscgpgzeqm">https://discord.gg/wscgpgzeqm</a></p>
+            </div>
+        </article>
+
+        <article class="medium middle-align center-align">
+            <div>
+                <i class="extra">bug_report</i>
+                <h5 class="center-align">提交ISSUE</h5>
+                <p><a href="https://github.com/imhlq/EldenRingCheatSheetCN/issues">Github</a></p>
+                <div class="space"></div>
+                <CacheManage/>
+            </div>
+        </article>
+    </div>
+</BeerPage>
+
+
+<script>
+    var profiles;
+
+	window.addEventListener('DOMContentLoaded', () => {
+		const tabs = document.querySelectorAll('a[data-ui]');
+		tabs.forEach(tab => {
+			tab.addEventListener('click', () => {
+				tabs.forEach(t => t.classList.remove('active'));
+				tab.classList.add('active');
+				openTab(tab.getAttribute('data-ui'));
+                profiles = JSON.parse(localStorage.getItem('profiles')) || { checklistData: {}, conflicts: {}, tab: "#tabAbout" };
+                profiles.tab = tab.getAttribute('data-ui');
+                localStorage.setItem('profiles', JSON.stringify(profiles));
+			});
+		});
+        document.querySelector('#showMainQuest').addEventListener('click', () => {
+            toggleQuest('main');
+        });
+        document.querySelector('#showDLCQuest').addEventListener('click', () => {
+            toggleQuest('dlc');
+        });
+
+        window.addEventListener('profile-changed', reload);
+        updateUI();
+	});
+
+    function updateUI() {
+		// Load state from localStorage
+		profiles = JSON.parse(localStorage.getItem('profiles')) || { checklistData: {}, conflicts: {}, tab: "#tabAbout" };
+		
+        loadChecklistData();
+        loadConflicts();
+        loadTab();
+        loadShowCompleted();
+        
+		dispatchEvent(new Event('checked-changed'));
+    }
+
+    function loadChecklistData() {
+        if (profiles.checklistData) {
+			for (const key in profiles.checklistData) {
+                const checkedValue = profiles.checklistData[key];
+                
+                // Handle the primary checkbox element
+                const element = document.querySelector(`input[data-id="${key}"]`);
+                if (element) {
+                    (element as HTMLInputElement).checked = true;
+                } else {
+                    console.warn(`Element with data-id="${key}" not found.`);
+                }
+
+                // Handle the option element if it's a string
+                if (typeof checkedValue === 'string') {
+                    const optionElement = document.querySelector(`input[data-id="${checkedValue}"]`);
+                    if (optionElement) {
+                        (optionElement as HTMLInputElement).checked = true;
+                    }
+                }
+			}
+		};
+    }
+
+    function loadConflicts() {
+        if (profiles.conflicts) {
+            Object.values(profiles.conflicts).forEach(itemIds => {
+                (itemIds as string[]).forEach(itemId => {
+                    const element = document.querySelector(`input[data-id="${itemId}"]`) as HTMLInputElement;
+                    element.checked = false;
+                    element.disabled = true;
+                });
+            });
+        }
+    }
+
+    function loadTab(){
+        if (profiles.tab) {
+            const tab = document.querySelector(`[data-ui="${profiles.tab}"]`);
+            (tab as HTMLAnchorElement).click();
+        };
+    }
+
+    function loadShowCompleted(){
+        if (profiles.show_completed == false) {
+            const toggleBtn = document.querySelector('#show_completed');
+            (toggleBtn as HTMLInputElement).click();
+        }
+    }
+
+    function reload(){
+        // uncheck all checkboxes
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            (checkbox as HTMLInputElement).checked = false;
+        });
+        // load UI
+        updateUI();
+    }
+
+	function openTab(tabName) {
+		var tabcontent;
+		tabcontent = document.getElementsByClassName("padding");
+		for (var i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].classList.remove("active");
+		}
+		document.querySelector(tabName).classList.add("active");
+	}
+
+    function toggleQuest(questType) {
+        const mainQuestBtn = document.querySelector('#showMainQuest');
+        const dlcQuestBtn = document.querySelector('#showDLCQuest');
+        const mainQuestTab = document.querySelector('#tabMainQuest');
+        const dlcQuestTab = document.querySelector('#tabDLCQuest');
+
+        if (questType === 'main') {
+            mainQuestBtn.classList.add('active');
+            dlcQuestBtn.classList.remove('active');
+            mainQuestTab.classList.add('active');
+            dlcQuestTab.classList.remove('active');
+        } else if (questType === 'dlc') {
+            mainQuestBtn.classList.remove('active');
+            dlcQuestBtn.classList.add('active');
+            mainQuestTab.classList.remove('active');
+            dlcQuestTab.classList.add('active');
+        }
+    }
+</script>

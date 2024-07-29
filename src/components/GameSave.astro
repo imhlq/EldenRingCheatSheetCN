@@ -1,0 +1,113 @@
+---
+
+---
+
+<div id="slot_select" class="field label suffix border small hidden">
+    <select aria-label="Select slot" id="slot_selector">
+        <option hidden selected>选择存档角色</option>
+    </select>
+    <label>角色栏</label>
+    <i>arrow_drop_down</i>
+</div>
+
+<button id="saveLoadBtn" class="m l border small-round">
+  <i>attach_file</i>
+  <span>存档数据</span>
+  <div class="tooltip max left mt-8 medium-space">
+    <b>选择游戏存档文件，导入数据（仅支持物品）</b>
+    <p class="flex-wrap">
+      存档位置: C:/Users/UserName/AppData/<wbr>Roaming/EldenRing/SteamID/ER0000.sl2
+    </p>
+    <b>会覆盖当前数据！</b>
+  </div>
+</button>
+<input type="file" accept=".sl2" id="fileSelector" style="display: none;" />
+
+<script>
+import { readFile, getNames, fetchInventory, fetchEventFlags } from "../js/elden_save";
+
+var file_read = null;
+var selected_slot;
+
+const saveLoadBtn = document.getElementById("saveLoadBtn");
+const fileSelector = document.getElementById("fileSelector");
+const slotSelect = document.getElementById("slot_select");
+
+saveLoadBtn.addEventListener("click", () => {
+    fileSelector.click();
+});
+
+fileSelector.addEventListener("change", async (event) => {
+    const input = event.target as HTMLInputElement;
+    if (input.files && input.files[0]) {
+        const file = input.files[0];
+        file_read = await readFile(file);
+        const chr_names = getNames(file_read);
+        updateSlotDropdown(chr_names);
+        slotSelect.style.display = "block";
+    }
+});
+
+slotSelect.addEventListener("change", async (evt) => {
+    await calculateSave();
+    // reload page to update the checklist
+    dispatchEvent(new Event("profile-changed"));
+});
+
+// Load Save
+function updateSlotDropdown(slot_name_list) {
+    const selector = slotSelect.querySelector("select");
+    for (let i = 0; i < 10; i++) {
+        const option = document.createElement("option");
+        option.value = i.toString();
+        if (slot_name_list[i] === "") {
+            option.disabled = true;
+            option.textContent = " - ";
+        } else {
+            option.textContent = slot_name_list[i];
+        }
+        selector.appendChild(option);
+    }
+}
+
+async function calculateSave() {
+    // dynamic import for performance
+    const module = await import("../js/process_item");
+    selected_slot = slotSelect.querySelector("select").value;
+    const item_list = fetchInventory(file_read, selected_slot);
+    let uniqueRawIds = new Set();
+    let errorCount = 0;
+    try{
+        // remove affinities
+        item_list.map((item_id) => {
+            const raw_id = module.getRawIdById(item_id);
+            if (raw_id !== null) {
+                uniqueRawIds.add(raw_id);
+            } else {
+                errorCount += 1;
+            }
+        });
+    } catch (error) {
+        console.log(error);
+    }
+    const total = item_list.length;
+    const unique = uniqueRawIds.size;
+    console.log("Total Items: " + total);
+    console.log("Unique Items: " + unique);
+    console.warn("Missing Items: " + errorCount);
+
+    // Set new profile
+    let profiles = JSON.parse(localStorage.getItem('profiles')) || { checklistData: {} };
+    profiles.checklistData = {}
+    uniqueRawIds.forEach((raw_id) => {
+        const item_id = raw_id as string;
+        profiles.checklistData[item_id] = true;
+    });
+    localStorage.setItem('profiles', JSON.stringify(profiles));
+}
+</script>
+
+<style>
+
+
+</style>

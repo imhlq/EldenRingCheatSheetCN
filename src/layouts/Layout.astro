@@ -1,0 +1,37 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-Hans">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Elden Ring Checklist" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/icon" href="/icon.png" />
+		<title>{title}</title>
+	</head>
+	<!-- Google tag (gtag.js) -->
+	<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-X791WBC728"></script>
+	<script type="text/partytown">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-X791WBC728');
+	</script>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style>
+body {
+	color: #333;
+	background-color: #f7f7f7;
+}
+</style>

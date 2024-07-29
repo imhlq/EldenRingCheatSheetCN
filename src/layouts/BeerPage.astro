@@ -1,0 +1,36 @@
+---
+import "beercss";
+---
+
+<!DOCTYPE html>
+<html lang="zh-Hans">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./assets/img/icon.png" type="image/icon" />
+        <title>艾尔登法环实用手册 | xHou.me</title>
+    </head>
+
+    <body class="">
+        <figure class="text-center">
+            <h2 class="title block">艾尔登法环<wbr>实用手册</h2>
+            <div class="subtitle">
+                基于v1.12 + <span class="dlc-title">黄金树幽影</span> | Created by
+                <a href="https://xhou.me" style="text-decoration: none">xHou</a>
+            </div>
+        </figure>
+
+        <main class="responsive">
+            <slot />
+        </main>
+    </body>
+</html>
+
+<style>
+    .dlc-title {
+        color: #4CAF50; /* Green color to signify 'Shadow of the Erdtree' */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+        padding: 2px 0; /* Small padding for better visual separation */
+    }
+</style>

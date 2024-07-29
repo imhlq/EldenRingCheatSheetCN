@@ -1,0 +1,1219 @@
+[
+  {
+    "name_en": "Chapel of Anticipation",
+    "name": "候王礼拜堂",
+    "events": [
+      {
+        "event_id": "w_0_0",
+        "text": "开局可选择<span class=\"item\">交界地卢恩</span>，无用但是此物品目前的唯一获得方法。",
+        "class": "optional"
+      },
+      {
+        "event_id": "W_1_1",
+        "text": "出生获得姿势“法环之姿”，右手死去的女巫处有道具褪色者老指",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_1_2",
+        "text": "打败<span class='boss'>“接肢”贵族后裔</span>，获得道具仪式直剑，兽纹黄金盾。或者直接死掉也可触发剧情。",
+        "class": "main_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Limgrave",
+    "name": "宁姆格福",
+    "events": [
+      {
+        "event_id": "W_2_1",
+        "text": "右手跳下去有赐福点<span class='grace'>求学洞窟</span>。沿路打败<span class='boss'>葛瑞克的士兵</span>后，可以在悬崖拾取姿势“用力握拳”。",
+        "class": "optional"
+      },
+      {
+        "event_id": "W_2_2",
+        "text": "上电梯后，出门有赐福点<span class='grace'>引导之始</span>。",
+        "class": "optional"
+      },
+      {
+        "event_id": "W_2_3",
+        "text": "（白面具支线）与赐福点前方<span class='npc'>白面具梵雷</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_4",
+        "text": "前方经过<span class='boss'>大树守卫</span>到达赐福点<span class='grace'>艾蕾教堂</span>，与<span class='npc'>商人咖唻</span>触发对话。",
+        "class": "optional"
+      },
+      {
+        "event_id": "W_2_5",
+        "text": "继续往东北方前进，到赐福点<span class='grace'>关卡前方</span>休息，可触发梅琳娜剧情，获得召唤马的哨子。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_2_6",
+        "text": "回到赐福点<span class='grace'>艾雷教堂</span>，休息到晚上，在旁边可触发菈妮剧情。",
+        "class": "optional"
+      },
+      {
+        "event_id": "W_2_7",
+        "text": "回到赐福点<span class='grace'>关卡前方</span>，往南石碑获得地图，旁地牢中获得砥石小刀。",
+        "class": "optional"
+      },
+      {
+        "event_id": "W_2_8",
+        "text": "（裁缝柏克支线）继续往南，到望远镜附近树林，找到裁缝柏克，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_9",
+        "text": "（魔法老师瑟濂支线）往南过桥，到驿站街废墟地牢，打败<span class='boss'>发狂的南瓜头士兵</span>，找到魔法老师<span class='npc'>瑟濂</span>，触发对话，获得姿势“点头称是”。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_10",
+        "text": "（罗德莉卡支线）回到赐福点<span class='grace'>关卡前方</span>向北前进，到达赐福点<span class='grace'>风暴山丘的破屋，坐赐福可触发梅琳娜对话。之后与屋里罗德莉卡对话。</span>",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_11",
+        "text": "（骑士贝纳尔支线）从赐福点<span class='grace'>风暴山丘的破屋</span>向东，到达赐福点<span class='grace'>习武者破屋</span>，坐赐福可触发梅琳娜对话，之后与屋里<span class='npc'>骑士贝纳尔</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_12",
+        "text": "（“大壶战士”亚历山大支线）继续向东前进到赐福点<span class='grace'>圣人桥</span>附近，向叫喊声南方走，找到<span class='npc'>“大壶战士”亚历山大</span>触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_13",
+        "text": "（“D”支线）赐福点<span class='grace'>圣人桥</span>向东过了桥后，路旁找到D触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_14",
+        "text": "（“D”支线）继续向东经过赐福点<span class='grace'>水唤村外</span>到水唤村，击败<span class='boss'>提比亚的唤声船</span>后，找到D就在村旁边，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_15",
+        "text": "向南到赐福点<span class='grace'>玛莉卡第三教堂</span>休息，可触发梅琳娜对话。",
+        "class": "optional"
+      },
+      {
+        "event_id": "W_2_16",
+        "text": "（海德支线）从赐福点<span class='grace'>玛莉卡第三教堂</span>向西，拱桥上触发<span class='npc'>“领主的嫡长子”肯尼斯·海德</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_17",
+        "text": "（狼人布莱泽支线）继续向南，经过雾林废墟，听到狼叫后，传回<span class='grace'>艾蕾教堂</span>，与<span class='npc'>商人咖唻</span>触发对话，获得响指姿势。再回到雾林废墟，使用动作后，与狼人布莱泽对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_18",
+        "text": "向南进入海德要塞，这里可以获得道具\n            迪可达斯符节(左)。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_19",
+        "text": "（海德支线）清理完海德要塞，回到拱桥上与<span class='npc'>肯尼斯·海德</span>对话。再次回到海德要塞，与城墙上方<span class='npc'>肯尼斯·海德</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_20",
+        "text": "（狼人布莱泽支线）从赐福点<span class='grace'>亚基尔湖南方</span>向南，直到“无主猎犬的监牢”，进入后召唤<span class='npc'>狼人布莱泽</span>，击败BOSS后，与其对话。传回<span class='grace'>艾蕾教堂</span>与商人咖唻对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_21",
+        "text": "（尤拉支线）在赐福点<span class='grace'>傍海古遗迹</span>旁，可以与<span class='npc'>“血指猎人”尤拉</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_22",
+        "text": "（尤拉支线）从赐福点<span class='grace'>傍海古遗迹</span>向北，经过湖区会遇到BOSS<span class='boss'>“飞龙”亚基尔</span>，此时将其打败，返回尤拉处有新对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_23",
+        "text": "（尤拉支线）继续向北，在“蒙流洞窟”门前遭遇<span class='boss'>“血指”涅利乌斯</span>红灵入侵，稍等片刻<span class='npc'>“血指猎人”尤拉</span>回来帮忙",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_24",
+        "text": "（尤拉支线）击败<span class='boss'>“血指”涅利乌斯</span>后，可在北侧悬崖下找到<span class='npc'>尤拉</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_25",
+        "text": "（帕奇支线）进入<span class='grace'>蒙流洞窟</span>，把<span class='boss'>帕奇</span>打到半血一下，接受求饶（求饶后再打一次，可以获得动作）。到赐福点刷新，再回到<span class='npc'>帕奇</span>处，触发对话。打开旁边箱子，触发剧情。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_26",
+        "text": "（裁缝柏克支线）从赐福点<span class='grace'>引导之始</span>向西，找到赐福点<span class='grace'>海岸洞窟</span>旁裁缝对话。可召唤<span class='npc'>“古老骑士”伊修托邦</span>击败BOSS拿到缝衣针后再次与裁缝对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_2_27",
+        "text": "",
+        "class": "optional"
+      }
+    ]
+  },
+  {
+    "name_en": "Weeping Peninsula",
+    "name": "啜泣半岛",
+    "events": [
+      {
+        "event_id": "W_3_1",
+        "text": "（摩恩的伊蕾娜支线）在赐福点<span class='grace'>献祭大桥</span>南方路旁见到<span class='npc'>摩恩的伊蕾娜</span>对话后，向南到摩恩城，击败<span class='boss'>狮子混种</span>后，与<span class='npc'>城主艾德格</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_3_2",
+        "text": "（摩恩的伊蕾娜支线）回到赐福点<span class='grace'>献祭大桥</span>与<span class='npc'>摩恩的伊蕾娜</span>旁的<span class='npc'>城主艾德格</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_3_3",
+        "text": "到赐福点<span class='grace'>巡礼教堂</span>休息，触发与梅琳娜对话",
+        "class": "optional"
+      }
+    ]
+  },
+  {
+    "name_en": "Stormveil Castle",
+    "name": "史东薇尔城",
+    "events": [
+      {
+        "event_id": "W_4_1",
+        "text": "从赐福点<span class='grace'>风暴山丘的破屋</span>向北，进入城门，经过赐福点通城隧道，击败Boss<span class='boss'>“恶兆妖鬼”玛尔基特</span>，触发圆桌厅堂剧情。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_4_2",
+        "text": "（狄亚罗斯支线）在圆桌厅堂和<span class='npc'>迪亚罗斯</span>对话",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_3",
+        "text": "（基甸支线）在圆桌厅堂和<span class='npc'>基甸</span>对话",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_4",
+        "text": "（“D”支线）在圆桌厅堂和<span class='npc'>“D”</span>对话",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_5",
+        "text": "（柯林支线）在圆桌厅堂和柯林对话",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_6",
+        "text": "（门卫葛托克支线）沿路在赐福点史东薇尔正门，旁边小屋与<span class='npc'>门卫葛托克</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_7",
+        "text": "（门卫葛托克支线）往小路前进探索来到赐福点门旁小屋，接着往上走进入塔楼后，退出塔楼，原路返回，在赐福点<span class='grace'>史东薇尔断崖</span>旁边的小坡上去找到<span class='npc'>葛托克</span>对话",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_8",
+        "text": "（门卫葛托克支线）在入口房间附近一个房间，进入后会被葛托克锁在里面",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_9",
+        "text": "（罗德莉卡支线）在城中找到道具“蛹群的遗物”后，可以去达赐福点<span class='grace'>风暴山丘的破屋</span>，与屋里<span class='npc'>罗德莉卡</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_10",
+        "text": "（罗德莉卡支线）回到圆桌厅堂与罗德莉卡对话，之后轮流与铁匠修古与罗德莉卡对话。刷新地图后，再次与其对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_11",
+        "text": "（魔法师罗杰尔支线）在城西北部的祭坛旁可以找到<span class='npc'>魔法师罗杰尔</span>，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_12",
+        "text": "（涅斐丽·露支线）在城中<span class='grace'>深处小房间</span>前的一件房子内，可以找到<span class='npc'>战士涅斐丽·露</span>，触发与她对话",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_13",
+        "text": "（魔法师罗杰尔支线）在城底部击败<span class='boss'>腐败树灵</span>后，可以在BOSS场景找到魔法师罗杰尔血迹。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_14",
+        "text": "回到<span class='grace'>深处小房间</span>，在BOSS门前可以召唤<span class='npc'>涅斐丽·露</span>，击败<span class='boss'>“接肢”葛瑞克</span>。赐福休息后，可以看到<span class='npc'>门卫葛托克</span>。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_4_15",
+        "text": "（魔法师罗杰尔支线）在击败<span class='boss'>“接肢”葛瑞克</span>后<span class='npc'>魔法师罗杰尔</span>会回到圆桌厅堂，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_16",
+        "text": "（涅斐丽·露支线）在击败<span class='boss'>“接肢”葛瑞克</span>后<span class='npc'>涅斐丽·露</span>会回到圆桌厅堂，与她对话获得道具，之后可和基甸对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_17",
+        "text": "（女巫海妲支线）在击败<span class='boss'>“接肢”葛瑞克</span>后的房间内，找到道具“葡萄”。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_18",
+        "text": "（女巫海妲支线）在赐福点<span class='grace'>傍湖断崖</span>旁可以见到<span class='npc'>女巫海妲</span>，给予“葡萄”。此支线需要完成前面摩恩的伊蕾娜支线。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_19",
+        "text": "（裁缝柏克支线）在赐福点<span class='grace'>傍湖断崖</span>旁边可和<span class='npc'>柏克</span>对话后，坐赐福可赐福和梅琳娜对话（若柏克不在这个赐福，可以尝试消磨时间到晚上或到了赐福点雷亚卢卡利亚东门后再对话）",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_4_20",
+        "text": "（白面具支线）回到赐福点<span class='grace'>引导之始</span>看到<span class='npc'>白面具梵雷</span>留言。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Liurnia",
+    "name": "利耶尼亚",
+    "events": [
+      {
+        "event_id": "W_5_1",
+        "text": "（魔法师托普斯支线）从<span class='grace'>傍湖断崖</span>出发，在伊利斯教堂与<span class='npc'>魔法师托普斯</span>对话",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_2",
+        "text": "（菈雅支线）在赐福点<span class='grace'>拉斯卡废墟</span>前，望远镜附近，可以与<span class='npc'>“招募者”菈雅</span>对话，接任务，触发火山官邸剧情。（进入火山官邸方法之一）",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_3",
+        "text": "（帕奇支线）向前一段距离，在赐福点<span class='grace'>远眺岛</span>，可以与<span class='npc'>帕奇</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_4",
+        "text": "（菈雅支线）到<span class='grace'>煮虾子破屋</span>赐福点，与旁边NPC<span class='npc'>流氓</span>对话，选择购买，得到菈雅的项链，返回交给菈雅。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_5",
+        "text": "（食粪者支线）再次与<span class='npc'>流氓</span>对话，选择购买虾子，对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_6",
+        "text": "（狄亚罗斯支线）来到赐福点<span class='grace'>学院门前镇</span>，北方可以找到狄亚罗斯，触发对话。此时回到圆桌厅堂，可以再次对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_7",
+        "text": "（女巫海妲支线）在赐福点<span class='grace'>拉斯卡废墟</span>东侧，受净化的废墟找到葡萄。给予一旁的<span class='npc'>女巫海妲</span>。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_8",
+        "text": "（摩恩的伊蕾娜支线）到赐福点<span class='grace'>复仇者破屋</span>，触发城主艾德格入侵，击败后获得道具葡萄。摩恩的伊蕾娜支线到此完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_9",
+        "text": "（女巫海妲支线）在赐福点<span class='grace'>门前镇大桥</span>，与北面的<span class='npc'>海妲</span>对话，给予葡萄（或许是她父亲的眼球？）。刷新地图后，可再次对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_10",
+        "text": "在赐福点<span class='grace'>教堂区</span>北，可以找到学院辉石钥匙，来到赐福点<span class='grace'>雷亚卢卡利亚（南门）</span>，触碰封印进入学院。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_11",
+        "text": "（尤拉支线）从赐福点<span class='grace'>学院正门口</span>出发，向北无视封印走一段距离，可以找到红符，帮尤拉击败BOSS后，与<span class='npc'>尤拉</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_12",
+        "text": "（魔法师托普斯支线）在魔法学院找到学院辉石钥匙。返回伊利斯教堂，与<span class='npc'>托普斯</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_13",
+        "text": "（魔法师托普斯支线）从赐福点<span class='grace'>校舍内的教室</span>出发，向后出门，可以找到<span class='npc'>托普斯</span>。再次返回伊利斯教堂，击败粪金龟。魔法师托普斯支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_14",
+        "text": "（裁缝柏克支线）在赐福点<span class='grace'>结缘教堂</span>附近，拾取道具黄金缝衣针。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_15",
+        "text": "（女巫海妲支线）在彼鲁姆教堂，与<span class='npc'>海妲</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_16",
+        "text": "（女巫海妲支线）在彼鲁姆教堂东侧的镇静教堂附近击败入侵的<span class='boss'>维克</span>，获得指痕葡萄，返回彼鲁姆教堂和<span class='npc'>海妲</span>对话，交出指痕葡萄。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_17",
+        "text": "（小壶支线）来到书斋南侧壶村。与小壶对话。刷新地图后，与小壶对话。再次刷新地图，与小壶对话。反复刷新地图，与小壶对话。重复刷新地图，与小壶对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_18",
+        "text": "（白面具支线）来到<span class='grace'>学院门前镇</span>西侧蔷薇教堂，与<span class='npc'>白面具梵雷</span>对话，选择不对劲，获得溃烂手指。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_19",
+        "text": "（白面具支线）完成联网入侵三次，找<span class='npc'>白面具梵雷</span>，获得道具鲜血君王的立誓布。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_20",
+        "text": "（涅斐丽·露支线）从四钟楼赐福旁边开启宝箱捡取魔石剑钥匙，往下山方向第一个塔，开启传送塔传送到候王礼拜堂，从小路来到屋顶，找到道具风暴鹰古王。回到圆桌厅堂与<span class='npc'>涅斐丽·露</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_21",
+        "text": "（白面具支线）和候王礼拜堂死去的女巫互动，用立誓布沾上女巫的血",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_22",
+        "text": "（涅斐丽·露支线）在白金村口遇到<span class='npc'>涅斐丽·露</span>，触发对话。之后可在白金村黄符得到<span class='npc'>涅斐丽·露</span>帮助，击败白金村Boss<span class='boss'>恶兆猎人</span>。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_23",
+        "text": "（白金之子支线）在白金村尽头，找到伪装的<span class='npc'>艾尔帕斯</span>，与其对话获得道具“圣树秘密符节(右)”。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_24",
+        "text": "（白金之子支线）返回圆桌厅堂，会触发<span class='boss'>“王骸”恩夏</span>入侵剧情。击败后，找<span class='npc'>基甸·奥夫尼尔</span>对话，门口可捡取恩夏装备一套。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_25",
+        "text": "（涅斐丽·露支线）返回圆桌厅堂和铁匠下面的<span class='npc'>涅斐丽</span>对话，接着找到义父<span class='npc'>“百智爵士”基甸</span>对话，再找<span class='npc'>涅斐丽</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_26",
+        "text": "（白金之子支线）来到利耶尼亚南侧<span class='grace'>湖旁结晶洞窟</span>。击败BOSS<span class='boss'>猎犬骑士</span>后，与旁<span class='npc'>白金之子勒缇娜</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_27",
+        "text": "在赐福点<span class='grace'>迪可达斯大升降机</span>，可以触发与<span class='npc'>梅琳娜</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_28",
+        "text": "（魔法师罗杰尔支线）回到圆桌厅堂，与<span class='npc'>死眠少女菲亚</span>对话，获得黑刀烙印线索。从耶尼亚东侧赐福点利<span class='grace'>遗迹迷宫</span>向北，来到<span class='grace'>黑刀地下墓地</span>，获得黑刀烙印。再与圆桌厅堂罗杰尔对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_29",
+        "text": "（魔法师罗杰尔支线）再次与<span class='npc'>死眠少女菲亚</span>对话，询问罗杰尔。刷新地图后，与<span class='npc'>罗杰尔</span>对话，获得黑刀烙印，获得菈妮线索。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_30",
+        "text": "（魔法师罗杰尔支线，菈妮支线）从赐福点<span class='grace'>通往城寨的道路</span>向北，击败卡利亚城寨BOSS后，可以来到菈妮魔法塔，与<span class='npc'>魔女菈妮</span>对话。然后返回圆桌厅堂，与罗杰尔对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_31",
+        "text": "（魔女菈妮支线）再次来到菈妮魔法塔，与<span class='npc'>魔女菈妮</span>对话。下楼与三个人分别对话后，返回与<span class='npc'>菈妮</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_32",
+        "text": "（赛尔维斯支线）来到赛尔维斯魔法师塔，与<span class='npc'>魔法教授赛尔维斯</span>对话，获得道具“塞尔维斯的药水”，暂时不要使用。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_33",
+        "text": "（赛尔维斯支线）从菈妮魔法师塔向东，可从悬崖跳到屋顶，从一处屋顶漏洞下去，可以与<span class='npc'>仆人毕迪</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_5_34",
+        "text": "从赐福点<span class='grace'>讨论室</span>出发，沿右侧道路坐电梯，进入大书库，击败<span class='boss'>“满月女王”蕾娜菈</span>。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_5_35",
+        "text": "（基甸支线）返回圆桌厅堂与基甸对话。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Siofra River",
+    "name": "希芙拉河",
+    "events": [
+      {
+        "event_id": "W_6_1",
+        "text": "从赐福点<span class='grace'>玛莉卡第三教堂</span>向南，来到希芙拉河的入口井。进入地底世界。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_6_2",
+        "text": "（魔女菈妮支线）在赐福点<span class='grace'>希芙拉河（岸边）</span>附近，找到<span class='npc'>“半狼”布莱泽</span>，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_6_3",
+        "text": "（赛尔维斯支线）返回赛尔维斯魔法师塔，与<span class='npc'>魔法教授赛尔维斯</span>对话，获取赛尔维斯的介绍信。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_6_4",
+        "text": "（赛尔维斯支线）驿站街废墟地牢，找到魔法老师<span class='npc'>瑟濂</span>，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_6_5",
+        "text": "返回赐福点<span class='grace'>希芙拉河（岸边）</span>，与<span class='npc'>“半狼”布莱泽</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_6_6",
+        "text": "（“大壶战士”亚历山大支线）在希芙拉河中部脚手架过去的<span class='npc'>见弃商人</span>处，购买道具战士制作笔记17，制作道具油壶。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Caelid",
+    "name": "盖利德",
+    "events": [
+      {
+        "event_id": "W_7_1",
+        "text": "（“大壶战士”亚历山大支线）从宁姆格福赐福点<span class='grace'>水唤村外</span>出发，向东到达<span class='grace'>盖尔坑道</span>。找到<span class='npc'>“大壶战士”亚历山大</span>，可以触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_2",
+        "text": "（米莉森支线）通过盖尔坑道，沿路直到魔法镇瑟利亚，与门口破屋的<span class='npc'>贤者格威</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_3",
+        "text": "（米莉森支线）向东在艾奥尼亚中心地击败<span class='boss'>老将欧尼尔</span>，取得道具纯净金针，返回交给<span class='npc'>贤者格威</span>，刷新地图，重新找格威对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_4",
+        "text": "（米莉森支线）将金针交给腐败病教堂的<span class='npc'>米莉森</span>，在赐福点休息后，可再次对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_5",
+        "text": "（米莉森支线）再次休息后，<span class='npc'>米莉森</span>离开，可以在门口破屋的<span class='npc'>贤者格威</span>处找到她，触发对话。再次休息，可以与<span class='npc'>贤者格威</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_6",
+        "text": "（“D”支线）从宁姆格福赐福点<span class='grace'>玛莉卡第三教堂</span>，通过东边传送门，来到盖利德<span class='grace'>野兽神殿</span>，与<span class='npc'>“野兽祭司”古兰格</span>对话。回到赐福点与“D”对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_7",
+        "text": "来到盖利德东部，<span class='grace'>法洛斯要塞</span>，这里可以获得迪可达斯符节(右)。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_8",
+        "text": "来到盖利德东南方红狮子城，可以在<span class='grace'>红狮子城（广场）</span>与多个NPC对话（分别为指头女巫瑟萝莉娜，“半狼”布莱泽，“大壶战士”亚历山大支线），最后与击败<span class='boss'>“碎星”拉塔恩</span>。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_7_9",
+        "text": "（狼人布莱泽支线）击败<span class='boss'>“碎星”拉塔恩</span>后，在BOSS场景可以找到<span class='npc'>“半狼”布莱泽</span>，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_10",
+        "text": "（“大壶战士”亚历山大支线）击败<span class='boss'>“碎星”拉塔恩</span>后，在BOSS场景可以找到<span class='npc'>“大壶战士”亚历山大</span>，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_11",
+        "text": "（“大壶战士”亚历山大支线）回到赐福点<span class='grace'>利耶尼亚大道（北方）</span>，来到卡利亚书斋南方，可以找到<span class='npc'>“大壶战士”亚历山大</span>，使用道具油壶后，重击可救出对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_12",
+        "text": "（魔法老师瑟濂支线）击败<span class='boss'>“碎星”拉塔恩</span>后，返回赐福点<span class='grace'>驿站街废墟</span>，与瑟濂对话\n            (如果无法触发，请先跳过，完成亚坛高原“起源魔法师”亚兹勒任务后再来)",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_13",
+        "text": "（魔法老师瑟濂支线）前往封印魔女的废墟地牢，获取瑟濂的源辉石。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_14",
+        "text": "（魔法老师瑟濂支线）返回在<span class='grace'>红狮子城（广场）</span>与<span class='npc'>“魔女猎人”杰廉</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_7_15",
+        "text": "（魔法老师瑟濂支线）返回封印魔女的废墟地牢，与<span class='npc'>“魔女猎人”杰廉</span>对话。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Altus Plateau",
+    "name": "亚坛高原",
+    "events": [
+      {
+        "event_id": "W_8_1",
+        "text": "从利耶尼亚赐福点<span class='npc'>栈桥东门</span>一路向北，来到<span class='grace'>谷底密村</span>。最后在BOSS熔岩土龙门口，可以召唤<span class='npc'>“大角”忒拉格斯</span>，<span class='npc'>米莉森</span>，<span class='npc'>流氓</span>。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_2",
+        "text": "来到亚坦平原赐福点<span class='grace'>近黄金树的山丘</span>休息，可以触发与梅琳娜对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_3",
+        "text": "（米莉森支线）在赐福点<span class='grace'>近黄金树的山丘</span>附近，可以找到<span class='npc'>米莉森</span>，与其对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_4",
+        "text": "（菈雅支线）在赐福点<span class='grace'>近黄金树的山丘</span>附近，可以找到<span class='npc'>“招募者”菈雅</span>，可以选择传送到火山官邸。这里建议选择不传送。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_5",
+        "text": "（食粪者支线）点亮亚坛高原的第一个赐福后，回到圆桌厅堂，与<span class='npc'>罗德莉卡</span>对话，得知<span class='npc'>食粪者</span>回来到大赐福，去和他对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_6",
+        "text": "（死眠少女支线）点亮亚坛高原的第一个赐福后，回到圆桌厅堂，和<span class='npc'>死眠少女菲亚</span>对话，获得道具“侵蚀短剑”",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_7",
+        "text": "（“D”支线）和D对话，交出“侵蚀短剑”。刷新地图后，在铁匠附近房间拾取“D”的道具。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_8",
+        "text": "（帕奇支线）向西北方，经过<span class='grace'>格密尔火山（第１休息站）</span>赐福点的一处悬崖上，可以看到七色石，顺着七色石来到悬崖边，触发帕奇剧情。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_9",
+        "text": "（“大壶战士”亚历山大支线）在谷底向西逆时针走，来到火山熔岩土龙附近，可以找到<span class='npc'>“大壶战士”亚历山大</span>，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_10",
+        "text": "（裁缝柏克支线）继续逆时针走，在遁世者村附近，拾取道具泥颅“你长得很好看”",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_11",
+        "text": "（魔法老师瑟濂支线）继续逆时针走，来到<span class='npc'>“起源魔法师”亚兹勒</span>处，与其对话，获得法术彗星亚兹勒。返回赐福点<span class='grace'>驿站街废墟</span>，与瑟濂对话，获得塞利亚封印钥匙。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_12",
+        "text": "（火山官邸支线）从<span class='grace'>移送罪人之路</span>赐福点向南，进去火山官邸。与<span class='npc'>塔妮斯</span>对话，加入后获得道具客房钥匙。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_13",
+        "text": "（菈雅支线）在火山官邸最里面左侧客房，可以与<span class='npc'>菈雅</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_14",
+        "text": "（狄亚罗斯支线）在火山官邸最里面左侧客房，可以与<span class='npc'>狄亚罗斯</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_15",
+        "text": "（骑士贝纳尔支线）在火山官邸最里面左侧客房，可以与<span class='npc'>骑士贝纳尔</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_16",
+        "text": "（火山官邸支线）在火山官邸最里面左侧客房，拾取道具来自火山官邸的信。来到赐福点<span class='grace'>习战者的破屋</span>北方，击败红符NPC后，返回火山官邸与<span class='npc'>塔妮斯</span>对话。进入房间，再次拾取道具“来自火山官邸的信”。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_17",
+        "text": "（帕奇支线）火山官邸门口，可以找到帕奇，触发对话。来到<span class='npc'>熔岩土龙</span>赐福点，击败红符NPC后，返回火山官邸与<span class='npc'>帕奇</span>对话。刷新地图后可再次对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_18",
+        "text": "（火山官邸支线）来到客房对面房间，与蛇人对话。之后与<span class='npc'>塔妮斯</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_19",
+        "text": "（火山官邸支线）从赐福点<span class='grace'>近黄金树的山丘</span>向北，来到标记点，击败红符NPC后，返回火山官邸与<span class='npc'>塔妮斯</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_20",
+        "text": "（骑士贝纳尔支线）在火山官邸可以再次与<span class='npc'>骑士贝纳尔</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_21",
+        "text": "（狄亚罗斯支线）在火山官邸可以再次与<span class='npc'>狄亚罗斯</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_22",
+        "text": "（小壶支线）来到书斋南侧壶村。与小壶、狄亚罗斯对话。刷新地图，与小壶、狄亚罗斯对话。再次刷新地图，可以拾取装备，之后与小壶对话。再次刷新地图与小壶对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_23",
+        "text": "（菈雅支线）击败火山官邸的<span class='boss'>神皮贵族</span>后，获取道具蛇的羊膜。返回火山官邸与<span class='npc'>菈雅</span>对话。再次与<span class='npc'>塔妮斯</span>对话，获得道具“遗忘秘药”。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_24",
+        "text": "（米莉森支线）在日荫城的一个塔楼房间宝箱中，获得道具女武神的义手。返回赐福点<span class='grace'>近黄金树的山丘</span>附近，与<span class='npc'>米莉森</span>对话。之后可回盖利德与<span class='npc'>贤者格威</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_25",
+        "text": "（金面具支线）返回圆桌厅堂，与<span class='npc'>圣职人员柯林</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_26",
+        "text": "（金面具支线）从赐福点<span class='npc'>亚坛大道的三叉口</span>往北，找到路旁<span class='npc'>圣职人员柯林</span>，与其对话。续向北，通过穿林大桥传送门，找到并与<span class='npc'>金面具</span>对话后，返回<span class='npc'>圣职人员柯林</span>处再次对话。通过穿林大桥传送门，再次来到金面具处，与<span class='npc'>记录者柯林</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_27",
+        "text": "（米莉森支线）在风车镇赐福点<span class='npc'>风车村高台</span>，可召唤米莉森。击败BOSS神皮后，与<span class='npc'>米莉森</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_28",
+        "text": "（尤拉支线）来到<span class='npc'>玛丽卡第二教堂</span>，看到躺在地上<span class='npc'>尤拉</span>，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_29",
+        "text": "（魔法老师瑟濂支线）前往盖利德塞利亚隐秘洞穴，找到<span class='npc'>卢瑟特</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_30",
+        "text": "（魔法老师瑟濂支线）来到利耶尼亚的赛尔维斯地下室，与瑟濂的身体互动，移植瑟濂的源辉石。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_31",
+        "text": "（魔法老师瑟濂支线）返回赐福点<span class='grace'>雷亚卢卡利亚书库</span>，与瑟濂对话。刷新地图，与变身后的瑟濂对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_8_32",
+        "text": "（魔法老师瑟濂支线）再次刷新，门口出现两个召唤符，进入分支剧情。分支一：帮助瑟濂，击败<span class='boss'>“魔女猎人”杰廉</span>。获得道具奇异骑士套装。分支二：帮助杰廉，击败<span class='boss'>瑟濂</span>。获得道具瑟濂的铃珠、古龙岩锻造石。瑟濂支线完结。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Leyndell Royal Capital",
+    "name": "王城罗德尔",
+    "events": [
+      {
+        "event_id": "W_9_1",
+        "text": "在赐福点<span class='grace'>城外战场遗迹</span>休息，可以触发与梅琳娜对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_2",
+        "text": "在赐福点<span class='grace'>王城东边城墙</span>休息，触发与梅琳娜对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_3",
+        "text": "（裁缝柏克支线）在圆桌厅堂处，购买\n            半神上衣\n            一件，回到赐福点王城东边城墙，与<span class='npc'>裁缝柏克</span>对话，交出“黄金缝衣针”，触发分支剧情。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_4",
+        "text": "（裁缝柏克支线）选项一：交出泪滴幼体，来到雷亚卢卡利亚大书库，与一旁NPC对话后，回到柏克处对话。选项二：不交出泪滴幼体，对话结束使用道具泥颅“你长得很好看”，再次对话。裁缝柏克支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_5",
+        "text": "（食粪者支线）在王城探索时获得道具“温床的诅咒”，返回圆桌厅堂与<span class='npc'>食粪者</span>对话，获得道具“下水道钥匙”",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_6",
+        "text": "（食粪者支线）在王城城墙外围找到<span class='npc'>流氓</span>，触发对话。\n             下水道",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_7",
+        "text": "（食粪者支线）在王城下水道找到<span class='npc'>食粪者</span>，触发对话。返回圆桌厅堂与食粪者讯息对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_8",
+        "text": "（食粪者支线）在王城城墙外围找到流氓，再次触发对话。刷新地图，击败入侵食粪者，拾取道具。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_10",
+        "text": "在赐福点<span class='grace'>癫火封印</span>休息，可以触发与梅琳娜对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_11",
+        "text": "（赛尔维斯支线）回到圆桌厅堂，交出道具“塞尔维斯的药水”。选项一：交给<span class='npc'>涅斐丽·露</span>，会强制结束涅斐丽·露支线，获得涅斐丽·露傀儡。选项二：交给食粪者，强制结束食粪者支线，获得食粪者傀儡。选项三：交给<span class='npc'>“百智爵士”基甸</span>。完成三选一后再次与<span class='npc'>魔法教授赛尔维斯</span>对话，获得一个傀儡。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_12",
+        "text": "（赛尔维斯支线）刷新地图一次，返回赛尔维斯魔法师塔和<span class='npc'>塞尔维斯</span>对话，再次刷新地图一次，与塞尔维斯对话，选择我想要新的傀儡，购买另外一个骨灰后继续和塞尔维斯对话，获取琥珀星光情报。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_13",
+        "text": "（赛尔维斯支线）在亚坦高原赐福点<span class='npc'>亚坛大道的三叉口</span>北的一尊雕像前可以拾取道具琥珀星光。返回赛尔维斯魔法师塔和<span class='npc'>塞尔维斯</span>对话，交出琥珀星光。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_14",
+        "text": "（金面具支线）在王城南侧山坡，找到柯林触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_15",
+        "text": "（金面具支线）在王城黄金树大教堂顶部拾取道具“黄金律法原本”，交给柯林或乌龟，学习“回归性原理”。在黄金树大教堂赐福出来电梯一楼，与雕像前官方建言互动。使用祷告“回归性原理”。再次查看官方建言。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_16",
+        "text": "（金面具支线）返回柯林处，与金面具对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_17",
+        "text": "（骑士贝纳尔支线）找到红符并击败“白狼战鬼”巴格莱姆，返回火山官邸和贝纳尔对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_18",
+        "text": "击败<span class='boss'>“恶兆之王”蒙葛特</span>。上楼梯与门互动后，回赐福点休息，触发梅琳娜对话。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_9_19",
+        "text": "在赐福点<span class='grace'>女王闺阁</span>休息，可以触发与梅琳娜对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_20",
+        "text": "（基甸支线）击败<span class='boss'>“恶兆之王”蒙葛特</span>后，返回圆桌厅堂与基甸对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_21",
+        "text": "（涅斐丽·露支线）击败<span class='boss'>“恶兆之王”蒙葛特</span>后，返回史东薇尔城<span class='boss'>“截肢”葛瑞克</span>后王座房间，反复刷新地图后，找到<span class='npc'>涅斐丽·露</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_22",
+        "text": "（门卫葛托克支线）找到旁边的<span class='npc'>门卫葛托克</span>，对话后可购买新道具。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_23",
+        "text": "捡取到五个温床的诅咒后，在下水道找到<span class='npc'>食粪者</span>，把五个温床的诅咒给他，捡取道具“忌讳诅咒的修复卢恩”。刷新地图，拾取食粪者套装。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_9_24",
+        "text": "（女巫海妲支线）在王城下水道，击败“恶兆之子”蒙格后，从隐藏门进入，跳到底部赐福点癫火封印。与海妲对话。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Eternal City",
+    "name": "“永恒之城”",
+    "events": [
+      {
+        "event_id": "W_A_1",
+        "text": "（狼人布莱泽支线）回到<span class='npc'>通往城寨的道路</span>赐福点，与铁匠伊吉对话，获得布莱泽线索。来到无主猎犬的封印监牢，与狼人布莱泽对话。再次回到<span class='npc'>通往城寨的道路</span>赐福点，与铁匠伊吉对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_2",
+        "text": "（魔女菈妮支线）来到宁姆格福的雾林废墟东侧，进入<span class='grace'>“永恒之城”诺克隆恩</span>。一路前进，在黑夜神域的宝箱中获得道具\n            猎杀指头刀。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_3",
+        "text": "（魔女菈妮支线）回到<span class='grace'>菈妮魔法师塔</span>与<span class='npc'>魔女菈妮</span>对话，获得道具卡利亚颠倒像，前往蕾娜魔法师塔，在二楼可以获得雪魔女套装。从顶楼传送到<span class='grace'>安塞尔河主流</span>。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_4",
+        "text": "（魔女菈妮支线）在赐福点前可以拾取道具娇小菈妮，之后在赐福点与娇小菈妮反复对话。向前可触发入侵，击败<span class='boss'>灾厄影子</span>，获得道具\n            被丢弃的王室钥匙。回到雷亚卢卡利亚大书库，使用钥匙打开宝箱，获得道具\n            暗月戒指。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_5",
+        "text": "（魔女菈妮支线）安塞尔河继续向前，在各赐福点休息选择与娇小菈妮说话。最后在腐败湖后，与瀑布边的石棺互动，到达地底。击败<span class='boss'>\"黑暗弃子\"艾丝缇</span>，通过后面通道，来到月光祭坛。找到“辉石龙”亚杜拉身后的大教堂，从洞穴下去，与菈妮互动触发剧情。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_6",
+        "text": "（魔女菈妮支线）剧情结束后回到菈妮魔法师塔<span class='grace'>菈妮房间</span>赐福点可与娇小菈妮对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_7",
+        "text": "（狼人布莱泽支线）从菈妮魔法塔出来，击败发狂狼人布莱泽。到<span class='npc'>通往城寨的道路</span>赐福点与<span class='npc'>铁匠伊吉</span>对话，刷新地图，拾取铁匠伊吉物品。狼人布莱泽支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_8",
+        "text": "（“D”支线）从“永恒之城”诺尔隆恩赐福点<span class='grace'>导水桥旁断崖</span>向前，与D的弟弟对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_9",
+        "text": "（死眠少女支线）从BOSS石棺或者癫火隐藏墙进入深根底层，来到<span class='grace'>树根前路</span>赐福点，与场景内<span class='npc'>死眠少女菲亚</span>对话。击败多个入侵者后，继续与<span class='npc'>死眠少女菲亚</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_10",
+        "text": "（死眠少女支线）交出“死亡的咒痕”，继续与<span class='npc'>死眠少女菲亚</span>对话。刷新地图，再次与<span class='npc'>死眠少女菲亚</span>对话。刷新地图，与死眠少女菲亚互动，进入死眠梦境，击败<span class='boss'>“死龙”弗尔桑克斯</span>。返回地图与死眠少女菲亚对话。死眠少女支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_11",
+        "text": "（“D”支线）刷新地图，与死眠少女菲亚旁<span class='npc'>D的弟弟</span>对话，再次刷新地图，拾取D的弟弟的装备。“D”支线完结。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Mountaintops of the Giants",
+    "name": "巨人山顶",
+    "events": [
+      {
+        "event_id": "W_B_1",
+        "text": "（米莉森支线）禁域门口可以召唤<span class='npc'>米莉森</span>，帮助打<span class='boss'>黑剑眷属</span>",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_2",
+        "text": "（米莉森支线）在赐福点<span class='grace'>古遗迹降雪谷附近</span>，可以找到<span class='npc'>米莉森</span>，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_3",
+        "text": "（尤拉支线）在赐福点<span class='grace'>萨米尔废墟</span>，找到尤拉，触发对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_4",
+        "text": "在赐福点<span class='grace'>萨米尔废墟</span>休息，可以触发与梅琳娜对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_5",
+        "text": "（水母支线）在观星废墟，找到<span class='npc'>水母库菈莉丝</span>，使用召唤水母的骨灰。触发剧情。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_6",
+        "text": "（基甸支线）在索尔城，击败BOSS后，前方获取道具圣树秘密符节(左)。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_7",
+        "text": "（金面具支线）在<span class='grace'>古遗迹降雪谷</span>上方的桥上（绕过去），找到<span class='npc'>金面具</span>，触发对话。可以将“遗忘秘药”交给<span class='npc'>柯林</span>。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_8",
+        "text": "（狄亚罗斯支线）雪山离群独行者的破屋附近，找到红符召唤并击败<span class='boss'>“血言骑士”尤诺·霍斯劳</span>，获取霍斯劳装备一套。狄亚罗斯支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_9",
+        "text": "（火山官邸支线）返回火山官邸和<span class='npc'>塔妮丝</span>对话，获得掠夺浮雕坠饰对话，选择愿意觐见王，击败<span class='boss'>噬神大蛇拉卡德</span>。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_10",
+        "text": "（菈雅支线）与火山官邸<span class='npc'>菈雅</span>对话，选择不交出。刷新地图，捡取泽拉雅丝的信及狄蒂卡的灾祸。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_11",
+        "text": "（火山官邸支线）与火山官邸<span class='npc'>塔妮丝</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_12",
+        "text": "（骑士贝纳尔支线）与火山官邸<span class='npc'>骑士贝纳尔</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_13",
+        "text": "（帕奇支线）与火山官邸<span class='npc'>帕奇</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_14",
+        "text": "（帕奇支线）日荫城赐福点<span class='grace'>城主大厅</span>，往雕像的方向走，找到<span class='npc'>帕奇</span>对话，获取“舞娘的打击乐器”。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_15",
+        "text": "（帕奇支线）刷新地图后回到<span class='grace'>蒙流洞窟</span>，再次触发BOSS，稍等片刻<span class='boss'>帕奇</span>求饶，可以获得姿势帕奇蹲。帕奇支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_16",
+        "text": "（火山官邸支线）来到<span class='grace'>“亵渎君王”拉卡德</span>赐福点，反复与塔妮丝对话。之后可以选择杀死塔妮丝，然后遭遇暗灵入侵，将其击败，捡取塔妮丝同款一套。火山官邸支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_17",
+        "text": "（基甸支线）来到洛德大升降机互动高举秘密符节到达雪山另一半后，返回大赐福和<span class='npc'>基甸</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_B_18",
+        "text": "（白金之子支线）在赐福点<span class='grace'>离教废屋</span>，使用召唤白金之子勒缇娜的骨灰，与<span class='npc'>缇勒娜</span>对话。白金之子支线完结。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Elphael, Brace of the Haligtree",
+    "name": "“圣树分枝”艾布雷菲尔",
+    "events": [
+      {
+        "event_id": "W_C_1",
+        "text": "通过化圣雪原北侧仪典镇奥缇娜的机关，进入米凯拉的圣树。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_C_2",
+        "text": "（米莉森支线）在赐福点<span class='grace'>祈祷室</span>和旁边的<span class='npc'>米莉森</span>对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_C_3",
+        "text": "（米莉森支线）从米凯拉的圣树赐福点<span class='grace'>排水管道</span>往回走，过树枝，在泥塘旁边有两个选项。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_C_4",
+        "text": "（米莉森支线）选择帮助<span class='npc'>米莉森</span>，获得腐败翼剑徽章，再次刷新地图获得纯净金针。若这里选择敌对<span class='boss'>米莉森</span>，获得护符米莉森的义手，无法获得纯净金针。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_C_5",
+        "text": "（米莉森支线）返回格威的破屋，捡取格威的铃珠和群聚信徒的立誓布。米莉森支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_C_6",
+        "text": "击败<span class='boss'>“米凯拉的锋刃”玛莲妮亚</span>。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_C_7",
+        "text": "击败<span class='boss'>“米凯拉的锋刃”玛莲妮亚</span>后，与红花互动，获得米凯拉的针和古龙岩失色锻造石。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_C_8",
+        "text": "（基甸支线）击败<span class='boss'>“米凯拉的锋刃”玛莲妮亚</span>后，返回大赐福和<span class='npc'>基甸</span>对话，选择关于圣树的根，获取祷告王之圣防护。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Mohgwyn Dynasty\n            Mausoleum",
+    "name": "蒙格温王朝庙",
+    "events": [
+      {
+        "event_id": "W_D_1",
+        "text": "（白面具支线）使用道具纯血骑士勋章(或者从雪原传送门)，进入谒见之地。沿赐福向前，在赐福点<span class='grace'>王朝灵庙（中段）</span>前，触发红符入侵。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_D_2",
+        "text": "（基甸支线）返回大赐福和基甸对话，选择蒙格温王朝，获取法力斯制作笔记【3】。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_D_3",
+        "text": "蒙格温王朝庙继续向前，击败半神<span class='boss'>“鲜血君主”蒙格</span>",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_D_4",
+        "text": "（基甸支线）击败<span class='boss'>“鲜血君主”蒙格</span>后，返回大赐福和<span class='npc'>基甸</span>对话，选择鲜血君王的茧，获取祷告因果性原理。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Forge of the Giants",
+    "name": "“巨人火焰大锅”",
+    "events": [
+      {
+        "event_id": "W_E_1",
+        "text": "（“大壶战士”亚历山大支线）赐福点<span class='grace'>火焰大锅下方</span>，能看到召唤亚历山大的金符，可以帮忙打火焰巨人。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_E_2",
+        "text": "（女巫海妲支线）重要分支：来到赐福点<span class='grace'>癫火封印</span>，脱光衣服后与门互动，。接受颠火后，与海妲互动，获取道具。女巫海妲支线完结。(会影响梅丽娜支线)",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_E_3",
+        "text": "在火焰大锅赐福点休息，点击选项后，触发剧情。游戏进入下一阶段。（会导致部分支线强行结束，建议完成前面支线后再进行此剧情）",
+        "class": "main_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Crumbling Farum Azula",
+    "name": "逐渐崩毁的法姆·亚兹拉",
+    "events": [
+      {
+        "event_id": "W_F_1",
+        "text": "（罗德莉卡支线）剧情后到达赐福点，返回圆桌厅堂，反复与罗德莉卡、铁匠修古对话。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_F_2",
+        "text": "（“大壶战士”亚历山大支线）赐福点<span class='grace'>龙教堂（升降机前）</span>向前，从石剑钥匙解锁电梯上去，找到<span class='npc'>“大壶战士”亚历山大</span>，触发剧情。亚历山大支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_F_3",
+        "text": "（小壶支线）来到赐福点<span class='grace'>壶村</span>。与小壶对话，刷新地图后，拾取道具。小壶支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_F_4",
+        "text": "<span class='grace'>大桥侧边</span>赐福点，出来后往回跑进门，下楼梯后触发<span class='npc'>贝纳尔</span>入侵，击败后获得道具与贝纳尔盔甲。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_F_5",
+        "text": "（罗德莉卡支线）击败<span class='boss'>“黑剑”玛利喀斯</span>后，返回圆桌厅堂，反复与罗德莉卡、铁匠修古对话。罗德莉卡支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_F_6",
+        "text": "（金面具支线）击败<span class='boss'>“黑剑”玛利喀斯</span>后，在雪山原地里面找到柯林对话。刷新地图，捡取柯林铃珠及装备。",
+        "class": "side_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Leyndell, Capital of\n            Ash",
+    "name": "“灰烬王城”罗德尔",
+    "events": [
+      {
+        "event_id": "W_10_1",
+        "text": "（金面具支线）在王城山崖下捡取完美法律的大卢恩，刷新地图捡取金面具装备。金面具支线完结。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_10_2",
+        "text": "（基甸支线）进入黄金树大教堂，击败<span class='boss'>基甸</span>，获取百智权杖和同款装备一套。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_10_3",
+        "text": "击败<span class='boss'>“初始之王”葛孚雷/荷拉·露</span>。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_10_4",
+        "text": "进入黄金树，击败<span class='boss'>\"黄金律法\"拉达冈/艾尔登之兽</span>。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_10_5",
+        "text": "结局分支：1.直接互动，触发癫火之王结局",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_10_6",
+        "text": "结局分支：2.来到<span class='boss'>“龙王”普拉顿桑克斯</span>场景，使用道具\n            米凯拉的针，使用后压制癫火。返回后与菈妮符互动。",
+        "class": "main_quest"
+      },
+      {
+        "event_id": "W_10_7",
+        "text": "结局分支：3.来到<span class='boss'>“龙王”普拉顿桑克斯</span>场景，使用道具\n            米凯拉的针，使用后压制癫火。返回后与雕像互动（五种选项）。",
+        "class": "main_quest"
+      }
+    ]
+  },
+  {
+    "name_en": "Gravesite Plain",
+    "name": "墓地平原",
+    "events": [
+      {
+        "event_id": "W_A_1",
+        "text": "（DLC）击败<span class='boss'>“碎星”拉塔恩</span>与<span class='boss'>“鲜血君主”蒙格</span>后，返回赐福点。",
+        "class": "side_quest"
+      },
+      {
+        "event_id": "W_A_TBD",
+        "text": "DLC更新中，敬请期待。",
+        "class": "side_quest"
+      }
+    ]
+  }
+]
