@@ -31,7 +31,7 @@ const getMultiColClass = (multicols) => {
 const columnClass = getMultiColClass(multicols);
 
 ---
-<check-list>
+<check-list name={collection} data-message={collection}>
     {searchable && (
         <div class="field label prefix border">
             <i>search</i>
@@ -121,7 +121,7 @@ const columnClass = getMultiColClass(multicols);
 </style>
 
 <script>
-    // Defining a custom element https://docs.astro.build/en/guides/client-side-scripts/#web-components-with-custom-elements
+    {/* Defining a custom element https://docs.astro.build/en/guides/client-side-scripts/#web-components-with-custom-elements */}
     class ChecklistElement extends HTMLElement {
         constructor() {
             super();
@@ -148,13 +148,13 @@ const columnClass = getMultiColClass(multicols);
             const itemId = btn.getAttribute('data-id');
             
             try {
-                // Update the local storage with the checked state
-                const profiles = JSON.parse(localStorage.getItem('profiles'));
+                // Update the _data with the checked state
+                const profiles = this.loadProfiles();
                 if (btn.checked) {
-                    profiles.checklistData[itemId] = true;
+                    profiles.checklistData[this.dataset.message][itemId] = true;
                 } else {
-                    delete profiles.checklistData[itemId];
-                    delete profiles.conflicts[itemId];
+                    delete profiles.checklistData[this.dataset.message][itemId];
+                    delete profiles.conflicts[this.dataset.message][itemId];
                     // uncheck options
                     document.querySelectorAll(`input[name="${itemId}_"]`).forEach(option => {
                         (option as HTMLInputElement).checked = false;
@@ -174,30 +174,29 @@ const columnClass = getMultiColClass(multicols);
             const itemId = btn.name.split('_')[0];
             const chkBtn = this.querySelector(`input[data-id="${itemId}"]`);
             const conflict_ids = btn.getAttribute('data-conflict')?.split(',').filter(id => id.trim() !== '') || [];
-            try {
-                // Update the local storage with the checked state
-                const profiles = JSON.parse(localStorage.getItem('profiles'));
-
-                const handleConflicts = (conflictIds, disable) => {
+            const handleConflicts = (conflictIds, disable) => {
                     conflictIds.forEach(conflictId => {
                         const conflictBtn = this.querySelector(`input[data-id="${conflictId}"]`) as HTMLInputElement;
                         if (conflictBtn) {
                             conflictBtn.disabled = disable;
                         }
                     });
-                };
+            };
+        
+            try {    
+                const profiles = this.loadProfiles();
 
                 if (btn.checked) {
-                    profiles.checklistData[itemId] = optionId;
+                    profiles.checklistData[this.dataset.message][itemId] = optionId;
                     (chkBtn as HTMLInputElement).checked = true;
 
-                    if (profiles.conflicts[itemId]) {
-                        handleConflicts(profiles.conflicts[itemId], false);
+                    if (profiles.conflicts[this.dataset.message][itemId]) {
+                        handleConflicts(profiles.conflicts[this.dataset.message][itemId], false);
                     }
                     if (conflict_ids.length === 0) {
-                        delete profiles.conflicts[itemId]
+                        delete profiles.conflicts[this.dataset.message][itemId]
                     } else {
-                        profiles.conflicts[itemId] = conflict_ids;
+                        profiles.conflicts[this.dataset.message][itemId] = conflict_ids;
                         console.log(`${itemId} conflicts with ${conflict_ids}`);
                         handleConflicts(conflict_ids, true);
                     }
@@ -253,6 +252,18 @@ const columnClass = getMultiColClass(multicols);
                     });
                 }
             });
+        }
+
+        loadProfiles() {
+            // Update the local storage with the checked state
+            const profiles = JSON.parse(localStorage.getItem('profiles'));
+            if (!profiles.checklistData[this.dataset.message]) {
+                profiles.checklistData[this.dataset.message] = {};
+            }
+            if (!profiles.conflicts[this.dataset.message]) {
+                profiles.conflicts[this.dataset.message] = {};
+            }
+            return profiles;
         }
 
         highlightText(item, searchTerm) {

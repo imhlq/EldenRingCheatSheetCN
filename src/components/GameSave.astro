@@ -73,6 +73,7 @@ function updateSlotDropdown(slot_name_list) {
 async function calculateSave() {
     // dynamic import for performance
     const module = await import("../js/process_item");
+
     selected_slot = slotSelect.querySelector("select").value;
     const item_list = fetchInventory(file_read, selected_slot);
     let uniqueRawIds = new Set();
@@ -96,12 +97,29 @@ async function calculateSave() {
     console.log("Unique Items: " + unique);
     console.warn("Missing Items: " + errorCount);
 
-    // Set new profile
-    let profiles = JSON.parse(localStorage.getItem('profiles')) || { checklistData: {} };
-    profiles.checklistData = {}
+    // Set new profile / update existing profile
+    let profiles = JSON.parse(localStorage.getItem('profiles'));
+    profiles.checklistData.Weapon = {};
+    profiles.checklistData.Armor = {};
+    profiles.checklistData.Good = {};
+    profiles.checklistData.Magic = {};
+
     uniqueRawIds.forEach((raw_id) => {
         const item_id = raw_id as string;
-        profiles.checklistData[item_id] = true;
+        const item = module.getItemById(item_id);
+
+        // Set collection
+        if (item.type === "weapon") {
+            profiles.checklistData["Weapon"][item_id] = true;
+        } else if (item.type === "arm" || item.type === "body" || item.type === "head" || item.type === "leg") {
+            profiles.checklistData["Armor"][item_id] = true;
+        } else if (item.type === "good" || item.type === "talisman" ) {
+            profiles.checklistData["Good"][item_id] = true;
+        } else if (item.type === "magic" || item.type === "war" || item.type === "ash") {
+            profiles.checklistData["Magic"][item_id] = true;
+        } else {
+            console.log("Unknown item type: " + item.type)
+        }
     });
     localStorage.setItem('profiles', JSON.stringify(profiles));
 }

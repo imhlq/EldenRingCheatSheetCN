@@ -38529,1197 +38529,1197 @@
   {
     "id": "40000FA0",
     "name": "辉石魔砾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FA0"
   },
   {
     "id": "40000FA1",
     "name": "辉石大魔砾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FA1"
   },
   {
     "id": "40000FAA",
     "name": "辉石迅魔砾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FAA"
   },
   {
     "id": "40000FB4",
     "name": "辉石彗星",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FB4"
   },
   {
     "id": "40000FB5",
     "name": "帚星",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FB5"
   },
   {
     "id": "40000FBE",
     "name": "旋飞魔砾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FBE"
   },
   {
     "id": "40000FC8",
     "name": "辉石流星",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FC8"
   },
   {
     "id": "40000FD2",
     "name": "流星雨",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FD2"
   },
   {
     "id": "40000FDC",
     "name": "结晶连弹",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FDC"
   },
   {
     "id": "40000FE6",
     "name": "辉石弯弧",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FE6"
   },
   {
     "id": "40000FF0",
     "name": "海摩炮弹",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FF0"
   },
   {
     "id": "40000FFA",
     "name": "结晶散射",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40000FFA"
   },
   {
     "id": "40001004",
     "name": "爆碎岩盘",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001004"
   },
   {
     "id": "4000100E",
     "name": "爆破岩盘",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000100E"
   },
   {
     "id": "40001018",
     "name": "海摩大槌",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001018"
   },
   {
     "id": "40001022",
     "name": "魔法之境",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001022"
   },
   {
     "id": "4000102C",
     "name": "星光",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000102C"
   },
   {
     "id": "40001068",
     "name": "彗星亚兹勒",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001068"
   },
   {
     "id": "40001072",
     "name": "创星雨",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001072"
   },
   {
     "id": "4000107C",
     "name": "毁灭流星",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000107C"
   },
   {
     "id": "400010CC",
     "name": "辉剑圆阵",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400010CC"
   },
   {
     "id": "400010CD",
     "name": "卡利亚圆阵",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400010CD"
   },
   {
     "id": "400010CE",
     "name": "巨剑阵",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400010CE"
   },
   {
     "id": "40001108",
     "name": "蕾娜菈的满月",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001108"
   },
   {
     "id": "40001109",
     "name": "菈妮的暗月",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001109"
   },
   {
     "id": "40001112",
     "name": "天降魔力",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001112"
   },
   {
     "id": "4000111C",
     "name": "罗蕾塔的大弓",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000111C"
   },
   {
     "id": "4000111D",
     "name": "罗蕾塔的绝招",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000111D"
   },
   {
     "id": "40001126",
     "name": "魔法辉剑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001126"
   },
   {
     "id": "40001130",
     "name": "辉石冰块",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001130"
   },
   {
     "id": "4000113A",
     "name": "萨米尔冰风暴",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000113A"
   },
   {
     "id": "40001144",
     "name": "冰雾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001144"
   },
   {
     "id": "4000114E",
     "name": "卡利亚大剑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000114E"
   },
   {
     "id": "4000114F",
     "name": "亚杜拉的月光剑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000114F"
   },
   {
     "id": "40001158",
     "name": "卡利亚迅剑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001158"
   },
   {
     "id": "40001162",
     "name": "卡利亚贯刺",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001162"
   },
   {
     "id": "4000116C",
     "name": "魔力武器",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000116C"
   },
   {
     "id": "40001176",
     "name": "魔力盾牌",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001176"
   },
   {
     "id": "40001180",
     "name": "镇定",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001180"
   },
   {
     "id": "4000118A",
     "name": "结冰武器",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000118A"
   },
   {
     "id": "40001194",
     "name": "爆散结晶",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001194"
   },
   {
     "id": "4000119E",
     "name": "飞散结晶",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000119E"
   },
   {
     "id": "400011A8",
     "name": "奔放结晶",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400011A8"
   },
   {
     "id": "400011F8",
     "name": "奇袭魔砾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400011F8"
   },
   {
     "id": "40001202",
     "name": "黑夜魔砾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001202"
   },
   {
     "id": "4000120C",
     "name": "黑夜彗星",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000120C"
   },
   {
     "id": "40001216",
     "name": "托普斯的力场",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001216"
   },
   {
     "id": "40001220",
     "name": "卡利亚式奉还",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001220"
   },
   {
     "id": "4000122A",
     "name": "亘古黑暗",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000122A"
   },
   {
     "id": "40001234",
     "name": "无形刀刃",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001234"
   },
   {
     "id": "4000123E",
     "name": "化为无形",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000123E"
   },
   {
     "id": "4000125C",
     "name": "陨石",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000125C"
   },
   {
     "id": "4000125D",
     "name": "艾丝缇陨石",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000125D"
   },
   {
     "id": "40001266",
     "name": "岩石球",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001266"
   },
   {
     "id": "40001270",
     "name": "重力球",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001270"
   },
   {
     "id": "40001271",
     "name": "碎星",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001271"
   },
   {
     "id": "400012C0",
     "name": "熔岩球",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400012C0"
   },
   {
     "id": "400012CA",
     "name": "格密尔之怒",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400012CA"
   },
   {
     "id": "400012D4",
     "name": "滚烫熔岩",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400012D4"
   },
   {
     "id": "400012DE",
     "name": "拉卡德的怨魂",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400012DE"
   },
   {
     "id": "40001324",
     "name": "罪恶荆棘",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001324"
   },
   {
     "id": "4000132E",
     "name": "责罚荆棘",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000132E"
   },
   {
     "id": "40001388",
     "name": "召唤怨魂",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001388"
   },
   {
     "id": "40001389",
     "name": "古老死亡怨魂",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001389"
   },
   {
     "id": "40001392",
     "name": "迸发灵火",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001392"
   },
   {
     "id": "4000139C",
     "name": "菲雅烟雾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000139C"
   },
   {
     "id": "400013A6",
     "name": "提比亚的唤声",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400013A6"
   },
   {
     "id": "400013B0",
     "name": "死亡雷击",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400013B0"
   },
   {
     "id": "400013EC",
     "name": "神谕泡泡",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400013EC"
   },
   {
     "id": "400013F6",
     "name": "神谕大泡泡",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400013F6"
   },
   {
     "id": "40001770",
     "name": "燃火",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001770"
   },
   {
     "id": "40001771",
     "name": "火焰啊！",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001771"
   },
   {
     "id": "4000177A",
     "name": "投火",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000177A"
   },
   {
     "id": "40001784",
     "name": "火焰啊，倾注吧",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001784"
   },
   {
     "id": "4000178E",
     "name": "火焰啊，缠绕吧",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000178E"
   },
   {
     "id": "40001798",
     "name": "火焰的疗愈啊",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001798"
   },
   {
     "id": "400017A2",
     "name": "火焰啊，赐予我力量！",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400017A2"
   },
   {
     "id": "400017AC",
     "name": "火焰的庇佑啊",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400017AC"
   },
   {
     "id": "400017D4",
     "name": "感受巨人火焰吧",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400017D4"
   },
   {
     "id": "400017DE",
     "name": "恶神火焰",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400017DE"
   },
   {
     "id": "400017E8",
     "name": "火焰啊，吞噬一切！",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400017E8"
   },
   {
     "id": "40001842",
     "name": "黑焰",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001842"
   },
   {
     "id": "4000184C",
     "name": "火焰啊，喷发吧",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000184C"
   },
   {
     "id": "40001856",
     "name": "横扫黑焰",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001856"
   },
   {
     "id": "40001860",
     "name": "黑焰仪式",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001860"
   },
   {
     "id": "4000186A",
     "name": "黑焰刀刃",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000186A"
   },
   {
     "id": "40001874",
     "name": "黑焰庇佑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001874"
   },
   {
     "id": "4000187E",
     "name": "贵族气场",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000187E"
   },
   {
     "id": "4000189C",
     "name": "血焰爪痕",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000189C"
   },
   {
     "id": "400018A6",
     "name": "授血",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400018A6"
   },
   {
     "id": "400018B0",
     "name": "血焰刀刃",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400018B0"
   },
   {
     "id": "400018BA",
     "name": "黄金魔力防护",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400018BA"
   },
   {
     "id": "400018C4",
     "name": "黄金树庇佑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400018C4"
   },
   {
     "id": "40001900",
     "name": "拒绝",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001900"
   },
   {
     "id": "4000190A",
     "name": "黄金之怒",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000190A"
   },
   {
     "id": "40001914",
     "name": "紧急恢复",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001914"
   },
   {
     "id": "40001915",
     "name": "恢复",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001915"
   },
   {
     "id": "40001916",
     "name": "大恢复",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001916"
   },
   {
     "id": "40001917",
     "name": "王之恢复",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001917"
   },
   {
     "id": "40001918",
     "name": "黄金树恢复",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001918"
   },
   {
     "id": "4000191E",
     "name": "恩惠赐福",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000191E"
   },
   {
     "id": "4000191F",
     "name": "黄金树恩惠",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000191F"
   },
   {
     "id": "40001928",
     "name": "疗愈毒性",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001928"
   },
   {
     "id": "40001929",
     "name": "王之疗愈",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001929"
   },
   {
     "id": "40001932",
     "name": "火防护",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001932"
   },
   {
     "id": "4000193C",
     "name": "魔力防护",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000193C"
   },
   {
     "id": "40001946",
     "name": "雷防护",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001946"
   },
   {
     "id": "40001950",
     "name": "圣防护",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001950"
   },
   {
     "id": "4000195A",
     "name": "王之圣防护",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000195A"
   },
   {
     "id": "40001964",
     "name": "黑夜女巫烟雾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001964"
   },
   {
     "id": "4000196E",
     "name": "刺客步法",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "4000196E"
   },
   {
     "id": "40001978",
     "name": "诱敌幻影",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001978"
   },
   {
     "id": "40001982",
     "name": "黑暗",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001982"
   },
   {
     "id": "400019C8",
     "name": "黄金树立誓",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "400019C8"
   },
   {
     "id": "40001A2C",
     "name": "光环",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A2C"
   },
   {
     "id": "40001A2D",
     "name": "化三光环",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A2D"
   },
   {
     "id": "40001A36",
     "name": "拉达冈的光环",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A36"
   },
   {
     "id": "40001A40",
     "name": "艾尔登流星",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A40"
   },
   {
     "id": "40001A4A",
     "name": "回归性原理",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A4A"
   },
   {
     "id": "40001A54",
     "name": "不变盾牌",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A54"
   },
   {
     "id": "40001A5E",
     "name": "纠死圣律",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A5E"
   },
   {
     "id": "40001A68",
     "name": "因果性原理",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A68"
   },
   {
     "id": "40001A72",
     "name": "圣律剑刃",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A72"
   },
   {
     "id": "40001A7C",
     "name": "圣律疗愈",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A7C"
   },
   {
     "id": "40001A90",
     "name": "兽石",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A90"
   },
   {
     "id": "40001A9A",
     "name": "古兰格的岩石",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001A9A"
   },
   {
     "id": "40001AA4",
     "name": "兽爪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001AA4"
   },
   {
     "id": "40001AAE",
     "name": "古兰格的兽爪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001AAE"
   },
   {
     "id": "40001AB8",
     "name": "野兽活力",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001AB8"
   },
   {
     "id": "40001AC2",
     "name": "野兽健壮",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001AC2"
   },
   {
     "id": "40001AF4",
     "name": "雷电枪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001AF4"
   },
   {
     "id": "40001AFE",
     "name": "古龙雷击",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001AFE"
   },
   {
     "id": "40001B08",
     "name": "雷击",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B08"
   },
   {
     "id": "40001B09",
     "name": "冰雷枪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B09"
   },
   {
     "id": "40001B12",
     "name": "精准雷击",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B12"
   },
   {
     "id": "40001B1C",
     "name": "古龙雷枪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B1C"
   },
   {
     "id": "40001B1D",
     "name": "弗尔桑克斯的雷枪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B1D"
   },
   {
     "id": "40001B26",
     "name": "兰斯桑克斯的刀",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B26"
   },
   {
     "id": "40001B30",
     "name": "雷武器",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B30"
   },
   {
     "id": "40001B3A",
     "name": "维克的龙雷",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B3A"
   },
   {
     "id": "40001B3B",
     "name": "龙雷庇佑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B3B"
   },
   {
     "id": "40001B58",
     "name": "龙焰",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B58"
   },
   {
     "id": "40001B59",
     "name": "亚基尔的火焰",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B59"
   },
   {
     "id": "40001B62",
     "name": "熔岩吐息",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B62"
   },
   {
     "id": "40001B63",
     "name": "席欧朵利克的熔岩",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B63"
   },
   {
     "id": "40001B6C",
     "name": "龙冰",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B6C"
   },
   {
     "id": "40001B6D",
     "name": "玻列琉斯的冰雾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B6D"
   },
   {
     "id": "40001B76",
     "name": "腐败吐息",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B76"
   },
   {
     "id": "40001B77",
     "name": "艾格基斯的腐败",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B77"
   },
   {
     "id": "40001B80",
     "name": "辉石吐息",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B80"
   },
   {
     "id": "40001B81",
     "name": "史玛拉格的辉石",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B81"
   },
   {
     "id": "40001B8A",
     "name": "普拉顿桑克斯的凋亡",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B8A"
   },
   {
     "id": "40001B94",
     "name": "龙爪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001B94"
   },
   {
     "id": "40001BA8",
     "name": "龙咬",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001BA8"
   },
   {
     "id": "40001BB2",
     "name": "桂奥尔的咆哮",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001BB2"
   },
   {
     "id": "40001C20",
     "name": "虫丝",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C20"
   },
   {
     "id": "40001C2A",
     "name": "蝇群",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C2A"
   },
   {
     "id": "40001C34",
     "name": "毒雾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C34"
   },
   {
     "id": "40001C3E",
     "name": "毒刃",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C3E"
   },
   {
     "id": "40001C48",
     "name": "猩红艾奥尼亚",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C48"
   },
   {
     "id": "40001C84",
     "name": "发狂扩散",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C84"
   },
   {
     "id": "40001C8E",
     "name": "癫火",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C8E"
   },
   {
     "id": "40001C8F",
     "name": "难耐癫火",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C8F"
   },
   {
     "id": "40001C98",
     "name": "划空癫火",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001C98"
   },
   {
     "id": "40001CA2",
     "name": "夏玻利利的嘶吼",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001CA2"
   },
   {
     "id": "40001D4C",
     "name": "熔炉百相之尾",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001D4C"
   },
   {
     "id": "40001D56",
     "name": "熔炉百相之角",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001D56"
   },
   {
     "id": "40001D60",
     "name": "熔炉百相之喉囊",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001D60"
   },
   {
     "id": "40001D6A",
     "name": "黑剑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001D6A"
   },
   {
     "id": "40001EDC",
     "name": "火焰重罪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001EDC"
   },
   {
     "id": "40001EDF",
     "name": "黄金雷防护",
-    "type": "good",
+    "type": "magic",
     "is_dlc": false,
     "raw_id": "40001EDF"
   },
@@ -48903,294 +48903,294 @@
   {
     "id": "401E954C",
     "name": "米丽安的消失",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E954C"
   },
   {
     "id": "401E9556",
     "name": "魔法三辉剑",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9556"
   },
   {
     "id": "401E9560",
     "name": "蕾菈娜的双月",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9560"
   },
   {
     "id": "401E9614",
     "name": "辉石指爪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9614"
   },
   {
     "id": "401E961E",
     "name": "辉石繁指爪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E961E"
   },
   {
     "id": "401E96DC",
     "name": "岩块刀刃",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E96DC"
   },
   {
     "id": "401E96E6",
     "name": "引力球",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E96E6"
   },
   {
     "id": "401E97A4",
     "name": "棘刺上身",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E97A4"
   },
   {
     "id": "401E97AE",
     "name": "拒绝的刺",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E97AE"
   },
   {
     "id": "401E9808",
     "name": "灵魂光环",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9808"
   },
   {
     "id": "401E9CB8",
     "name": "融泥漩",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9CB8"
   },
   {
     "id": "401E9CC2",
     "name": "融泥块",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9CC2"
   },
   {
     "id": "401E9D1C",
     "name": "安帕赫的狂刃",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9D1C"
   },
   {
     "id": "401E9D80",
     "name": "远方之恢复",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9D80"
   },
   {
     "id": "401E9E7A",
     "name": "熔炉百相之针",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9E7A"
   },
   {
     "id": "401E9E84",
     "name": "熔炉百相之花",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9E84"
   },
   {
     "id": "401E9E8E",
     "name": "小黄金树",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9E8E"
   },
   {
     "id": "401E9E98",
     "name": "幽影之地",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9E98"
   },
   {
     "id": "401E9EA2",
     "name": "远方之怒",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9EA2"
   },
   {
     "id": "401E9EAC",
     "name": "米凯拉的光",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9EAC"
   },
   {
     "id": "401E9EB6",
     "name": "相迭光环",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9EB6"
   },
   {
     "id": "401E9F10",
     "name": "鲁格利亚的咆哮",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9F10"
   },
   {
     "id": "401E9F74",
     "name": "骑士雷电枪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9F74"
   },
   {
     "id": "401E9F7E",
     "name": "芙柔桑克斯的龙雷",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9F7E"
   },
   {
     "id": "401E9F88",
     "name": "带电",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9F88"
   },
   {
     "id": "401E9FD8",
     "name": "贝勒的残虐",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9FD8"
   },
   {
     "id": "401E9FE2",
     "name": "贝勒的焰雷",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9FE2"
   },
   {
     "id": "401E9FEC",
     "name": "灵火吐息",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401E9FEC"
   },
   {
     "id": "401EA0A0",
     "name": "腐败蝶",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA0A0"
   },
   {
     "id": "401EA0AA",
     "name": "虫丝枪",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA0AA"
   },
   {
     "id": "401EA104",
     "name": "米德拉的癫火",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA104"
   },
   {
     "id": "401EA172",
     "name": "虚幻小宇宙",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA172"
   },
   {
     "id": "401EA17C",
     "name": "守护指头",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA17C"
   },
   {
     "id": "401EA230",
     "name": "守护灵",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA230"
   },
   {
     "id": "401EA294",
     "name": "黄金弯弧",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA294"
   },
   {
     "id": "401EA29E",
     "name": "黄金大弯弧",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA29E"
   },
   {
     "id": "401EA2A8",
     "name": "旋流",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA2A8"
   },
   {
     "id": "401EA2B2",
     "name": "神兽龙卷风",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA2B2"
   },
   {
     "id": "401EA2BC",
     "name": "神鸟羽毛",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA2BC"
   },
   {
     "id": "401EA2F8",
     "name": "火焰蛇",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA2F8"
   },
   {
     "id": "401EA302",
     "name": "火焰雨",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA302"
   },
   {
     "id": "401EA30C",
     "name": "梅瑟莫的火球",
-    "type": "good",
+    "type": "magic",
     "is_dlc": true,
     "raw_id": "401EA30C"
   },

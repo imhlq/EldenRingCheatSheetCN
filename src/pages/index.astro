@@ -95,6 +95,7 @@ import GameSave from "../components/GameSave.astro";
 
 
 <script>
+    const storageVersion = '1.0';
     var profiles;
 
 	window.addEventListener('DOMContentLoaded', () => {
@@ -104,7 +105,7 @@ import GameSave from "../components/GameSave.astro";
 				tabs.forEach(t => t.classList.remove('active'));
 				tab.classList.add('active');
 				openTab(tab.getAttribute('data-ui'));
-                profiles = JSON.parse(localStorage.getItem('profiles')) || { checklistData: {}, conflicts: {}, tab: "#tabAbout" };
+                profiles = JSON.parse(localStorage.getItem('profiles'));
                 profiles.tab = tab.getAttribute('data-ui');
                 localStorage.setItem('profiles', JSON.stringify(profiles));
 			});
@@ -120,9 +121,24 @@ import GameSave from "../components/GameSave.astro";
         updateUI();
 	});
 
+    function initializeProfile() {
+        profiles = JSON.parse(localStorage.getItem('profiles')) || {};
+        if (!profiles.checklistData) {
+            profiles.checklistData = {};
+        }
+        if (!profiles.conflicts) {
+            profiles.conflicts = {};
+        }
+        if (!profiles.tab) {
+            profiles.tab = "#tabAbout";
+        }
+        localStorage.setItem('profiles', JSON.stringify(profiles));
+        return profiles;
+    }
+
     function updateUI() {
 		// Load state from localStorage
-		profiles = JSON.parse(localStorage.getItem('profiles')) || { checklistData: {}, conflicts: {}, tab: "#tabAbout" };
+		profiles = initializeProfile();
 		
         loadChecklistData();
         loadConflicts();
@@ -134,22 +150,24 @@ import GameSave from "../components/GameSave.astro";
 
     function loadChecklistData() {
         if (profiles.checklistData) {
-			for (const key in profiles.checklistData) {
-                const checkedValue = profiles.checklistData[key];
-                
-                // Handle the primary checkbox element
-                const element = document.querySelector(`input[data-id="${key}"]`);
-                if (element) {
-                    (element as HTMLInputElement).checked = true;
-                } else {
-                    console.warn(`Element with data-id="${key}" not found.`);
-                }
+			for (const collection in profiles.checklistData) {
+                const checklistElement = document.querySelector(`check-list[name="${collection}"]`);
+                for (const key in profiles.checklistData[collection]) {
+                    const checkedValue = profiles.checklistData[collection][key];
+                    // Handle the primary checkbox element
+                    const element = checklistElement.querySelector(`input[data-id="${key}"]`);
+                    if (element) {
+                        (element as HTMLInputElement).checked = true;
+                    } else {
+                        console.warn(`Element with data-id="${key}" not found.`);
+                    }
 
-                // Handle the option element if it's a string
-                if (typeof checkedValue === 'string') {
-                    const optionElement = document.querySelector(`input[data-id="${checkedValue}"]`);
-                    if (optionElement) {
-                        (optionElement as HTMLInputElement).checked = true;
+                    // Handle the option element if it's a string
+                    if (typeof checkedValue === 'string') {
+                        const optionElement = document.querySelector(`input[data-id="${checkedValue}"]`);
+                        if (optionElement) {
+                            (optionElement as HTMLInputElement).checked = true;
+                        }
                     }
                 }
 			}
@@ -158,13 +176,16 @@ import GameSave from "../components/GameSave.astro";
 
     function loadConflicts() {
         if (profiles.conflicts) {
-            Object.values(profiles.conflicts).forEach(itemIds => {
-                (itemIds as string[]).forEach(itemId => {
-                    const element = document.querySelector(`input[data-id="${itemId}"]`) as HTMLInputElement;
-                    element.checked = false;
-                    element.disabled = true;
+            for (const collection in profiles.conflicts) {
+                const checklistElement = document.querySelector(`check-list[name="${collection}"]`);
+                Object.values(profiles.conflicts[collection]).forEach(itemIds => {
+                    (itemIds as string[]).forEach(itemId => {
+                        const element = checklistElement.querySelector(`input[data-id="${itemId}"]`) as HTMLInputElement;
+                        element.checked = false;
+                        element.disabled = true;
+                    });
                 });
-            });
+            }
         }
     }
 
