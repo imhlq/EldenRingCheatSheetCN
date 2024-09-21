@@ -3,7 +3,7 @@
 <h4 align=center>☄️ 剧情流程 | ☁️ 物品清单 | 🌙 BOSS清单 | 📱 特殊道具</h4>
 <br>
 
-![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m793298861-9eafa48c98194d8189192918) ![Version-Badge](https://img.shields.io/badge/Version-1.12.2-blue) ![DLC-Badge](https://img.shields.io/badge/DLC-%E9%BB%84%E9%87%91%E6%A0%91%E5%B9%BB%E5%BD%B1-green) 
+![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m793298861-9eafa48c98194d8189192918) ![Version-Badge](https://img.shields.io/badge/Version-1.14-blue) ![DLC-Badge](https://img.shields.io/badge/DLC-%E9%BB%84%E9%87%91%E6%A0%91%E5%B9%BB%E5%BD%B1-green) 
 
 ## 主要功能
 - 重要物品清单，可以按条勾选，方便全物品收集者，或者高周目速通备忘用。
@@ -13,7 +13,6 @@
 - 全道具/消耗品/肢体动作/材料/铃珠/卷轴等清单
 - 支持存档导入，支持数据导出，方便大家分享自己的收集成果。
 - 最新DLC内容已添加
-- 
 ---
 
 ## 更新日志
